@@ -1,0 +1,108 @@
+{
+  "name": "Page of Wands",
+  "meaning_for_today": "Today brings curiosity, enthusiasm, and exciting possibilities. A new idea, message, or opportunity may inspire you to explore unfamiliar paths.",
+  "card_advice": "Stay open to new experiences and trust your creative instincts. Be brave enough to take the first step, even if the outcome is uncertain.",
+  "upright": {
+    "short": "Curiosity, inspiration, adventure, enthusiasm, discovery, creativity.",
+    "general": "The Page of Wands symbolizes fresh energy, creative ideas, and the desire for exploration. This card represents enthusiasm, learning, spontaneity, and the courage to try something new. It often appears when exciting opportunities or messages are approaching.",
+    "in_love": "In relationships, the Page of Wands points to flirtation, passion, playful communication, and exciting romantic beginnings. It may indicate a youthful or adventurous partner.",
+    "in_situation": "A situation encourages experimentation, creativity, and openness to change. Success comes through curiosity, flexibility, and willingness to learn."
+  },
+  "reversed": {
+    "short": "Immaturity, hesitation, lack of direction, delays, insecurity.",
+    "general": "Reversed, the Page of Wands may indicate creative blocks, fear of failure, impatience, or scattered energy. Plans may lack focus or consistency.",
+    "in_love": "Relationships may suffer from immaturity, mixed signals, emotional inconsistency, or fear of commitment.",
+    "in_situation": "Delays or uncertainty prevent progress. It is important to regain confidence, organize priorities, and avoid acting carelessly."
+  },
+  "relations": {
+    "major": {
+      "01": "A free spirit eager for adventure and discovery.",
+      "02": "Creative potential and inspired learning.",
+      "03": "Growth through imagination and new experiences.",
+      "04": "Learning discipline and responsible action.",
+      "05": "Guidance from a mentor or teacher.",
+      "06": "Exciting romantic possibilities and attraction.",
+      "07": "Enthusiastic movement toward goals.",
+      "08": "Courage helps overcome fear and doubt.",
+      "09": "Learning through reflection and inner searching.",
+      "10": "Unexpected opportunities and exciting changes.",
+      "11": "Fairness and balanced choices guide progress.",
+      "12": "A pause before beginning a new journey.",
+      "13": "Transformation sparks fresh inspiration.",
+      "14": "Patience and balance support creative growth.",
+      "15": "Impulsive desires or reckless curiosity.",
+      "16": "Sudden events force personal growth.",
+      "17": "Hope and inspiration fuel creativity.",
+      "18": "Uncertainty or unrealistic expectations.",
+      "19": "Joy, optimism, and youthful success.",
+      "20": "A call to explore a new purpose.",
+      "21": "Completion of one stage and beginning of another."
+    },
+    "minor": {
+      "cups": {
+        "01": "Exciting emotional and romantic beginnings.",
+        "02": "Playful attraction and mutual curiosity.",
+        "03": "Celebration, friendship, and joyful discoveries.",
+        "04": "Boredom prevents noticing new opportunities.",
+        "05": "Disappointment slows enthusiasm.",
+        "06": "Childhood memories inspire creativity.",
+        "07": "Too many exciting possibilities create confusion.",
+        "08": "Leaving the familiar to seek adventure.",
+        "09": "Dreams and wishes bring inspiration.",
+        "10": "Joyful family moments and emotional growth.",
+        "11": "Creative emotional messages and flirtation.",
+        "12": "Passionate movement guided by emotions.",
+        "13": "Warm emotional support and encouragement.",
+        "14": "Emotionally mature guidance inspires confidence."
+      },
+      "pentacles": {
+        "01": "A promising opportunity for study or work.",
+        "02": "Balancing new responsibilities and ideas.",
+        "03": "Learning through teamwork and collaboration.",
+        "04": "Fear of risk limits personal growth.",
+        "05": "Financial worries reduce confidence.",
+        "06": "Support and encouragement from others.",
+        "07": "Patience is needed for future success.",
+        "08": "Developing skills through practice and dedication.",
+        "09": "Independent achievements and self-confidence.",
+        "10": "Long-term growth and stable success.",
+        "11": "Curious learning and practical exploration.",
+        "12": "Bold ambition and energetic movement.",
+        "13": "Creative nurturing and practical wisdom.",
+        "14": "Confident leadership and inspired success."
+      },
+      "swords": {
+        "01": "A breakthrough idea and mental clarity.",
+        "02": "Hesitation blocks progress and confidence.",
+        "03": "Emotional pain affects enthusiasm.",
+        "04": "Rest restores creative energy.",
+        "05": "Arguments caused by immaturity or impulsiveness.",
+        "06": "Moving toward a brighter future.",
+        "07": "Curiosity may lead to risky behavior.",
+        "08": "Fear and self-doubt limit exploration.",
+        "09": "Anxiety weakens motivation and optimism.",
+        "10": "An ending creates room for new inspiration.",
+        "11": "Youthful curiosity and active communication.",
+        "12": "Fast action and adventurous energy.",
+        "13": "Sharp thinking and independent ideas.",
+        "14": "Strong leadership inspires personal growth."
+      },
+      "wands": {
+        "01": "A powerful spark of inspiration and creativity.",
+        "02": "Planning future adventures and opportunities.",
+        "03": "Expansion, travel, and exciting developments.",
+        "04": "Celebration and joyful success.",
+        "05": "Competition encourages growth and learning.",
+        "06": "Recognition and praise for creative efforts.",
+        "07": "Defending dreams and personal ambitions.",
+        "08": "Rapid communication and sudden opportunities.",
+        "09": "Persistence despite uncertainty or fear.",
+        "10": "Feeling overwhelmed by responsibilities.",
+        "11": "Playful energy, messages, and exploration.",
+        "12": "Passionate ambition and fearless movement.",
+        "13": "Creative confidence and inspiring warmth.",
+        "14": "Visionary leadership and strong inspiration."
+      }
+    }
+  }
+}

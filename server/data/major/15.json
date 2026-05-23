@@ -1,0 +1,108 @@
+{
+  "name": "Temperance",
+  "meaning_for_today": "Today calls for balance, patience, and harmony. Avoid extremes and trust the natural flow of events.",
+  "card_advice": "Stay calm and moderate in your actions. Combine logic with intuition and seek peaceful solutions instead of conflict.",
+  "upright": {
+    "short": "Balance, harmony, patience, moderation.",
+    "general": "Temperance symbolizes inner balance, emotional stability, and the ability to combine opposites into harmony. The card encourages patience, self-control, and thoughtful decisions. Progress comes gradually through cooperation and moderation.",
+    "in_love": "Relationships become more balanced and emotionally mature. Partners learn to compromise and support one another. Singles may attract a calm and stable connection built on trust and understanding.",
+    "in_situation": "The situation develops steadily and peacefully. Success comes through patience, diplomacy, and careful planning rather than impulsive actions."
+  },
+  "reversed": {
+    "short": "Imbalance, excess, impatience, conflict.",
+    "general": "Reversed Temperance points to disharmony, emotional instability, and lack of moderation. Extreme behavior or poor self-control creates tension and delays progress.",
+    "in_love": "Relationships suffer from misunderstandings, emotional imbalance, or lack of compromise. One partner may dominate while the other feels neglected. Emotional extremes create instability.",
+    "in_situation": "The situation lacks balance and organization. Rushed decisions, impatience, or conflicting energies interfere with successful outcomes."
+  },
+  "relations": {
+    "major": {
+      "01": "A balanced beginning and cautious optimism.",
+      "02": "Skillful control and harmonious action.",
+      "03": "Nurturing harmony and emotional comfort.",
+      "04": "Stable leadership and self-discipline.",
+      "05": "Spiritual balance and wise guidance.",
+      "06": "Harmony and mutual understanding in relationships.",
+      "07": "Controlled movement toward success.",
+      "08": "Inner strength and emotional balance.",
+      "09": "Peace found through reflection and patience.",
+      "10": "Adapting calmly to changing cycles.",
+      "11": "Fairness, balance, and moderation.",
+      "12": "Patience during delays and sacrifices.",
+      "13": "Healing and renewal after transformation.",
+      "14": "Perfect harmony and emotional stability.",
+      "15": "The struggle between moderation and temptation.",
+      "16": "Restoring peace after chaos.",
+      "17": "Hope and healing energy.",
+      "18": "Balancing fears and emotional uncertainty.",
+      "19": "Joy and vitality through inner harmony.",
+      "20": "Balanced self-awareness and awakening.",
+      "21": "Completion achieved through patience and unity."
+    },
+    "minor": {
+      "cups": {
+        "01": "Balanced emotions and new feelings.",
+        "02": "Harmony in partnership and love.",
+        "03": "Peaceful friendships and celebration.",
+        "04": "Emotional recovery and renewed interest.",
+        "05": "Healing after emotional disappointment.",
+        "06": "Balanced memories and emotional comfort.",
+        "07": "Clear choices instead of illusions.",
+        "08": "Calm transition toward emotional growth.",
+        "09": "Emotional satisfaction through moderation.",
+        "10": "Peace and harmony within family life.",
+        "11": "Emotional curiosity and gentle communication.",
+        "12": "Romantic balance and emotional maturity.",
+        "13": "Compassion and emotional wisdom.",
+        "14": "Emotional mastery and deep understanding."
+      },
+      "pentacles": {
+        "01": "A stable and balanced financial opportunity.",
+        "02": "Managing responsibilities with flexibility.",
+        "03": "Cooperation and teamwork bring success.",
+        "04": "Learning to release excessive control.",
+        "05": "Recovery from financial or emotional hardship.",
+        "06": "Balanced giving and receiving.",
+        "07": "Patience leads to long-term rewards.",
+        "08": "Consistent effort and disciplined growth.",
+        "09": "Enjoying stability and independence.",
+        "10": "Long-term stability and family harmony.",
+        "11": "Practical learning and steady progress.",
+        "12": "Responsible action and careful planning.",
+        "13": "Balanced practicality and nurturing energy.",
+        "14": "Reliable leadership and financial wisdom."
+      },
+      "swords": {
+        "01": "Clear thinking and balanced judgment.",
+        "02": "Finding compromise in difficult decisions.",
+        "03": "Healing emotional pain peacefully.",
+        "04": "Rest, recovery, and mental balance.",
+        "05": "Resolving conflict through diplomacy.",
+        "06": "A calm transition toward better circumstances.",
+        "07": "Honesty restores balance and trust.",
+        "08": "Freedom from limiting thoughts.",
+        "09": "Reducing anxiety through patience and calm.",
+        "10": "Recovery after painful endings.",
+        "11": "Curiosity guided by patience.",
+        "12": "Controlled movement and purposeful action.",
+        "13": "Balanced communication and intelligence.",
+        "14": "Wise leadership and rational thinking."
+      },
+      "wands": {
+        "01": "Balanced enthusiasm and creative energy.",
+        "02": "Careful planning and future vision.",
+        "03": "Steady progress and expansion.",
+        "04": "Peaceful celebration and stability.",
+        "05": "Resolving competition and tension.",
+        "06": "Success achieved through patience.",
+        "07": "Defending balance and personal values.",
+        "08": "Smooth progress and quick harmony.",
+        "09": "Endurance supported by emotional stability.",
+        "10": "Sharing responsibilities to avoid burnout.",
+        "11": "Positive messages and inspired communication.",
+        "12": "Focused action guided by patience.",
+        "13": "Creative confidence balanced with wisdom.",
+        "14": "Strong and stable leadership."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Nine of Cups",
+  "meaning_for_today": "Today brings emotional satisfaction, comfort, and a sense of fulfillment. It is a good day to appreciate what you already have and enjoy small pleasures.",
+  "card_advice": "Allow yourself to feel gratitude and satisfaction, but avoid becoming complacent. True happiness grows when appreciation is balanced with awareness of future goals.",
+  "upright": {
+    "short": "Wish fulfillment, satisfaction, pleasure, contentment",
+    "general": "Represents emotional fulfillment, happiness, and the realization of wishes. It often indicates a period of comfort, success, and personal satisfaction.",
+    "in_love": "Emotional harmony and satisfaction in relationships. Wishes in love may be fulfilled, bringing joy and closeness.",
+    "in_situation": "A situation where goals or desires are achieved. Stability and comfort are present, and things feel aligned with expectations."
+  },
+  "reversed": {
+    "short": "Unhappiness, dissatisfaction, unmet wishes",
+    "general": "Indicates disappointment, unfulfilled desires, or realizing that what was wanted does not bring true happiness.",
+    "in_love": "Emotional dissatisfaction or unrealistic expectations in relationships. A need to reassess what truly brings fulfillment.",
+    "in_situation": "A situation that looks successful on the surface but lacks deeper satisfaction or meaning."
+  },
+  "relations": {
+    "major": {
+      "01": "New beginnings that may lead to emotional fulfillment",
+      "03": "Intuitive understanding of emotional satisfaction",
+      "06": "Values and traditions contributing to happiness",
+      "07": "Harmonious relationships and emotional choice",
+      "10": "Emotional self-sufficiency and inner contentment",
+      "11": "Changes in fortune bringing emotional rewards",
+      "12": "Balance between desires and reality",
+      "15": "Overindulgence or attachment to pleasure",
+      "18": "Dreams and hopes influencing emotional satisfaction",
+      "19": "Joy, success, and emotional clarity",
+      "21": "Completion and achievement of emotional goals",
+      "22": "Full emotional fulfillment and wholeness"
+    },
+    "minor": {
+      "cups": {
+        "01": "New emotional happiness and beginnings of joy",
+        "02": "Emotional union and shared satisfaction",
+        "03": "Celebration and emotional enjoyment with others",
+        "06": "Nostalgia and emotional comfort from the past",
+        "08": "Leaving emotional dissatisfaction behind",
+        "10": "Full emotional completion and happiness"
+      },
+      "pentacles": {
+        "03": "Satisfaction from work and skill mastery",
+        "09": "Material comfort contributing to emotional pleasure"
+      },
+      "swords": {
+        "04": "Rest after emotional or mental struggle leading to peace",
+        "06": "Moving toward calmer emotional states"
+      },
+      "wands": {
+        "03": "Anticipation of success and emotional reward",
+        "09": "Defensive satisfaction, guarded happiness"
+      }
+    }
+  }
+}

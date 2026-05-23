@@ -1,0 +1,108 @@
+{
+  "name": "Death",
+  "meaning_for_today": "Today brings transformation and the closing of an old chapter. Let go of what no longer serves you and allow new energy to enter your life.",
+  "card_advice": "Do not resist change. Accept endings with courage and trust that transformation will lead to renewal and personal growth.",
+  "upright": {
+    "short": "Transformation, endings, rebirth, transition.",
+    "general": "The Death card represents major change, the end of a cycle, and the beginning of something new. It signals transformation, release of the past, and personal evolution. Although endings may feel difficult, they create space for growth and renewal.",
+    "in_love": "A relationship or emotional pattern is transforming. This may indicate the end of an unhealthy connection or a new stage in a relationship. Singles must release past emotional baggage to welcome new love.",
+    "in_situation": "A situation is reaching its natural conclusion. Radical change is unavoidable, but it will eventually open the door to new opportunities and personal development."
+  },
+  "reversed": {
+    "short": "Resistance to change, stagnation, fear of endings.",
+    "general": "Reversed Death indicates difficulty letting go of the past. Fear of transformation creates stagnation and emotional blockage. Necessary changes are delayed because of attachment or denial.",
+    "in_love": "A relationship may be stuck in unhealthy patterns. Fear of separation or emotional dependency prevents growth. Old wounds and unresolved emotions interfere with healthy connections.",
+    "in_situation": "The situation remains stagnant because change is being resisted. Delays, emotional attachment, or fear of uncertainty prevent progress and prolong discomfort."
+  },
+  "relations": {
+    "major": {
+      "01": "A risky new beginning after a major ending.",
+      "02": "Transformation through willpower and action.",
+      "03": "The end of comfort leads to personal growth.",
+      "04": "Breaking old structures and authority.",
+      "05": "Spiritual transformation and release of outdated beliefs.",
+      "06": "A relationship reaches a turning point.",
+      "07": "Moving forward after a difficult ending.",
+      "08": "Strength to accept inevitable change.",
+      "09": "Inner transformation through solitude and reflection.",
+      "10": "A cycle ends and destiny shifts.",
+      "11": "Karmic consequences and necessary balance.",
+      "12": "Sacrifice and surrender before renewal.",
+      "13": "Complete transformation and rebirth.",
+      "14": "Healing and harmony after major change.",
+      "15": "Breaking toxic attachments and unhealthy desires.",
+      "16": "Sudden destruction leading to liberation.",
+      "17": "Hope and inspiration after hardship.",
+      "18": "Fear of change and emotional uncertainty.",
+      "19": "Renewal, clarity, and new vitality.",
+      "20": "Awakening and acceptance of the past.",
+      "21": "Completion of a life cycle and fulfillment."
+    },
+    "minor": {
+      "cups": {
+        "01": "Emotional renewal and new feelings.",
+        "02": "Transformation within a relationship.",
+        "03": "The end of a social phase.",
+        "04": "Letting go of emotional stagnation.",
+        "05": "Healing after grief and loss.",
+        "06": "Leaving the past behind.",
+        "07": "Ending illusions and confusion.",
+        "08": "Walking away from emotional dissatisfaction.",
+        "09": "A wish fulfilled after transformation.",
+        "10": "A family cycle changes permanently.",
+        "11": "Emotional maturity through difficult endings.",
+        "12": "Romantic change and emotional movement.",
+        "13": "Emotional transformation and intuition.",
+        "14": "Emotional control after major change."
+      },
+      "pentacles": {
+        "01": "A new financial beginning.",
+        "02": "Adapting to changing circumstances.",
+        "03": "Transformation in career or teamwork.",
+        "04": "Releasing material attachment.",
+        "05": "Recovery after hardship.",
+        "06": "Balance restored after loss.",
+        "07": "Ending long-term uncertainty.",
+        "08": "Transformation through hard work.",
+        "09": "Independence after a major transition.",
+        "10": "Changes in family or financial legacy.",
+        "11": "A student learns through transformation.",
+        "12": "Career movement and financial change.",
+        "13": "Practical wisdom gained through experience.",
+        "14": "Stable leadership after transformation."
+      },
+      "swords": {
+        "01": "Mental clarity after an ending.",
+        "02": "A difficult decision about change.",
+        "03": "Painful endings and emotional release.",
+        "04": "Rest and recovery after loss.",
+        "05": "Ending conflict and unhealthy competition.",
+        "06": "Moving toward a better future.",
+        "07": "Revealing hidden truths.",
+        "08": "Breaking free from mental restrictions.",
+        "09": "Fear and anxiety about change.",
+        "10": "A painful but necessary ending.",
+        "11": "Curiosity about transformation.",
+        "12": "Fast unavoidable change.",
+        "13": "Sharp honesty and independence.",
+        "14": "Clear leadership during transition."
+      },
+      "wands": {
+        "01": "A powerful new beginning.",
+        "02": "Planning a future after transformation.",
+        "03": "Progress and expansion after endings.",
+        "04": "Celebration of a new phase.",
+        "05": "Conflict caused by change.",
+        "06": "Success after overcoming hardship.",
+        "07": "Defending yourself during transition.",
+        "08": "Rapid transformation and movement.",
+        "09": "Persistence despite difficult endings.",
+        "10": "Releasing heavy burdens.",
+        "11": "A passionate message of change.",
+        "12": "Bold action during transformation.",
+        "13": "Confidence and creativity reborn.",
+        "14": "Leadership through major change."
+      }
+    }
+  }
+}

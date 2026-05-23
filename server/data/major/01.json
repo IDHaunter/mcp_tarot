@@ -1,0 +1,109 @@
+{
+  "name": "The Fool",
+  "meaning_for_today": "Today opens the door to new opportunities, spontaneous decisions, and unexpected experiences. Trust the journey and allow yourself to explore without fear.",
+  "card_advice": "Take the first step with an open heart and free mind. Do not let fear of mistakes prevent you from discovering something new.",
+  "upright": {
+    "short": "Beginnings, freedom, spontaneity, adventure.",
+    "general": "The Fool represents a fresh start, limitless potential, innocence, and the courage to step into the unknown. It symbolizes freedom from limitations and trust in life's unfolding journey.",
+    "in_love": "A new romantic chapter, exciting encounters, or emotional openness. Relationships may feel light, playful, and full of possibility.",
+    "in_situation": "The situation calls for flexibility, curiosity, and willingness to take risks. An unexpected opportunity may appear if you remain open-minded."
+  },
+  "reversed": {
+    "short": "Carelessness, naivety, irresponsibility, fear of change.",
+    "general": "The reversed Fool points to poor judgment, reckless actions, or fear of taking necessary risks. It may indicate immaturity, hesitation, or lack of preparation.",
+    "in_love": "Emotional instability, unrealistic expectations, or avoidance of commitment. A relationship may lack seriousness or direction.",
+    "in_situation": "The situation becomes uncertain due to impulsive choices or fear of moving forward. Greater awareness and caution are needed."
+  },
+  "relations": {
+    "major": {
+      "01": "A completely new beginning and limitless potential.",
+      "02": "Creative energy and initiative awaken.",
+      "03": "Intuition guides an uncertain journey.",
+      "04": "Growth and abundance emerge from spontaneity.",
+      "05": "Freedom clashes with authority and structure.",
+      "06": "A search for spiritual meaning and guidance.",
+      "07": "A spontaneous relationship or important choice.",
+      "08": "Bold movement toward new goals.",
+      "09": "Courage and inner strength support risk-taking.",
+      "10": "A journey of self-discovery and reflection.",
+      "11": "Unexpected twists of fate shape the path.",
+      "12": "A lesson about responsibility and consequences.",
+      "13": "A pause before moving into the unknown.",
+      "14": "Transformation through a new beginning.",
+      "15": "Balance and patience stabilize impulsive energy.",
+      "16": "Temptation and recklessness create danger.",
+      "17": "Sudden changes disrupt the journey.",
+      "18": "Hope and inspiration guide the traveler.",
+      "19": "Illusions and uncertainty cloud judgment.",
+      "20": "Joy, success, and optimism on a new path.",
+      "21": "An awakening and realization of purpose.",
+      "22": "Completion of one cycle and the start of another."
+    },
+    "minor": {
+      "cups": {
+        "01": "A new emotional or romantic beginning.",
+        "02": "A spontaneous and exciting connection.",
+        "03": "Joyful celebrations and carefree friendships.",
+        "04": "A need to break free from emotional boredom.",
+        "05": "Learning from emotional disappointment.",
+        "06": "Nostalgia and innocence influence decisions.",
+        "07": "Dreams and fantasies shape the future.",
+        "08": "Leaving the familiar behind for growth.",
+        "09": "Wishes and emotional freedom align.",
+        "10": "Happiness found through openness and trust.",
+        "11": "An emotional message or new opportunity.",
+        "12": "Romantic adventure and bold emotions.",
+        "13": "Compassion and intuition guide the path.",
+        "14": "Emotional maturity balances spontaneity."
+      },
+      "pentacles": {
+        "01": "A new financial or career opportunity.",
+        "02": "Adapting to changing circumstances.",
+        "03": "Learning new skills and experiences.",
+        "04": "Fear of losing security limits freedom.",
+        "05": "Risk of instability or financial uncertainty.",
+        "06": "Unexpected support and generosity.",
+        "07": "Patience is required for future rewards.",
+        "08": "A beginner’s journey toward mastery.",
+        "09": "Independent success through bold choices.",
+        "10": "A search for lasting stability and belonging.",
+        "11": "Practical news opens new possibilities.",
+        "12": "Adventurous action and energetic movement.",
+        "13": "Confidence and ambition drive success.",
+        "14": "Leadership develops through experience."
+      },
+      "swords": {
+        "01": "A fresh perspective and mental clarity.",
+        "02": "Uncertainty about taking the next step.",
+        "03": "Painful lessons teach wisdom.",
+        "04": "Rest before beginning a new journey.",
+        "05": "Recklessness may lead to conflict.",
+        "06": "Moving toward a new phase of life.",
+        "07": "Naivety creates vulnerability to deception.",
+        "08": "Breaking free from fear and limitations.",
+        "09": "Anxiety about uncertainty and change.",
+        "10": "An ending that creates a new beginning.",
+        "11": "Unexpected news changes direction.",
+        "12": "Bold and impulsive movement forward.",
+        "13": "Sharp thinking balances spontaneity.",
+        "14": "Strategic control guides risky choices."
+      },
+      "wands": {
+        "01": "A powerful spark of inspiration and adventure.",
+        "02": "Exploring future opportunities and possibilities.",
+        "03": "A journey or expansion into new horizons.",
+        "04": "Celebration and joyful beginnings.",
+        "05": "Competition and challenges test courage.",
+        "06": "Recognition for bold and original actions.",
+        "07": "Defending personal freedom and beliefs.",
+        "08": "Rapid developments and exciting movement.",
+        "09": "Persistence despite uncertainty.",
+        "10": "Freedom challenged by responsibilities.",
+        "11": "Exciting messages and passionate encounters.",
+        "12": "Adventurous energy and fearless action.",
+        "13": "Confidence, charisma, and creative leadership.",
+        "14": "Mastery achieved through experience and growth."
+      }
+    }
+  }
+}

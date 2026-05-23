@@ -1,0 +1,78 @@
+{
+    "name": "7 of Swords",
+    "meaning_for_today": "Today you need to be especially careful, as deception is not excluded. If you have to sign any documents, read all points particularly carefully so as not to suffer from your own lack of awareness later.",
+    "card_advice": "The card says that the querent must be attentive, because there is a risk of many deceptions, both from colleagues and from a loved one. Willpower and determination are needed to cope with all life difficulties.",
+    "upright": {
+        "short": "Cunning, failure, moving, betrayal",
+        "general": "The 7 of Swords has many meanings, which represents the contradictory nature of this card. The problems and difficulties surrounding the querent cannot be solved simply. Strong support from powerful patrons is required. You should not seek ways to achieve your goals by infringing on other people's property. The card appears to people with negative energy who are capable of committing bad deeds. It may also mean that deception or theft awaits the querent, so the card advises being cautious.",
+        "in_love": "The card indicates that the relationship between the partners is built on hypocrisy. For society, these two pretend to love each other sincerely and madly, but in reality, their feelings cooled down long ago. Neither of them dares to have an open conversation. This state of affairs suits both, where each has their own life, and the union is only for appearance. If the querent is a man, fidelity means nothing to him. He likes to get new impressions from other women and tries to carefully hide this. If he is married, the wife may not suspect the double life of her faithful husband.",
+        "in_situation": "In a career layout, the card indicates that among colleagues there is no person who can be trusted. It could also be a situation where the querent themselves acts dishonestly towards their colleagues. To maintain your status and respect among colleagues, it is necessary to stop weaving gossip and intrigue. A trick can be expected from all sides, and you need to be prepared for this. But most importantly, behave honestly towards other people yourself."
+    },
+    "reversed": {
+        "short": "Laziness, news, reprimand, reproach",
+        "general": "The card says that the querent is lazy, indecisive, cowardly, and has difficulty making decisions. They are pessimistic about life and do not want to change anything. Such a person never finishes things, abandoning everything halfway. The card may appear to poorly educated people who may be prone to offenses. As a rule, these are criminals who fail to complete their dark deeds and get caught red-handed.",
+        "in_love": "The 7 of Swords indicates that the querent is too influenced by other people. What others say is very important to them. They take criticism and reproaches from their partner painfully. Perhaps gossip can lead to negative emotions and a quarrel between the partners.",
+        "in_situation": "The card appears to a person who is afraid of responsibility. There is a lack of courage and determination to bring things to completion. This is related to increased emotionality, lack of motivation, and disbelief in one's own strengths. As soon as the first difficulties arise, they immediately retreat."
+    },
+    "relations": {
+        "major": {
+            "01": "Slipping away from obligations; going all out.",
+            "02": "Showing cunning.",
+            "03": "Hiding the truth; taking away a secret; secret knowledge; excuses.",
+            "04": "Neglecting parental duties.",
+            "05": "Deceiving a father or a boss; slipping out from under guardianship.",
+            "06": "Making a compromise with conscience; pretending to be a holy person; a white lie.",
+            "07": "Evading a choice.",
+            "08": "Avoiding conflict.",
+            "09": "Pretending.",
+            "10": "Being set in one's own ways / looking out for oneself.",
+            "11": "Getting out of the game.",
+            "12": "False accusation.",
+            "13": "Betrayal; getting tangled in lies.",
+            "14": "Acting using tried and tested methods.",
+            "15": "Compromising.",
+            "16": "A swindler; a pathological liar.",
+            "17": "Inflicting damage with the help of cunning.",
+            "18": "Turning away from the true path.",
+            "19": "A dark deed; a mistake; a scam.",
+            "20": "Diplomacy.",
+            "21": "Escaping retribution.",
+            "22": "Using the power of the mind for self-assertion."
+        },
+        "minor": {
+            "cups": {
+                "01": "Hiding one's feelings.",
+                "02": "Avoiding promises.",
+                "03": "A petty thief in the team.",
+                "04": "Outsmarting oneself.",
+                "05": "Departure / leaving.",
+                "06": "Hiding the past.",
+                "07": "Being deliberately vague; outsmarting oneself.",
+                "08": "A secret departure.",
+                "09": "Stealing a dream.",
+                "10": "Evading family or collective responsibilities; acting contrary to common interests.",
+                "11": "A sly gesture / a deceptive offer.",
+                "12": "A cunning gesture.",
+                "13": "A deceitful lady."
+            },
+            "pentacles": {},
+            "swords": {},
+            "wands": {
+                "01": "An ambiguous venture.",
+                "02": "Hiding.",
+                "03": "A clever project.",
+                "04": "A fictitious agreement / sham contract.",
+                "05": "Unfair competition; unfair attacks.",
+                "06": "A company where all means are good; achieving victory through deception.",
+                "07": "An attempt at exposure.",
+                "08": "Outsmarting.",
+                "09": "An unsuccessful attempt to hide one's true face.",
+                "10": "A failed attempt to hide the truth.",
+                "11": "Deceiving a teenager.",
+                "12": "An unexpected finale.",
+                "13": "Deceiving a lady.",
+                "14": "Deceiving a king."
+            }
+        }
+    }
+}

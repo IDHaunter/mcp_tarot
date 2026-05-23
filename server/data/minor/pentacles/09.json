@@ -1,0 +1,64 @@
+{
+    "name": "Nine of Pentacles",
+    "meaning_for_today": "The card indicates that pleasant news awaits you, which will leave a positive mark on your destiny. You should accept the gifts of fate and be grateful for them. This day is full of pleasant events, so you need to be more decisive in new endeavors, and then fortune will definitely be on your side.",
+    "card_advice": "Do not hesitate if you are starting an important matter; you will definitely bring it to a successful conclusion in a short time. Trust fate, everything that happens leads only to the better. Be more positive and open to people; they will be drawn to you, help, and support you. Share your joys and sorrows with them. Remember that material success depends not only on high income but also on the ability to preserve it.",
+    "upright": {
+        "short": "Completion of work, success, labor, love of nature.",
+        "general": "The main meaning of the card is the completion of long-term work. However, the ending does not make the person happy. The querent may need advice but does not know whom to turn to. The card suggests asking a wise older woman for advice. The card characterizes a person who lacks communication skills and friendliness, showing only selfishness and a desire to isolate themselves from the outside world. There is a possibility that the querent will soon discover important qualities within themselves, such as personal growth and a rich inner world. Financial successes are fully deserved; money does not fall from the sky but is obtained through a difficult path and self-sacrifice.",
+        "in_love": "In love and relationship readings, the card is interpreted as an event after which the relationship will begin to develop in a favorable direction. Sometimes the card is interpreted simply as a wonderful pastime with a loved one, which will bring many positive emotions and memories. In any case, a bright phase in personal life is approaching. If the querent is single, a fateful meeting may occur, giving hope for a happy future for this acquaintance.",
+        "in_situation": "The Nine of Pentacles is a symbol of success in almost any situation. In addition, this card is an indicator of financial stability, confidence in tomorrow, and providing comfortable conditions. If this card appears in a situational reading, it does not carry a negative meaning. All problems will be solved properly; it just takes time."
+    },
+    "reversed": {
+        "short": "Problems with the law, loss of friends, financial losses.",
+        "general": "The card indicates that the querent does not get satisfaction from their well-deserved financial victories. In the near future, global losses may occur: family, friends, home, etc. There is a possibility that problems with the law will arise. The reversed Nine of Pentacles indicates that it is time to reconsider your system of goals and values. It is possible to lose part of your income or lose it completely. Follow the call of your heart, soul, and subconscious. It will indicate the correct path and give an idea of how to act in a given situation.",
+        "in_love": "When reading for a partner's character, the card clearly shows that the lover is manipulating you and does not feel true emotions, but is only using you to achieve their initial goal. General plans will be hindered by something; they will not come true, or at least will be postponed indefinitely. The querent has a rival who interferes with the development of a harmonious relationship. There is a possibility that the card points to some past event that occurred due to the querent's fault, foolishness, and inexperience, which brought many problems and ruined their reputation. In the near future, these events will resurface in the public eye.",
+        "in_situation": "In a situational reading, the reversed card carries nothing useful; it only says that it is time to stop, whether it is a financial transaction, an important event, or a trip. If you have pets, you should pay proper attention to their health, as your animal may be sick."
+    },
+    "relations": {
+        "major": {
+            "01": "Lack of material wealth.",
+            "02": "Action at a fortunate moment.",
+            "03": "A treasure trove of knowledge, a library.",
+            "04": "Money makes money.",
+            "05": "Prosperity in the family; profitable business.",
+            "06": "Expansion of consciousness; mature moral values, spiritual growth.",
+            "07": "Matured relationship.",
+            "08": "Disruption of order.",
+            "09": "Colossal energy and sufficient motivation.",
+            "10": "Poverty; stinginess.",
+            "11": "Instability in financial well-being.",
+            "12": "Fair distribution of money.",
+            "13": "Doom in finances.",
+            "14": "Inheritance.",
+            "15": "Forming capital.",
+            "16": "Wealth achieved unrighteously.",
+            "17": "Collapse of material wealth.",
+            "18": "The dream is within reach.",
+            "19": "False decorations.",
+            "20": "Material wealth; happiness.",
+            "21": "Inheritance.",
+            "22": "Attaining material independence."
+        },
+        "minor": {
+            "cups": {},
+            "pentacles": {},
+            "swords": {},
+            "wands": {
+                "01": "Possibility of something new; transition to an active phase.",
+                "02": "Indecisiveness; unwillingness to leave the comfort zone.",
+                "03": "Favorable prospects; serene future.",
+                "04": "Material well-being; purchasing a house, an apartment.",
+                "05": "Disturbed peace.",
+                "06": "Anticipation of triumph.",
+                "07": "Material difficulties.",
+                "08": "Necessity to move to action.",
+                "09": "Deceptive serenity.",
+                "10": "Hopeless waiting; tiring boredom.",
+                "11": "Good news.",
+                "12": "Change of lifestyle; unexpected move.",
+                "13": "Mistress of her own life; business owner.",
+                "14": "Prudent conduct of business."
+            }
+        }
+    }
+}

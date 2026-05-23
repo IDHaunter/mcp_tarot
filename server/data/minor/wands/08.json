@@ -1,0 +1,109 @@
+{
+  "name": "Eight of Wands",
+  "meaning_for_today": "Today events may develop very quickly. News, messages, or opportunities arrive unexpectedly, pushing you toward rapid progress and decisive action.",
+  "card_advice": "Act without unnecessary delay. Trust the natural flow of events and use the momentum while it is available.",
+  "upright": {
+    "short": "Speed, movement, progress, communication.",
+    "general": "The Eight of Wands represents rapid development, forward motion, communication, and dynamic energy. Obstacles disappear, allowing plans to move ahead quickly and efficiently.",
+    "in_love": "Romantic relationships gain momentum. Passion, exciting communication, and fast emotional development are likely. Unexpected messages or meetings may occur.",
+    "in_situation": "The situation accelerates and requires quick reactions. Delays end, and events unfold rapidly toward a clear outcome."
+  },
+  "reversed": {
+    "short": "Delays, confusion, impatience, miscommunication.",
+    "general": "The reversed Eight of Wands points to slowed progress, misunderstandings, chaotic actions, or frustration caused by delays. Energy becomes scattered or blocked.",
+    "in_love": "Communication problems or emotional impatience may create tension. Mixed signals and rushed decisions can damage trust.",
+    "in_situation": "The situation loses momentum due to confusion, interruptions, or lack of coordination. It is important to avoid acting recklessly."
+  },
+  "relations": {
+    "major": {
+      "01": "A sudden journey or unexpected opportunity.",
+      "02": "Quick action and skill bring results.",
+      "03": "Intuition guides fast decisions.",
+      "04": "Creative energy develops rapidly.",
+      "05": "Authority speeds up important changes.",
+      "06": "News or guidance from a mentor arrives.",
+      "07": "Relationships progress quickly.",
+      "08": "Determined movement toward victory.",
+      "09": "Inner strength helps manage rapid events.",
+      "10": "Fast progress after a period of reflection.",
+      "11": "Fate accelerates important changes.",
+      "12": "Justice and truth arrive swiftly.",
+      "13": "A pause interrupts momentum.",
+      "14": "Transformation happens unexpectedly fast.",
+      "15": "Balance and patience stabilize rapid growth.",
+      "16": "Temptation leads to impulsive actions.",
+      "17": "Sudden upheaval changes direction.",
+      "18": "Hope and inspiration move events forward.",
+      "19": "Confusion or hidden information delays progress.",
+      "20": "Success and clarity arrive quickly.",
+      "21": "An awakening or important realization.",
+      "22": "Completion and fulfillment through swift progress."
+    },
+    "minor": {
+      "cups": {
+        "01": "New emotions develop rapidly.",
+        "02": "A relationship moves forward quickly.",
+        "03": "Celebrations and joyful communication.",
+        "04": "Fast changes break emotional stagnation.",
+        "05": "Healing progresses after disappointment.",
+        "06": "Past memories return unexpectedly.",
+        "07": "Choices become clearer with action.",
+        "08": "A quick departure from emotional burdens.",
+        "09": "Wishes begin to manifest rapidly.",
+        "10": "Family happiness and joyful news.",
+        "11": "Romantic messages and emotional excitement.",
+        "12": "Passionate pursuit in love.",
+        "13": "Emotional maturity supports progress.",
+        "14": "Stable emotions guide fast-moving events."
+      },
+      "pentacles": {
+        "01": "Rapid financial or career opportunities.",
+        "02": "Managing multiple fast-moving responsibilities.",
+        "03": "Productive teamwork and quick success.",
+        "04": "Fear of losing control slows progress.",
+        "05": "Improvement after financial hardship.",
+        "06": "Support and generosity arrive unexpectedly.",
+        "07": "Results appear sooner than expected.",
+        "08": "Hard work accelerates achievement.",
+        "09": "Independent success and confidence.",
+        "10": "Long-term security develops quickly.",
+        "11": "Practical news and opportunities.",
+        "12": "Fast and determined action.",
+        "13": "Confident leadership creates momentum.",
+        "14": "Authority and discipline produce success."
+      },
+      "swords": {
+        "01": "Clear thinking leads to quick solutions.",
+        "02": "A decision must be made rapidly.",
+        "03": "Fast recovery after emotional pain.",
+        "04": "Rest may be interrupted by urgent matters.",
+        "05": "Conflict escalates quickly.",
+        "06": "Swift movement away from difficulties.",
+        "07": "Strategic actions and hidden plans.",
+        "08": "Breaking free from restrictions.",
+        "09": "Anxiety caused by rapid developments.",
+        "10": "A sudden ending or realization.",
+        "11": "Important information arrives quickly.",
+        "12": "Bold movement and ambition.",
+        "13": "Sharp communication and fast decisions.",
+        "14": "Mental authority and strategic progress."
+      },
+      "wands": {
+        "01": "A powerful new beginning gains speed.",
+        "02": "Plans move forward successfully.",
+        "03": "Expansion and travel accelerate.",
+        "04": "Celebrations and joyful events arrive quickly.",
+        "05": "Competition intensifies rapidly.",
+        "06": "Recognition and success spread quickly.",
+        "07": "Defending achievements under pressure.",
+        "08": "Double emphasis on speed and momentum.",
+        "09": "Persistence despite fast-moving pressure.",
+        "10": "Rapid growth creates heavy responsibilities.",
+        "11": "Exciting communication and attraction.",
+        "12": "Bold action produces immediate results.",
+        "13": "Charisma and confidence inspire others.",
+        "14": "Leadership ensures fast and successful progress."
+      }
+    }
+  }
+}

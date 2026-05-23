@@ -1,0 +1,108 @@
+{
+  "name": "The Lovers",
+  "meaning_for_today": "Today emphasizes relationships, emotional harmony, important choices, and alignment between heart and mind. Honest communication and trust will strengthen connections.",
+  "card_advice": "Listen to your heart, but make choices consciously and responsibly. Build relationships on honesty, respect, and emotional balance.",
+  "upright": {
+    "short": "Love, harmony, union, meaningful choices, emotional connection.",
+    "general": "The Lovers represents relationships, unity, emotional balance, attraction, and important life decisions. This card symbolizes harmony between opposites, trust, deep connection, and choices guided by values and emotions.",
+    "in_love": "In love readings, The Lovers is one of the strongest signs of romance, emotional intimacy, passion, and mutual understanding. It may indicate a soulmate connection, a deep partnership, or an important decision regarding love.",
+    "in_situation": "The situation involves an important choice or partnership. Cooperation, honesty, and emotional clarity will help achieve harmony and the right outcome."
+  },
+  "reversed": {
+    "short": "Conflict, imbalance, difficult choices, emotional disconnection.",
+    "general": "Reversed, The Lovers may indicate disharmony, poor decisions, broken communication, temptation, or conflict between emotions and logic. It can point to instability in relationships or uncertainty about personal values.",
+    "in_love": "In relationships, the reversed Lovers may suggest misunderstandings, emotional distance, infidelity, indecision, or imbalance between partners. Honest communication is necessary to restore harmony.",
+    "in_situation": "The situation may involve confusion, conflicting desires, or a difficult decision. The card advises carefully considering consequences before acting."
+  },
+  "relations": {
+    "major": {
+      "01": "A spontaneous and exciting romantic connection.",
+      "02": "Strong attraction and intellectual harmony.",
+      "03": "Love grows through care and emotional warmth.",
+      "04": "Stability and commitment in relationships.",
+      "05": "Traditional values strengthen emotional bonds.",
+      "06": "Deep union and emotional harmony.",
+      "07": "Shared goals and determination lead forward.",
+      "08": "Inner strength supports lasting love.",
+      "09": "Reflection helps clarify emotions and choices.",
+      "10": "Fateful relationships and meaningful encounters.",
+      "11": "Fairness and balance in partnerships.",
+      "12": "Sacrifice or compromise in love.",
+      "13": "Transformation changes the nature of relationships.",
+      "14": "Balanced emotions and peaceful partnership.",
+      "15": "Temptation, obsession, or unhealthy attachment.",
+      "16": "Sudden disruption or truth in relationships.",
+      "17": "Hope and healing through love.",
+      "18": "Illusions, fears, or uncertainty in emotions.",
+      "19": "Joyful union and emotional fulfillment.",
+      "20": "A relationship reaches an important awakening.",
+      "21": "Complete harmony and lasting connection."
+    },
+    "minor": {
+      "cups": {
+        "01": "A new emotional and romantic beginning.",
+        "02": "Perfect emotional partnership and attraction.",
+        "03": "Celebration of love and friendship.",
+        "04": "Emotional dissatisfaction despite opportunities for love.",
+        "05": "Healing heartbreak and emotional loss.",
+        "06": "Romantic memories and nostalgic feelings.",
+        "07": "Choices between emotional desires and fantasies.",
+        "08": "Walking away from an unfulfilling relationship.",
+        "09": "Emotional satisfaction and romantic happiness.",
+        "10": "Family harmony and deep emotional fulfillment.",
+        "11": "A romantic message or emotional invitation.",
+        "12": "Passionate pursuit of emotional connection.",
+        "13": "Compassionate and loving emotional support.",
+        "14": "Mature and emotionally balanced partnership."
+      },
+      "pentacles": {
+        "01": "A stable and promising relationship foundation.",
+        "02": "Balancing love and practical responsibilities.",
+        "03": "Building relationships through teamwork and effort.",
+        "04": "Possessiveness or fear of losing stability.",
+        "05": "Support during emotional or financial hardship.",
+        "06": "Generosity and equal exchange in relationships.",
+        "07": "Patience helps relationships grow steadily.",
+        "08": "Commitment and effort strengthen love.",
+        "09": "Comfort, pleasure, and relationship independence.",
+        "10": "Long-term commitment and family stability.",
+        "11": "A practical opportunity connected to relationships.",
+        "12": "Determined effort to achieve shared goals.",
+        "13": "Reliable and caring relationship energy.",
+        "14": "Strong and secure partnership leadership."
+      },
+      "swords": {
+        "01": "Honest communication strengthens relationships.",
+        "02": "Indecision or emotional conflict.",
+        "03": "Heartbreak, separation, or painful truth.",
+        "04": "Need for reflection and emotional healing.",
+        "05": "Arguments, tension, or unhealthy competition.",
+        "06": "Moving toward emotional peace and understanding.",
+        "07": "Secrets or dishonesty in relationships.",
+        "08": "Fear and insecurity limit emotional freedom.",
+        "09": "Anxiety or guilt related to relationships.",
+        "10": "Painful endings that lead to transformation.",
+        "11": "Curious and thoughtful communication in love.",
+        "12": "Fast-moving romantic developments.",
+        "13": "Independent but emotionally distant energy.",
+        "14": "Clear-minded leadership in relationships."
+      },
+      "wands": {
+        "01": "Passionate attraction and exciting new energy.",
+        "02": "Planning a future together.",
+        "03": "Growth and expansion in relationships.",
+        "04": "Celebration, engagement, or happy union.",
+        "05": "Conflict or competition between desires.",
+        "06": "Recognition and success in love.",
+        "07": "Defending a relationship or personal values.",
+        "08": "Rapid romantic developments or communication.",
+        "09": "Persistence through relationship challenges.",
+        "10": "Emotional pressure and heavy responsibilities.",
+        "11": "A passionate and exciting romantic opportunity.",
+        "12": "Adventurous pursuit of love and connection.",
+        "13": "Confident and charismatic romantic energy.",
+        "14": "Strong, passionate, and visionary partnership."
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Knight of Wands",
+  "meaning_for_today": "Today brings movement, excitement, and a strong desire for action. New opportunities may appear suddenly, requiring courage and quick decisions.",
+  "card_advice": "Act boldly and follow your inspiration, but avoid rushing without thinking. Channel your energy wisely and stay focused on your goals.",
+  "upright": {
+    "short": "Action, adventure, passion, confidence, movement, enthusiasm.",
+    "general": "The Knight of Wands symbolizes energetic action, ambition, and the pursuit of adventure. This card represents passion, courage, spontaneity, and a desire for freedom. It often signals travel, rapid progress, or exciting changes.",
+    "in_love": "In relationships, the Knight of Wands points to passion, attraction, excitement, and intense emotions. It may describe a charismatic but freedom-loving partner.",
+    "in_situation": "A situation develops quickly and requires confidence and initiative. Success comes through bold action, flexibility, and enthusiasm."
+  },
+  "reversed": {
+    "short": "Impulsiveness, recklessness, instability, impatience, frustration.",
+    "general": "Reversed, the Knight of Wands warns about acting too quickly, unstable plans, scattered energy, or irresponsible behavior. Enthusiasm may turn into chaos or burnout.",
+    "in_love": "Relationships may become unstable due to inconsistency, emotional unpredictability, or fear of commitment.",
+    "in_situation": "Delays, impulsive actions, or poor planning may create setbacks. It is important to slow down and think before acting."
+  },
+  "relations": {
+    "major": {
+      "01": "A fearless journey and thirst for adventure.",
+      "02": "Strong willpower and inspired action.",
+      "03": "Creative energy leading to growth.",
+      "04": "Discipline needed to control restless ambition.",
+      "05": "Learning through active experience.",
+      "06": "Passionate attraction and impulsive choices.",
+      "07": "Rapid progress and determined movement.",
+      "08": "Courage and inner strength fuel action.",
+      "09": "A need to reflect before rushing forward.",
+      "10": "Unexpected opportunities and sudden changes.",
+      "11": "Balanced decisions prevent reckless mistakes.",
+      "12": "Forced delays challenge impatience.",
+      "13": "Transformation through bold experiences.",
+      "14": "Moderation helps balance impulsive energy.",
+      "15": "Reckless desires or uncontrolled passion.",
+      "16": "Sudden disruption caused by impulsiveness.",
+      "17": "Hope and inspiration guide future actions.",
+      "18": "Confusion or hidden risks behind excitement.",
+      "19": "Joy, vitality, and adventurous success.",
+      "20": "A powerful call to take action.",
+      "21": "Completion of an exciting journey."
+    },
+    "minor": {
+      "cups": {
+        "01": "Passionate emotions and exciting romance.",
+        "02": "A fiery and energetic relationship.",
+        "03": "Celebration, adventure, and social excitement.",
+        "04": "Restlessness causes missed emotional opportunities.",
+        "05": "Impulsive actions lead to disappointment.",
+        "06": "A return of adventurous memories or feelings.",
+        "07": "Too many tempting possibilities.",
+        "08": "Leaving emotional comfort zones behind.",
+        "09": "Exciting experiences fulfill desires.",
+        "10": "Energetic family life and joyful moments.",
+        "11": "Romantic messages and playful attraction.",
+        "12": "Strong passion and emotional movement.",
+        "13": "Warm support and emotional encouragement.",
+        "14": "Emotionally driven action and leadership."
+      },
+      "pentacles": {
+        "01": "An exciting financial or career opportunity.",
+        "02": "Balancing responsibilities during rapid changes.",
+        "03": "Dynamic teamwork and creative collaboration.",
+        "04": "Fear of instability blocks progress.",
+        "05": "Financial difficulties caused by reckless choices.",
+        "06": "Support arrives through energetic networking.",
+        "07": "Patience is needed despite eagerness for results.",
+        "08": "Hard work channels restless energy productively.",
+        "09": "Independent success through bold efforts.",
+        "10": "Long-term success built through ambition.",
+        "11": "Curious exploration of practical skills.",
+        "12": "Fearless pursuit of material goals.",
+        "13": "Creative practicality and supportive leadership.",
+        "14": "Powerful ambition and business confidence."
+      },
+      "swords": {
+        "01": "Quick thinking and decisive action.",
+        "02": "Impulsiveness creates confusion and hesitation.",
+        "03": "Painful consequences of reckless behavior.",
+        "04": "Rest is needed after intense activity.",
+        "05": "Conflict caused by aggression or impatience.",
+        "06": "Rapid movement toward a better future.",
+        "07": "Risky behavior or secretive actions.",
+        "08": "Fear and self-doubt slow progress.",
+        "09": "Stress and anxiety caused by instability.",
+        "10": "A difficult ending forces a new direction.",
+        "11": "Fast communication and adventurous curiosity.",
+        "12": "Explosive energy and fearless movement.",
+        "13": "Sharp intellect supports bold decisions.",
+        "14": "Confident leadership and unstoppable ambition."
+      },
+      "wands": {
+        "01": "Explosive inspiration and creative momentum.",
+        "02": "Planning the next exciting move.",
+        "03": "Travel, expansion, and new opportunities.",
+        "04": "Celebration after successful action.",
+        "05": "Competition and energetic challenges.",
+        "06": "Recognition, victory, and public admiration.",
+        "07": "Defending goals with courage and determination.",
+        "08": "Rapid developments and exciting news.",
+        "09": "Persistence despite exhaustion or setbacks.",
+        "10": "Burnout caused by excessive activity.",
+        "11": "Adventurous curiosity and exciting communication.",
+        "12": "Strong passion, movement, and ambition.",
+        "13": "Creative confidence and magnetic energy.",
+        "14": "Leadership, charisma, and mastery of action."
+      }
+    }
+  }
+}

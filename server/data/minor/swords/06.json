@@ -1,0 +1,92 @@
+{
+    "name": "Six of Swords",
+    "meaning_for_today": "Today indicates transition, moving away from difficulties, and slowly heading toward calmer and more stable conditions. It suggests emotional or mental recovery through change.",
+    "card_advice": "Allow yourself to move on from what no longer serves you. Even if the journey feels uncertain, trust that it leads toward healing and stability.",
+    "upright": {
+        "short": "Transition, moving on, recovery, journey.",
+        "general": "The Six of Swords represents transition from difficulty to calmer waters. It often symbolizes a physical or emotional journey away from conflict, stress, or hardship. This card suggests healing through distance, change, or mental shift toward clarity and peace.",
+        "in_love": "In love, it can indicate moving away from a troubled relationship or healing after emotional difficulties. It may also represent a relationship transitioning into a calmer, more stable phase.",
+        "in_situation": "In situations, it points to relocation, change, or gradual improvement after a difficult period. It emphasizes problem-solving through distance and perspective shift."
+    },
+    "reversed": {
+        "short": "Stagnation, resistance to change, emotional baggage.",
+        "general": "Reversed, the Six of Swords suggests difficulty moving on, emotional resistance to change, or staying stuck in a stressful situation. It may indicate unresolved issues blocking progress.",
+        "in_love": "In relationships, it can show inability to move past problems, returning to toxic dynamics, or emotional confusion about leaving or staying.",
+        "in_situation": "In situations, it warns of delays in transition, fear of change, or repeating old patterns instead of progressing forward."
+    },
+    "relations": {
+        "major": {
+            "01": "New beginnings through transition and release.",
+            "02": "Intellectual clarity guiding movement forward.",
+            "03": "Inner wisdom supporting emotional transition.",
+            "04": "Authority influencing relocation or structural change.",
+            "05": "Traditional beliefs shaping decisions about change.",
+            "06": "Emotional relationships transitioning or healing.",
+            "07": "Choices leading to movement or separation.",
+            "08": "Swift action toward new direction.",
+            "09": "Mental relief after anxiety and stress.",
+            "10": "End of hardship and transition into stability.",
+            "11": "Sudden change forcing movement.",
+            "12": "New perspective gained through distance.",
+            "13": "Sacrifice leading to necessary transition.",
+            "14": "Deep transformation through leaving the past behind.",
+            "15": "Breaking free from toxic attachments.",
+            "16": "Sudden upheaval leading to forced transition.",
+            "17": "Hope guiding the journey forward.",
+            "18": "Confusion slowly clearing during transition.",
+            "19": "Clarity and success after movement.",
+            "20": "Judgment and reflection during transition.",
+            "21": "Completion of a difficult cycle and arrival at stability."
+        },
+        "minor": {
+            "cups": {
+                "01": "Emotional beginnings after transition.",
+                "02": "Reconciliation or emotional movement toward balance.",
+                "03": "Social transition or changing friendships.",
+                "04": "Emotional withdrawal during change.",
+                "05": "Healing from emotional loss through distance.",
+                "06": "Moving away from past emotional memories.",
+                "07": "Clarity in emotional choices after confusion.",
+                "08": "Leaving emotional instability behind.",
+                "09": "Emotional healing and wish fulfillment after struggle.",
+                "10": "Family or emotional stability after transition."
+            },
+            "pentacles": {
+                "01": "Financial relocation or new opportunities.",
+                "02": "Balancing resources during change.",
+                "03": "Work transition or new collaboration.",
+                "04": "Financial stability during relocation.",
+                "05": "Recovery from material hardship through change.",
+                "06": "Fair exchange during transition.",
+                "07": "Long-term financial planning adjustment.",
+                "08": "Learning new skills during transition.",
+                "09": "Financial independence after change.",
+                "10": "Legacy or stability after relocation."
+            },
+            "swords": {
+                "01": "Mental clarity guiding transition.",
+                "02": "Decision-making leading to movement.",
+                "03": "Healing from mental pain through distance.",
+                "04": "Rest and recovery during transition.",
+                "05": "Conflict left behind.",
+                "06": "Core meaning: transition, moving away from conflict, and mental healing.",
+                "07": "Strategy or planning for escape or change.",
+                "08": "Mental restriction loosened through movement.",
+                "09": "Anxiety easing during transition.",
+                "10": "End of mental struggle through relocation or change."
+            },
+            "wands": {
+                "01": "Creative renewal after change.",
+                "02": "New direction in planning.",
+                "03": "Expansion after transition.",
+                "04": "Stability achieved after movement.",
+                "05": "Conflict resolved through separation.",
+                "06": "Success after difficult transition.",
+                "07": "Defending position during change.",
+                "08": "Fast movement and communication.",
+                "09": "Resilience developed through transition.",
+                "10": "Responsibilities adjusted during change."
+            }
+        }
+    }
+}

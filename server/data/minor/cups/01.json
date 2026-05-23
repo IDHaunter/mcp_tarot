@@ -1,0 +1,108 @@
+{
+  "name": "Ace of Cups",
+  "meaning_for_today": "Today brings emotional renewal, inspiration, and the opportunity for happiness. Open your heart to love, compassion, and new emotional experiences.",
+  "card_advice": "Trust your feelings and allow yourself to express emotions honestly. Accept love, healing, and positive emotional connections without fear.",
+  "upright": {
+    "short": "Love, emotional beginning, joy, inspiration.",
+    "general": "The Ace of Cups symbolizes emotional renewal, love, compassion, and spiritual fulfillment. It represents the beginning of a meaningful emotional experience, deep intuition, and inner harmony.",
+    "in_love": "A new romantic relationship, emotional closeness, or reconciliation may begin. Existing relationships become more loving, sincere, and emotionally fulfilling.",
+    "in_situation": "The situation develops positively through empathy, intuition, and emotional openness. Creative inspiration and emotional balance help achieve harmony and success."
+  },
+  "reversed": {
+    "short": "Emotional blockage, sadness, emptiness, suppressed feelings.",
+    "general": "Reversed Ace of Cups points to emotional instability, blocked feelings, disappointment, or difficulty expressing emotions. Inner imbalance prevents emotional fulfillment.",
+    "in_love": "Misunderstandings, emotional distance, or hidden feelings may create tension in relationships. Singles may struggle to open up emotionally.",
+    "in_situation": "The situation is affected by emotional confusion or lack of inspiration. It is important to address inner feelings and restore emotional balance before moving forward."
+  },
+  "relations": {
+    "major": {
+      "01": "A joyful emotional adventure begins.",
+      "02": "Emotional intuition and creative manifestation.",
+      "03": "Love, abundance, and emotional growth.",
+      "04": "Stable emotions and protective energy.",
+      "05": "Spiritual guidance and emotional wisdom.",
+      "06": "Deep emotional connection and romance.",
+      "07": "Moving forward with emotional confidence.",
+      "08": "Inner strength supports emotional healing.",
+      "09": "Emotional wisdom gained through reflection.",
+      "10": "A fortunate emotional turning point.",
+      "11": "Balanced emotions and honest relationships.",
+      "12": "Emotional surrender and new understanding.",
+      "13": "Emotional transformation and renewal.",
+      "14": "Harmony, healing, and emotional balance.",
+      "15": "Temptation or emotional attachment.",
+      "16": "Emotional upheaval leading to growth.",
+      "17": "Hope, inspiration, and emotional healing.",
+      "18": "Deep intuition and emotional uncertainty.",
+      "19": "Joy, happiness, and emotional success.",
+      "20": "Emotional awakening and forgiveness.",
+      "21": "Complete emotional fulfillment and harmony."
+    },
+    "minor": {
+      "cups": {
+        "01": "Powerful emotional renewal and new love.",
+        "02": "Mutual love and emotional unity.",
+        "03": "Celebration, friendship, and joy.",
+        "04": "Emotional dissatisfaction despite opportunities.",
+        "05": "Healing emotional pain and loss.",
+        "06": "Warm memories and emotional comfort.",
+        "07": "Dreams, fantasies, and emotional choices.",
+        "08": "Leaving behind emotional disappointment.",
+        "09": "Emotional satisfaction and fulfilled wishes.",
+        "10": "Complete emotional happiness and family harmony.",
+        "11": "Creative emotional messages and curiosity.",
+        "12": "Romantic action and emotional movement.",
+        "13": "Emotional maturity, care, and compassion.",
+        "14": "Emotional stability and wisdom."
+      },
+      "pentacles": {
+        "01": "A promising emotional and financial opportunity.",
+        "02": "Balancing emotions and practical matters.",
+        "03": "Teamwork brings emotional satisfaction.",
+        "04": "Security may block emotional openness.",
+        "05": "Support during emotional hardship.",
+        "06": "Generosity and emotional kindness.",
+        "07": "Patience brings emotional rewards.",
+        "08": "Dedication strengthens emotional growth.",
+        "09": "Self-love and emotional independence.",
+        "10": "Long-term happiness and emotional stability.",
+        "11": "A practical approach to emotional opportunities.",
+        "12": "Passionate movement toward emotional goals.",
+        "13": "Nurturing love and practical wisdom.",
+        "14": "Strong emotional control and reliability."
+      },
+      "swords": {
+        "01": "Emotional truth and honest communication.",
+        "02": "Difficult emotional decisions.",
+        "03": "Heartbreak and emotional pain.",
+        "04": "Rest, healing, and emotional recovery.",
+        "05": "Conflict affects emotional balance.",
+        "06": "Healing through emotional transition.",
+        "07": "Hidden feelings or emotional secrecy.",
+        "08": "Fear blocks emotional openness.",
+        "09": "Anxiety and emotional stress.",
+        "10": "Painful endings followed by healing.",
+        "11": "Curious emotional communication.",
+        "12": "Fast emotional developments and messages.",
+        "13": "Clear thinking balanced with compassion.",
+        "14": "Emotional wisdom with intellectual control."
+      },
+      "wands": {
+        "01": "Creative passion and emotional inspiration.",
+        "02": "Planning guided by emotional intuition.",
+        "03": "Emotional growth and expanding opportunities.",
+        "04": "Celebration, love, and joyful harmony.",
+        "05": "Emotional tension and competition.",
+        "06": "Recognition brings emotional fulfillment.",
+        "07": "Protecting emotional values and beliefs.",
+        "08": "Rapid emotional progress and communication.",
+        "09": "Emotional resilience and persistence.",
+        "10": "Emotional burdens need release.",
+        "11": "Passionate emotional messages and excitement.",
+        "12": "Romantic adventure and energetic movement.",
+        "13": "Confident emotional expression and warmth.",
+        "14": "Emotional leadership and passionate stability."
+      }
+    }
+  }
+}

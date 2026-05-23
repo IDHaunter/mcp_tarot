@@ -1,0 +1,64 @@
+{
+    "name": "10 of Swords",
+    "meaning_for_today": "Today is a day to summarize results and sum things up. Even if it concerns something or someone very close and dear, you must be prepared to say goodbye. It marks the conclusion of troubles and grievances, which you will sincerely rejoice about. The main thing is not to destroy anything prematurely, as you might regret it for a long time afterwards. Open yourself up to new deeds and achievements, and survive an awful loss without breaking your spirit. If you maintain a positive mindset, the card of the day will bring you only positive meaning. No dangers or difficulties are expected, but only if you rid yourself of negativity and unwanted communication.",
+    "card_advice": "The most important thing to distinguish with the 10 of Swords is imaginary versus true values. Often, a person clings to things that are completely unimportant to them. There is no need to be sentimental and constantly look back; burning bridges behind you can actually be both useful and pleasant. Even if a situation seems completely irreparable to you right now, a moment will come when all problems will appear much less complex than they initially seemed. You will definitely find the strength and drive to overcome your hardships, allowing you to live in harmony with yourself.",
+    "upright": {
+        "short": "Despair, loss, stress, disaster, robbery.",
+        "general": "The upright 10 of Swords speaks of an uncontrolled end to affairs. These can be unexpected and destructive situations involving collapse, decay, and ruin. This is not just a standard life difficulty, but a complete dead end and hopelessness. It is no coincidence that this Tarot card is considered one of the scariest. While other Arcana imply temporary setbacks that can be overcome with time, everything feels fruitless with the Ten of Swords. Total failure is expected in both relationships and business. The querent will go through deep pain and emptiness. Luck turns away, and existing failures worsen. If forced to part with someone or something, the person experiences a tragic pain of loss. The only positive aspect of this card is when it indicates the termination of a heavy period; otherwise, it is bound to grief, tears, pain, suffering, despair, and sadness.",
+        "in_love": "In relationships, it indicates a rupture of the union, filled with suffering, hopelessness, grief, disappointment, and emotional pain. Most likely, nothing can be fixed, meaning one must come to terms with it and accept the new circumstances. You just have to believe that the relationship has ended and belongs in the past; everything is over, and you have reached a critical turning point. The news of the breakup might arrive completely unexpectedly and without explanation. Under the influence of this card, a person's heart turns 'cold.' After parting with a loved one, they become completely unready for new connections, having grown disillusioned with love.",
+        "in_situation": "Under the influence of this card, a person will behave irresponsibly. They become a victim of stress, and their state can be compared to a 'squeezed lemon.' At work, they might refuse to perform their direct duties, and such actions will lead to the failure of business initiatives. An unexpected dismissal from a job might occur. The individual loses not only a prestigious position but also all their unfulfilled projects. In addition to work issues, a painful breakup in their personal life can be anticipated."
+    },
+    "reversed": {
+        "short": "Power, profit, success, authority.",
+        "general": "The reversed card speaks of a complex, problematic period, the ending of which was dictated by a dark streak. This card doesn't bring immediate success or well-being; rather, luck is completely absent from the person's life. Even if the card no longer implies a total dead end, it doesn't delight with positive outcomes, and if successes do happen, they come at far too high a price. To achieve the desired result, one will have to sacrifice something very valuable. It is unsurprising if the person needs rehabilitation time to return to a normal life rhythm. It brings sorrow and disappointment, but the only silver lining is that these are the final ones, meaning a bright streak is ahead. However, there is still no talk of immediate positive results; obstacles and limitations remain, and no forward movement is foreseen yet. Note that it is sometimes called a reassuring card, often associated with the joy after fighting a severe illness when a person recovers and feels full of energy—though it is crucial not to overestimate one's strength here to avoid a relapse.",
+        "in_love": "In its reversed state, the card still carries a negative undertone but convinces the person that it shouldn't be looked at strictly as a dark streak. It brings ultimate peace, success, and the start of a renewal, though this won't happen immediately but rather after a difficult life phase. It indicates a temporary combination of circumstances and a momentary state of affairs that isn't particularly positive, such as a truce after a prolonged conflict. Alternatively, a reliable person might appear in one's life, becoming a true protector and pillar of support against ill-wishers or bad situations.",
+        "in_situation": "The card lays out the situation in a way that resembles a lost battle; however, this battle cannot yet be called the decisive one. The situation is characterized by a temporary lack of results at this specific moment. Troublesome situations might happen, but everything will change soon. For instance, difficulties at work or in daily life will be overcome, and furthermore, the person will find their true calling and an activity that genuinely suits them. An influential patron may appear, bringing many promising projects—even if they do not happen right away, they are worth the wait."
+    },
+    "relations": {
+        "major": {
+            "01": "Accident due to negligence; unpredictable finale.",
+            "02": "End of a career.",
+            "03": "Blackmail victim.",
+            "04": "Cesarean section; destruction of something valuable.",
+            "05": "Divorce; dismissal.",
+            "06": "Devastation / emptiness.",
+            "07": "Accident.",
+            "08": "Tragedy.",
+            "09": "Loss of strength and energy; inflicting grievous bodily harm in a state of passion.",
+            "10": "To be reborn.",
+            "11": "Punishment; just retribution.",
+            "12": "Punishment; just retribution.",
+            "13": "Getting what one deserves.",
+            "14": "End of former life.",
+            "15": "Difficulties fade away.",
+            "16": "Losing oneself; being crushed by vices; sadism.",
+            "17": "Illness; divorce.",
+            "18": "Hope for healing after a defeat.",
+            "19": "Illness; continuing crisis; coma.",
+            "20": "Way out of the crisis.",
+            "21": "Closing a karmic cycle; surrendering to the mercy of fate.",
+            "22": "New birth; finding oneself."
+        },
+        "minor": {
+            "cups": {},
+            "pentacles": {},
+            "swords": {},
+            "wands": {
+                "01": "Collapse of plans.",
+                "02": "Parting ways; a planned operation; intentional murder; predictable ending.",
+                "03": "Unsuccessful cooperation; missed opportunities.",
+                "04": "Destruction in the home; divorce.",
+                "05": "Loss; overestimating one's strength.",
+                "06": "Gloomy news.",
+                "07": "Unenviable position; failure; kicking someone when they are down.",
+                "08": "Winding down a project; termination of a relationship.",
+                "09": "Expecting the worst.",
+                "10": "Total failure.",
+                "11": "Bad news.",
+                "12": "Lack of strength and drive.",
+                "13": "Danger coming from a woman.",
+                "14": "Danger coming from a man."
+            }
+        }
+    }
+}

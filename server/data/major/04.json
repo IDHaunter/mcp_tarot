@@ -1,0 +1,108 @@
+{
+  "name": "The Empress",
+  "meaning_for_today": "Today is favorable for creativity, self-care, love, comfort, and personal growth. Nurturing yourself and others will bring harmony and abundance.",
+  "card_advice": "Trust your natural instincts and allow things to grow steadily. Create beauty around you, care for your emotional needs, and act with compassion and patience.",
+  "upright": {
+    "short": "Abundance, fertility, creativity, femininity, nurturing energy.",
+    "general": "The Empress represents growth, prosperity, creativity, beauty, and maternal energy. This card speaks about harmony with nature, emotional warmth, comfort, and the ability to create something meaningful. It often indicates a productive and fruitful period in life.",
+    "in_love": "In love readings, The Empress signifies tenderness, emotional closeness, romance, sensuality, and stable relationships. It may also point to family happiness, pregnancy, or deep emotional support between partners.",
+    "in_situation": "The situation is developing positively and naturally. Patience, care, and creativity will help achieve success. The card advises acting gently rather than forcefully."
+  },
+  "reversed": {
+    "short": "Creative block, insecurity, emotional emptiness, dependence.",
+    "general": "Reversed, The Empress may indicate lack of growth, emotional imbalance, insecurity, neglect of self-care, or creative stagnation. It can reflect overprotection, laziness, or difficulties in expressing emotions.",
+    "in_love": "In relationships, the reversed Empress may point to emotional coldness, jealousy, dependence, lack of affection, or imbalance between partners. It can also indicate difficulties with intimacy or family tensions.",
+    "in_situation": "The situation may feel stagnant or emotionally draining. There could be delays, lack of motivation, or excessive control. The card advises restoring balance and reconnecting with personal needs."
+  },
+  "relations": {
+    "major": {
+      "01": "A new creative journey begins.",
+      "02": "Strong intuition supports growth.",
+      "03": "Powerful feminine energy and abundance unite.",
+      "04": "Balance between care and authority.",
+      "05": "Traditional values strengthen family bonds.",
+      "06": "Harmony and deep emotional connection.",
+      "07": "Progress through patience and emotional wisdom.",
+      "08": "Inner strength nourishes success.",
+      "09": "Solitude brings creative inspiration.",
+      "10": "A fortunate period of growth and prosperity.",
+      "11": "Fairness and emotional balance are required.",
+      "12": "Growth through sacrifice and patience.",
+      "13": "Transformation leads to renewal.",
+      "14": "Harmony, healing, and emotional stability.",
+      "15": "Overindulgence or unhealthy attachment.",
+      "16": "Sudden disruption of comfort or stability.",
+      "17": "Hope, inspiration, and healing energy.",
+      "18": "Strong emotions and hidden insecurities.",
+      "19": "Joy, fertility, and success.",
+      "20": "Awakening through self-realization.",
+      "21": "Completion, fulfillment, and abundance."
+    },
+    "minor": {
+      "cups": {
+        "01": "A loving emotional beginning.",
+        "02": "Deep romantic harmony.",
+        "03": "Celebration, friendship, and joy.",
+        "04": "Emotional dissatisfaction despite abundance.",
+        "05": "Healing emotional pain through care.",
+        "06": "Nostalgia and family warmth.",
+        "07": "Creative imagination and emotional choices.",
+        "08": "Leaving comfort to seek deeper fulfillment.",
+        "09": "Emotional satisfaction and pleasure.",
+        "10": "Family happiness and emotional harmony.",
+        "11": "A sensitive and creative message.",
+        "12": "Romantic and emotional pursuit.",
+        "13": "Nurturing and compassionate femininity.",
+        "14": "Emotional maturity and supportive leadership."
+      },
+      "pentacles": {
+        "01": "Material growth and prosperity.",
+        "02": "Balancing resources and responsibilities.",
+        "03": "Creative teamwork and productivity.",
+        "04": "Attachment to comfort and security.",
+        "05": "Need for support during hardship.",
+        "06": "Generosity and sharing abundance.",
+        "07": "Patience brings long-term rewards.",
+        "08": "Careful and creative craftsmanship.",
+        "09": "Luxury, independence, and comfort.",
+        "10": "Family wealth and stability.",
+        "11": "Practical opportunities for growth.",
+        "12": "Steady progress toward success.",
+        "13": "A nurturing and reliable person.",
+        "14": "Financial stability and wise leadership."
+      },
+      "swords": {
+        "01": "Clear ideas inspire creation.",
+        "02": "Emotional indecision blocks growth.",
+        "03": "Healing emotional wounds.",
+        "04": "Rest and recovery restore balance.",
+        "05": "Conflict damages harmony.",
+        "06": "Moving toward emotional peace.",
+        "07": "Hidden motives or emotional distance.",
+        "08": "Self-doubt limits creativity.",
+        "09": "Anxiety disrupts emotional stability.",
+        "10": "Painful endings lead to renewal.",
+        "11": "Curiosity and new perspectives.",
+        "12": "Fast communication changes relationships.",
+        "13": "Intelligent but emotionally distant energy.",
+        "14": "Strategic thinking and emotional control."
+      },
+      "wands": {
+        "01": "Creative inspiration and passion.",
+        "02": "Planning future growth.",
+        "03": "Expansion and positive development.",
+        "04": "Celebration, home, and harmony.",
+        "05": "Creative competition and tension.",
+        "06": "Success and public recognition.",
+        "07": "Protecting what has been built.",
+        "08": "Rapid positive movement.",
+        "09": "Persistence despite emotional exhaustion.",
+        "10": "Too many responsibilities create pressure.",
+        "11": "Enthusiastic creative opportunities.",
+        "12": "Adventurous and passionate action.",
+        "13": "Confident and charismatic femininity.",
+        "14": "Creative leadership and inspiration."
+      }
+    }
+  }
+}

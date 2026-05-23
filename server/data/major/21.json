@@ -1,0 +1,108 @@
+{
+  "name": "Judgement",
+  "meaning_for_today": "Today is a time for self-reflection, important realizations, and awakening. Past actions may return for evaluation, giving you a chance to grow and move forward.",
+  "card_advice": "Listen to your inner calling and accept responsibility for your choices. Learn from the past, release guilt, and embrace transformation with honesty and courage.",
+  "upright": {
+    "short": "Awakening, renewal, realization, rebirth.",
+    "general": "Judgement represents spiritual awakening, self-evaluation, and transformation. It signals an important turning point where past experiences lead to wisdom and renewal. The card encourages honesty, forgiveness, and embracing a higher purpose.",
+    "in_love": "Relationships may experience renewal, reconciliation, or important emotional clarity. Honest conversations and mutual understanding help strengthen the connection. Singles may meet someone connected to their personal growth.",
+    "in_situation": "The situation reaches a decisive stage where truth and accountability become essential. Past actions influence present outcomes, leading to transformation and new opportunities."
+  },
+  "reversed": {
+    "short": "Self-doubt, avoidance, denial, missed opportunities.",
+    "general": "Reversed Judgement indicates fear of change, refusal to learn from the past, or harsh self-criticism. Important lessons may be ignored, delaying growth and personal renewal.",
+    "in_love": "A relationship may struggle because of unresolved past issues, emotional denial, or unwillingness to communicate honestly. Fear of judgment blocks emotional progress.",
+    "in_situation": "The situation remains stagnant because accountability or important decisions are avoided. Self-doubt and fear of consequences prevent forward movement."
+  },
+  "relations": {
+    "major": {
+      "01": "A life-changing new beginning and awakening.",
+      "02": "Awareness guided by intuition and hidden truth.",
+      "03": "Renewal through creativity and emotional growth.",
+      "04": "Responsible leadership and mature judgment.",
+      "05": "Spiritual awakening and moral reflection.",
+      "06": "Important decisions and emotional clarity in relationships.",
+      "07": "Moving confidently toward a new purpose.",
+      "08": "Inner strength supports personal transformation.",
+      "09": "Wisdom gained through deep reflection.",
+      "10": "A turning point shaped by destiny and karma.",
+      "11": "Justice, truth, and accountability.",
+      "12": "A new perspective after sacrifice and waiting.",
+      "13": "Transformation and rebirth after endings.",
+      "14": "Healing, balance, and spiritual harmony.",
+      "15": "Breaking free from fear and unhealthy attachments.",
+      "16": "Awakening after sudden change and disruption.",
+      "17": "Hope and inspiration lead to renewal.",
+      "18": "Truth emerges from confusion and illusion.",
+      "19": "Clarity, joy, and successful transformation.",
+      "20": "Awakening, self-realization, and renewal.",
+      "21": "Completion, fulfillment, and spiritual achievement."
+    },
+    "minor": {
+      "cups": {
+        "01": "An emotional awakening and new beginning.",
+        "02": "Relationship renewal and honest communication.",
+        "03": "Reunion, celebration, and emotional healing.",
+        "04": "A realization breaks emotional stagnation.",
+        "05": "Learning from emotional disappointment.",
+        "06": "The past returns for reflection and healing.",
+        "07": "Clarity replaces illusion and confusion.",
+        "08": "Choosing emotional growth and transformation.",
+        "09": "Emotional fulfillment after self-discovery.",
+        "10": "Family harmony and emotional renewal.",
+        "11": "Creative emotional insight and self-awareness.",
+        "12": "Passionate movement toward emotional clarity.",
+        "13": "Compassion, forgiveness, and emotional wisdom.",
+        "14": "Emotional maturity and balanced understanding."
+      },
+      "pentacles": {
+        "01": "A new financial or career opportunity with purpose.",
+        "02": "Balancing responsibilities through self-awareness.",
+        "03": "Recognition for hard work and cooperation.",
+        "04": "Releasing fear of loss and control.",
+        "05": "Recovery and hope after hardship.",
+        "06": "Fairness, generosity, and balanced support.",
+        "07": "Results appear after patience and reflection.",
+        "08": "Growth through dedication and learning.",
+        "09": "Confidence, independence, and personal achievement.",
+        "10": "Long-term success and family fulfillment.",
+        "11": "Practical learning and self-improvement.",
+        "12": "Ambitious movement toward meaningful goals.",
+        "13": "Practical wisdom combined with compassion.",
+        "14": "Responsible leadership and mature success."
+      },
+      "swords": {
+        "01": "Truth, clarity, and important realization.",
+        "02": "A final decision can no longer be avoided.",
+        "03": "Healing after emotional pain and betrayal.",
+        "04": "Mental recovery and reflection.",
+        "05": "Learning important lessons from conflict.",
+        "06": "A transition toward peace and understanding.",
+        "07": "Truth exposed and deception revealed.",
+        "08": "Freedom from fear and limiting beliefs.",
+        "09": "Overcoming anxiety through self-awareness.",
+        "10": "A painful chapter finally ends.",
+        "11": "Insightful communication and curiosity.",
+        "12": "Rapid developments lead to awakening.",
+        "13": "Sharp intellect balanced with wisdom.",
+        "14": "Wise judgment and rational leadership."
+      },
+      "wands": {
+        "01": "Inspired action and creative awakening.",
+        "02": "Clear vision and confident future planning.",
+        "03": "Expansion and progress through realization.",
+        "04": "Celebration, reunion, and harmony.",
+        "05": "Conflict resolved through understanding.",
+        "06": "Recognition, success, and public approval.",
+        "07": "Defending your beliefs with confidence.",
+        "08": "Important news and rapid progress.",
+        "09": "Resilience rewarded after difficulties.",
+        "10": "Releasing burdens and finding freedom.",
+        "11": "Exciting messages and passionate renewal.",
+        "12": "Bold action and purposeful movement.",
+        "13": "Creative confidence and inspiring energy.",
+        "14": "Strong leadership and visionary direction."
+      }
+    }
+  }
+}

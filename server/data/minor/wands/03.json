@@ -1,0 +1,108 @@
+{
+  "name": "Three of Wands",
+  "meaning_for_today": "Today favors expansion, progress, and looking toward the future. Your efforts begin to show results, and new opportunities may arise through cooperation or travel.",
+  "card_advice": "Continue moving forward with confidence. Stay open to new horizons, trust your experience, and think long-term.",
+  "upright": {
+    "short": "Expansion, progress, foresight, growth, opportunities, confidence.",
+    "general": "The Three of Wands symbolizes growth, expansion, and successful progress after careful planning. It represents confidence in the future, exploration of new opportunities, and the ability to see beyond current limitations. The card often points to travel, international connections, or long-term success.",
+    "in_love": "In relationships, the Three of Wands suggests growth, shared future plans, and emotional development. It may also indicate long-distance relationships or waiting for someone important.",
+    "in_situation": "A situation is developing positively and moving toward success. Cooperation, strategic thinking, and openness to new opportunities bring favorable results."
+  },
+  "reversed": {
+    "short": "Delays, obstacles, lack of progress, limited vision, frustration.",
+    "general": "Reversed, the Three of Wands indicates delays, missed opportunities, or frustration caused by poor planning or fear of expansion. Progress may feel slower than expected.",
+    "in_love": "Relationships may experience distance, uncertainty about the future, or disappointment in expectations.",
+    "in_situation": "Growth is blocked by hesitation, lack of preparation, or external obstacles. Patience and reevaluation are necessary."
+  },
+  "relations": {
+    "major": {
+      "01": "An exciting journey toward new opportunities.",
+      "02": "Creative vision expands into real action.",
+      "03": "Growth, abundance, and successful development.",
+      "04": "Leadership supports expansion and stability.",
+      "05": "Guidance and wisdom help future progress.",
+      "06": "Shared goals strengthen emotional connections.",
+      "07": "Determined movement leads to achievement.",
+      "08": "Inner strength supports long-term ambitions.",
+      "09": "Reflection improves future planning.",
+      "10": "Fortunate opportunities encourage expansion.",
+      "11": "Balanced choices create stable success.",
+      "12": "Temporary delays before future progress.",
+      "13": "Transformation opens new paths forward.",
+      "14": "Patience and moderation ensure lasting growth.",
+      "15": "Ambition may become greed or obsession.",
+      "16": "Unexpected disruptions alter long-term plans.",
+      "17": "Hope and inspiration guide expansion.",
+      "18": "Uncertainty clouds future expectations.",
+      "19": "Success, recognition, and joyful progress.",
+      "20": "A calling toward a greater future.",
+      "21": "Completion and expansion into a new stage."
+    },
+    "minor": {
+      "cups": {
+        "01": "A new emotional opportunity supports growth.",
+        "02": "A relationship develops toward a shared future.",
+        "03": "Celebration of achievements and progress.",
+        "04": "Ignoring opportunities for emotional growth.",
+        "05": "Disappointment slows future development.",
+        "06": "Past experiences guide future decisions.",
+        "07": "Many possibilities create uncertainty.",
+        "08": "Leaving behind the familiar for expansion.",
+        "09": "Wishes and ambitions begin to come true.",
+        "10": "Long-term happiness and emotional fulfillment.",
+        "11": "Exciting emotional messages and opportunities.",
+        "12": "Passionate movement toward shared goals.",
+        "13": "Emotional support encourages progress.",
+        "14": "Wise emotional leadership strengthens plans."
+      },
+      "pentacles": {
+        "01": "A promising financial opportunity appears.",
+        "02": "Balancing responsibilities during expansion.",
+        "03": "Teamwork leads to successful growth.",
+        "04": "Fear of risk limits future progress.",
+        "05": "Financial worries create delays.",
+        "06": "Support and generosity help development.",
+        "07": "Patience brings long-term rewards.",
+        "08": "Hard work and skill-building ensure success.",
+        "09": "Independent success and confidence grow.",
+        "10": "Stable prosperity and lasting achievements.",
+        "11": "Learning practical skills for future success.",
+        "12": "Bold action accelerates career growth.",
+        "13": "Practical wisdom and nurturing support.",
+        "14": "Strong leadership ensures material expansion."
+      },
+      "swords": {
+        "01": "Clear vision and strategic thinking.",
+        "02": "Indecision blocks progress and expansion.",
+        "03": "Painful experiences affect confidence.",
+        "04": "Rest and reflection improve future planning.",
+        "05": "Conflict disrupts progress and cooperation.",
+        "06": "Moving toward better opportunities and growth.",
+        "07": "Hidden motives affect future success.",
+        "08": "Fear and insecurity limit possibilities.",
+        "09": "Anxiety about the future creates stress.",
+        "10": "An ending clears the way for new growth.",
+        "11": "Curiosity and communication inspire development.",
+        "12": "Fast movement and ambitious action.",
+        "13": "Sharp thinking supports long-term success.",
+        "14": "Strong leadership guides expansion."
+      },
+      "wands": {
+        "01": "Creative inspiration sparks future growth.",
+        "02": "Planning and vision prepare for expansion.",
+        "03": "Growth, opportunity, and forward movement.",
+        "04": "Celebration of success and stability.",
+        "05": "Competition challenges future ambitions.",
+        "06": "Recognition and successful achievement.",
+        "07": "Defending goals and maintaining progress.",
+        "08": "Rapid developments and exciting movement.",
+        "09": "Persistence despite delays or obstacles.",
+        "10": "Responsibilities become heavy during expansion.",
+        "11": "Exciting messages and adventurous curiosity.",
+        "12": "Bold ambition drives future success.",
+        "13": "Creative confidence and inspiring leadership.",
+        "14": "Visionary leadership and mastery of growth."
+      }
+    }
+  }
+}

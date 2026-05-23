@@ -1,0 +1,108 @@
+{
+  "name": "Strength",
+  "meaning_for_today": "Today requires patience, courage, emotional balance, and inner resilience. Gentle persistence and self-control will help overcome challenges successfully.",
+  "card_advice": "Trust your inner strength rather than force or aggression. Stay calm, patient, and confident while handling difficult situations or emotions.",
+  "upright": {
+    "short": "Inner strength, courage, patience, self-control, compassion.",
+    "general": "Strength represents courage, emotional balance, resilience, and the ability to overcome obstacles through patience and inner power. This card symbolizes confidence, self-discipline, compassion, and mastery over instincts or fears.",
+    "in_love": "In relationships, Strength signifies trust, emotional maturity, loyalty, and deep mutual support. It reflects a stable connection built on patience, understanding, and compassion.",
+    "in_situation": "The situation requires calm determination and emotional control. Success will come through patience, confidence, and gentle persistence rather than forceful action."
+  },
+  "reversed": {
+    "short": "Self-doubt, weakness, impatience, emotional imbalance.",
+    "general": "Reversed, Strength may indicate insecurity, lack of confidence, emotional instability, fear, or difficulty controlling impulses. It can point to frustration, exhaustion, or inner conflict.",
+    "in_love": "In love readings, the reversed Strength card may suggest jealousy, insecurity, emotional tension, or imbalance in the relationship. Patience and honest communication are needed.",
+    "in_situation": "The situation may feel overwhelming due to fear, stress, or lack of confidence. The card advises rebuilding inner stability and avoiding impulsive reactions."
+  },
+  "relations": {
+    "major": {
+      "01": "Courage encourages a fearless new beginning.",
+      "02": "Inner confidence strengthens personal abilities.",
+      "03": "Compassion and patience create emotional growth.",
+      "04": "Controlled power and stable leadership.",
+      "05": "Spiritual discipline supports resilience.",
+      "06": "Love strengthened by patience and trust.",
+      "07": "Determined action guided by self-control.",
+      "08": "Complete mastery of inner emotions and instincts.",
+      "09": "Quiet reflection builds emotional strength.",
+      "10": "Strength helps adapt to changing destiny.",
+      "11": "Fairness balanced with compassion and courage.",
+      "12": "Patience during sacrifice or uncertainty.",
+      "13": "Inner resilience supports transformation.",
+      "14": "Harmony, balance, and emotional healing.",
+      "15": "Struggle with temptation or uncontrolled desires.",
+      "16": "Strength helps survive sudden disruption.",
+      "17": "Hope and courage inspire healing.",
+      "18": "Fear and uncertainty test emotional stability.",
+      "19": "Confidence, joy, and personal success.",
+      "20": "Awakening through inner courage and honesty.",
+      "21": "Complete emotional mastery and fulfillment."
+    },
+    "minor": {
+      "cups": {
+        "01": "Emotional courage opens the heart.",
+        "02": "A balanced and supportive partnership.",
+        "03": "Joy and friendship strengthened by trust.",
+        "04": "Patience needed during emotional dissatisfaction.",
+        "05": "Healing emotional pain through resilience.",
+        "06": "Comfort and emotional support from the past.",
+        "07": "Inner clarity overcomes emotional confusion.",
+        "08": "Strength to leave behind emotional emptiness.",
+        "09": "Confidence leads to emotional satisfaction.",
+        "10": "Strong emotional bonds and family harmony.",
+        "11": "A gentle and sincere emotional message.",
+        "12": "Passionate but emotionally controlled pursuit.",
+        "13": "Compassionate emotional maturity and support.",
+        "14": "Emotional wisdom and calm leadership."
+      },
+      "pentacles": {
+        "01": "Confidence supports financial opportunities.",
+        "02": "Patience helps balance practical demands.",
+        "03": "Steady effort and teamwork bring success.",
+        "04": "Fear of loss creates emotional tension.",
+        "05": "Resilience during financial or personal hardship.",
+        "06": "Generosity and support through difficult times.",
+        "07": "Patience brings long-term material rewards.",
+        "08": "Dedication and discipline create mastery.",
+        "09": "Confidence and independence bring comfort.",
+        "10": "Stable foundations and lasting security.",
+        "11": "A practical opportunity requiring confidence.",
+        "12": "Determined action toward ambitious goals.",
+        "13": "Reliable care and practical support.",
+        "14": "Strong leadership and material confidence."
+      },
+      "swords": {
+        "01": "Mental clarity supported by inner confidence.",
+        "02": "Fear or indecision weakens resolve.",
+        "03": "Healing emotional pain with resilience.",
+        "04": "Rest restores inner balance and strength.",
+        "05": "Avoid aggression and unnecessary conflict.",
+        "06": "Strength supports recovery and transition.",
+        "07": "Inner honesty overcomes deception.",
+        "08": "Breaking free from fear and limitations.",
+        "09": "Anxiety tests emotional resilience.",
+        "10": "Recovery after painful endings.",
+        "11": "Curious communication handled with patience.",
+        "12": "Focused action guided by self-control.",
+        "13": "Strong intellect with emotional restraint.",
+        "14": "Mental discipline and strategic confidence."
+      },
+      "wands": {
+        "01": "Inspired courage and creative energy.",
+        "02": "Confident planning for future success.",
+        "03": "Growth achieved through persistence.",
+        "04": "Celebration and emotional security.",
+        "05": "Controlled competition and determination.",
+        "06": "Recognition earned through courage.",
+        "07": "Defending beliefs with calm confidence.",
+        "08": "Quick progress fueled by determination.",
+        "09": "Endurance despite exhaustion or pressure.",
+        "10": "Strength needed to manage heavy burdens.",
+        "11": "A passionate opportunity requiring courage.",
+        "12": "Bold movement supported by confidence.",
+        "13": "Charismatic and emotionally strong leadership.",
+        "14": "Visionary strength and inspired leadership."
+      }
+    }
+  }
+}

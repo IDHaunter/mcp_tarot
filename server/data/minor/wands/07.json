@@ -1,0 +1,109 @@
+{
+  "name": "Seven of Wands",
+  "meaning_for_today": "Today you may need to defend your position, beliefs, or achievements. Confidence and persistence will help you maintain your advantage despite outside pressure.",
+  "card_advice": "Stand your ground and trust your abilities. Do not give up your position simply because others challenge you.",
+  "upright": {
+    "short": "Defense, perseverance, competition, courage.",
+    "general": "The Seven of Wands symbolizes resistance, determination, and the courage to protect what has been achieved. It often appears when a person must face rivalry, criticism, or external pressure while remaining confident and resilient.",
+    "in_love": "Relationships may require effort and protection from outside influences. One or both partners may need to fight for trust, stability, or emotional boundaries.",
+    "in_situation": "The situation demands persistence and active defense of your interests. Challenges are present, but you have the advantage if you remain focused and confident."
+  },
+  "reversed": {
+    "short": "Exhaustion, surrender, insecurity, losing control.",
+    "general": "The reversed Seven of Wands points to fatigue, fear of confrontation, or difficulty maintaining control over circumstances. Pressure from others may feel overwhelming, leading to self-doubt or retreat.",
+    "in_love": "Arguments, emotional defensiveness, or inability to protect the relationship may create tension. One partner may feel overwhelmed or unsupported.",
+    "in_situation": "The situation becomes unstable due to hesitation, lack of preparation, or external pressure. It may be necessary to reconsider priorities and conserve energy."
+  },
+  "relations": {
+    "major": {
+      "01": "A risky new path requires courage and defense.",
+      "02": "Skill and strategy help maintain your position.",
+      "03": "Inner intuition strengthens resilience.",
+      "04": "Protecting creative achievements and personal growth.",
+      "05": "Standing up against authority or control.",
+      "06": "Defending traditions, beliefs, or moral values.",
+      "07": "Challenges test the strength of a partnership.",
+      "08": "Strong determination leads to victory.",
+      "09": "Courage under pressure.",
+      "10": "Wisdom gained through struggle and solitude.",
+      "11": "Unexpected events challenge stability.",
+      "12": "Justice supports those who stand firmly for truth.",
+      "13": "A pause or sacrifice is necessary before progress.",
+      "14": "Transformation through overcoming obstacles.",
+      "15": "Patience and moderation help maintain control.",
+      "16": "Temptation or unhealthy attachments weaken defenses.",
+      "17": "Sudden upheaval forces you to defend yourself.",
+      "18": "Hope and faith strengthen perseverance.",
+      "19": "Confusion and uncertainty create inner conflict.",
+      "20": "Success and recognition after standing firm.",
+      "21": "A final awakening through struggle.",
+      "22": "Completion and mastery after overcoming opposition."
+    },
+    "minor": {
+      "cups": {
+        "01": "Protecting new feelings or emotional beginnings.",
+        "02": "Defending a relationship from outside pressure.",
+        "03": "Competition or tension within friendships.",
+        "04": "Fighting against emotional stagnation.",
+        "05": "Defending yourself after disappointment.",
+        "06": "Past experiences strengthen resilience.",
+        "07": "Choosing one path among emotional confusion.",
+        "08": "Walking away despite resistance.",
+        "09": "Protecting personal happiness and wishes.",
+        "10": "Defending family harmony and values.",
+        "11": "Emotional messages require courage.",
+        "12": "Romantic pursuit despite obstacles.",
+        "13": "Compassion helps overcome tension.",
+        "14": "Emotional maturity supports stability."
+      },
+      "pentacles": {
+        "01": "Protecting financial opportunities.",
+        "02": "Balancing responsibilities under pressure.",
+        "03": "Competition in work or teamwork.",
+        "04": "Fear of losing security or possessions.",
+        "05": "Persistence during hardship.",
+        "06": "Defending fairness and equality.",
+        "07": "Patience despite slow results.",
+        "08": "Hard work and discipline overcome obstacles.",
+        "09": "Protecting independence and success.",
+        "10": "Defending long-term stability and traditions.",
+        "11": "Practical news requires quick action.",
+        "12": "Determined movement toward goals.",
+        "13": "Strong leadership in practical matters.",
+        "14": "Authority and discipline ensure victory."
+      },
+      "swords": {
+        "01": "Mental clarity strengthens defense.",
+        "02": "Inner conflict about taking a stand.",
+        "03": "Defending yourself after emotional pain.",
+        "04": "Rest and recovery are necessary.",
+        "05": "Conflict and rivalry intensify.",
+        "06": "Moving away from tension and pressure.",
+        "07": "Hidden enemies or strategic defense.",
+        "08": "Breaking free from fear and limitation.",
+        "09": "Anxiety caused by constant pressure.",
+        "10": "A difficult ending after prolonged struggle.",
+        "11": "Important information changes the battle.",
+        "12": "Quick action and determination.",
+        "13": "Sharp thinking helps overcome opposition.",
+        "14": "Strategic authority and mental strength."
+      },
+      "wands": {
+        "01": "Protecting a new creative beginning.",
+        "02": "Planning future moves carefully.",
+        "03": "Progress despite obstacles.",
+        "04": "Defending harmony and achievements.",
+        "05": "Competition and rivalry increase.",
+        "06": "Protecting earned recognition and success.",
+        "07": "Double emphasis on defense and resilience.",
+        "08": "Fast developments require quick reactions.",
+        "09": "Persistence despite exhaustion.",
+        "10": "Heavy burdens create pressure.",
+        "11": "Passionate messages lead to confrontation.",
+        "12": "Bold action overcomes resistance.",
+        "13": "Confidence and charisma inspire strength.",
+        "14": "Leadership and authority secure victory."
+      }
+    }
+  }
+}

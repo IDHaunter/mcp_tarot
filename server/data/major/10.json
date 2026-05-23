@@ -1,0 +1,108 @@
+{
+  "name": "The Hermit",
+  "meaning_for_today": "Today is suited for reflection, solitude, inner search, and careful thinking. Wisdom will come through patience, observation, and listening to your inner voice.",
+  "card_advice": "Take time to slow down and reflect before making important decisions. Seek truth within yourself and trust your experience and intuition.",
+  "upright": {
+    "short": "Wisdom, introspection, solitude, guidance, spiritual search.",
+    "general": "The Hermit represents inner wisdom, self-discovery, spiritual growth, and introspection. This card symbolizes a period of solitude, deep thinking, and searching for truth or meaning. It often points to learning through personal experience and quiet reflection.",
+    "in_love": "In relationships, The Hermit may indicate the need for personal space, emotional reflection, or a slower and more thoughtful approach to love. It can also suggest a mature and wise connection built on understanding.",
+    "in_situation": "The situation requires patience, analysis, and careful observation. Rushing decisions may lead to mistakes. The card advises seeking clarity through reflection and independent thinking."
+  },
+  "reversed": {
+    "short": "Isolation, loneliness, withdrawal, confusion, avoidance.",
+    "general": "Reversed, The Hermit may indicate excessive isolation, loneliness, emotional withdrawal, or fear of facing reality. It can point to confusion, lack of direction, or refusing helpful guidance.",
+    "in_love": "In love readings, the reversed Hermit may suggest emotional distance, avoidance of intimacy, loneliness, or difficulties expressing feelings. One partner may feel disconnected or withdrawn.",
+    "in_situation": "The situation may feel stagnant due to overthinking, fear, or lack of communication. The card advises reconnecting with others and avoiding unnecessary isolation."
+  },
+  "relations": {
+    "major": {
+      "01": "A journey of self-discovery begins.",
+      "02": "Inner wisdom strengthens intuition and knowledge.",
+      "03": "Solitude encourages creative and emotional growth.",
+      "04": "Wisdom guides stable leadership.",
+      "05": "Spiritual learning and deep understanding.",
+      "06": "Reflection clarifies emotional choices.",
+      "07": "Careful planning leads to progress.",
+      "08": "Inner strength supports personal growth.",
+      "09": "Deep introspection and spiritual enlightenment.",
+      "10": "Life changes inspire self-reflection.",
+      "11": "Truth and fairness revealed through wisdom.",
+      "12": "A new perspective gained through patience.",
+      "13": "Transformation through inner realization.",
+      "14": "Balance and healing through self-awareness.",
+      "15": "Isolation caused by fear or unhealthy attachment.",
+      "16": "Sudden change forces self-examination.",
+      "17": "Hope and inspiration guide the inner journey.",
+      "18": "Hidden fears and uncertainty during introspection.",
+      "19": "Clarity and joy after reflection.",
+      "20": "Spiritual awakening and self-realization.",
+      "21": "Completion of an important inner journey."
+    },
+    "minor": {
+      "cups": {
+        "01": "Quiet emotional awakening and self-discovery.",
+        "02": "Thoughtful and meaningful emotional connection.",
+        "03": "Solitude before social celebration or reunion.",
+        "04": "Deep emotional reflection and dissatisfaction.",
+        "05": "Healing emotional pain through introspection.",
+        "06": "Memories and nostalgia inspire reflection.",
+        "07": "Seeking clarity among emotional illusions.",
+        "08": "Walking away in search of deeper meaning.",
+        "09": "Inner peace and emotional fulfillment.",
+        "10": "Wisdom strengthens family harmony.",
+        "11": "A thoughtful emotional message or insight.",
+        "12": "A reflective and idealistic emotional pursuit.",
+        "13": "Compassionate wisdom and emotional maturity.",
+        "14": "Emotional stability and wise guidance."
+      },
+      "pentacles": {
+        "01": "A practical opportunity discovered through patience.",
+        "02": "Balancing responsibilities with careful thought.",
+        "03": "Learning and mastery through dedication.",
+        "04": "Fear of change or emotional withdrawal.",
+        "05": "Isolation during financial or personal hardship.",
+        "06": "Wise support and balanced generosity.",
+        "07": "Patience and long-term reflection bring rewards.",
+        "08": "Focused study and disciplined craftsmanship.",
+        "09": "Independent success and peaceful solitude.",
+        "10": "Wisdom strengthens long-term stability.",
+        "11": "A practical lesson or learning opportunity.",
+        "12": "Steady progress guided by experience.",
+        "13": "Reliable support and thoughtful care.",
+        "14": "Practical wisdom and controlled leadership."
+      },
+      "swords": {
+        "01": "Clear truth discovered through reflection.",
+        "02": "Indecision caused by overthinking.",
+        "03": "Emotional pain leads to personal insight.",
+        "04": "Rest, meditation, and mental recovery.",
+        "05": "Withdrawal from conflict to regain balance.",
+        "06": "A calm transition toward understanding.",
+        "07": "Hidden motives uncovered through observation.",
+        "08": "Mental isolation and self-imposed limits.",
+        "09": "Anxiety and loneliness during introspection.",
+        "10": "Painful endings create spiritual growth.",
+        "11": "Curious learning and thoughtful communication.",
+        "12": "Purposeful movement guided by wisdom.",
+        "13": "Sharp intellect and emotional distance.",
+        "14": "Strategic wisdom and intellectual mastery."
+      },
+      "wands": {
+        "01": "Inspired ideas discovered through reflection.",
+        "02": "Careful planning for future progress.",
+        "03": "Growth achieved through patience and vision.",
+        "04": "Quiet satisfaction and stable foundations.",
+        "05": "Avoiding unnecessary conflict through wisdom.",
+        "06": "Recognition earned through experience.",
+        "07": "Defending beliefs with calm confidence.",
+        "08": "Progress becomes clearer after reflection.",
+        "09": "Persistence and endurance through challenges.",
+        "10": "Need to release emotional or practical burdens.",
+        "11": "A thoughtful and inspiring opportunity.",
+        "12": "Focused action guided by experience.",
+        "13": "Wise and confident creative leadership.",
+        "14": "Visionary thinking and mature leadership."
+      }
+    }
+  }
+}

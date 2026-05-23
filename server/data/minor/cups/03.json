@@ -1,0 +1,79 @@
+{
+  "name": "Three of Cups",
+  "meaning_for_today": "Today is favorable for friendship, celebration, joyful communication, and emotional support. Pleasant meetings or good news may brighten your mood.",
+  "card_advice": "Spend time with people who support and inspire you. Share joy, celebrate achievements, and appreciate emotional connections.",
+  "upright": {
+    "short": "Celebration, friendship, joy, communication, emotional support.",
+    "general": "The Three of Cups symbolizes happiness, friendship, emotional unity, and celebration. This card often points to social gatherings, successful teamwork, support from loved ones, and joyful events. It reflects harmony, trust, and emotional openness.",
+    "in_love": "Joyful relationships, emotional harmony, shared happiness, and pleasant communication. The card may indicate celebrations, engagement, or strengthening emotional bonds.",
+    "in_situation": "The situation develops positively through cooperation, support, and collective effort. Friendly connections and teamwork will bring success."
+  },
+  "reversed": {
+    "short": "Excess, gossip, emotional distance, conflict in friendships.",
+    "general": "Reversed, the Three of Cups may indicate overindulgence, superficial relationships, gossip, or conflicts within a social circle. Emotional support may be lacking or insincere.",
+    "in_love": "Misunderstandings in relationships, emotional distance, jealousy, or outside interference. Communication problems may weaken emotional harmony.",
+    "in_situation": "The situation may involve tension within a group, disappointment in friends, or lack of cooperation. It is important to avoid gossip and emotional excess."
+  },
+  "relations": {
+    "major": {
+      "01": "Carefree celebration and spontaneous joy.",
+      "02": "Successful communication and social influence.",
+      "03": "Strong emotional intuition within friendships.",
+      "04": "Warmth, comfort, and joyful emotional support.",
+      "05": "Stable family celebration and unity.",
+      "06": "Shared spiritual values and trust.",
+      "07": "Joyful union, love, and friendship.",
+      "08": "Active social life and emotional progress.",
+      "09": "Emotional resilience and inner confidence.",
+      "10": "Loneliness despite social surroundings.",
+      "11": "A fortunate event or joyful change.",
+      "12": "Honesty and fairness in friendship.",
+      "13": "Sacrifice for friends or emotional pause.",
+      "14": "Transformation of social connections and emotions.",
+      "15": "Harmony, moderation, emotional balance.",
+      "16": "Excessive pleasure, addictions, emotional dependence.",
+      "17": "Sudden conflict or disappointment in friendships.",
+      "18": "Hope, inspiration, emotional healing.",
+      "19": "Confusion, hidden motives, uncertainty.",
+      "20": "Joy, success, openness, happiness.",
+      "21": "Emotional awakening and reconciliation.",
+      "22": "Completion, harmony, joyful fulfillment."
+    },
+    "minor": {
+      "cups": {
+        "01": "Emotional openness and joyful inspiration.",
+        "02": "Strong friendship or romantic harmony.",
+        "03": "Celebration, happiness, emotional unity.",
+        "04": "Emotional dissatisfaction despite support.",
+        "05": "Sadness and disappointment affecting relationships.",
+        "06": "Warm memories, nostalgia, sincere affection.",
+        "07": "Dreams, fantasies, unrealistic expectations.",
+        "08": "Searching for deeper emotional fulfillment.",
+        "09": "Pleasure, success, emotional satisfaction.",
+        "10": "Family happiness and lasting harmony.",
+        "11": "Pleasant message or emotional curiosity.",
+        "12": "Romantic initiative and emotional activity.",
+        "13": "Emotional understanding, intuition, support.",
+        "14": "Emotional maturity and wise guidance."
+      },
+      "pentacles": {},
+      "swords": {},
+      "wands": {
+        "01": "Creative inspiration and enthusiasm.",
+        "02": "Joint planning and shared ambitions.",
+        "03": "Successful teamwork and cooperation.",
+        "04": "Celebration, comfort, support at home.",
+        "05": "Conflicts, rivalry, emotional disagreements.",
+        "06": "Recognition, success, social approval.",
+        "07": "Defending friendships or shared ideals.",
+        "08": "Rapid communication and exciting meetings.",
+        "09": "Stress and emotional tension.",
+        "10": "Emotional overload and exhaustion.",
+        "11": "Creative search and joyful curiosity.",
+        "12": "Impulsive behavior and inconsistency.",
+        "13": "Warmth, loyalty, emotional understanding.",
+        "14": "Strong partnership, trust, successful cooperation."
+      }
+    }
+  }
+}

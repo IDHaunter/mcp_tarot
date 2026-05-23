@@ -1,0 +1,108 @@
+{
+  "name": "The World",
+  "meaning_for_today": "Today brings completion, success, and harmony. You may finally achieve an important goal or feel a sense of fulfillment and balance in your life.",
+  "card_advice": "Celebrate your achievements and trust the path you have completed. Remain open to new experiences while appreciating how far you have come.",
+  "upright": {
+    "short": "Completion, fulfillment, success, harmony.",
+    "general": "The World represents completion, achievement, and wholeness. A major cycle comes to a successful end, bringing satisfaction, wisdom, and balance. The card symbolizes harmony between inner and outer worlds, personal growth, and reaching an important milestone.",
+    "in_love": "Relationships reach a stable and fulfilling stage based on trust, harmony, and emotional maturity. Singles may attract a meaningful long-term connection or feel emotionally complete on their own.",
+    "in_situation": "The situation concludes successfully and brings recognition, accomplishment, and stability. Goals are achieved, and a new chapter can begin from a place of confidence and experience."
+  },
+  "reversed": {
+    "short": "Incomplete goals, delays, lack of closure, stagnation.",
+    "general": "Reversed The World suggests unfinished business, delays, or difficulty reaching full completion. Something important remains unresolved, preventing satisfaction and progress.",
+    "in_love": "A relationship may feel incomplete due to emotional distance, unresolved issues, or lack of commitment. Growth is limited until honesty and closure are achieved.",
+    "in_situation": "The situation faces delays or obstacles that prevent final success. More effort, patience, or understanding is required before completion can occur."
+  },
+  "relations": {
+    "major": {
+      "01": "A new journey begins after successful completion.",
+      "02": "Mastery of skills and creative potential.",
+      "03": "Abundance, fulfillment, and creative success.",
+      "04": "Stable leadership and lasting achievement.",
+      "05": "Spiritual fulfillment and higher wisdom.",
+      "06": "Harmony, unity, and emotional completion.",
+      "07": "Victory and successful movement forward.",
+      "08": "Inner strength leads to complete success.",
+      "09": "Wisdom and fulfillment through reflection.",
+      "10": "A fortunate cycle reaches completion.",
+      "11": "Justice, balance, and deserved outcomes.",
+      "12": "Understanding gained through sacrifice and patience.",
+      "13": "Transformation leads to renewal and fulfillment.",
+      "14": "Perfect harmony and emotional balance.",
+      "15": "Freedom from limitation and unhealthy attachments.",
+      "16": "Rebuilding after chaos leads to success.",
+      "17": "Hope, healing, and spiritual completion.",
+      "18": "Clarity achieved after overcoming illusion.",
+      "19": "Joy, vitality, and complete happiness.",
+      "20": "Awakening and final realization.",
+      "21": "Completion, fulfillment, and unity."
+    },
+    "minor": {
+      "cups": {
+        "01": "A fulfilling emotional beginning.",
+        "02": "Perfect harmony and emotional unity.",
+        "03": "Celebration, friendship, and joyful completion.",
+        "04": "Emotional renewal after dissatisfaction.",
+        "05": "Healing and acceptance after loss.",
+        "06": "Peace with the past and emotional closure.",
+        "07": "Clarity replaces illusion and confusion.",
+        "08": "Emotional growth leads to fulfillment.",
+        "09": "Wishes fulfilled and emotional satisfaction.",
+        "10": "Complete family happiness and harmony.",
+        "11": "Creative emotional expression and inspiration.",
+        "12": "Romantic progress and exciting movement.",
+        "13": "Compassion, wisdom, and emotional fulfillment.",
+        "14": "Emotional mastery and balanced understanding."
+      },
+      "pentacles": {
+        "01": "A successful financial or career opportunity.",
+        "02": "Balance and adaptability bring success.",
+        "03": "Recognition for teamwork and skill.",
+        "04": "Security achieved without fear or control.",
+        "05": "Recovery from hardship and lasting stability.",
+        "06": "Balanced support and fair outcomes.",
+        "07": "Patience rewarded with long-term success.",
+        "08": "Mastery through dedication and effort.",
+        "09": "Independence, comfort, and achievement.",
+        "10": "Legacy, prosperity, and family fulfillment.",
+        "11": "Successful learning and practical growth.",
+        "12": "Confident movement toward important goals.",
+        "13": "Practical wisdom and nurturing leadership.",
+        "14": "Strong leadership and financial mastery."
+      },
+      "swords": {
+        "01": "Truth, clarity, and intellectual success.",
+        "02": "A balanced and final decision.",
+        "03": "Healing and closure after emotional pain.",
+        "04": "Peace, recovery, and mental stability.",
+        "05": "Conflict resolved and lessons learned.",
+        "06": "A successful transition toward peace.",
+        "07": "Truth revealed and honesty restored.",
+        "08": "Freedom from fear and limitation.",
+        "09": "Relief from anxiety and emotional stress.",
+        "10": "A painful cycle finally ends completely.",
+        "11": "Curiosity and intelligent communication.",
+        "12": "Rapid progress and purposeful movement.",
+        "13": "Sharp intellect balanced with maturity.",
+        "14": "Wise leadership and clear judgment."
+      },
+      "wands": {
+        "01": "Creative fulfillment and inspired beginnings.",
+        "02": "Clear vision and successful planning.",
+        "03": "Expansion, achievement, and progress.",
+        "04": "Celebration, stability, and joyful harmony.",
+        "05": "Healthy competition leads to growth.",
+        "06": "Victory, recognition, and public success.",
+        "07": "Confidence while defending achievements.",
+        "08": "Fast success and positive developments.",
+        "09": "Perseverance rewarded with fulfillment.",
+        "10": "Release of burdens and relief.",
+        "11": "Exciting messages and passionate opportunities.",
+        "12": "Bold action leads to achievement.",
+        "13": "Creative confidence and inspiring energy.",
+        "14": "Powerful leadership and lasting success."
+      }
+    }
+  }
+}

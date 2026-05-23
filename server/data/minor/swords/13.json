@@ -1,0 +1,92 @@
+{
+    "name": "Queen of Swords",
+    "meaning_for_today": "Today emphasizes clear thinking, honest communication, and emotional independence. It is a good time to set boundaries and make fair, rational decisions.",
+    "card_advice": "Be honest with yourself and others. Speak clearly, avoid emotional distortion, and rely on logic while maintaining fairness and integrity.",
+    "upright": {
+        "short": "Clarity, independence, truth, and perceptive judgment.",
+        "general": "The Queen of Swords represents intellectual clarity, independence, and sharp perception. She is honest, direct, and able to see through illusions. This card often reflects a person who values truth and fairness, even if it requires emotional detachment. It encourages clear communication and wise judgment based on experience and logic.",
+        "in_love": "In love, it suggests emotional independence and honesty. Relationships require clear communication and mutual respect. It may also indicate a person who is cautious with emotions but deeply perceptive.",
+        "in_situation": "In situations, it points to the need for rational analysis, fair judgment, and setting strong boundaries. It favors truth over comfort and encourages objective decision-making."
+    },
+    "reversed": {
+        "short": "Coldness, bitterness, manipulation, or overly critical thinking.",
+        "general": "Reversed, the Queen of Swords can indicate emotional detachment becoming isolation, or intelligence used in a harsh or manipulative way. It may also reflect dishonesty or distorted perception.",
+        "in_love": "In relationships, it may show emotional distance, harsh communication, or difficulty trusting others. It warns against being overly critical or cutting off emotional connection.",
+        "in_situation": "In situations, it suggests confusion, miscommunication, or unfair judgment. Decisions may be clouded by bias or emotional wounds."
+    },
+    "relations": {
+        "major": {
+            "01": "New beginnings guided by truth and mental clarity.",
+            "02": "Using intellect and communication to initiate action.",
+            "03": "Combining intuition with rational understanding.",
+            "04": "Structure and authority influencing emotional clarity.",
+            "05": "Tradition and established rules shaping decisions.",
+            "06": "Important choices requiring honest evaluation.",
+            "07": "Balancing decisions with logic and emotional awareness.",
+            "08": "Swift decisions driven by clear thinking.",
+            "09": "Introspection and mental clarity through solitude.",
+            "10": "Understanding endings through rational acceptance.",
+            "11": "Adaptation to change through flexible thinking.",
+            "12": "New perspective gained through detachment.",
+            "13": "Letting go through mental transformation.",
+            "14": "Truth revealed through necessary endings.",
+            "15": "Breaking illusions with clarity and awareness.",
+            "16": "Sudden realization that changes perception.",
+            "17": "Hope guided by rational thinking.",
+            "18": "Uncertainty requiring careful analysis.",
+            "19": "Clarity and success through truth.",
+            "20": "Judgment and accountability through honesty.",
+            "21": "Completion through intellectual understanding."
+        },
+        "minor": {
+            "cups": {
+                "01": "Emotional awareness guided by truth.",
+                "02": "Honest emotional communication.",
+                "03": "Social clarity and truthful relationships.",
+                "04": "Emotional withdrawal for reflection.",
+                "05": "Processing emotional loss with logic.",
+                "06": "Reevaluating emotional memories.",
+                "07": "Dispelling emotional illusions.",
+                "08": "Leaving confusion through clear decisions.",
+                "09": "Understanding desires realistically.",
+                "10": "Emotional stability through truth."
+            },
+            "pentacles": {
+                "01": "New material opportunities assessed logically.",
+                "02": "Balancing resources with practical thinking.",
+                "03": "Skilled collaboration and clear communication.",
+                "04": "Financial boundaries and control.",
+                "05": "Material difficulty requiring rational solutions.",
+                "06": "Fairness in material exchange.",
+                "07": "Long-term evaluation and planning.",
+                "08": "Skill mastery through disciplined effort.",
+                "09": "Independence through practical wisdom.",
+                "10": "Legacy built on intelligent decisions."
+            },
+            "swords": {
+                "01": "Absolute clarity and truth.",
+                "02": "Decision-making through rational analysis.",
+                "03": "Heartache understood intellectually.",
+                "04": "Mental rest and recovery.",
+                "05": "Conflict managed through reasoning.",
+                "06": "Transition guided by logic.",
+                "07": "Strategy and discernment.",
+                "08": "Mental restriction overcome by clarity.",
+                "09": "Anxiety analyzed and understood.",
+                "10": "Endings leading to mental resolution."
+            },
+            "wands": {
+                "01": "Clear direction in new initiatives.",
+                "02": "Strategic planning for the future.",
+                "03": "Vision expanded through insight.",
+                "04": "Stability achieved through planning.",
+                "05": "Conflict resolved with intelligence.",
+                "06": "Success through clear strategy.",
+                "07": "Defense through preparation and logic.",
+                "08": "Fast progress guided by clarity.",
+                "09": "Resilience supported by insight.",
+                "10": "Responsibility managed through planning."
+            }
+        }
+    }
+}

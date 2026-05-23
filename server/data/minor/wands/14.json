@@ -1,0 +1,108 @@
+{
+  "name": "King of Wands",
+  "meaning_for_today": "Today favors leadership, confidence, and decisive action. Your energy can inspire others and help move important plans forward.",
+  "card_advice": "Trust your vision and act boldly. Lead with confidence, but avoid becoming overly controlling or impatient.",
+  "upright": {
+    "short": "Leadership, charisma, ambition, vision, confidence, authority.",
+    "general": "The King of Wands represents a strong and inspiring leader who combines passion with experience. This card symbolizes ambition, courage, entrepreneurship, and the ability to motivate others. It encourages taking control of situations and pursuing long-term goals with determination.",
+    "in_love": "In relationships, the King of Wands points to passion, loyalty, and strong attraction. It may represent a confident and protective partner who values honesty and excitement.",
+    "in_situation": "A situation requires leadership, strategic thinking, and bold decisions. Success comes through confidence, experience, and the ability to inspire cooperation."
+  },
+  "reversed": {
+    "short": "Arrogance, impulsiveness, domination, aggression, lack of direction.",
+    "general": "Reversed, the King of Wands may indicate abuse of power, excessive pride, impatience, or reckless behavior. Ambition may become selfishness or manipulation.",
+    "in_love": "There may be jealousy, control issues, emotional distance, or dominance within the relationship. Passion can become unstable or overwhelming.",
+    "in_situation": "Poor leadership, rash decisions, or inflated ego create obstacles. It is important to regain balance and avoid forcing outcomes."
+  },
+  "relations": {
+    "major": {
+      "01": "A fearless leader beginning a new adventure.",
+      "02": "Strong willpower and mastery of creative energy.",
+      "03": "Visionary leadership brings growth and abundance.",
+      "04": "Authority, structure, and disciplined ambition.",
+      "05": "Guidance through wisdom and experience.",
+      "06": "A passionate and confident partnership.",
+      "07": "Determined movement toward victory.",
+      "08": "Inner strength supports powerful leadership.",
+      "09": "Wisdom gained through experience and reflection.",
+      "10": "A fortunate opportunity for expansion and influence.",
+      "11": "Fair leadership and responsible decisions.",
+      "12": "A need to reconsider plans before acting.",
+      "13": "Transformation of personal power and ambitions.",
+      "14": "Balanced leadership and controlled passion.",
+      "15": "Power struggles, obsession, or misuse of authority.",
+      "16": "Sudden collapse of ego or unstable ambitions.",
+      "17": "Inspiration and hope guide future success.",
+      "18": "Hidden fears or uncertainty behind confidence.",
+      "19": "Success, recognition, and joyful achievement.",
+      "20": "Answering a higher calling with confidence.",
+      "21": "Mastery, fulfillment, and completion of major goals."
+    },
+    "minor": {
+      "cups": {
+        "01": "Passion awakens strong emotions.",
+        "02": "Confident and harmonious partnership.",
+        "03": "Celebration of success and leadership.",
+        "04": "Ignoring emotional opportunities due to pride.",
+        "05": "Disappointment affects motivation.",
+        "06": "Leadership inspired by past experiences.",
+        "07": "Many ambitions and tempting possibilities.",
+        "08": "Leaving behind emotional limitations.",
+        "09": "Confidence helps fulfill desires.",
+        "10": "Strong leadership supports family happiness.",
+        "11": "Creative emotional messages and attraction.",
+        "12": "Action driven by emotional intensity.",
+        "13": "Warmth, care, and emotional maturity.",
+        "14": "Emotional wisdom combined with strong leadership."
+      },
+      "pentacles": {
+        "01": "A successful business or financial opportunity.",
+        "02": "Balancing responsibilities with confidence.",
+        "03": "Skilled leadership within teamwork.",
+        "04": "Possessiveness or fear of losing control.",
+        "05": "Leadership tested by financial hardship.",
+        "06": "Generosity and support from influential people.",
+        "07": "Long-term planning brings rewards.",
+        "08": "Mastery through discipline and hard work.",
+        "09": "Independent success and personal achievement.",
+        "10": "Lasting prosperity and family leadership.",
+        "11": "Ambitious student or creative messenger.",
+        "12": "Bold movement toward material goals.",
+        "13": "Confident and nurturing provider.",
+        "14": "Powerful authority and business success."
+      },
+      "swords": {
+        "01": "Clear vision and decisive leadership.",
+        "02": "Indecision weakens authority.",
+        "03": "Pride may hide emotional pain.",
+        "04": "A wise leader knows when to rest.",
+        "05": "Conflict caused by ego or dominance.",
+        "06": "Leading others toward a better future.",
+        "07": "Strategic thinking or manipulation.",
+        "08": "Mental limitations reduce confidence.",
+        "09": "Fear of failure or pressure of responsibility.",
+        "10": "An ending creates space for renewed ambition.",
+        "11": "Bold communication and energetic ideas.",
+        "12": "Fearless action and strong determination.",
+        "13": "Sharp intellect and independent authority.",
+        "14": "Two powerful personalities competing or cooperating."
+      },
+      "wands": {
+        "01": "Explosive creative power and leadership.",
+        "02": "Strategic planning for future success.",
+        "03": "Expansion of influence and ambitions.",
+        "04": "Celebration of achievements and stability.",
+        "05": "Competition challenges leadership abilities.",
+        "06": "Recognition, honor, and public success.",
+        "07": "Defending authority and personal vision.",
+        "08": "Rapid progress and energetic momentum.",
+        "09": "Persistence despite pressure and responsibility.",
+        "10": "Heavy burdens caused by ambition.",
+        "11": "Adventurous spirit and inspiring communication.",
+        "12": "Bold ambition and fearless pursuit of goals.",
+        "13": "Creative confidence and passionate leadership.",
+        "14": "Ultimate mastery of fire energy and authority."
+      }
+    }
+  }
+}

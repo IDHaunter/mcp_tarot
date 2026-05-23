@@ -1,0 +1,108 @@
+{
+  "name": "The Moon",
+  "meaning_for_today": "Today may bring uncertainty, emotional sensitivity, and hidden truths. Trust your intuition, but avoid making decisions based solely on fear or illusion.",
+  "card_advice": "Look beyond appearances and pay attention to your inner voice. Do not allow confusion, anxiety, or deception to control your choices.",
+  "upright": {
+    "short": "Illusion, intuition, uncertainty, hidden emotions.",
+    "general": "The Moon represents mystery, subconscious fears, emotional uncertainty, and illusion. Things are not as clear as they seem, and hidden information may influence the situation. The card encourages intuition, patience, and careful observation.",
+    "in_love": "Relationships may involve confusion, secrets, emotional insecurity, or mixed signals. Feelings are deep but difficult to understand clearly. Trust and honest communication are necessary.",
+    "in_situation": "The situation lacks clarity and may involve hidden motives or incomplete information. Emotional reactions and uncertainty make decision-making difficult."
+  },
+  "reversed": {
+    "short": "Clarity, truth revealed, overcoming fear, understanding.",
+    "general": "Reversed The Moon indicates that confusion begins to fade and hidden truths come to light. Fear and anxiety lose their influence, allowing greater clarity and emotional stability.",
+    "in_love": "Misunderstandings and emotional uncertainty begin to resolve. Honest communication helps reveal true feelings and restore trust.",
+    "in_situation": "The situation becomes clearer as deception or uncertainty disappears. Facts emerge, making it easier to make informed decisions."
+  },
+  "relations": {
+    "major": {
+      "01": "Naive actions create confusion and uncertainty.",
+      "02": "Hidden knowledge and powerful intuition.",
+      "03": "Emotional sensitivity and creative imagination.",
+      "04": "Unstable control and hidden authority issues.",
+      "05": "Questioning beliefs and spiritual uncertainty.",
+      "06": "Confusing emotions and unclear relationships.",
+      "07": "Difficulty finding direction and focus.",
+      "08": "Inner strength helps overcome fear.",
+      "09": "Isolation deepens intuition and reflection.",
+      "10": "Uncertain changes and unpredictable cycles.",
+      "11": "Truth hidden behind emotional confusion.",
+      "12": "Suspension, uncertainty, and emotional sacrifice.",
+      "13": "Transformation through confronting fears.",
+      "14": "Finding balance during emotional instability.",
+      "15": "Fear, temptation, and emotional manipulation.",
+      "16": "Shocking truths and emotional collapse.",
+      "17": "Hope and healing emerge through intuition.",
+      "18": "Illusion, mystery, and subconscious fears.",
+      "19": "Clarity and joy replace uncertainty.",
+      "20": "Awakening and revelation of hidden truths.",
+      "21": "Completion achieved after overcoming confusion."
+    },
+    "minor": {
+      "cups": {
+        "01": "Uncertain emotions and hidden feelings.",
+        "02": "Confusing romantic signals and emotional doubt.",
+        "03": "False friendships or hidden tensions.",
+        "04": "Emotional dissatisfaction and inner confusion.",
+        "05": "Fear of loss and emotional regret.",
+        "06": "The past influences present emotions.",
+        "07": "Illusions, fantasies, and unrealistic expectations.",
+        "08": "Leaving emotional uncertainty behind.",
+        "09": "Hidden dissatisfaction beneath apparent happiness.",
+        "10": "Family misunderstandings and emotional confusion.",
+        "11": "Emotional curiosity mixed with insecurity.",
+        "12": "Impulsive emotions and unpredictable moods.",
+        "13": "Deep intuition and emotional mystery.",
+        "14": "Emotional control challenged by uncertainty."
+      },
+      "pentacles": {
+        "01": "Unclear financial opportunities or hidden risks.",
+        "02": "Difficulty balancing unstable circumstances.",
+        "03": "Confusion within teamwork or career matters.",
+        "04": "Fear of losing security and control.",
+        "05": "Financial anxiety and uncertainty.",
+        "06": "Unclear motives behind support or generosity.",
+        "07": "Doubt about long-term investments or efforts.",
+        "08": "Distraction and uncertainty at work.",
+        "09": "Hidden insecurity beneath comfort and success.",
+        "10": "Family or financial secrets revealed.",
+        "11": "Inexperience creates uncertainty.",
+        "12": "Unpredictable financial or career movement.",
+        "13": "Practical wisdom hidden beneath calm behavior.",
+        "14": "Control maintained despite emotional uncertainty."
+      },
+      "swords": {
+        "01": "Truth obscured by confusion or deception.",
+        "02": "Fear prevents clear decisions.",
+        "03": "Emotional pain intensified by uncertainty.",
+        "04": "Mental exhaustion and disturbing thoughts.",
+        "05": "Hidden hostility and manipulation.",
+        "06": "Slow transition through emotional confusion.",
+        "07": "Secrets, deception, and hidden motives.",
+        "08": "Feeling trapped by fear and anxiety.",
+        "09": "Nightmares, stress, and emotional suffering.",
+        "10": "Painful truths emerge unexpectedly.",
+        "11": "Immature communication causes misunderstanding.",
+        "12": "Confusing fast-moving events and reactions.",
+        "13": "Cold logic mixed with hidden emotions.",
+        "14": "Mental control and hidden strategy."
+      },
+      "wands": {
+        "01": "Creative inspiration clouded by uncertainty.",
+        "02": "Unclear plans and hesitation about the future.",
+        "03": "Delays and uncertainty in progress.",
+        "04": "Instability hidden beneath celebration.",
+        "05": "Conflict fueled by misunderstanding.",
+        "06": "Recognition overshadowed by doubt.",
+        "07": "Defending yourself against hidden threats.",
+        "08": "Unexpected information creates confusion.",
+        "09": "Paranoia and emotional exhaustion.",
+        "10": "Stress caused by fear and uncertainty.",
+        "11": "Unclear messages and emotional tension.",
+        "12": "Impulsive actions influenced by illusion.",
+        "13": "Strong intuition and emotional intensity.",
+        "14": "Leadership challenged by uncertainty and secrecy."
+      }
+    }
+  }
+}

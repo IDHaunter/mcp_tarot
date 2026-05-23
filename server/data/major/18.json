@@ -1,0 +1,108 @@
+{
+  "name": "The Star",
+  "meaning_for_today": "Today brings hope, inspiration, and emotional healing. Trust in the future and allow optimism to guide your actions.",
+  "card_advice": "Believe in yourself and remain open to new possibilities. Stay calm, follow your inner light, and trust that difficult times are passing.",
+  "upright": {
+    "short": "Hope, inspiration, healing, renewal.",
+    "general": "The Star symbolizes hope, spiritual clarity, healing, and renewed faith in life. It appears after difficult experiences as a sign of recovery and optimism. The card encourages authenticity, inner peace, and trust in the future.",
+    "in_love": "Relationships become more open, sincere, and emotionally healing. Trust and mutual understanding grow stronger. Singles may experience hopeful new romantic opportunities based on honesty and emotional connection.",
+    "in_situation": "The situation improves gradually and brings positive opportunities. Inspiration, calm thinking, and faith in the process help achieve long-term success."
+  },
+  "reversed": {
+    "short": "Doubt, discouragement, lost faith, emotional exhaustion.",
+    "general": "Reversed The Star indicates disappointment, lack of motivation, or loss of hope. Emotional exhaustion and self-doubt block inspiration and healing. The card advises reconnecting with inner strength and optimism.",
+    "in_love": "A relationship may suffer from emotional distance, insecurity, or disappointment. One or both partners struggle to trust the future of the connection.",
+    "in_situation": "The situation feels uncertain due to pessimism or lack of confidence. Progress slows because fear and discouragement replace inspiration and faith."
+  },
+  "relations": {
+    "major": {
+      "01": "A hopeful new beginning and spiritual freedom.",
+      "02": "Intuition guided by inspiration and clarity.",
+      "03": "Creative growth and emotional abundance.",
+      "04": "Stable leadership with a positive vision.",
+      "05": "Spiritual healing and wise guidance.",
+      "06": "A hopeful and emotionally balanced relationship.",
+      "07": "Moving confidently toward success.",
+      "08": "Inner strength supported by faith and optimism.",
+      "09": "Wisdom and healing found through reflection.",
+      "10": "A fortunate turn brings renewed hope.",
+      "11": "Truth and fairness restore balance.",
+      "12": "Patience and surrender lead to enlightenment.",
+      "13": "Healing and renewal after transformation.",
+      "14": "Harmony, peace, and emotional balance.",
+      "15": "Hope helps overcome temptation and fear.",
+      "16": "Recovery and inspiration after chaos.",
+      "17": "Spiritual guidance, hope, and healing.",
+      "18": "Hope challenged by fear and illusion.",
+      "19": "Joy, vitality, and optimism.",
+      "20": "Awakening and spiritual renewal.",
+      "21": "Fulfillment, peace, and complete harmony."
+    },
+    "minor": {
+      "cups": {
+        "01": "A hopeful new emotional beginning.",
+        "02": "Healing and harmony within relationships.",
+        "03": "Joyful friendships and emotional support.",
+        "04": "Renewed emotional interest and inspiration.",
+        "05": "Healing after sadness and disappointment.",
+        "06": "Comfort and hope connected to the past.",
+        "07": "Clarity replaces confusion and illusion.",
+        "08": "Emotional growth through hopeful change.",
+        "09": "Emotional fulfillment and optimism.",
+        "10": "Peaceful family happiness and harmony.",
+        "11": "Inspired emotional curiosity and creativity.",
+        "12": "Romantic optimism and emotional movement.",
+        "13": "Compassion, intuition, and healing energy.",
+        "14": "Emotional maturity and deep understanding."
+      },
+      "pentacles": {
+        "01": "A promising financial or career opportunity.",
+        "02": "Optimism helps adapt to change.",
+        "03": "Creative teamwork and shared inspiration.",
+        "04": "Learning to trust instead of controlling.",
+        "05": "Recovery from hardship and instability.",
+        "06": "Generosity and balanced support.",
+        "07": "Patience rewarded with future success.",
+        "08": "Inspired work and dedication.",
+        "09": "Confidence, comfort, and personal success.",
+        "10": "Long-term stability and hopeful legacy.",
+        "11": "Practical learning guided by inspiration.",
+        "12": "Ambitious movement toward positive goals.",
+        "13": "Practical wisdom and emotional support.",
+        "14": "Reliable leadership with vision and hope."
+      },
+      "swords": {
+        "01": "Mental clarity and truthful inspiration.",
+        "02": "Hope helps resolve difficult choices.",
+        "03": "Healing after heartbreak and pain.",
+        "04": "Restoration and peaceful recovery.",
+        "05": "Moving beyond conflict toward understanding.",
+        "06": "A hopeful transition toward calmer times.",
+        "07": "Honesty and transparency replace deception.",
+        "08": "Freedom from fear and limiting thoughts.",
+        "09": "Hope begins to ease anxiety.",
+        "10": "Recovery after painful endings.",
+        "11": "Curious ideas and inspired communication.",
+        "12": "Fast progress guided by optimism.",
+        "13": "Intelligence balanced with compassion.",
+        "14": "Wise leadership and clear thinking."
+      },
+      "wands": {
+        "01": "Creative inspiration and new energy.",
+        "02": "Optimistic planning and future vision.",
+        "03": "Expansion and progress with confidence.",
+        "04": "Celebration, peace, and joyful harmony.",
+        "05": "Hopeful resolution of conflict.",
+        "06": "Recognition and success through perseverance.",
+        "07": "Defending your beliefs with confidence.",
+        "08": "Positive rapid developments and communication.",
+        "09": "Resilience supported by faith and hope.",
+        "10": "Relief after burdens and stress.",
+        "11": "Exciting messages and inspired communication.",
+        "12": "Adventurous action and positive momentum.",
+        "13": "Confident creativity and warm leadership.",
+        "14": "Strong visionary leadership and inspiration."
+      }
+    }
+  }
+}

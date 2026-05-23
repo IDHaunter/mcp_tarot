@@ -1,0 +1,109 @@
+{
+  "name": "Ten of Wands",
+  "meaning_for_today": "Today may feel heavy with responsibilities and obligations. Although the burden is great, persistence and discipline will help you complete what you started.",
+  "card_advice": "Do not carry everything alone. Learn to prioritize, delegate responsibilities, and avoid exhausting yourself with unnecessary pressure.",
+  "upright": {
+    "short": "Burden, responsibility, hard work, pressure.",
+    "general": "The Ten of Wands represents overwhelming duties, stress, and the weight of obligations. It often appears when success has brought additional responsibilities that drain physical or emotional energy.",
+    "in_love": "Relationships may feel weighed down by emotional pressure, obligations, or unresolved issues. One partner may feel overburdened or emotionally exhausted.",
+    "in_situation": "The situation demands endurance and responsibility. Although progress is possible, too many commitments or expectations may create strain and exhaustion."
+  },
+  "reversed": {
+    "short": "Relief, release, burnout, inability to cope.",
+    "general": "The reversed Ten of Wands points to releasing burdens, delegating responsibilities, or reaching the limit of emotional and physical endurance. It may also indicate avoidance of duties.",
+    "in_love": "Emotional pressure begins to ease, or one partner withdraws from responsibilities within the relationship. Unspoken stress may finally surface.",
+    "in_situation": "The situation improves when unnecessary burdens are removed. It is important to recognize personal limits and seek support where needed."
+  },
+  "relations": {
+    "major": {
+      "01": "A difficult new journey with heavy responsibilities.",
+      "02": "Strong willpower helps manage pressure.",
+      "03": "Inner intuition reveals emotional exhaustion.",
+      "04": "Creative success creates additional duties.",
+      "05": "Authority and discipline increase responsibility.",
+      "06": "Obligations connected to traditions or rules.",
+      "07": "Relationships feel strained by pressure.",
+      "08": "Determination helps carry heavy burdens.",
+      "09": "Inner strength supports endurance.",
+      "10": "A period of reflection is needed for recovery.",
+      "11": "Fate brings demanding responsibilities.",
+      "12": "Justice requires accountability and effort.",
+      "13": "A pause or sacrifice before relief arrives.",
+      "14": "Transformation through hard work and struggle.",
+      "15": "Balance and moderation reduce stress.",
+      "16": "Attachments and fears create extra burdens.",
+      "17": "Sudden disruptions increase pressure.",
+      "18": "Hope helps endure difficult circumstances.",
+      "19": "Confusion and anxiety worsen exhaustion.",
+      "20": "Success comes after persistent effort.",
+      "21": "A powerful realization through hardship.",
+      "22": "Completion and fulfillment after carrying heavy loads."
+    },
+    "minor": {
+      "cups": {
+        "01": "Emotional burdens connected to new feelings.",
+        "02": "Relationships strained by obligations.",
+        "03": "Social responsibilities become exhausting.",
+        "04": "Emotional fatigue and dissatisfaction.",
+        "05": "Carrying pain from past disappointments.",
+        "06": "Past memories create emotional pressure.",
+        "07": "Too many emotional choices create stress.",
+        "08": "Leaving behind emotional burdens.",
+        "09": "Success feels heavy despite satisfaction.",
+        "10": "Family obligations and emotional responsibility.",
+        "11": "Emotional messages bring pressure.",
+        "12": "Romantic pursuit becomes demanding.",
+        "13": "Compassion helps ease burdens.",
+        "14": "Emotional maturity supports endurance."
+      },
+      "pentacles": {
+        "01": "Financial opportunities require hard work.",
+        "02": "Balancing too many responsibilities.",
+        "03": "Heavy workload within teamwork.",
+        "04": "Fear of losing stability increases pressure.",
+        "05": "Financial hardship creates exhaustion.",
+        "06": "Support from others helps reduce stress.",
+        "07": "Patience is tested by slow progress.",
+        "08": "Overwork and constant effort.",
+        "09": "Success brings increased responsibility.",
+        "10": "Family and financial obligations become overwhelming.",
+        "11": "Practical news adds responsibilities.",
+        "12": "Determined effort despite exhaustion.",
+        "13": "Strong leadership under pressure.",
+        "14": "Authority and discipline maintain stability."
+      },
+      "swords": {
+        "01": "Mental clarity helps organize burdens.",
+        "02": "Difficult decisions increase stress.",
+        "03": "Emotional pain becomes overwhelming.",
+        "04": "Rest and recovery are urgently needed.",
+        "05": "Conflict creates additional pressure.",
+        "06": "Moving away from exhausting conditions.",
+        "07": "Hidden problems increase emotional strain.",
+        "08": "Feeling trapped by obligations.",
+        "09": "Anxiety and burnout intensify.",
+        "10": "A painful ending after prolonged struggle.",
+        "11": "Important information creates urgency.",
+        "12": "Determined action despite heavy stress.",
+        "13": "Sharp thinking helps manage difficulties.",
+        "14": "Strategic leadership under pressure."
+      },
+      "wands": {
+        "01": "A new opportunity carries major responsibilities.",
+        "02": "Long-term plans create pressure.",
+        "03": "Expansion increases workload.",
+        "04": "Responsibilities connected to family or celebration.",
+        "05": "Competition and conflict become exhausting.",
+        "06": "Recognition brings additional duties.",
+        "07": "Defending achievements drains energy.",
+        "08": "Rapid developments create stress.",
+        "09": "Persistence despite exhaustion and pressure.",
+        "10": "Double emphasis on burden and responsibility.",
+        "11": "Passionate communication adds intensity.",
+        "12": "Bold actions require endurance.",
+        "13": "Confidence supports carrying heavy duties.",
+        "14": "Leadership responsibilities become overwhelming."
+      }
+    }
+  }
+}

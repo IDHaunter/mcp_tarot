@@ -1,0 +1,64 @@
+{
+    "name": "Four of Pentacles",
+    "meaning_for_today": "It is worth considering whether the direction of your efforts is chosen correctly. It often happens that the card indicates that a person spends all their strength on actions that only harm the implementation of their plans. Receiving such a card of the day, you need to think: is the day planned correctly, is the motivation of the alleged actions worthy. Otherwise, you can get something opposite to what is desired.",
+    "card_advice": "You can and should defend your opinion, protect your interests. It is also useful to 'put in their place' fools and boors. But you should not be an aggressor at the same time. It is very useful to comprehend and use the gained life experience in further plans, especially if you happened to experience failure.",
+    "upright": {
+        "short": "Greed, avarice, gift, inheritance",
+        "general": "The Four of Pentacles is a symbol of boundaries—of what is right, useful, permissible, and possible. In the upright position, this card indicates character traits such as honesty, practicality, business acumen, keeping one's word, and adherence to the law and established norms of behavior. The arcana recommends always carefully considering your actions and drawing up a step-by-step plan before taking on the implementation of any design. Such an approach to affairs portends success. In some cases, the card hints at the fortune teller receiving a certain valuable (not necessarily in a monetary sense) offering or gift. Also, this card can indicate a person who is characterized by healthy calculation in financial matters.",
+        "in_love": "The meaning of the card in an upright position in such a reading is contradictory. The best option is an indication of a proven, stable relationship in which the partners have long learned to understand each other, maintain absolute fidelity, and are a support, pillar, and reliable rear for each other. Another option, worse—a possessive component is present in the relationship. This is not necessarily bad, but it should alert you. Possessive feelings in love can generate both increased care and attention to the well-being of a partner, and such restless jealousy that Othello will seem like an angel of patience. The Four of Pentacles may indicate too slow development of relationships. One of the partners (perhaps both) ponders over a simple question for too long: what do these relationships mean to them, and what to do with them next.",
+        "in_situation": "For any situation, this card is a good omen. It indicates that everything will go as planned, and the goal will be achieved in the planned way and within the established timeframe. Possible small complications will be easily eliminated, since the situation is completely controlled by the fortune teller. If it was about work, the card can be interpreted as a stable position, a quiet but reliable success, material well-being. It does not recommend changing jobs—you can expect success in your current one. At the same time, the card indicates that in this situation a person is interested only in the pragmatic, material side of the issue—it is unlikely that they will accomplish something truly significant."
+    },
+    "reversed": {
+        "short": "Timidness, suspicion, selfishness, quarrels",
+        "general": "In the reversed position, the card is often viewed as a characteristic of a person's attitude toward matters of material well-being. This card indicates that the root of the fortune teller's financial problems lies in the inability to abstain from extremes—they are either a miser or a spendthrift and squanderer. The arcana characterizes a person as disorganized, unable to plan their actions and strictly adhere to a plan. That is why the card falls to people who are not free, too dependent on social conventions, the will of other people, as well as excessively burdened with work and various affairs. A reversed card can characterize a conservative in the worst sense of the word—a principled opponent of any changes, an enemy of progress. At the same time, the appearance of this card often promises such a retrograde considerable trouble.",
+        "in_love": "In the reversed position, the card falls to those for whom marriage is just a stamp in the passport. The card says that for a person, money, the material and domestic aspect, is the most important thing. Such an attitude toward life will inevitably lead to conflicts with relatives or a partner on the basis of the distribution of income and its amount. The reversed Four of Pentacles clearly states: the relationship is in serious danger of being 'eaten up by everyday routine'.",
+        "in_situation": "The meaning of the card in the reversed position is quite diverse. Thus, it may indicate that the situation will develop in an undesirable way due to external interference. Another option is that the person themselves set the priorities incorrectly when choosing a course of action (took the secondary for the main thing), and this threatens the collapse of all their plans. The card can say that a person spends too much energy on resolving an issue, but does it unproductively due to the lack of a clear plan and the ability to organize affairs."
+    },
+    "relations": {
+        "major": {
+            "01": "Greed leading to ruin; bad habits; departure from the familiar",
+            "02": "Collect resources to open your own business",
+            "03": "Do not let information come to light",
+            "04": "Control over the expenditure of funds that brings profit",
+            "05": "Accumulation of funds in the family or business",
+            "06": "Show calloused indifference / callousness",
+            "07": "Possessiveness in a relationship",
+            "08": "'Break the piggy bank'",
+            "09": "Accumulate strength, energy",
+            "10": "Stagnation",
+            "11": "Rigidity leading to instability",
+            "12": "Not paying back a debt; withholding money",
+            "13": "Vain sacrifices for the sake of accumulation",
+            "14": "What has been accumulated will go to ruin",
+            "15": "Finding a balance in spending and the desire to save",
+            "16": "Material dependence; acquisitiveness; pathological hoarding",
+            "17": "Bankruptcy, ruin; financial pyramid; mismanagement; embezzlement",
+            "18": "Save for the realization of your dream",
+            "19": "Apparent security",
+            "20": "Investments that yield profit",
+            "21": "Past investments bear fruit",
+            "22": "Lay a foundation; accumulate the necessary amount"
+        },
+        "minor": {
+            "cups": {},
+            "pentacles": {},
+            "swords": {},
+            "wands": {
+                "01": "Save money for something alluring",
+                "02": "Give up on prospects",
+                "03": "Money and growth",
+                "04": "Achieve what was planned through financial discipline",
+                "05": "Disagreements based on selfish interests; disorder",
+                "06": "Sole financial management",
+                "07": "An attempt to pull the blanket over oneself",
+                "08": "Inheritance",
+                "09": "Suspect someone of selfishness; a quarrel over inheritance",
+                "10": "Stagnation",
+                "11": "Intellectual stupor",
+                "12": "Squandering a fortune",
+                "13": "Covetousness",
+                "14": "Enterprise / resourcefulness"
+            }
+        }
+    }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "The Emperor",
+  "meaning_for_today": "Today requires discipline, structure, confidence, and responsibility. Clear leadership and rational decisions will help achieve stability and success.",
+  "card_advice": "Take control of the situation with wisdom and calm authority. Build solid foundations, stay organized, and act with confidence and responsibility.",
+  "upright": {
+    "short": "Authority, stability, discipline, leadership, structure.",
+    "general": "The Emperor represents order, control, stability, and strong leadership. This card symbolizes logic, responsibility, protection, and the ability to create reliable structures in life. It often points to maturity, authority, and practical decision-making.",
+    "in_love": "In relationships, The Emperor signifies stability, loyalty, protection, and long-term commitment. A partner may take a dominant or guiding role. The card favors dependable and serious relationships.",
+    "in_situation": "The situation requires organization, discipline, and strategic thinking. Success comes through planning, responsibility, and maintaining control over emotions and actions."
+  },
+  "reversed": {
+    "short": "Control issues, rigidity, dominance, instability, stubbornness.",
+    "general": "Reversed, The Emperor may indicate abuse of power, excessive control, stubbornness, emotional coldness, or lack of structure. It can also reflect insecurity hidden behind dominance or difficulties with authority.",
+    "in_love": "In love readings, the reversed Emperor may point to controlling behavior, emotional distance, power struggles, or lack of balance in relationships. One partner may become overly dominant or inflexible.",
+    "in_situation": "The situation may suffer from disorder, rigidity, or misuse of authority. The card advises avoiding excessive control and learning to adapt more flexibly."
+  },
+  "relations": {
+    "major": {
+      "01": "A bold new direction gains structure.",
+      "02": "Skill and discipline create success.",
+      "03": "Balance between nurturing and authority.",
+      "04": "Strong control and stable foundations.",
+      "05": "Respect for tradition and leadership.",
+      "06": "Responsible choices in relationships.",
+      "07": "Victory through determination and discipline.",
+      "08": "Inner strength supports leadership.",
+      "09": "Wisdom and experience guide decisions.",
+      "10": "Control during changing circumstances.",
+      "11": "Justice and responsibility go together.",
+      "12": "Need to release rigid control.",
+      "13": "Transformation of power and authority.",
+      "14": "Balanced leadership and moderation.",
+      "15": "Danger of domination or obsession with power.",
+      "16": "Collapse of unstable structures.",
+      "17": "Hope and vision inspire leadership.",
+      "18": "Hidden fears weaken authority.",
+      "19": "Confidence and successful leadership.",
+      "20": "Awakening to true responsibility.",
+      "21": "Mastery, achievement, and stability."
+    },
+    "minor": {
+      "cups": {
+        "01": "Emotional stability supports new love.",
+        "02": "Balanced and committed partnership.",
+        "03": "Leadership within social harmony.",
+        "04": "Emotional rigidity creates distance.",
+        "05": "Control helps recover from loss.",
+        "06": "Traditional family values and memories.",
+        "07": "Need for realistic emotional choices.",
+        "08": "Leaving emotional uncertainty behind.",
+        "09": "Material and emotional satisfaction.",
+        "10": "Strong family structure and stability.",
+        "11": "A disciplined emotional message.",
+        "12": "Determined pursuit of love.",
+        "13": "Protective and reliable emotional support.",
+        "14": "Emotionally controlled and responsible leadership."
+      },
+      "pentacles": {
+        "01": "Strong foundation for financial success.",
+        "02": "Managing responsibilities wisely.",
+        "03": "Leadership in teamwork and business.",
+        "04": "Excessive attachment to control or wealth.",
+        "05": "Authority tested during hardship.",
+        "06": "Fair distribution of resources.",
+        "07": "Long-term planning leads to success.",
+        "08": "Discipline and hard work bring mastery.",
+        "09": "Financial independence and security.",
+        "10": "Legacy, family wealth, and tradition.",
+        "11": "Practical learning and responsibility.",
+        "12": "Ambitious action toward success.",
+        "13": "Reliable and practical leadership.",
+        "14": "Powerful financial and strategic control."
+      },
+      "swords": {
+        "01": "Clear authority and decisive thinking.",
+        "02": "Difficulty making firm decisions.",
+        "03": "Control cannot fully prevent pain.",
+        "04": "Need for rest and strategic reflection.",
+        "05": "Conflict caused by dominance or pride.",
+        "06": "Leading others toward stability.",
+        "07": "Manipulation or misuse of authority.",
+        "08": "Rigid thinking creates limitations.",
+        "09": "Fear of losing control.",
+        "10": "A collapse of authority or structure.",
+        "11": "Curious but disciplined communication.",
+        "12": "Fast strategic action and decisions.",
+        "13": "Sharp intellect and emotional detachment.",
+        "14": "Intellectual mastery and authority."
+      },
+      "wands": {
+        "01": "Controlled and focused ambition.",
+        "02": "Strategic planning for expansion.",
+        "03": "Leadership brings growth and progress.",
+        "04": "Stable home and secure foundations.",
+        "05": "Competition for authority and influence.",
+        "06": "Recognition and respected leadership.",
+        "07": "Defending power and achievements.",
+        "08": "Rapid progress through organization.",
+        "09": "Persistence and defensive strength.",
+        "10": "Heavy responsibilities and pressure.",
+        "11": "A disciplined new opportunity.",
+        "12": "Bold and ambitious leadership.",
+        "13": "Confident and charismatic authority.",
+        "14": "Mastery, vision, and entrepreneurial power."
+      }
+    }
+  }
+}

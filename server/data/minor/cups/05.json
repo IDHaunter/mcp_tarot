@@ -1,0 +1,79 @@
+{
+  "name": "Five of Cups",
+  "meaning_for_today": "Today may bring disappointment, regret, or emotional sadness. However, not everything is lost — support and new opportunities still remain nearby.",
+  "card_advice": "Do not focus only on losses and failures. Accept the past, allow yourself to heal, and notice the opportunities that still exist.",
+  "upright": {
+    "short": "Loss, disappointment, regret, grief, emotional pain.",
+    "general": "The Five of Cups symbolizes sadness, emotional disappointment, regret, and focusing on what has been lost. A person may struggle to move on from painful experiences or missed opportunities. The card reminds that hope and support still remain, even in difficult times.",
+    "in_love": "Heartbreak, disappointment, emotional distance, or regret in relationships. Old wounds or unresolved emotions may interfere with harmony.",
+    "in_situation": "The situation may involve setbacks, emotional frustration, or disappointment. It is important not to lose hope and to recognize the possibilities that still remain."
+  },
+  "reversed": {
+    "short": "Healing, acceptance, emotional recovery, moving forward.",
+    "general": "Reversed, the Five of Cups indicates emotional healing, acceptance of the past, and recovery after disappointment. A person begins to let go of pain and open up to new possibilities.",
+    "in_love": "Reconciliation, emotional healing, forgiveness, or readiness to move on from past relationship pain.",
+    "in_situation": "The situation gradually improves as emotional wounds heal and optimism returns. There is an opportunity for renewal and positive change."
+  },
+  "relations": {
+    "major": {
+      "01": "Carelessness leading to emotional disappointment.",
+      "02": "Missed opportunities because of emotional focus on loss.",
+      "03": "Hidden grief and emotional sensitivity.",
+      "04": "Need for emotional comfort and support.",
+      "05": "Emotional rigidity and inability to let go.",
+      "06": "Questioning faith, values, or emotional beliefs.",
+      "07": "Painful choices and disappointment in love.",
+      "08": "Difficulty moving forward emotionally.",
+      "09": "Strength through emotional suffering.",
+      "10": "Loneliness, grief, emotional withdrawal.",
+      "11": "A chance for emotional recovery and change.",
+      "12": "Need to accept responsibility and emotional truth.",
+      "13": "Sacrifice, loss, emotional stagnation.",
+      "14": "Transformation through grief and emotional healing.",
+      "15": "Finding balance after emotional pain.",
+      "16": "Emotional dependence, destructive sadness.",
+      "17": "Sudden loss or emotional collapse.",
+      "18": "Hope for healing and emotional renewal.",
+      "19": "Fear, confusion, emotional uncertainty.",
+      "20": "Recovery of joy and emotional clarity.",
+      "21": "Awakening, forgiveness, emotional rebirth.",
+      "22": "Completion of emotional suffering and renewal."
+    },
+    "minor": {
+      "cups": {
+        "01": "Lost emotional opportunity or heartbreak.",
+        "02": "Conflict, separation, emotional imbalance.",
+        "03": "Disappointment within friendships or celebrations.",
+        "04": "Emotional withdrawal and sadness.",
+        "05": "Deep grief, regret, emotional pain.",
+        "06": "Sad memories and emotional nostalgia.",
+        "07": "Illusions and unrealistic emotional expectations.",
+        "08": "Leaving emotional pain behind.",
+        "09": "Temporary comfort masking sadness.",
+        "10": "Difficulties appreciating emotional harmony.",
+        "11": "Immature emotional reactions and vulnerability.",
+        "12": "Emotional instability and disappointment.",
+        "13": "Compassion, emotional support, healing intuition.",
+        "14": "Wise emotional guidance during difficult times."
+      },
+      "pentacles": {},
+      "swords": {},
+      "wands": {
+        "01": "Loss of motivation or inspiration.",
+        "02": "Difficult choices caused by emotional disappointment.",
+        "03": "Setbacks in cooperation or plans.",
+        "04": "Feeling isolated despite support from others.",
+        "05": "Conflict, rivalry, emotional frustration.",
+        "06": "Lack of recognition or failed expectations.",
+        "07": "Defending oneself after disappointment.",
+        "08": "Unexpected bad news or emotional tension.",
+        "09": "Anxiety, guilt, emotional suffering.",
+        "10": "Emotional exhaustion and hopelessness.",
+        "11": "Loss of enthusiasm and creative uncertainty.",
+        "12": "Impulsive emotional reactions and instability.",
+        "13": "Need for emotional understanding and warmth.",
+        "14": "Supportive partnership helping emotional recovery."
+      }
+    }
+  }
+}

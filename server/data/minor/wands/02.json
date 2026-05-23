@@ -1,0 +1,108 @@
+{
+  "name": "Two of Wands",
+  "meaning_for_today": "Today is a good time for planning and looking ahead. New opportunities may appear, but success depends on making confident decisions and expanding your horizons.",
+  "card_advice": "Think strategically and do not be afraid to leave your comfort zone. Careful planning combined with bold action will lead to progress.",
+  "upright": {
+    "short": "Planning, ambition, decisions, progress, vision, expansion.",
+    "general": "The Two of Wands represents future planning, ambition, and the desire to explore new possibilities. It symbolizes personal power, strategic thinking, and preparation for growth. The card encourages stepping beyond limitations and taking control of your direction.",
+    "in_love": "In relationships, the Two of Wands suggests considering the future of the partnership. It may indicate long-distance relationships, shared goals, or important romantic decisions.",
+    "in_situation": "A situation requires planning, foresight, and confidence. New opportunities are available, but success depends on making clear and purposeful choices."
+  },
+  "reversed": {
+    "short": "Fear of change, indecision, delays, lack of planning, missed opportunities.",
+    "general": "Reversed, the Two of Wands points to hesitation, fear of the unknown, or poor preparation. Opportunities may be missed because of insecurity or unwillingness to take risks.",
+    "in_love": "Relationships may suffer from uncertainty about the future, fear of commitment, or conflicting goals.",
+    "in_situation": "Progress is slowed by indecision or lack of direction. Better planning and stronger confidence are needed before moving forward."
+  },
+  "relations": {
+    "major": {
+      "01": "A bold decision to begin a new journey.",
+      "02": "Careful planning turns ideas into reality.",
+      "03": "Creative growth and expansion of possibilities.",
+      "04": "Strategic leadership and structured planning.",
+      "05": "Seeking guidance before making decisions.",
+      "06": "Choosing between love and personal ambitions.",
+      "07": "Confidence and determination lead to progress.",
+      "08": "Inner courage supports future plans.",
+      "09": "Reflection helps clarify long-term goals.",
+      "10": "A turning point opens new opportunities.",
+      "11": "Balanced decisions create stable progress.",
+      "12": "A pause to reconsider direction and priorities.",
+      "13": "Transformation leads to new ambitions.",
+      "14": "Patience and moderation improve planning.",
+      "15": "Fear of failure or unhealthy ambition.",
+      "16": "Unexpected disruptions change future plans.",
+      "17": "Hope and inspiration guide expansion.",
+      "18": "Uncertainty clouds judgment and planning.",
+      "19": "Success and confidence in chosen direction.",
+      "20": "A call to pursue a greater purpose.",
+      "21": "Achievement and expansion into a new phase."
+    },
+    "minor": {
+      "cups": {
+        "01": "New emotional opportunities influence future plans.",
+        "02": "Shared goals and mutual attraction.",
+        "03": "Celebrating progress and future possibilities.",
+        "04": "Fear of change causes emotional stagnation.",
+        "05": "Disappointment affects confidence in the future.",
+        "06": "Past experiences shape future decisions.",
+        "07": "Too many dreams create uncertainty.",
+        "08": "Leaving comfort behind to seek growth.",
+        "09": "Plans lead to emotional fulfillment.",
+        "10": "Building a happy and stable future together.",
+        "11": "Exciting messages and romantic possibilities.",
+        "12": "Passionate movement toward emotional goals.",
+        "13": "Supportive guidance and emotional confidence.",
+        "14": "Emotional maturity strengthens decision-making."
+      },
+      "pentacles": {
+        "01": "A new financial or career opportunity.",
+        "02": "Balancing responsibilities while planning ahead.",
+        "03": "Collaboration helps achieve long-term goals.",
+        "04": "Fear of loss limits expansion.",
+        "05": "Financial worries slow progress.",
+        "06": "Support and resources assist development.",
+        "07": "Patience is needed for future rewards.",
+        "08": "Skill-building prepares for success.",
+        "09": "Independent achievements and confidence.",
+        "10": "Long-term prosperity and stability.",
+        "11": "Practical learning and new ambitions.",
+        "12": "Taking bold action toward success.",
+        "13": "Practical support and nurturing leadership.",
+        "14": "Strong leadership ensures material growth."
+      },
+      "swords": {
+        "01": "Clear vision and strategic thinking.",
+        "02": "Indecision prevents progress.",
+        "03": "Emotional pain complicates future choices.",
+        "04": "Rest and reflection improve planning.",
+        "05": "Conflict or competition disrupts goals.",
+        "06": "Moving toward better opportunities.",
+        "07": "Hidden motives affect decision-making.",
+        "08": "Fear and self-doubt limit expansion.",
+        "09": "Anxiety about the future creates stress.",
+        "10": "An ending forces a change in direction.",
+        "11": "Curiosity and communication inspire new ideas.",
+        "12": "Quick action accelerates progress.",
+        "13": "Intelligence and independence support success.",
+        "14": "Confident leadership guides future plans."
+      },
+      "wands": {
+        "01": "A powerful spark inspires future action.",
+        "02": "Strategic planning and expanding ambitions.",
+        "03": "Growth, travel, and exploration.",
+        "04": "Celebration of progress and stability.",
+        "05": "Competition challenges future goals.",
+        "06": "Recognition and successful advancement.",
+        "07": "Defending personal vision and ambitions.",
+        "08": "Rapid developments and movement forward.",
+        "09": "Persistence despite uncertainty.",
+        "10": "Heavy responsibilities slow expansion.",
+        "11": "Curious exploration and exciting messages.",
+        "12": "Bold ambition and adventurous action.",
+        "13": "Creative confidence supports leadership.",
+        "14": "Visionary authority and strategic mastery."
+      }
+    }
+  }
+}

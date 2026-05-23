@@ -1,0 +1,108 @@
+{
+  "name": "Queen of Wands",
+  "meaning_for_today": "Today brings confidence, charm, and creative energy. You can attract attention, inspire others, and achieve success through determination and optimism.",
+  "card_advice": "Believe in your abilities and express yourself openly. Stay warm and confident, but avoid becoming overly demanding or jealous.",
+  "upright": {
+    "short": "Confidence, charisma, creativity, independence, passion, optimism.",
+    "general": "The Queen of Wands symbolizes a strong, attractive, and energetic person who knows how to inspire others. She represents creativity, self-confidence, leadership, and emotional warmth. This card encourages bold self-expression, independence, and trust in personal talents.",
+    "in_love": "In relationships, the Queen of Wands signifies passion, attraction, loyalty, and emotional openness. It may describe a confident and caring partner who brings warmth and excitement into the relationship.",
+    "in_situation": "Success comes through charisma, initiative, and creative thinking. The situation favors social activity, leadership, and personal influence."
+  },
+  "reversed": {
+    "short": "Jealousy, insecurity, manipulation, arrogance, emotional volatility.",
+    "general": "Reversed, the Queen of Wands may indicate low self-esteem hidden behind pride, controlling behavior, selfishness, or emotional instability. Energy may become chaotic or overly dramatic.",
+    "in_love": "There may be jealousy, possessiveness, emotional manipulation, or unstable passion within the relationship.",
+    "in_situation": "A lack of confidence or misuse of influence creates tension. It is important to regain emotional balance and avoid acting impulsively."
+  },
+  "relations": {
+    "major": {
+      "01": "A confident spirit ready for adventure.",
+      "02": "Creative power and personal magnetism.",
+      "03": "Strong feminine energy and abundance.",
+      "04": "Leadership balanced with warmth and charm.",
+      "05": "Guidance through wisdom and intuition.",
+      "06": "A passionate and harmonious relationship.",
+      "07": "Confidence leads to victory and progress.",
+      "08": "Inner strength and emotional resilience.",
+      "09": "Wisdom gained through self-reflection.",
+      "10": "A fortunate period for personal success.",
+      "11": "Fairness and balanced judgment support growth.",
+      "12": "A pause to reconsider emotional priorities.",
+      "13": "Transformation strengthens confidence and independence.",
+      "14": "Balanced passion and emotional harmony.",
+      "15": "Seduction, jealousy, or misuse of charm.",
+      "16": "Sudden emotional upheaval or damaged pride.",
+      "17": "Hope, inspiration, and healing energy.",
+      "18": "Hidden fears beneath outward confidence.",
+      "19": "Joy, success, and radiant self-expression.",
+      "20": "Awakening to personal purpose and influence.",
+      "21": "Completion, fulfillment, and recognition."
+    },
+    "minor": {
+      "cups": {
+        "01": "Passionate emotions and romantic attraction.",
+        "02": "A confident and loving partnership.",
+        "03": "Joyful celebrations and social success.",
+        "04": "Ignoring emotional opportunities out of pride.",
+        "05": "Disappointment affects self-confidence.",
+        "06": "Warm memories and emotional inspiration.",
+        "07": "Many emotional possibilities and temptations.",
+        "08": "Leaving emotional limitations behind.",
+        "09": "Emotional fulfillment and satisfaction.",
+        "10": "Harmony, love, and family happiness.",
+        "11": "Flirtation and exciting emotional messages.",
+        "12": "Romantic action and emotional intensity.",
+        "13": "Emotional maturity and caring support.",
+        "14": "Strong emotional leadership and compassion."
+      },
+      "pentacles": {
+        "01": "Creative opportunities bring financial growth.",
+        "02": "Balancing ambitions and responsibilities.",
+        "03": "Creative teamwork and productive collaboration.",
+        "04": "Possessiveness or fear of losing stability.",
+        "05": "Financial stress affects confidence.",
+        "06": "Generosity and supportive relationships.",
+        "07": "Patience leads to long-term success.",
+        "08": "Skill development through dedication.",
+        "09": "Independent success and self-sufficiency.",
+        "10": "Stable prosperity and family success.",
+        "11": "Creative learning and practical inspiration.",
+        "12": "Bold action toward career goals.",
+        "13": "Warmth, stability, and practical care.",
+        "14": "Powerful leadership and material success."
+      },
+      "swords": {
+        "01": "Clear thinking strengthens confidence.",
+        "02": "Indecision creates emotional tension.",
+        "03": "Emotional pain hidden behind confidence.",
+        "04": "Rest restores creative energy.",
+        "05": "Conflict caused by pride or stubbornness.",
+        "06": "Moving toward emotional and mental clarity.",
+        "07": "Charm used for manipulation or secrecy.",
+        "08": "Self-doubt weakens personal power.",
+        "09": "Anxiety damages confidence and optimism.",
+        "10": "An ending clears the path for renewal.",
+        "11": "Curious communication and lively energy.",
+        "12": "Passionate action and fearless movement.",
+        "13": "Sharp intuition and independent thinking.",
+        "14": "Strong personalities working together or competing."
+      },
+      "wands": {
+        "01": "Powerful creative inspiration and attraction.",
+        "02": "Confident planning and future vision.",
+        "03": "Expansion of influence and opportunities.",
+        "04": "Celebration, joy, and social harmony.",
+        "05": "Competition challenges confidence.",
+        "06": "Recognition, popularity, and success.",
+        "07": "Defending personal beliefs with confidence.",
+        "08": "Rapid progress and exciting developments.",
+        "09": "Persistence and courage through challenges.",
+        "10": "Pressure caused by excessive responsibility.",
+        "11": "Playful energy and adventurous spirit.",
+        "12": "Bold ambition and passionate movement.",
+        "13": "Strong creative energy and feminine leadership.",
+        "14": "Powerful fire energy and shared authority."
+      }
+    }
+  }
+}

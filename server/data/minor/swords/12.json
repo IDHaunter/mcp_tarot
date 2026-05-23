@@ -1,0 +1,92 @@
+{
+    "name": "Knight of Swords",
+    "meaning_for_today": "Today brings fast movement, decisive action, and a strong push toward goals. It encourages you to act on ideas quickly but with awareness of potential impulsiveness.",
+    "card_advice": "Move forward with courage and clarity, but avoid rushing without thinking. Balance speed with strategy to prevent unnecessary conflict or mistakes.",
+    "upright": {
+        "short": "Action, ambition, speed, and determination.",
+        "general": "The Knight of Swords represents rapid movement, intellectual drive, and strong determination. It reflects a person or energy that pursues goals with intensity and confidence, often prioritizing logic and results over emotions. This card can indicate swift changes, bold decisions, and a strong desire to overcome obstacles.",
+        "in_love": "In love, it can suggest fast-developing relationships or passionate but sometimes impulsive connections. Communication may be direct, and emotions can escalate quickly.",
+        "in_situation": "In situations, it indicates rapid developments, urgent decisions, and decisive action. It is important to stay focused to avoid reckless mistakes or unnecessary conflicts."
+    },
+    "reversed": {
+        "short": "Impulsiveness, recklessness, aggression, scattered energy.",
+        "general": "Reversed, the Knight of Swords can indicate rushing without planning, verbal conflicts, or mental aggression. It may reflect scattered thinking or actions taken without considering consequences.",
+        "in_love": "In relationships, it can point to arguments, miscommunication, or emotional intensity that becomes destructive. It warns against pushing too hard or acting without sensitivity.",
+        "in_situation": "In situations, it suggests chaos, poor planning, or acting too quickly without proper analysis. It warns to slow down and reconsider direction."
+    },
+    "relations": {
+        "major": {
+            "01": "New beginnings approached with urgency and bold action.",
+            "02": "Using intellect and willpower to initiate rapid progress.",
+            "03": "Hidden knowledge may be pursued aggressively.",
+            "04": "Authority or structure challenged through strong action.",
+            "05": "Traditional systems questioned through bold reasoning.",
+            "06": "Choices made quickly, sometimes without reflection.",
+            "07": "Fast decisions in relationships or partnerships.",
+            "08": "Very rapid movement and unstoppable momentum.",
+            "09": "Mental intensity or anxiety driving action.",
+            "10": "Quick transitions or sudden endings.",
+            "11": "Unexpected changes requiring fast adaptation.",
+            "12": "New perspective gained through abrupt realization.",
+            "13": "Sudden shifts in mindset or direction.",
+            "14": "Rapid transformation or unavoidable change.",
+            "15": "Breaking restrictions through forceful action.",
+            "16": "Sudden disruption caused by impulsive decisions.",
+            "17": "Hope pursued with urgency and determination.",
+            "18": "Confusion acted upon too quickly.",
+            "19": "Success achieved through bold initiative.",
+            "20": "Judgment made rapidly and decisively.",
+            "21": "Completion reached through fast progression."
+        },
+        "minor": {
+            "cups": {
+                "01": "Emotional beginnings driven by excitement.",
+                "02": "Fast emotional exchanges or declarations.",
+                "03": "Social events happening quickly.",
+                "04": "Emotional withdrawal due to rushed feelings.",
+                "05": "Emotional loss triggered by impulsive actions.",
+                "06": "Fast resurfacing of past emotional memories.",
+                "07": "Emotional confusion intensified by haste.",
+                "08": "Quick emotional departure or change.",
+                "09": "Wish fulfillment pursued impulsively.",
+                "10": "Emotional outcomes shaped by fast decisions."
+            },
+            "pentacles": {
+                "01": "Fast financial opportunities or decisions.",
+                "02": "Quick balancing of resources.",
+                "03": "Rapid collaboration in work or projects.",
+                "04": "Hasty financial control or decisions.",
+                "05": "Sudden financial challenges.",
+                "06": "Quick exchanges of resources or help.",
+                "07": "Impatient evaluation of progress.",
+                "08": "Fast learning and skill development.",
+                "09": "Quick independent success or decisions.",
+                "10": "Rapid developments in long-term matters."
+            },
+            "swords": {
+                "01": "Instant clarity or sudden realization.",
+                "02": "Fast decisions under pressure.",
+                "03": "Quick emotional or mental conflict.",
+                "04": "Brief pause before rapid movement.",
+                "05": "Sudden conflict or verbal disputes.",
+                "06": "Fast transition or relocation.",
+                "07": "Swift strategy or exposure of deception.",
+                "08": "Mental pressure causing rushed thinking.",
+                "09": "Anxiety escalating quickly.",
+                "10": "Sudden endings or breakthroughs."
+            },
+            "wands": {
+                "01": "Fast initiation of new projects.",
+                "02": "Quick planning and future decisions.",
+                "03": "Rapid expansion of ideas.",
+                "04": "Sudden stability or celebration.",
+                "05": "Quick conflicts or competition.",
+                "06": "Fast victory or recognition.",
+                "07": "Rapid defense of position.",
+                "08": "Swift movement and communication.",
+                "09": "Fast resilience under pressure.",
+                "10": "Quick accumulation of responsibilities."
+            }
+        }
+    }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Ace of Wands",
+  "meaning_for_today": "A powerful spark of inspiration enters your life today. It is the right moment to begin something new, act boldly, and trust your creative energy.",
+  "card_advice": "Do not hesitate when opportunity appears. Take initiative, follow your passion, and direct your energy toward meaningful action.",
+  "upright": {
+    "short": "New beginnings, inspiration, energy, creativity, enthusiasm, action.",
+    "general": "The Ace of Wands represents a fresh start filled with passion and potential. It signals creativity, courage, motivation, and the desire to act. This card encourages taking risks, starting projects, and embracing exciting opportunities.",
+    "in_love": "A passionate new connection or a renewed spark in an existing relationship. It may indicate romance, attraction, intimacy, engagement, or even pregnancy.",
+    "in_situation": "A favorable moment to launch new ideas, begin creative work, travel, or make bold decisions. Success comes through initiative and confidence."
+  },
+  "reversed": {
+    "short": "Delays, lack of energy, hesitation, creative blocks, missed opportunities.",
+    "general": "Reversed, the Ace of Wands points to frustration, lack of motivation, postponed plans, or blocked creativity. Energy may feel scattered or wasted.",
+    "in_love": "Passion may weaken due to uncertainty or emotional distance. There can be hesitation in starting or developing a relationship.",
+    "in_situation": "Projects may slow down or fail to develop because of fear, indecision, or poor timing. It is important to regain focus and confidence."
+  },
+  "relations": {
+    "major": {
+      "01": "The urge to travel. A leap into a new adventure.",
+      "02": "Strong manifestation power. Beginning of a creative project.",
+      "03": "Growth of ideas and creative fertility.",
+      "04": "Leadership and confident action.",
+      "05": "Inspiration guided by tradition or teaching.",
+      "06": "Passionate union or an important emotional choice.",
+      "07": "Drive, ambition, and rapid progress.",
+      "08": "Courage and inner fire.",
+      "09": "Searching for deeper purpose before action.",
+      "10": "A turning point bringing new opportunities.",
+      "11": "Fair and balanced decisions create success.",
+      "12": "A pause before beginning something important.",
+      "13": "Transformation leading to a powerful new start.",
+      "14": "Balanced energy and controlled enthusiasm.",
+      "15": "Passion becoming obsession or reckless desire.",
+      "16": "Sudden events force a dramatic new direction.",
+      "17": "Hope, inspiration, and creative healing.",
+      "18": "Uncertainty or illusions surrounding a new idea.",
+      "19": "Joy, vitality, success, and strong creative energy.",
+      "20": "Awakening and answering a higher calling.",
+      "21": "Completion leading to a fresh cycle of growth."
+    },
+    "minor": {
+      "cups": {
+        "01": "A passionate emotional beginning.",
+        "02": "Mutual attraction and strong chemistry.",
+        "03": "Celebration of a successful new venture.",
+        "04": "Ignoring a valuable opportunity.",
+        "05": "Disappointment slows creative energy.",
+        "06": "Inspiration connected to the past.",
+        "07": "Too many exciting possibilities.",
+        "08": "Leaving behind the old for a new path.",
+        "09": "Creative wishes fulfilled.",
+        "10": "Joyful family growth and emotional harmony.",
+        "11": "Curiosity, romance, and exciting messages.",
+        "12": "Action mixed with emotional intensity.",
+        "13": "Creative warmth and emotional support.",
+        "14": "Inspired emotional leadership."
+      },
+      "pentacles": {
+        "01": "A promising financial or career opportunity.",
+        "02": "Balancing multiple new responsibilities.",
+        "03": "Creative teamwork and productive collaboration.",
+        "04": "Fear of risk blocks growth.",
+        "05": "Lack of resources slows progress.",
+        "06": "Support and generosity help new beginnings.",
+        "07": "Patience needed for long-term success.",
+        "08": "Focused work develops talent.",
+        "09": "Independent success and achievement.",
+        "10": "Long-term prosperity from inspired action.",
+        "11": "Practical study and new financial ideas.",
+        "12": "Ambitious movement toward goals.",
+        "13": "Creative abundance and stability.",
+        "14": "Confident leadership brings material success."
+      },
+      "swords": {
+        "01": "A breakthrough idea or realization.",
+        "02": "Indecision blocks action.",
+        "03": "Emotional pain affects motivation.",
+        "04": "Rest and recovery before action.",
+        "05": "Conflict or ego disrupts progress.",
+        "06": "Moving toward a better future.",
+        "07": "Hidden motives or risky behavior.",
+        "08": "Self-doubt limits creative energy.",
+        "09": "Anxiety and fear weaken confidence.",
+        "10": "An ending clears space for a new beginning.",
+        "11": "Curiosity and fast-thinking energy.",
+        "12": "Bold communication and sudden action.",
+        "13": "Clear thinking and independence.",
+        "14": "Strategic leadership and intellectual power."
+      },
+      "wands": {
+        "01": "Explosive creative force and inspiration.",
+        "02": "Planning the next step forward.",
+        "03": "Expansion and future success.",
+        "04": "Celebration and joyful achievement.",
+        "05": "Competition and energetic conflict.",
+        "06": "Recognition and victory.",
+        "07": "Defending personal vision and goals.",
+        "08": "Rapid movement and exciting news.",
+        "09": "Persistence despite challenges.",
+        "10": "Overwork and excessive pressure.",
+        "11": "Curiosity, adventure, and bold messages.",
+        "12": "Fearless pursuit of ambitions.",
+        "13": "Confident creativity and warmth.",
+        "14": "Visionary leadership and mastery of action."
+      }
+    }
+  }
+}

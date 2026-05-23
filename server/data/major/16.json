@@ -1,0 +1,108 @@
+{
+  "name": "The Devil",
+  "meaning_for_today": "Today may reveal unhealthy attachments, temptations, or limiting beliefs. Awareness and self-control will help you regain balance and freedom.",
+  "card_advice": "Face your fears and recognize what controls you. Break free from toxic habits, dependencies, and illusions to reclaim your personal power.",
+  "upright": {
+    "short": "Temptation, attachment, obsession, materialism.",
+    "general": "The Devil represents bondage to unhealthy desires, addictions, fear, or material attachments. It highlights situations where a person feels trapped by their own choices, emotions, or habits. The card encourages awareness and liberation from self-imposed limitations.",
+    "in_love": "Relationships may involve obsession, jealousy, manipulation, or unhealthy emotional dependence. Strong physical attraction can overshadow emotional harmony. Singles may be drawn into toxic or superficial connections.",
+    "in_situation": "A situation is influenced by fear, greed, control, or unhealthy ambition. Hidden motives or destructive patterns may prevent growth and clarity."
+  },
+  "reversed": {
+    "short": "Freedom, release, overcoming addiction, awakening.",
+    "general": "Reversed The Devil signifies breaking free from toxic influences, addictions, or limiting beliefs. Awareness grows, allowing healing and personal empowerment. Recovery and liberation become possible.",
+    "in_love": "A relationship may recover from unhealthy dynamics, or a person may finally leave a toxic connection. Emotional independence and honesty help restore balance.",
+    "in_situation": "The situation improves as fear and control lose their influence. Old habits are abandoned, creating opportunities for healthier choices and personal growth."
+  },
+  "relations": {
+    "major": {
+      "01": "Reckless temptation and dangerous freedom.",
+      "02": "Manipulation and misuse of power.",
+      "03": "Overindulgence and unhealthy comfort.",
+      "04": "Control, dominance, and rigid authority.",
+      "05": "Conflict between morality and temptation.",
+      "06": "Passion mixed with unhealthy attachment.",
+      "07": "Struggle for control and direction.",
+      "08": "Inner strength to resist temptation.",
+      "09": "Isolation caused by fear or obsession.",
+      "10": "A negative cycle repeating itself.",
+      "11": "Consequences of selfish or harmful actions.",
+      "12": "Feeling trapped and unable to move forward.",
+      "13": "Breaking destructive attachments through transformation.",
+      "14": "The need to restore balance and moderation.",
+      "15": "Intense temptation, obsession, and bondage.",
+      "16": "Sudden collapse of toxic structures.",
+      "17": "Hope and healing after addiction or fear.",
+      "18": "Illusions, anxiety, and emotional confusion.",
+      "19": "Freedom, truth, and renewed confidence.",
+      "20": "Awakening from denial and self-deception.",
+      "21": "Liberation from limitations and completion of growth."
+    },
+    "minor": {
+      "cups": {
+        "01": "Tempting but emotionally risky attraction.",
+        "02": "Codependency within a relationship.",
+        "03": "Excessive pleasure or unhealthy social habits.",
+        "04": "Emotional dissatisfaction caused by attachment.",
+        "05": "Regret and emotional suffering from toxic choices.",
+        "06": "Being trapped by the past.",
+        "07": "Dangerous illusions and unrealistic fantasies.",
+        "08": "The difficult choice to leave toxicity behind.",
+        "09": "Overindulgence and selfish desires.",
+        "10": "Family tension caused by unhealthy behavior.",
+        "11": "Emotional immaturity and temptation.",
+        "12": "Impulsive emotions and unstable desires.",
+        "13": "Manipulative emotional behavior.",
+        "14": "Emotional control mixed with hidden motives."
+      },
+      "pentacles": {
+        "01": "Greed or unhealthy focus on money.",
+        "02": "Struggling to balance material pressures.",
+        "03": "Dishonesty or unhealthy competition at work.",
+        "04": "Fear of loss and excessive control.",
+        "05": "Financial hardship caused by poor choices.",
+        "06": "Manipulation through money or power.",
+        "07": "Frustration from unhealthy ambition.",
+        "08": "Work obsession or burnout.",
+        "09": "Luxury masking emotional emptiness.",
+        "10": "Family conflicts over wealth or control.",
+        "11": "Irresponsible financial behavior.",
+        "12": "Reckless financial decisions and instability.",
+        "13": "Materialism and controlling behavior.",
+        "14": "Power used for selfish gain."
+      },
+      "swords": {
+        "01": "Harsh truths reveal toxic patterns.",
+        "02": "Fear prevents necessary decisions.",
+        "03": "Painful betrayal and emotional suffering.",
+        "04": "Mental exhaustion and stress.",
+        "05": "Manipulation, conflict, and selfish victory.",
+        "06": "Escaping from a toxic environment.",
+        "07": "Deception and hidden motives.",
+        "08": "Feeling trapped by fear and anxiety.",
+        "09": "Obsessive thoughts and emotional torment.",
+        "10": "A destructive ending caused by unhealthy behavior.",
+        "11": "Curiosity leading toward risky behavior.",
+        "12": "Impulsive conflict and aggressive communication.",
+        "13": "Cold manipulation and emotional detachment.",
+        "14": "Abuse of authority and mental dominance."
+      },
+      "wands": {
+        "01": "Strong passion mixed with recklessness.",
+        "02": "Ambition driven by selfish motives.",
+        "03": "Expansion through risky or unethical choices.",
+        "04": "False appearances of happiness and stability.",
+        "05": "Conflict fueled by ego and aggression.",
+        "06": "Success that feeds arrogance or vanity.",
+        "07": "Defending unhealthy desires or behavior.",
+        "08": "Rapid escalation of temptation or conflict.",
+        "09": "Exhaustion caused by ongoing pressure.",
+        "10": "Being overwhelmed by responsibilities and desires.",
+        "11": "Provocative messages and flirtation.",
+        "12": "Impulsive actions driven by passion.",
+        "13": "Strong charisma mixed with control.",
+        "14": "Dominant leadership and forceful ambition."
+      }
+    }
+  }
+}

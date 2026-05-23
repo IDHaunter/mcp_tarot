@@ -1,0 +1,78 @@
+{
+  "name": "Six of Cups",
+  "meaning_for_today": "Today may bring memories, reunions, nostalgia, or contact with people from the past. Warm emotions and sincere kindness will help restore harmony.",
+  "card_advice": "Appreciate sincere emotions, childhood memories, and meaningful connections, but do not become trapped in the past. Use past experience wisely.",
+  "upright": {
+    "short": "Nostalgia, kindness, memories, reunion, emotional warmth.",
+    "general": "The Six of Cups symbolizes pleasant memories, nostalgia, emotional comfort, and sincere relationships. It often points to reunions, childhood memories, old friends, or acts of kindness and generosity. The card reflects innocence, trust, and emotional healing.",
+    "in_love": "Warm, sincere feelings, emotional tenderness, and romantic nostalgia. The card may indicate reconciliation, reunion with a former partner, or a relationship based on trust and emotional comfort.",
+    "in_situation": "The situation develops through kindness, support, and past experience. Help from familiar people or lessons from the past may play an important role."
+  },
+  "reversed": {
+    "short": "Living in the past, emotional stagnation, unrealistic nostalgia.",
+    "general": "Reversed, the Six of Cups may indicate difficulty letting go of the past, emotional immaturity, or unrealistic idealization of old memories. A person may avoid present responsibilities.",
+    "in_love": "Attachment to past relationships, emotional immaturity, or inability to move forward emotionally. Old wounds may interfere with present happiness.",
+    "in_situation": "The situation may involve emotional stagnation or excessive focus on the past. It is important to live in the present and adapt to change."
+  },
+  "relations": {
+    "major": {
+      "01": "Childlike spontaneity and emotional freedom.",
+      "02": "Using past experience and emotional intelligence.",
+      "03": "Intuition connected to memories and emotions.",
+      "04": "Warmth, care, family comfort, emotional support.",
+      "05": "Traditional values and family responsibility.",
+      "06": "Spiritual lessons from the past.",
+      "07": "Romantic memories and sincere affection.",
+      "08": "Moving forward while holding onto the past.",
+      "09": "Inner strength through emotional support.",
+      "10": "Withdrawal into memories and nostalgia.",
+      "11": "A fortunate reunion or emotional opportunity.",
+      "12": "Fairness and honesty in emotional matters.",
+      "13": "Letting go of the past and emotional transformation.",
+      "14": "Healing, balance, emotional harmony.",
+      "15": "Emotional dependence on the past.",
+      "16": "Painful memories or sudden emotional shock.",
+      "17": "Hope, healing, emotional inspiration.",
+      "18": "Illusions, confusion, unrealistic nostalgia.",
+      "19": "Joy, innocence, emotional openness.",
+      "20": "Reunion, forgiveness, emotional awakening.",
+      "21": "Completion, emotional maturity, harmony."
+    },
+    "minor": {
+      "cups": {
+        "01": "Sincere emotions and emotional renewal.",
+        "02": "Warm romantic connection and mutual trust.",
+        "03": "Joyful reunion and emotional celebration.",
+        "04": "Living in memories instead of the present.",
+        "05": "Sadness connected with past events.",
+        "06": "Nostalgia, kindness, emotional support.",
+        "07": "Idealizing the past or emotional fantasies.",
+        "08": "Leaving familiar emotional comfort behind.",
+        "09": "Emotional satisfaction through pleasant memories.",
+        "10": "Family happiness and emotional harmony.",
+        "11": "Childlike emotional curiosity and sincerity.",
+        "12": "Romantic nostalgia and emotional movement.",
+        "13": "Emotional wisdom, compassion, understanding.",
+        "14": "Wise emotional guidance and stability."
+      },
+      "pentacles": {},
+      "swords": {},
+      "wands": {
+        "01": "Creative inspiration from the past.",
+        "02": "Balancing future plans with past experience.",
+        "03": "Successful cooperation with familiar people.",
+        "04": "Family celebrations and emotional warmth.",
+        "05": "Old conflicts and emotional tension.",
+        "06": "Recognition and support from others.",
+        "07": "Defending personal memories or values.",
+        "08": "Unexpected contact from the past.",
+        "09": "Anxiety connected with old experiences.",
+        "10": "Emotional burden caused by past issues.",
+        "11": "Creative curiosity and youthful enthusiasm.",
+        "12": "Impulsive return to old habits or relationships.",
+        "13": "Warmth, loyalty, emotional care.",
+        "14": "Strong emotional partnership and mutual trust."
+      }
+    }
+  }
+}

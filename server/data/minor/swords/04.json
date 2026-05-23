@@ -1,0 +1,92 @@
+{
+    "name": "Four of Swords",
+    "meaning_for_today": "Today is about rest, recovery, and mental or emotional pause. It suggests stepping back from stress to restore inner balance and clarity.",
+    "card_advice": "Take time to rest and recharge. Avoid overthinking or pushing forward too aggressively. Healing and reflection will bring better results than action right now.",
+    "upright": {
+        "short": "Rest, recovery, peace, contemplation.",
+        "general": "The Four of Swords represents rest after conflict, mental recovery, and the need for solitude. It suggests stepping away from stress or difficult situations to regain clarity and strength. This card emphasizes healing through stillness and reflection.",
+        "in_love": "In love, it can indicate a pause in the relationship, emotional distance, or the need for space to think and heal. It may also represent recovery after emotional conflict.",
+        "in_situation": "In situations, it suggests taking a break, slowing down, and avoiding decisions until clarity returns. It is a time for reflection rather than action."
+    },
+    "reversed": {
+        "short": "Restlessness, burnout, recovery ending, avoidance of rest.",
+        "general": "Reversed, the Four of Swords indicates recovery from a difficult period or, alternatively, inability to rest due to anxiety or pressure. It can also suggest burnout if rest is ignored.",
+        "in_love": "In relationships, it may show renewed communication after a break or continued emotional exhaustion due to unresolved issues.",
+        "in_situation": "In situations, it warns against pushing too hard without recovery. It may also indicate that it is time to return to action after a period of rest."
+    },
+    "relations": {
+        "major": {
+            "01": "New beginnings after rest and reflection.",
+            "02": "Action paused for mental clarity.",
+            "03": "Intuition strengthened through quiet reflection.",
+            "04": "Authority or structure requiring rest and recovery.",
+            "05": "Traditional expectations paused for healing.",
+            "06": "Relationships needing space and healing.",
+            "07": "Decisions delayed for clarity.",
+            "08": "Action slowed for recovery.",
+            "09": "Anxiety reduced through rest.",
+            "10": "End of stress cycle and recovery phase.",
+            "11": "Change requiring adaptation after rest.",
+            "12": "New perspective gained through withdrawal.",
+            "13": "Transformation through letting go and rest.",
+            "14": "Deep healing after emotional endings.",
+            "15": "Breaking free from stress or toxic patterns.",
+            "16": "Sudden need for recovery after chaos.",
+            "17": "Hope restored through rest.",
+            "18": "Confusion eased by stepping back.",
+            "19": "Clarity and vitality after recovery.",
+            "20": "Judgment after reflection and rest.",
+            "21": "Completion following recovery period."
+        },
+        "minor": {
+            "cups": {
+                "01": "Emotional rest after new feelings.",
+                "02": "Pause in emotional exchange.",
+                "03": "Social rest or withdrawal.",
+                "04": "Emotional contemplation and isolation.",
+                "05": "Healing from grief.",
+                "06": "Resting from past emotional memories.",
+                "07": "Clarity gained after emotional confusion.",
+                "08": "Temporary withdrawal from emotions.",
+                "09": "Emotional recovery and inner peace.",
+                "10": "Healing family or emotional structure."
+            },
+            "pentacles": {
+                "01": "Financial pause or reassessment.",
+                "02": "Rest from financial balancing.",
+                "03": "Work break or recovery.",
+                "04": "Financial stability through pause.",
+                "05": "Recovery from financial loss.",
+                "06": "Restoring material balance.",
+                "07": "Waiting period in long-term investments.",
+                "08": "Break from skill development.",
+                "09": "Rest after financial success.",
+                "10": "Recovery of long-term stability."
+            },
+            "swords": {
+                "01": "Mental clarity through rest.",
+                "02": "Decision postponed for reflection.",
+                "03": "Healing from mental pain.",
+                "04": "Rest and mental recovery (core meaning).",
+                "05": "Conflict paused or avoided.",
+                "06": "Transition after recovery.",
+                "07": "Strategy reconsidered during rest.",
+                "08": "Mental restriction eased through pause.",
+                "09": "Anxiety reduced through rest.",
+                "10": "End of mental overload through recovery."
+            },
+            "wands": {
+                "01": "Creative energy paused for recovery.",
+                "02": "Plans delayed for reflection.",
+                "03": "Vision reconsidered during rest.",
+                "04": "Stability restored after pause.",
+                "05": "Conflict cooled down.",
+                "06": "Victory delayed but preserved.",
+                "07": "Defensive pause before action.",
+                "08": "Communication slowed for clarity.",
+                "09": "Resilience rebuilt through rest.",
+                "10": "Responsibilities paused for recovery."
+            }
+        }
+    }
+}

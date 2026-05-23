@@ -1,0 +1,109 @@
+{
+  "name": "The Magician",
+  "meaning_for_today": "Today is favorable for taking initiative, using your talents, and turning ideas into reality. Your confidence and skills can help you achieve meaningful progress.",
+  "card_advice": "Use your abilities wisely and act with purpose. Focus your energy on what truly matters and trust your capacity to create results.",
+  "upright": {
+    "short": "Manifestation, skill, confidence, action.",
+    "general": "The Magician symbolizes personal power, creativity, intelligence, and the ability to transform ideas into reality. It represents focus, resourcefulness, and mastery over circumstances.",
+    "in_love": "Strong attraction, confident communication, and active romantic energy. A relationship may begin through charm, initiative, or mutual inspiration.",
+    "in_situation": "The situation favors decisive action and strategic thinking. You possess the necessary tools and abilities to succeed if you remain focused."
+  },
+  "reversed": {
+    "short": "Manipulation, deception, misuse of power, insecurity.",
+    "general": "The reversed Magician points to dishonesty, manipulation, scattered energy, or lack of confidence. Talents may be wasted or used for selfish purposes.",
+    "in_love": "Miscommunication, emotional games, or unrealistic promises may affect the relationship. One person may hide their true intentions.",
+    "in_situation": "The situation becomes unstable due to poor planning, deception, or lack of direction. Greater clarity and honesty are required."
+  },
+  "relations": {
+    "major": {
+      "01": "A bold beginning filled with creative potential.",
+      "02": "Strong manifestation and personal power.",
+      "03": "Intuition strengthens creative abilities.",
+      "04": "Creative ideas grow into abundance.",
+      "05": "Leadership and authority support success.",
+      "06": "Knowledge and discipline guide action.",
+      "07": "Communication strengthens relationships and choices.",
+      "08": "Focused determination drives achievement.",
+      "09": "Confidence balanced with inner strength.",
+      "10": "Wisdom refines skill and purpose.",
+      "11": "Opportunities arise through changing circumstances.",
+      "12": "Justice rewards honest intentions and actions.",
+      "13": "A pause before new creation or action.",
+      "14": "Transformation through focused willpower.",
+      "15": "Balance and moderation improve results.",
+      "16": "Manipulation or temptation creates danger.",
+      "17": "Sudden changes challenge control.",
+      "18": "Hope and inspiration fuel creativity.",
+      "19": "Illusions or hidden motives weaken clarity.",
+      "20": "Success and recognition through personal talent.",
+      "21": "A powerful realization and awakening.",
+      "22": "Mastery and completion of creative goals."
+    },
+    "minor": {
+      "cups": {
+        "01": "Creative energy awakens new emotions.",
+        "02": "Strong communication deepens connection.",
+        "03": "Celebrations and social charm.",
+        "04": "New inspiration breaks emotional stagnation.",
+        "05": "Using wisdom to overcome disappointment.",
+        "06": "Talents connected to past experiences emerge.",
+        "07": "Creative imagination expands possibilities.",
+        "08": "Leaving behind old limitations.",
+        "09": "Manifesting emotional desires successfully.",
+        "10": "Creating harmony and emotional fulfillment.",
+        "11": "Inspiring emotional messages and ideas.",
+        "12": "Romantic initiative and passionate pursuit.",
+        "13": "Compassion guided by intelligence.",
+        "14": "Emotional mastery and confidence."
+      },
+      "pentacles": {
+        "01": "Manifesting financial opportunities.",
+        "02": "Skillful balance of responsibilities.",
+        "03": "Talent and teamwork create success.",
+        "04": "Fear of losing control limits progress.",
+        "05": "Resourcefulness during difficult times.",
+        "06": "Generosity and practical support.",
+        "07": "Patience helps ideas become reality.",
+        "08": "Mastery through study and practice.",
+        "09": "Independent success through confidence.",
+        "10": "Long-term achievements and stability.",
+        "11": "Practical opportunities and important news.",
+        "12": "Ambitious action and focused movement.",
+        "13": "Leadership through confidence and skill.",
+        "14": "Authority and mastery over material success."
+      },
+      "swords": {
+        "01": "Mental clarity and powerful ideas.",
+        "02": "Strategic thinking helps difficult decisions.",
+        "03": "Words and actions influence emotional pain.",
+        "04": "Rest and reflection improve focus.",
+        "05": "Manipulation or ego may cause conflict.",
+        "06": "A strategic transition toward improvement.",
+        "07": "Cleverness or hidden motives emerge.",
+        "08": "Breaking free through confidence and awareness.",
+        "09": "Anxiety caused by self-doubt.",
+        "10": "A painful ending leads to new opportunities.",
+        "11": "Important communication changes direction.",
+        "12": "Bold action and intellectual ambition.",
+        "13": "Sharp intelligence and strong communication.",
+        "14": "Strategic mastery and authority."
+      },
+      "wands": {
+        "01": "A powerful creative beginning.",
+        "02": "Planning and vision support success.",
+        "03": "Expansion and opportunities through initiative.",
+        "04": "Celebration of successful achievements.",
+        "05": "Competition tests confidence and ability.",
+        "06": "Recognition gained through talent and leadership.",
+        "07": "Defending ideas and achievements confidently.",
+        "08": "Rapid progress through focused action.",
+        "09": "Persistence and resilience strengthen success.",
+        "10": "Responsibilities increase with achievement.",
+        "11": "Exciting communication and passionate energy.",
+        "12": "Fearless action and adventurous ambition.",
+        "13": "Charismatic leadership and creative confidence.",
+        "14": "Complete mastery and powerful authority."
+      }
+    }
+  }
+}

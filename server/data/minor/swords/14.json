@@ -1,0 +1,92 @@
+{
+    "name": "King of Swords",
+    "meaning_for_today": "Today calls for clear thinking, objectivity, and making decisions based on logic rather than emotion. It is a good time to analyze situations and act with fairness and precision.",
+    "card_advice": "Stay rational and honest with yourself and others. Avoid emotional bias and rely on facts, structure, and strategic thinking when making decisions.",
+    "upright": {
+        "short": "Logic, authority, truth, and intellectual power.",
+        "general": "The King of Swords represents mental clarity, intellectual authority, discipline, and fairness. It often indicates a person or situation where logic and truth must prevail over emotions. This card reflects strong analytical thinking, leadership through intellect, and the ability to make fair but firm decisions.",
+        "in_love": "In love, it suggests relationships based on honesty, communication, and mutual respect. It may also indicate a partner who is emotionally reserved but intellectually strong.",
+        "in_situation": "In situations, it points to the need for objective judgment, strategic planning, and clear communication. Legal or official matters may be involved, requiring rational decisions."
+    },
+    "reversed": {
+        "short": "Manipulation, coldness, abuse of power, dishonesty.",
+        "general": "Reversed, the King of Swords can indicate misuse of authority, manipulative behavior, or emotional detachment that becomes harmful. It may also suggest poor judgment or biased thinking.",
+        "in_love": "In relationships, it can point to emotional coldness, control issues, or lack of honest communication between partners.",
+        "in_situation": "In situations, it warns of unfair decisions, misuse of power, or confusion caused by lack of clarity and truth."
+    },
+    "relations": {
+        "major": {
+            "01": "New beginnings guided by logic and truth; stepping into awareness with clarity.",
+            "02": "Strategic thinking and intellectual action; using willpower and planning to initiate ideas.",
+            "03": "Intuitive understanding combined with analytical reasoning.",
+            "04": "Structured authority influencing emotional or family matters.",
+            "05": "Traditional systems of law, ethics, or institutions guiding decisions.",
+            "06": "Important choices requiring moral clarity and rational judgment.",
+            "07": "Decisions made after weighing options carefully and logically.",
+            "08": "Swift action driven by determined thinking and control.",
+            "09": "Inner reflection using intellect and reason.",
+            "10": "Understanding cycles of change through rational perspective.",
+            "11": "Adapting to change with strategic awareness.",
+            "12": "Seeing situations from a detached, objective perspective.",
+            "13": "Ending situations with logical acceptance and transformation.",
+            "14": "Cutting away what is no longer true or functional; radical truth.",
+            "15": "Breaking illusions and controlling unhealthy attachments through awareness.",
+            "16": "Sudden truth revealing structural collapse or false authority.",
+            "17": "Hope guided by rational clarity and long-term vision.",
+            "18": "Uncertainty requiring analytical thinking to uncover truth.",
+            "19": "Success achieved through clarity, honesty, and intellect.",
+            "20": "Judgment and accountability based on truth and fairness.",
+            "21": "Completion through intellectual mastery and understanding."
+        },
+        "minor": {
+            "cups": {
+                "01": "Emotional clarity and truthful emotional beginnings.",
+                "02": "Balanced communication and fair emotional exchange.",
+                "03": "Social intelligence and rational celebration.",
+                "04": "Emotional detachment or reassessment.",
+                "05": "Processing emotional loss through logic.",
+                "06": "Past emotional memories evaluated rationally.",
+                "07": "Illusions in emotions clarified by logic.",
+                "08": "Leaving emotional confusion through clear thinking.",
+                "09": "Wish fulfillment analyzed through realism.",
+                "10": "Emotional stability achieved through rational structure."
+            },
+            "pentacles": {
+                "01": "New financial or material opportunities analyzed logically.",
+                "02": "Balancing resources with strategic planning.",
+                "03": "Professional collaboration guided by expertise.",
+                "04": "Financial control and structured management.",
+                "05": "Material hardship requiring rational problem-solving.",
+                "06": "Fair distribution and justice in material matters.",
+                "07": "Long-term planning and evaluation of progress.",
+                "08": "Mastery through disciplined intellectual work.",
+                "09": "Independent success based on strategy and discipline.",
+                "10": "Legacy and structure built through intellectual leadership"
+            },
+            "swords": {
+                "01": "Ultimate truth, clarity, and decisive mental breakthrough.",
+                "02": "Indecision resolved through rational judgment.",
+                "03": "Heartbreak understood through intellectual processing.",
+                "04": "Mental rest and strategic recovery.",
+                "05": "Conflict analyzed and controlled through reason.",
+                "06": "Transition guided by rational planning.",
+                "07": "Strategy, planning, or exposure of deception.",
+                "08": "Mental restriction overcome by clarity.",
+                "09": "Anxiety addressed through logical analysis.",
+                "10": "End of mental struggle through truth and acceptance."
+            },
+            "wands": {
+                "01": "Strategic initiation of creative or ambitious projects.",
+                "02": "Planning future actions with intellectual precision.",
+                "03": "Expansion through structured vision.",
+                "04": "Stability achieved through planning and order.",
+                "05": "Conflict resolved through leadership and reasoning.",
+                "06": "Victory through strategy and intelligent decisions.",
+                "07": "Defending position using logic and preparation.",
+                "08": "Fast developments guided by sharp thinking.",
+                "09": "Resilience supported by mental strength.",
+                "10": "Burden managed through structured thinking and delegation."
+            }
+        }
+    }
+}

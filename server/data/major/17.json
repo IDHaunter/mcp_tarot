@@ -1,0 +1,108 @@
+{
+  "name": "The Tower",
+  "meaning_for_today": "Today may bring sudden changes, revelations, or disruptions that break old patterns. Although uncomfortable, these events clear the way for truth and renewal.",
+  "card_advice": "Do not cling to unstable foundations. Accept necessary change and allow false beliefs, unhealthy situations, or illusions to collapse so that something stronger can emerge.",
+  "upright": {
+    "short": "Sudden change, chaos, revelation, destruction.",
+    "general": "The Tower represents dramatic upheaval, unexpected events, and the collapse of unstable structures. It exposes truth, destroys illusions, and forces transformation. Though painful, these disruptions create opportunities for liberation and rebuilding.",
+    "in_love": "Relationships may face sudden conflict, separation, or shocking revelations. Hidden issues come to light, forcing honesty and transformation. Weak relationships may collapse, while strong ones survive through truth.",
+    "in_situation": "A situation changes rapidly and unpredictably. Plans may fail or external events may force immediate adaptation. The destruction of old patterns creates space for necessary growth."
+  },
+  "reversed": {
+    "short": "Avoided disaster, fear of change, delayed collapse.",
+    "general": "Reversed The Tower suggests resistance to necessary change or attempts to avoid inevitable consequences. Internal tension grows because problems remain unresolved. Transformation is delayed but cannot be avoided forever.",
+    "in_love": "A relationship suffers from hidden tension and unresolved problems. Fear of confrontation prevents honest communication. Emotional instability continues beneath the surface.",
+    "in_situation": "The situation remains fragile because important changes are ignored or postponed. Fear of disruption prevents progress and increases long-term instability."
+  },
+  "relations": {
+    "major": {
+      "01": "A reckless action leads to sudden consequences.",
+      "02": "Misused power causes disruption.",
+      "03": "Loss of comfort and emotional security.",
+      "04": "Authority or structure collapses unexpectedly.",
+      "05": "Breaking free from rigid beliefs and traditions.",
+      "06": "A relationship shaken by truth or conflict.",
+      "07": "Loss of control forces a new direction.",
+      "08": "Inner strength during chaos and upheaval.",
+      "09": "Isolation and reflection after destruction.",
+      "10": "A sudden turn of fate changes everything.",
+      "11": "Karmic consequences and unavoidable truth.",
+      "12": "Forced surrender and painful realization.",
+      "13": "Complete transformation through destruction.",
+      "14": "Healing and balance after chaos.",
+      "15": "Breaking toxic attachments and illusions.",
+      "16": "Sudden collapse and revelation.",
+      "17": "Hope and renewal after destruction.",
+      "18": "Fear, confusion, and emotional instability.",
+      "19": "Clarity and recovery after hardship.",
+      "20": "Awakening through painful truth.",
+      "21": "Rebuilding and completion after transformation."
+    },
+    "minor": {
+      "cups": {
+        "01": "An emotional shock leads to new feelings.",
+        "02": "A relationship crisis or sudden separation.",
+        "03": "Conflict disrupts friendships or celebrations.",
+        "04": "A sudden realization breaks emotional stagnation.",
+        "05": "Painful emotional loss and disappointment.",
+        "06": "The past is disrupted or exposed.",
+        "07": "Illusions collapse and truth becomes clear.",
+        "08": "Leaving a difficult emotional situation suddenly.",
+        "09": "False satisfaction is shattered.",
+        "10": "Family instability or unexpected conflict.",
+        "11": "Emotional immaturity causes disruption.",
+        "12": "Impulsive emotions create chaos.",
+        "13": "Emotional intensity and dramatic reactions.",
+        "14": "Emotional control tested by crisis."
+      },
+      "pentacles": {
+        "01": "Financial instability or sudden expense.",
+        "02": "Difficulty adapting to unexpected change.",
+        "03": "Workplace conflict or collapse of plans.",
+        "04": "Loss of control over material security.",
+        "05": "Sudden hardship and insecurity.",
+        "06": "Unequal exchanges create conflict.",
+        "07": "Unexpected setbacks delay progress.",
+        "08": "Hard work disrupted by sudden events.",
+        "09": "Loss of comfort or independence.",
+        "10": "Family or financial structures collapse.",
+        "11": "Inexperience leads to unstable decisions.",
+        "12": "Reckless actions create material problems.",
+        "13": "Harsh practicality and emotional distance.",
+        "14": "Authority challenged by instability."
+      },
+      "swords": {
+        "01": "A shocking truth is revealed.",
+        "02": "A difficult decision can no longer be avoided.",
+        "03": "Heartbreak and emotional collapse.",
+        "04": "Mental exhaustion after crisis.",
+        "05": "Conflict escalates destructively.",
+        "06": "A forced transition toward change.",
+        "07": "Secrets exposed and deception uncovered.",
+        "08": "Freedom gained through sudden realization.",
+        "09": "Anxiety and fear intensified by disruption.",
+        "10": "A painful ending and total collapse.",
+        "11": "Immature communication creates tension.",
+        "12": "Fast-moving conflict and sudden arguments.",
+        "13": "Sharp words and emotional coldness.",
+        "14": "Harsh authority and mental pressure."
+      },
+      "wands": {
+        "01": "A burst of energy after destruction.",
+        "02": "Plans disrupted by unexpected events.",
+        "03": "Sudden changes affect progress and expansion.",
+        "04": "Celebrations interrupted by instability.",
+        "05": "Explosive conflict and competition.",
+        "06": "Public recognition damaged or challenged.",
+        "07": "Defending yourself during chaos.",
+        "08": "Rapid unexpected developments.",
+        "09": "Resilience tested after repeated shocks.",
+        "10": "Overwhelming pressure and burnout.",
+        "11": "Unexpected news creates disruption.",
+        "12": "Impulsive action leads to instability.",
+        "13": "Confidence shaken by sudden events.",
+        "14": "Leadership challenged during crisis."
+      }
+    }
+  }
+}

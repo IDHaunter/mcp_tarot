@@ -1,0 +1,93 @@
+{
+    "name": "Ace of Swords",
+    "meaning_for_today": "A day of clarity, truth, and decisive thinking. New ideas or realizations help cut through confusion.",
+    "card_advice": "Be honest with yourself and others. Use logic and clarity before taking action. Avoid illusions or emotional distortion.",
+    "upright": {
+        "short": "Clarity, truth, breakthrough",
+        "general": "The Ace of Swords represents mental clarity, new ideas, truth, and breakthroughs. It often signals a moment of insight where confusion is replaced by understanding and direction.",
+        "in_love": "Honest communication and clear decisions in relationships. It may indicate a truth coming to light or a new honest beginning.",
+        "in_situation": "A situation becomes clear after confusion. Good time for problem-solving, decision-making, and intellectual work."
+    },
+    "reversed": {
+        "short": "Confusion, miscommunication, mental blocks",
+        "general": "Reversed, the Ace of Swords can indicate confusion, lack of clarity, misinformation, or difficulty expressing thoughts clearly.",
+        "in_love": "Misunderstandings, unclear intentions, or withheld truth in relationships.",
+        "in_situation": "Poor judgment, mental fog, or delayed decisions. Important facts may be missing or misunderstood."
+    },
+    "relations": {
+        "major": {
+            "01": "New beginnings requiring bold action and innocence",
+            "02": "Intellectual awakening and manifestation of ideas",
+            "03": "Intuition guiding hidden truth and understanding",
+            "04": "Structure and authority shaping decisions",
+            "05": "Traditional beliefs influencing truth and morality",
+            "06": "Choices involving truth in relationships",
+            "07": "Mental determination and strategic direction",
+            "08": "Strength through controlled focus and willpower",
+            "09": "Inner wisdom and reflection before decisions",
+            "10": "Turning points and shifts in perspective",
+            "11": "Sudden changes revealing truth and fate",
+            "12": "Fair judgment and balanced decision-making",
+            "13": "Sacrifice leading to new perspective",
+            "14": "Endings that clear the way for truth",
+            "15": "Breaking illusions and confronting truth",
+            "16": "Sudden revelation after collapse of false beliefs",
+            "17": "Hope and clarity after confusion",
+            "18": "Uncertainty and hidden truths",
+            "19": "Illumination and ultimate clarity",
+            "20": "Awakening and final realization",
+            "21": "Truth leading to completion and resolution",
+            "22": "Absolute clarity and integration of all knowledge"
+        },
+        "minor": {
+            "cups": {
+                "01": "Emotional truth emerging in relationships",
+                "02": "Honest connection and communication between partners",
+                "03": "Clarity in friendships and emotional support",
+                "04": "Reevaluation of emotional dissatisfaction",
+                "05": "Truth after emotional disappointment",
+                "06": "Clear memories and truthful past emotions",
+                "07": "Confusion cleared in emotional choices",
+                "08": "Emotional decision to move on with clarity",
+                "09": "Mental clarity bringing emotional satisfaction",
+                "10": "Truth within family or emotional completion"
+            },
+            "pentacles": {
+                "01": "Clear opportunity for financial or material start",
+                "02": "Balanced decisions in practical matters",
+                "03": "Clear teamwork and planning",
+                "04": "Clarity about material security and control",
+                "05": "Financial uncertainty and lack of clarity",
+                "06": "Fairness in material exchange",
+                "07": "Clear evaluation of long-term investments",
+                "08": "Focused learning and skill development",
+                "09": "Clarity in financial independence",
+                "10": "Clear legacy and material stability"
+            },
+            "swords": {
+                "01": "Mental clarity and breakthrough truth",
+                "02": "Indecision and blocked perception",
+                "03": "Truth revealed through emotional pain",
+                "04": "Rest and mental recovery",
+                "05": "Conflict and misuse of truth",
+                "06": "Mental transition and moving toward clarity",
+                "07": "Deception or hidden motives",
+                "08": "Mental restriction and confusion",
+                "09": "Anxiety and overwhelming thoughts",
+                "10": "End of mental struggle and painful truth"
+            },
+            "wands": {
+                "01": "Inspired idea and creative clarity",
+                "02": "Planning future actions with insight",
+                "03": "Expansion of ideas and vision",
+                "04": "Clear foundation for success",
+                "05": "Competing ideas and mental challenge",
+                "06": "Victory through clear intention",
+                "07": "Defending ideas and beliefs",
+                "08": "Fast mental developments and decisions",
+                "09": "Persistence in clarity and thought",
+                "10": "Overload of ideas or mental pressure"
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "The Hanged Man",
+  "meaning_for_today": "Today may require patience, reflection, and a different perspective. Do not rush important decisions. A pause can help reveal hidden truths and deeper understanding.",
+  "card_advice": "Let go of control and allow events to unfold naturally. Sometimes sacrifice, patience, and changing your viewpoint are necessary for growth and wisdom.",
+  "upright": {
+    "short": "Pause, sacrifice, reflection, surrender, new perspective.",
+    "general": "The Hanged Man symbolizes suspension, inner transformation, patience, and seeing life differently. This card often appears when circumstances force a pause or require personal sacrifice. It encourages spiritual growth, acceptance, and letting go of outdated beliefs.",
+    "in_love": "In relationships, The Hanged Man suggests waiting, emotional reflection, or reevaluating feelings. It may indicate a period of uncertainty or the need to understand a partner from a new perspective.",
+    "in_situation": "The situation is temporarily paused or developing slowly. Rushing will not help now. Reflection, acceptance, and openness to a new viewpoint are required before progress becomes possible."
+  },
+  "reversed": {
+    "short": "Stagnation, resistance, delay, indecision, avoidance.",
+    "general": "Reversed, The Hanged Man may indicate resistance to change, unnecessary sacrifice, stubbornness, or feeling trapped in stagnation. It can suggest fear of letting go or refusal to accept reality.",
+    "in_love": "In love readings, the reversed Hanged Man may point to emotional confusion, delays in relationships, or unwillingness to compromise. One or both partners may avoid necessary changes.",
+    "in_situation": "The situation may feel blocked due to indecision or resistance. The card advises releasing control, accepting necessary changes, and avoiding self-imposed limitations."
+  },
+  "relations": {
+    "major": {
+      "01": "A free spirit learns patience through experience.",
+      "02": "Inner wisdom revealed through stillness.",
+      "03": "Growth requires temporary sacrifice.",
+      "04": "Control must be surrendered for transformation.",
+      "05": "Spiritual lessons emerge through reflection.",
+      "06": "A relationship requires compromise and patience.",
+      "07": "Progress slows to allow reevaluation.",
+      "08": "Inner strength supports acceptance and surrender.",
+      "09": "Solitude deepens spiritual understanding.",
+      "10": "Fate creates pauses for important lessons.",
+      "11": "A fair outcome requires patience and perspective.",
+      "12": "Deep transformation through surrender and sacrifice.",
+      "14": "Balance achieved through acceptance and moderation.",
+      "15": "Feeling trapped by unhealthy attachments.",
+      "16": "Sudden change forces a new perspective.",
+      "17": "Hope grows during periods of waiting.",
+      "18": "Confusion and illusion delay clarity.",
+      "19": "Enlightenment follows patience and sacrifice.",
+      "20": "Awakening comes through reflection and release.",
+      "21": "Completion achieved after inner transformation."
+    },
+    "minor": {
+      "cups": {
+        "01": "A new emotional perspective emerges.",
+        "02": "Patience strengthens emotional connection.",
+        "03": "Social withdrawal for emotional reflection.",
+        "04": "Emotional stagnation and contemplation.",
+        "05": "Accepting emotional loss with wisdom.",
+        "06": "Reflecting on memories and the past.",
+        "07": "Seeing illusions from a clearer perspective.",
+        "08": "Walking away for spiritual growth.",
+        "09": "Delayed emotional satisfaction.",
+        "10": "Family harmony requires sacrifice and understanding.",
+        "11": "An emotional message brings insight.",
+        "12": "Romantic pursuit slowed by uncertainty.",
+        "13": "Compassion and patience bring healing.",
+        "14": "Emotional maturity through reflection."
+      },
+      "pentacles": {
+        "01": "Financial opportunities require patience.",
+        "02": "Balancing responsibilities becomes difficult.",
+        "03": "Progress slows while skills develop.",
+        "04": "Fear of loss prevents growth.",
+        "05": "Hardship teaches important spiritual lessons.",
+        "06": "Sacrifice creates future balance.",
+        "07": "Waiting patiently for long-term results.",
+        "08": "Dedication despite slow progress.",
+        "09": "Personal success through self-reflection.",
+        "10": "Long-term stability requires patience.",
+        "11": "A practical opportunity delayed.",
+        "12": "Ambition redirected toward deeper purpose.",
+        "13": "Nurturing support during difficult transitions.",
+        "14": "Leadership strengthened through humility."
+      },
+      "swords": {
+        "01": "A new truth changes perspective.",
+        "02": "Indecision creates emotional suspension.",
+        "03": "Painful sacrifice leads to growth.",
+        "04": "Rest and reflection become necessary.",
+        "05": "Conflict avoided through surrender.",
+        "06": "A slow transition toward understanding.",
+        "07": "Hidden motives become clearer with time.",
+        "08": "Mental limitations require release.",
+        "09": "Anxiety caused by uncertainty and delay.",
+        "10": "Acceptance follows a difficult ending.",
+        "11": "Curiosity encourages new understanding.",
+        "12": "Action delayed for reconsideration.",
+        "13": "Wisdom gained through emotional distance.",
+        "14": "Clear strategy developed through patience."
+      },
+      "wands": {
+        "01": "Creative energy temporarily paused.",
+        "02": "Future plans require reconsideration.",
+        "03": "Progress delayed but still possible.",
+        "04": "Celebration postponed due to reflection.",
+        "05": "Conflict resolved through compromise.",
+        "06": "Recognition delayed but deserved.",
+        "07": "Persistence despite obstacles and delays.",
+        "08": "Movement slowed for deeper understanding.",
+        "09": "Endurance during a difficult waiting period.",
+        "10": "Heavy burdens require surrender and release.",
+        "11": "A passionate beginning faces delays.",
+        "12": "Ambitious movement redirected inward.",
+        "13": "Confidence balanced with patience.",
+        "14": "Leadership requires sacrifice and wisdom."
+      }
+    }
+  }
+}

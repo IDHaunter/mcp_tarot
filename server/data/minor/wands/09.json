@@ -1,0 +1,109 @@
+{
+  "name": "Nine of Wands",
+  "meaning_for_today": "Today may test your endurance and patience. Despite fatigue or doubts, you are closer to success than you realize, and persistence will help you overcome the final obstacles.",
+  "card_advice": "Do not give up now. Protect your boundaries, stay alert, and trust the strength gained through past experience.",
+  "upright": {
+    "short": "Persistence, resilience, caution, endurance.",
+    "general": "The Nine of Wands symbolizes inner strength, perseverance, and readiness to face challenges. It appears when a person is tired from previous struggles but still capable of defending their position and continuing forward.",
+    "in_love": "Past emotional wounds may create caution in relationships. Trust must be rebuilt slowly, but resilience and commitment can strengthen the connection.",
+    "in_situation": "The situation requires patience and vigilance. Difficulties are not yet fully over, but your experience and determination provide protection and stability."
+  },
+  "reversed": {
+    "short": "Exhaustion, defensiveness, fear, giving up.",
+    "general": "The reversed Nine of Wands points to emotional burnout, paranoia, or inability to continue fighting against difficulties. Fear and distrust may weaken confidence and judgment.",
+    "in_love": "Emotional barriers, insecurity, or unresolved pain create distance between partners. One person may struggle to open up or trust again.",
+    "in_situation": "The situation feels overwhelming due to stress, fatigue, or repeated setbacks. Rest and a new perspective may be necessary before continuing."
+  },
+  "relations": {
+    "major": {
+      "01": "A risky new beginning requires resilience.",
+      "02": "Skill and willpower help endure difficulties.",
+      "03": "Inner intuition strengthens emotional defenses.",
+      "04": "Protecting creative achievements and personal growth.",
+      "05": "Authority and discipline support endurance.",
+      "06": "Tradition and wisdom provide guidance during hardship.",
+      "07": "Relationships are tested through challenges.",
+      "08": "Determination leads to eventual victory.",
+      "09": "Inner courage helps overcome exhaustion.",
+      "10": "Reflection and solitude restore strength.",
+      "11": "Fate tests your perseverance.",
+      "12": "Justice rewards patience and integrity.",
+      "13": "A pause or sacrifice before final success.",
+      "14": "Transformation through endurance.",
+      "15": "Balance and moderation reduce stress.",
+      "16": "Fear or unhealthy attachments drain energy.",
+      "17": "Sudden disruptions challenge stability.",
+      "18": "Hope and inspiration renew strength.",
+      "19": "Anxiety and uncertainty weaken confidence.",
+      "20": "Success arrives after persistence.",
+      "21": "A powerful realization through hardship.",
+      "22": "Completion and mastery after long effort."
+    },
+    "minor": {
+      "cups": {
+        "01": "Protecting vulnerable emotions.",
+        "02": "Relationships survive through patience and loyalty.",
+        "03": "Friendships tested by stress or misunderstandings.",
+        "04": "Fatigue from emotional dissatisfaction.",
+        "05": "Healing after emotional loss takes time.",
+        "06": "Past experiences influence present caution.",
+        "07": "Confusion creates emotional exhaustion.",
+        "08": "Leaving behind emotional burdens.",
+        "09": "Guarding personal happiness and achievements.",
+        "10": "Protecting family and emotional stability.",
+        "11": "Careful emotional communication.",
+        "12": "Romantic pursuit despite fear of rejection.",
+        "13": "Compassion and patience support healing.",
+        "14": "Emotional maturity creates resilience."
+      },
+      "pentacles": {
+        "01": "Protecting financial opportunities carefully.",
+        "02": "Balancing responsibilities despite stress.",
+        "03": "Persistent teamwork and effort.",
+        "04": "Fear of losing security or resources.",
+        "05": "Endurance during financial hardship.",
+        "06": "Support from others helps recovery.",
+        "07": "Patience while waiting for results.",
+        "08": "Hard work despite exhaustion.",
+        "09": "Protecting independence and achievements.",
+        "10": "Long-term stability requires persistence.",
+        "11": "Practical news demands caution.",
+        "12": "Steady movement despite difficulties.",
+        "13": "Strong leadership under pressure.",
+        "14": "Authority and discipline maintain control."
+      },
+      "swords": {
+        "01": "Mental clarity strengthens endurance.",
+        "02": "Difficult choices create emotional tension.",
+        "03": "Painful memories lead to defensiveness.",
+        "04": "Rest and recovery become necessary.",
+        "05": "Conflict leaves emotional scars.",
+        "06": "Slow movement away from difficulties.",
+        "07": "Suspicion and hidden motives increase caution.",
+        "08": "Breaking free from fear and limitation.",
+        "09": "Stress and anxiety intensify exhaustion.",
+        "10": "A painful ending after prolonged struggle.",
+        "11": "Important news changes the situation.",
+        "12": "Bold determination despite obstacles.",
+        "13": "Sharp thinking helps maintain control.",
+        "14": "Strategic leadership through difficult times."
+      },
+      "wands": {
+        "01": "Protecting a new opportunity carefully.",
+        "02": "Long-term planning despite uncertainty.",
+        "03": "Progress continues through persistence.",
+        "04": "Defending harmony and stability.",
+        "05": "Competition creates pressure and stress.",
+        "06": "Recognition earned through endurance.",
+        "07": "Defending your position against opposition.",
+        "08": "Rapid events increase tension.",
+        "09": "Double emphasis on resilience and perseverance.",
+        "10": "Heavy burdens and responsibility.",
+        "11": "Passionate communication despite caution.",
+        "12": "Bold action despite exhaustion.",
+        "13": "Confidence and charisma support endurance.",
+        "14": "Strong leadership maintains stability."
+      }
+    }
+  }
+}

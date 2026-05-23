@@ -1,0 +1,79 @@
+{
+  "name": "Two of Cups",
+  "meaning_for_today": "Today is favorable for partnership, reconciliation, emotional harmony, and sincere communication. A meaningful connection or agreement may appear.",
+  "card_advice": "Be open to cooperation, trust, and emotional honesty. Mutual understanding and respect will strengthen your relationships.",
+  "upright": {
+    "short": "Partnership, harmony, love, mutual understanding, unity.",
+    "general": "The Two of Cups symbolizes emotional connection, partnership, harmony, and mutual attraction. It often represents reconciliation, agreement, friendship, or the beginning of an important emotional union built on equality and trust.",
+    "in_love": "A strong romantic connection, mutual feelings, emotional intimacy, and harmonious relationships. The card often points to sincere love, engagement, or reconciliation.",
+    "in_situation": "The situation develops positively through cooperation, diplomacy, and partnership. Agreements and emotional understanding will help achieve success."
+  },
+  "reversed": {
+    "short": "Conflict, misunderstanding, imbalance, separation, tension.",
+    "general": "Reversed, the Two of Cups may indicate emotional imbalance, disagreements, broken trust, or difficulties in communication. A partnership may suffer from misunderstanding or lack of reciprocity.",
+    "in_love": "Conflicts, emotional distance, jealousy, or disappointment in relationships. Feelings may become unbalanced or communication may break down.",
+    "in_situation": "The situation may involve tension, failed agreements, or difficulties in cooperation. Honest communication and compromise are necessary."
+  },
+  "relations": {
+    "major": {
+      "01": "A spontaneous romantic connection.",
+      "02": "Strong communication and mutual understanding.",
+      "03": "Deep emotional and intuitive bond.",
+      "04": "Harmony, comfort, and emotional growth.",
+      "05": "Stable union and shared responsibility.",
+      "06": "Spiritual compatibility and trust.",
+      "07": "Love, attraction, and an important choice.",
+      "08": "Moving together toward a common goal.",
+      "09": "Strengthening a relationship through patience.",
+      "10": "Temporary emotional distance or reflection.",
+      "11": "A fortunate meeting or relationship change.",
+      "12": "Fairness, balance, and honesty in partnership.",
+      "13": "Sacrifice for love or emotional pause.",
+      "14": "Transformation and renewal of relationships.",
+      "15": "Harmony, patience, emotional balance.",
+      "16": "Toxic attachment, jealousy, dependence.",
+      "17": "Relationship crisis or emotional shock.",
+      "18": "Hope, healing, emotional inspiration.",
+      "19": "Confusion, hidden feelings, uncertainty.",
+      "20": "Joy, warmth, emotional openness.",
+      "21": "Renewal of feelings and reconciliation.",
+      "22": "Harmony, fulfillment, perfect union."
+    },
+    "minor": {
+      "cups": {
+        "01": "The beginning of love and emotional openness.",
+        "02": "Mutual attraction and equal partnership.",
+        "03": "Celebration, friendship, joyful communication.",
+        "04": "Emotional dissatisfaction affecting relationships.",
+        "05": "Sadness, regret, emotional pain.",
+        "06": "Sincere affection and emotional support.",
+        "07": "Dreams and unrealistic romantic expectations.",
+        "08": "Searching for deeper emotional connection.",
+        "09": "Emotional satisfaction and happiness.",
+        "10": "Family harmony and lasting emotional fulfillment.",
+        "11": "Romantic message or emotional curiosity.",
+        "12": "Romantic pursuit and emotional initiative.",
+        "13": "Intuition, emotional wisdom, understanding.",
+        "14": "Emotional maturity and supportive partnership."
+      },
+      "pentacles": {},
+      "swords": {},
+      "wands": {
+        "01": "Passionate attraction and inspiration.",
+        "02": "Joint planning and shared ambitions.",
+        "03": "Successful cooperation and progress.",
+        "04": "Celebration, home harmony, shared joy.",
+        "05": "Conflicts, rivalry, emotional tension.",
+        "06": "Recognition, support, successful partnership.",
+        "07": "Defending a relationship or common ideals.",
+        "08": "Rapid relationship development or communication.",
+        "09": "Stress, anxiety, emotional pressure.",
+        "10": "Emotional burden and exhaustion.",
+        "11": "Creative inspiration and romantic curiosity.",
+        "12": "Impulsive attraction and instability.",
+        "13": "Warmth, loyalty, emotional understanding.",
+        "14": "Strong attraction, trust, equal partnership."
+      }
+    }
+  }
+}

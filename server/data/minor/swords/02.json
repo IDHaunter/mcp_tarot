@@ -1,0 +1,92 @@
+{
+    "name": "Two of Swords",
+    "meaning_for_today": "Today reflects indecision, mental tension, and the need to make a choice you may be avoiding. It encourages calm analysis before acting.",
+    "card_advice": "Do not avoid decisions out of fear or confusion. Seek clarity, gather information, and trust your ability to make a balanced choice.",
+    "upright": {
+        "short": "Indecision, stalemate, balance, avoidance.",
+        "general": "The Two of Swords represents a state of indecision and inner conflict. It often appears when a person is avoiding a difficult choice or trying to maintain emotional balance by blocking out external pressures. It suggests a need for clarity and truth before progress can be made.",
+        "in_love": "In love, it can indicate emotional distance, uncertainty about feelings, or avoidance of relationship decisions. Communication may be blocked or delayed.",
+        "in_situation": "In situations, it points to stalemates, delayed decisions, or inability to see the full picture. It advises removing denial and facing facts directly."
+    },
+    "reversed": {
+        "short": "Clarity, truth revealed, decision made, confusion lifted.",
+        "general": "Reversed, the Two of Swords indicates that confusion is ending and clarity is emerging. A decision is finally being made after a period of avoidance or uncertainty.",
+        "in_love": "In relationships, it suggests emotional breakthroughs, honest conversations, or the end of avoidance. Hidden feelings may come to light.",
+        "in_situation": "In situations, it shows resolution of stalemates and the beginning of movement after a period of inaction. Truths are revealed, allowing progress."
+    },
+    "relations": {
+        "major": {
+            "01": "New beginnings delayed by indecision.",
+            "02": "Mental clarity needed before taking action.",
+            "03": "Intuition blocked by rational hesitation.",
+            "04": "Authority conflicts causing inner tension.",
+            "05": "Traditional values influencing difficult choices.",
+            "06": "Emotional or relational choices avoided.",
+            "07": "Direction unclear in a major decision.",
+            "08": "Action blocked by uncertainty.",
+            "09": "Anxiety created by indecision.",
+            "10": "Endings postponed due to avoidance.",
+            "11": "Sudden changes increasing pressure to decide.",
+            "12": "Need for fair judgment in a balanced decision.",
+            "13": "Sacrifice required before progress can happen.",
+            "14": "Endings forced by unavoidable truth.",
+            "15": "Inner conflict caused by attachments or fears.",
+            "16": "Sudden realization breaking denial.",
+            "17": "Hope maintained despite uncertainty.",
+            "18": "Confusion and illusion intensifying indecision.",
+            "19": "Clarity emerging after hesitation.",
+            "20": "Judgment requiring final decision.",
+            "21": "Completion after resolving indecision."
+        },
+        "minor": {
+            "cups": {
+                "01": "Emotional blockage or difficulty choosing in love.",
+                "02": "Emotional balance maintained through avoidance.",
+                "03": "Social situations avoided or paused.",
+                "04": "Emotional withdrawal and hesitation.",
+                "05": "Avoiding emotional grief or confrontation.",
+                "06": "Stuck in past emotional memories.",
+                "07": "Confusion in emotional choices.",
+                "08": "Avoiding emotional transitions.",
+                "09": "Unclear emotional desires.",
+                "10": "Emotional stagnation due to indecision."
+            },
+            "pentacles": {
+                "01": "Financial decisions delayed.",
+                "02": "Difficulty balancing resources.",
+                "03": "Work decisions requiring clarity.",
+                "04": "Holding onto resources due to fear of loss.",
+                "05": "Financial stress causing indecision.",
+                "06": "Unclear financial exchange or fairness issues.",
+                "07": "Long-term planning stalled.",
+                "08": "Learning path unclear or delayed.",
+                "09": "Financial independence questioned.",
+                "10": "Legacy decisions postponed."
+            },
+            "swords": {
+                "01": "Mental clarity blocked by indecision.",
+                "02": "Direct reflection of inner conflict and avoidance.",
+                "03": "Mental pain caused by refusal to choose.",
+                "04": "Mental rest but also stagnation.",
+                "05": "Conflict avoided or unresolved.",
+                "06": "Transition delayed due to uncertainty.",
+                "07": "Strategy unclear or divided thinking.",
+                "08": "Mental restriction and self-imposed limits.",
+                "09": "Anxiety increased by indecision.",
+                "10": "Mental overload due to unresolved choices."
+            },
+            "wands": {
+                "01": "Creative hesitation before starting something new.",
+                "02": "Future plans unclear or delayed.",
+                "03": "Expansion blocked by uncertainty.",
+                "04": "Stability delayed due to indecision.",
+                "05": "Creative conflicts unresolved.",
+                "06": "Victory postponed.",
+                "07": "Defensive hesitation in action.",
+                "08": "Delayed communication or progress.",
+                "09": "Resilience tested by uncertainty.",
+                "10": "Responsibilities avoided or delayed."
+            }
+        }
+    }
+}

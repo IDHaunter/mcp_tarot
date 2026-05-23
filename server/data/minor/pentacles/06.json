@@ -1,0 +1,64 @@
+{
+    "name": "6 of Pentacles",
+    "meaning_for_today": "Today will be a day of helping other people. Do not be stingy with a good deed, be generous and later it will return to you in a larger amount when difficulties in life arise for you as well. If it is not possible to lend money, help physically; at the very least, listen to the person with all your attention and give valuable and wise advice. If the reward is intended for you, do not refuse it, it is an appreciation of your efforts. Work on your own selfishness, then nothing will be able to overshadow the day.",
+    "card_advice": "Act boldly, because everything you have planned will definitely come true. If your relationship with someone is ruined, try to renew communication and establish a trusting relationship. If this is not done, there is a probability that in some matter the help of this specific person with whom you have disagreements will be required.",
+    "upright": {
+        "short": "Charity, help, pride, mentorship",
+        "general": "In a reading about the querent's character, the card indicates a proud and narcissistic person who takes on too much. He considers himself a ruler, although the power in his hands is not so great. Often he is just a rogue, a swindler who uses someone else's fame. The Six of Pentacles is also interpreted as a call to charity. It is a symbol of a gift, a bonus payment, or the repayment of debts. Someone generous from your circle will definitely come to your aid in a difficult moment. The arcanum speaks of a successful project that you have recently started or are about to start. Be careful when choosing a mentor; sometimes this factor turns out to be the most important. Worry not only about your own future, but also about the present day. As soon as you receive a large sum of money, set it aside for important events.",
+        "in_love": "When reading for love and relationships, the card symbolizes happiness and strong love. The partners are glad that their relationship is developing, enjoy each other's company, make plans for the future, and achieve goals together. Each of the partners receives equally what they deserve. The arcanum speaks of a rich inner world and a large number of emotions associated with romantic relationships. The intimate sphere of life is gradually improving. Partners know how to give each other pleasure and become more liberated.",
+        "in_situation": "Perhaps a pleasant surprise or a gift from a loved one awaits you. On an everyday level, a loan or mortgage may be approved for you, and new prospects will appear in your career or business. Debtors, as if by magic, will begin to return debts. If a deal is planned, it will end successfully, will not be postponed to another date, and it will be easy to find a compromise with the partner. If you need financial assistance at this moment in life, you will receive it shortly. There is a possibility that you will be turned to for financial support. Do not refuse, help others to the best of your ability."
+    },
+    "reversed": {
+        "short": "Theft, greed, illusions, avarice",
+        "general": "You may find yourself in an uncomfortable financial situation, which will be connected to the work process or business. It is possible that for some important project that is very promising, investment will be required, but you will not receive it. As a result, the business will not develop. Refrain from making deals; you may be deceived even by those from whom you do not expect dishonesty. The card suggests that the jealousy and envy that the querent feels can badly affect health, as they are harmful and useless thoughts.",
+        "in_love": "The card says that only one partner has feelings in this union. The other is just comfortable, everything suits them, and it is not necessary for them to love. They take advantage of affection, care, and attention without giving anything in return. If you are sick, your partner will most likely refuse to look after you, dumping all the worries on a nurse or other relatives. This can be connected not only with unrequited love but also with old grievances.",
+        "in_situation": "The card speaks of financial problems. This could be a loss at a casino or theft due to the stupidity and carelessness of the owner. When a person does a reading on a financial situation, the card warns against lending money to anyone, otherwise you might never see that amount again. If the querent provides a service to another person in order to get something in return, the card suggests that it is not worth doing, as you will be deceived, or the service or help itself will be of terrible quality."
+    },
+    "relations": {
+        "major": {
+            "01": "help to an orphanage",
+            "02": "magical, medical or professional help",
+            "03": "scientific support",
+            "04": "masterly/landlord's help",
+            "05": "mortgage",
+            "06": "an act of mercy",
+            "07": "solving problems in relationships; mutual concessions",
+            "08": "a loan for buying a car or a trip",
+            "09": "replenish strengths, energy",
+            "10": "gaining wisdom and experience; fencing oneself off from someone's help",
+            "11": "unstable financial situation",
+            "12": "repayment of debt; reward according to merit",
+            "13": "absence of help",
+            "14": "contribute to changes",
+            "15": "restoration and healing",
+            "16": "black ingratitude; a gift with a catch; a fake benefactor; bribery",
+            "17": "pour oil on the fire",
+            "18": "giving hope",
+            "19": "deceive; create an appearance",
+            "20": "receive a reward",
+            "21": "help for past deeds",
+            "22": "get back on one's feet"
+        },
+        "minor": {
+            "cups": {},
+            "pentacles": {},
+            "swords": {},
+            "wands": {
+                "01": "financial support for an undertaking",
+                "02": "planning the allocation of funds",
+                "03": "profit; successful cooperation",
+                "04": "a valuable gift; a reward",
+                "05": "tender",
+                "06": "favorable financial development",
+                "07": "financial claims",
+                "08": "retribution",
+                "09": "pretext",
+                "10": "excessive financial obligations",
+                "11": "favorable news regarding the allocation of funds",
+                "12": "clumsy handling of money",
+                "13": "getting what is desired",
+                "14": "financial generosity"
+            }
+        }
+    }
+}

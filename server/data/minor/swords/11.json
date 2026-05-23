@@ -1,0 +1,92 @@
+{
+    "name": "Page of Swords",
+    "meaning_for_today": "Today brings curiosity, mental activity, and new ideas. It is a good time to learn, observe carefully, and stay alert to new information or unexpected news.",
+    "card_advice": "Stay curious but avoid jumping to conclusions. Think before speaking or acting, and use your mental energy to explore rather than judge too quickly.",
+    "upright": {
+        "short": "Curiosity, vigilance, new ideas, and mental energy.",
+        "general": "The Page of Swords represents intellectual curiosity, alertness, and a thirst for knowledge. It often indicates new ideas, learning opportunities, or the beginning of a mental or communication-based journey. This card encourages observation, questioning, and gathering information before taking action.",
+        "in_love": "In love, it can indicate curiosity about a new relationship or cautious communication between partners. It may also suggest overthinking or analyzing emotions instead of expressing them freely.",
+        "in_situation": "In situations, it points to gathering information, staying alert, and being ready for new developments. It is important to remain observant and avoid impulsive judgments."
+    },
+    "reversed": {
+        "short": "Gossip, misinformation, impatience, and scattered thinking.",
+        "general": "Reversed, the Page of Swords can indicate poor communication, misinformation, or mental restlessness. It may suggest acting without full understanding or being overly suspicious and reactive.",
+        "in_love": "In relationships, it can point to miscommunication, gossip, or distrust. One may be overly analytical or emotionally immature in expressing feelings.",
+        "in_situation": "In situations, it warns of misunderstandings, lack of preparation, or jumping to conclusions without enough facts."
+    },
+    "relations": {
+        "major": {
+            "01": "New beginnings filled with curiosity and learning.",
+            "02": "Using intellect and communication to initiate action.",
+            "03": "Seeking hidden knowledge and deeper understanding.",
+            "04": "Structured authority influencing early learning.",
+            "05": "Traditional knowledge systems and formal education.",
+            "06": "Important decisions requiring careful thought.",
+            "07": "Choices made through research and observation.",
+            "08": "Fast-moving information and mental agility.",
+            "09": "Anxiety or overthinking about new ideas.",
+            "10": "Endings that lead to new intellectual beginnings.",
+            "11": "Sudden changes requiring mental adaptability.",
+            "12": "New perspectives gained through learning.",
+            "13": "Shifting mindset through new awareness.",
+            "14": "Truth revealed through mental transformation.",
+            "15": "Breaking illusions through knowledge.",
+            "16": "Sudden realization or shocking information.",
+            "17": "Hope supported by learning and curiosity.",
+            "18": "Confusion requiring investigation and clarity.",
+            "19": "Success achieved through learning and insight.",
+            "20": "Judgment based on information and truth.",
+            "21": "Completion through understanding and knowledge."
+        },
+        "minor": {
+            "cups": {
+                "01": "Curiosity about emotional beginnings.",
+                "02": "Learning communication in relationships.",
+                "03": "Social curiosity and group learning.",
+                "04": "Emotional withdrawal to think and observe.",
+                "05": "Analyzing emotional loss.",
+                "06": "Learning from past emotional experiences.",
+                "07": "Confusion in emotional choices.",
+                "08": "Leaving emotional situations to explore new ideas.",
+                "09": "Wishful thinking and mental curiosity.",
+                "10": "Emotional understanding through reflection."
+            },
+            "pentacles": {
+                "01": "Learning about new financial opportunities.",
+                "02": "Balancing resources through analysis.",
+                "03": "Studying practical skills and teamwork.",
+                "04": "Careful financial observation and control.",
+                "05": "Learning through material difficulties.",
+                "06": "Understanding exchange and fairness.",
+                "07": "Evaluating long-term investments.",
+                "08": "Skill development and focused learning.",
+                "09": "Independent learning leading to success.",
+                "10": "Understanding legacy and long-term value."
+            },
+            "swords": {
+                "01": "New thoughts and mental breakthroughs.",
+                "02": "Decision-making and intellectual curiosity.",
+                "03": "Mental pain and learning through experience.",
+                "04": "Rest and mental recovery.",
+                "05": "Conflict and learning through confrontation.",
+                "06": "Transition and mental exploration.",
+                "07": "Strategy, analysis, and observation.",
+                "08": "Mental restriction and self-doubt.",
+                "09": "Anxiety and overthinking.",
+                "10": "End of mental struggle and new awareness."
+            },
+            "wands": {
+                "01": "Curiosity sparks new creative ideas.",
+                "02": "Planning future creative projects.",
+                "03": "Expanding vision through exploration.",
+                "04": "Stability supporting learning.",
+                "05": "Creative conflict and experimentation.",
+                "06": "Recognition for intellectual or creative efforts.",
+                "07": "Defending ideas and opinions.",
+                "08": "Fast communication of ideas.",
+                "09": "Resilience in learning process.",
+                "10": "Managing many ideas and responsibilities."
+            }
+        }
+    }
+}

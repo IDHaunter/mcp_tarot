@@ -1,0 +1,58 @@
+{
+  "name": "Ten of Cups",
+  "meaning_for_today": "Today brings harmony, emotional fulfillment, and a sense of peace within family or close relationships. It is a day to appreciate stability and shared happiness.",
+  "card_advice": "Focus on gratitude and strengthening emotional bonds. Do not take harmony for granted—nurture relationships that bring long-term happiness.",
+  "upright": {
+    "short": "Happiness, family harmony, emotional fulfillment",
+    "general": "Represents lasting emotional happiness, harmony in relationships, and a strong sense of belonging. It often reflects a stable and joyful family or community life.",
+    "in_love": "Deep emotional connection, long-term happiness, and harmony in romantic relationships. It can indicate a strong and supportive partnership.",
+    "in_situation": "A situation reaching emotional completion and stability. Success is shared with others, often involving family or community support."
+  },
+  "reversed": {
+    "short": "Disharmony, broken relationships, misalignment",
+    "general": "Indicates conflict in relationships, emotional distance, or lack of harmony in family or social environments.",
+    "in_love": "Struggles in relationships, unmet expectations, or emotional separation within a partnership.",
+    "in_situation": "A situation where external stability may exist but emotional harmony is missing or disrupted."
+  },
+  "relations": {
+    "major": {
+      "01": "New beginnings that can lead to emotional fulfillment",
+      "03": "Emotional intuition influencing family harmony",
+      "04": "Stability and nurturing energy in family life",
+      "06": "Traditional values and commitment in relationships",
+      "07": "Love choices leading to long-term partnership",
+      "10": "Completion of emotional growth and inner peace",
+      "11": "Positive changes bringing family happiness",
+      "12": "Balancing fairness and emotional bonds",
+      "15": "Emotional attachments or dependency in relationships",
+      "18": "Hope and healing within family or emotional life",
+      "19": "Joy, success, and emotional clarity",
+      "21": "Completion and fulfillment of emotional destiny",
+      "22": "Wholeness and ultimate harmony"
+    },
+    "minor": {
+      "cups": {
+        "01": "New emotional beginnings in relationships",
+        "02": "Emotional union and partnership",
+        "03": "Celebration and shared happiness",
+        "04": "Emotional contemplation affecting harmony",
+        "06": "Nostalgia and family memories",
+        "09": "Emotional withdrawal affecting harmony"
+      },
+      "pentacles": {
+        "04": "Financial stability contributing to family security",
+        "10": "Material success supporting long-term family happiness"
+      },
+      "swords": {
+        "02": "Indecision affecting relationships",
+        "03": "Emotional pain within family or partnership",
+        "06": "Transition toward emotional healing in relationships"
+      },
+      "wands": {
+        "04": "Celebration and family gatherings",
+        "08": "Fast changes affecting family dynamics",
+        "10": "Emotional pressure impacting harmony"
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "The Hierophant",
+  "meaning_for_today": "Today favors learning, tradition, spiritual growth, and following wise guidance. Respect for rules and established values will help achieve harmony and understanding.",
+  "card_advice": "Seek wisdom from trusted sources and stay true to your principles. Learn from experience, honor traditions, and approach situations with patience and integrity.",
+  "upright": {
+    "short": "Tradition, wisdom, spiritual guidance, learning, morality.",
+    "general": "The Hierophant represents spiritual knowledge, traditions, education, and social values. This card symbolizes guidance from teachers, respect for rules, moral principles, and connection to established systems or beliefs. It often points to formal education, mentorship, or spiritual development.",
+    "in_love": "In relationships, The Hierophant signifies loyalty, commitment, traditional values, and serious intentions. It often points to marriage, stable partnerships, or relationships built on trust and shared beliefs.",
+    "in_situation": "The situation requires patience, discipline, and following established methods. Advice from experienced people or adherence to traditions may help achieve the best outcome."
+  },
+  "reversed": {
+    "short": "Rebellion, rigid beliefs, unconventionality, misuse of authority.",
+    "general": "Reversed, The Hierophant may indicate rejection of traditions, conflict with authority, rigid thinking, or blind obedience. It can also point to unconventional beliefs, resistance to social expectations, or misuse of spiritual authority.",
+    "in_love": "In love readings, the reversed Hierophant may suggest disagreements about values, resistance to commitment, unconventional relationships, or tension caused by strict expectations.",
+    "in_situation": "The situation may require breaking outdated rules or thinking independently. The card warns against dogmatism, excessive conformity, or blindly following advice."
+  },
+  "relations": {
+    "major": {
+      "01": "A new spiritual journey begins.",
+      "02": "Intuition and sacred knowledge unite.",
+      "03": "Traditional values support growth and family.",
+      "04": "Authority and structure guided by wisdom.",
+      "05": "Deep connection to tradition and teaching.",
+      "06": "Commitment and shared beliefs in relationships.",
+      "07": "Discipline and faith lead to victory.",
+      "08": "Inner strength guided by moral values.",
+      "09": "Spiritual wisdom through solitude.",
+      "10": "Destiny shaped by spiritual lessons.",
+      "11": "Justice and ethical responsibility.",
+      "12": "A new perspective challenges traditions.",
+      "13": "Transformation of beliefs and values.",
+      "14": "Balance between spirituality and moderation.",
+      "15": "Danger of fanaticism or blind obedience.",
+      "16": "Collapse of outdated systems or beliefs.",
+      "17": "Faith, hope, and spiritual inspiration.",
+      "18": "Confusion caused by hidden truths or fears.",
+      "19": "Joy through faith and understanding.",
+      "20": "Spiritual awakening and self-realization.",
+      "21": "Completion of spiritual growth and wisdom."
+    },
+    "minor": {
+      "cups": {
+        "01": "A spiritually meaningful emotional beginning.",
+        "02": "Sacred union and mutual understanding.",
+        "03": "Celebration within a supportive community.",
+        "04": "Questioning emotional satisfaction and beliefs.",
+        "05": "Seeking spiritual comfort after loss.",
+        "06": "Traditions, memories, and family values.",
+        "07": "Need for realistic spiritual choices.",
+        "08": "Leaving old beliefs behind for growth.",
+        "09": "Emotional fulfillment through inner wisdom.",
+        "10": "Traditional family happiness and harmony.",
+        "11": "A sincere and thoughtful emotional message.",
+        "12": "Idealistic pursuit guided by values.",
+        "13": "Compassionate wisdom and emotional maturity.",
+        "14": "Emotional stability and ethical leadership."
+      },
+      "pentacles": {
+        "01": "Material success through discipline and learning.",
+        "02": "Balancing practical responsibilities wisely.",
+        "03": "Learning and teamwork lead to mastery.",
+        "04": "Rigid attachment to security or tradition.",
+        "05": "Seeking guidance during financial hardship.",
+        "06": "Generosity guided by fairness and ethics.",
+        "07": "Patience and long-term planning bring rewards.",
+        "08": "Dedication to study and craftsmanship.",
+        "09": "Comfort achieved through discipline and wisdom.",
+        "10": "Family legacy, traditions, and stability.",
+        "11": "Learning practical skills and values.",
+        "12": "Ambitious pursuit of meaningful goals.",
+        "13": "Practical wisdom and nurturing support.",
+        "14": "Responsible leadership and material mastery."
+      },
+      "swords": {
+        "01": "Clear truth and moral clarity.",
+        "02": "Difficulty choosing between beliefs or values.",
+        "03": "Pain caused by rigid expectations.",
+        "04": "Rest and reflection bring spiritual insight.",
+        "05": "Conflict over beliefs or authority.",
+        "06": "Moving toward intellectual and spiritual peace.",
+        "07": "Questioning authority or hidden motives.",
+        "08": "Restrictive beliefs create mental limitations.",
+        "09": "Fear or guilt linked to moral pressure.",
+        "10": "The end of outdated beliefs or systems.",
+        "11": "Curious learning and intellectual exploration.",
+        "12": "Fast communication of important truths.",
+        "13": "Sharp intellect and strict judgment.",
+        "14": "Mental authority and strategic wisdom."
+      },
+      "wands": {
+        "01": "Inspired action guided by higher purpose.",
+        "02": "Planning future growth with wisdom.",
+        "03": "Expansion through knowledge and experience.",
+        "04": "Traditional celebrations and community harmony.",
+        "05": "Disagreements about beliefs or values.",
+        "06": "Recognition earned through integrity.",
+        "07": "Defending personal beliefs and principles.",
+        "08": "Rapid spiritual or intellectual progress.",
+        "09": "Persistence supported by faith and discipline.",
+        "10": "Burden of responsibilities and expectations.",
+        "11": "A passionate opportunity for learning.",
+        "12": "Driven pursuit of meaningful goals.",
+        "13": "Confident and inspiring spiritual guidance.",
+        "14": "Visionary leadership grounded in wisdom."
+      }
+    }
+  }
+}

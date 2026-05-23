@@ -1,0 +1,92 @@
+{
+    "name": "Five of Swords",
+    "meaning_for_today": "Today may highlight conflict, tension, or the aftermath of a disagreement. It suggests reflecting on whether winning a situation is worth the cost.",
+    "card_advice": "Choose your battles carefully. Avoid unnecessary conflict and focus on resolution rather than proving yourself right.",
+    "upright": {
+        "short": "Conflict, defeat, tension, hollow victory.",
+        "general": "The Five of Swords represents conflict, disagreement, and situations where victory may come at a personal or emotional cost. It often reflects arguments, power struggles, or winning in a way that leaves others or yourself feeling drained or hurt. The card warns about ego-driven decisions and the importance of considering long-term consequences over short-term wins.",
+        "in_love": "In love, it can indicate arguments, misunderstandings, or unhealthy competition between partners. It may also suggest emotional distance caused by unresolved conflicts or ego clashes.",
+        "in_situation": "In situations, it points to disputes, tension, or unethical competition. Even if you 'win,' the outcome may not feel satisfying or fair. It advises reassessing priorities and seeking peaceful resolution."
+    },
+    "reversed": {
+        "short": "Reconciliation, forgiveness, moving past conflict.",
+        "general": "Reversed, the Five of Swords suggests making peace after conflict, releasing resentment, and choosing reconciliation over pride. It can also indicate avoiding confrontation or learning from past disputes.",
+        "in_love": "In relationships, it points to forgiveness, healing after arguments, or rebuilding trust. It encourages open communication and emotional honesty to restore harmony.",
+        "in_situation": "In situations, it indicates the resolution of disputes or stepping away from toxic environments. It supports compromise and letting go of the need to win at any cost."
+    },
+    "relations": {
+        "major": {
+            "01": "New beginnings disrupted by conflict.",
+            "02": "Misuse of power or intellect in arguments.",
+            "03": "Hidden truths leading to confrontation.",
+            "04": "Authority-driven disputes or control struggles.",
+            "05": "Conflict with traditions or systems of belief.",
+            "06": "Relationship tension or emotional disagreements.",
+            "07": "Choices leading to competitive or conflicting outcomes.",
+            "08": "Fast escalation of disputes or arguments.",
+            "09": "Anxiety caused by ongoing conflict.",
+            "10": "Culmination of conflict leading to endings.",
+            "11": "Sudden changes triggering disputes.",
+            "12": "Need for fair judgment in conflict resolution.",
+            "13": "Sacrifice or surrender in a conflict situation.",
+            "14": "Destructive endings caused by unresolved tension.",
+            "15": "Toxic attachments fueling conflict.",
+            "16": "Sudden breakdown of relationships or structures.",
+            "17": "Hope despite ongoing conflict.",
+            "18": "Confusion and misunderstanding intensifying disputes.",
+            "19": "Clarity and resolution after conflict.",
+            "20": "Judgment and accountability in disputes.",
+            "21": "Completion after resolving conflict."
+        },
+        "minor": {
+            "cups": {
+                "01": "Emotional tension in new relationships.",
+                "02": "Breakdown of emotional balance.",
+                "03": "Friendship conflicts or betrayal.",
+                "04": "Emotional withdrawal after arguments.",
+                "05": "Regret and emotional loss due to conflict.",
+                "06": "Past emotional disputes resurfacing.",
+                "07": "Confusion leading to emotional disagreements.",
+                "08": "Leaving emotional conflict behind.",
+                "09": "Disappointment in emotional expectations.",
+                "10": "Family or emotional group conflict."
+            },
+            "pentacles": {
+                "01": "Financial disputes or competition.",
+                "02": "Imbalance in resource management.",
+                "03": "Workplace conflict or rivalry.",
+                "04": "Material control issues causing tension.",
+                "05": "Financial hardship worsened by conflict.",
+                "06": "Unfair exchanges or disputes over resources.",
+                "07": "Disappointment in long-term financial planning.",
+                "08": "Workplace stress or criticism.",
+                "09": "Loss of financial independence due to conflict.",
+                "10": "Family inheritance or legacy disputes."
+            },
+            "swords": {
+                "01": "Conflict arising from truth or harsh communication.",
+                "02": "Indecision leading to arguments.",
+                "03": "Heartbreak caused by conflict.",
+                "04": "Temporary withdrawal after mental conflict.",
+                "05": "Core meaning: conflict, ego battles, and hollow victories.",
+                "06": "Moving away from disputes.",
+                "07": "Deception or betrayal in conflict.",
+                "08": "Mental restriction caused by arguments.",
+                "09": "Anxiety fueled by ongoing disputes.",
+                "10": "Culmination of mental and verbal conflict."
+            },
+            "wands": {
+                "01": "Creative conflicts or disagreements.",
+                "02": "Planning disputes or directional disagreements.",
+                "03": "Expansion blocked by rivalry.",
+                "04": "Celebration disrupted by tension.",
+                "05": "Competition and rivalry (strong resonance).",
+                "06": "Victory overshadowed by conflict.",
+                "07": "Defending position in arguments.",
+                "08": "Fast escalation of disputes.",
+                "09": "Struggle and defensive behavior.",
+                "10": "Overwhelming responsibilities causing conflict."
+            }
+        }
+    }
+}

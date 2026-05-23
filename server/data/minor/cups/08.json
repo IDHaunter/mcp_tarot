@@ -1,0 +1,56 @@
+{
+  "name": "Eight of Cups",
+  "meaning_for_today": "Today is about moving away from something that no longer brings emotional fulfillment. It may be time to leave behind a situation, relationship, or habit in search of deeper meaning.",
+  "card_advice": "Trust your inner voice even if it leads you away from comfort. Walking away can be difficult, but it may be necessary for emotional growth and clarity.",
+  "upright": {
+    "short": "Leaving, search for meaning, emotional withdrawal",
+    "general": "Indicates a conscious decision to leave something behind in search of greater emotional or spiritual fulfillment. It often reflects disappointment or a realization that something no longer satisfies.",
+    "in_love": "Emotional distance or leaving a relationship that lacks depth. It can also suggest one partner is withdrawing to find clarity about their feelings.",
+    "in_situation": "Walking away from an unfulfilling job, project, or situation. Focus shifts toward personal truth and long-term emotional well-being."
+  },
+  "reversed": {
+    "short": "Avoidance, fear of change, stagnation",
+    "general": "Suggests difficulty letting go, fear of leaving, or staying in an unsatisfying situation due to comfort or uncertainty.",
+    "in_love": "Clinging to a relationship despite emotional emptiness or fear of being alone. Difficulty making necessary emotional decisions.",
+    "in_situation": "Resistance to change or avoiding necessary transition. Staying stuck in a situation that no longer supports growth."
+  },
+  "relations": {
+    "major": {
+      "01": "Beginning a journey toward self-discovery",
+      "03": "Emotional intuition guiding withdrawal",
+      "06": "Questioning traditional commitments",
+      "07": "Relationship choices and emotional separation",
+      "10": "Isolation and introspection",
+      "12": "Weighing emotional truth and fairness",
+      "13": "Surrender and letting go",
+      "14": "End of emotional cycle and transformation",
+      "18": "Searching through uncertainty and illusion",
+      "19": "Seeking emotional clarity and truth",
+      "21": "Completion of an emotional lesson"
+    },
+    "minor": {
+      "cups": {
+        "01": "Beginning of emotional search",
+        "02": "Emotional imbalance leading to separation",
+        "03": "Loss of emotional joy in social circles",
+        "05": "Disappointment in relationships",
+        "09": "Emotional withdrawal and introspection",
+        "10": "Completion of emotional cycle"
+      },
+      "pentacles": {
+        "04": "Clinging to material comfort instead of change",
+        "08": "Leaving work or routine for deeper purpose"
+      },
+      "swords": {
+        "03": "Heartbreak and emotional pain leading to withdrawal",
+        "06": "Transition away from difficult mental states",
+        "08": "Feeling trapped before choosing to leave"
+      },
+      "wands": {
+        "05": "Conflict leading to departure",
+        "07": "Standing up for beliefs and walking away",
+        "09": "Emotional exhaustion and guarded retreat"
+      }
+    }
+  }
+}

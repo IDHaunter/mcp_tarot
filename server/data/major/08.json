@@ -1,0 +1,108 @@
+{
+  "name": "The Chariot",
+  "meaning_for_today": "Today favors determination, movement, discipline, and victory through focused effort. Confidence and self-control will help overcome obstacles and achieve progress.",
+  "card_advice": "Stay focused on your goals and move forward with confidence. Discipline, persistence, and emotional control will lead to success and personal growth.",
+  "upright": {
+    "short": "Victory, determination, control, movement, ambition.",
+    "general": "The Chariot represents willpower, determination, discipline, and successful progress. This card symbolizes movement toward goals, overcoming obstacles, and maintaining control over emotions and circumstances. It often points to travel, ambition, and personal triumph.",
+    "in_love": "In relationships, The Chariot indicates active progress, commitment, and the ability to overcome challenges together. It may also reflect strong passion, determination to maintain the relationship, or important changes in love life.",
+    "in_situation": "The situation requires confidence, focus, and persistence. Success is possible through discipline, strategic action, and emotional balance. Forward movement is strongly supported."
+  },
+  "reversed": {
+    "short": "Lack of direction, loss of control, aggression, delays.",
+    "general": "Reversed, The Chariot may indicate lack of focus, emotional imbalance, aggression, stubbornness, or difficulties moving forward. It can point to delays, frustration, or feeling powerless in a situation.",
+    "in_love": "In love readings, the reversed Chariot may suggest conflicts, emotional distance, power struggles, or uncertainty about the direction of the relationship. Poor communication may create instability.",
+    "in_situation": "The situation may feel blocked or chaotic due to lack of discipline or control. The card advises slowing down, regaining focus, and avoiding impulsive actions."
+  },
+  "relations": {
+    "major": {
+      "01": "A bold journey begins with confidence.",
+      "02": "Skill and focus create forward movement.",
+      "03": "Growth and success through patience and care.",
+      "04": "Strong leadership supports achievement.",
+      "05": "Discipline guided by wisdom and tradition.",
+      "06": "Shared goals strengthen emotional bonds.",
+      "07": "Victory through determination and self-control.",
+      "08": "Inner strength fuels perseverance.",
+      "09": "Reflection helps clarify the right direction.",
+      "10": "Destiny accelerates important changes.",
+      "11": "Fairness and balance lead to success.",
+      "12": "Progress delayed by sacrifice or uncertainty.",
+      "13": "Transformation creates a new direction.",
+      "14": "Balanced action and patience ensure victory.",
+      "15": "Obsessive ambition or loss of control.",
+      "16": "Sudden disruption changes the course completely.",
+      "17": "Hope and inspiration guide the journey.",
+      "18": "Fear and confusion cloud decision-making.",
+      "19": "Joyful success and confident achievement.",
+      "20": "Awakening motivates decisive action.",
+      "21": "Complete triumph and fulfillment."
+    },
+    "minor": {
+      "cups": {
+        "01": "Emotional motivation drives new beginnings.",
+        "02": "Moving forward together in harmony.",
+        "03": "Celebration after successful progress.",
+        "04": "Emotional hesitation slows advancement.",
+        "05": "Determination helps overcome emotional loss.",
+        "06": "Past memories influence future direction.",
+        "07": "Need for clarity among emotional choices.",
+        "08": "Leaving emotional stagnation behind.",
+        "09": "Confidence brings emotional satisfaction.",
+        "10": "Family harmony supports achievement.",
+        "11": "An emotional message inspires action.",
+        "12": "Passionate pursuit of emotional goals.",
+        "13": "Compassion and confidence combined.",
+        "14": "Emotional maturity guides success."
+      },
+      "pentacles": {
+        "01": "Strong momentum toward financial success.",
+        "02": "Balancing responsibilities while progressing.",
+        "03": "Teamwork and effort produce achievement.",
+        "04": "Fear of change blocks progress.",
+        "05": "Persistence through financial hardship.",
+        "06": "Balanced support helps move forward.",
+        "07": "Patience and discipline bring rewards.",
+        "08": "Focused work leads to mastery.",
+        "09": "Independent success and comfort.",
+        "10": "Long-term success and stable foundations.",
+        "11": "A practical opportunity moves quickly.",
+        "12": "Ambitious action and determined movement.",
+        "13": "Reliable leadership and practical confidence.",
+        "14": "Strong control over material success."
+      },
+      "swords": {
+        "01": "Clear thinking and decisive action.",
+        "02": "Indecision creates delays and frustration.",
+        "03": "Painful truths motivate change.",
+        "04": "Rest is needed before moving ahead.",
+        "05": "Conflict caused by excessive ambition.",
+        "06": "Transition toward calmer conditions.",
+        "07": "Hidden motives disrupt progress.",
+        "08": "Mental restrictions block movement.",
+        "09": "Anxiety weakens confidence and focus.",
+        "10": "An ending clears the way forward.",
+        "11": "Curiosity and ambition inspire communication.",
+        "12": "Fast action and rapid developments.",
+        "13": "Sharp strategy and controlled authority.",
+        "14": "Mental discipline and strategic mastery."
+      },
+      "wands": {
+        "01": "Powerful ambition and inspired action.",
+        "02": "Strategic planning for future success.",
+        "03": "Expansion and progress through confidence.",
+        "04": "Celebration of achievements and stability.",
+        "05": "Competition fuels determination.",
+        "06": "Public victory and recognition.",
+        "07": "Defending success with confidence.",
+        "08": "Rapid movement and exciting developments.",
+        "09": "Persistence despite exhaustion or obstacles.",
+        "10": "Heavy responsibilities slow progress.",
+        "11": "An exciting opportunity drives action.",
+        "12": "Bold ambition and fearless movement.",
+        "13": "Confident leadership and inspiring energy.",
+        "14": "Visionary action and entrepreneurial success."
+      }
+    }
+  }
+}

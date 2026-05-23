@@ -1,0 +1,79 @@
+{
+  "name": "Queen of Cups",
+  "meaning_for_today": "Today is favorable for emotional openness, intuition, compassion, and heartfelt conversations. Trust your feelings and pay attention to subtle emotional signals.",
+  "card_advice": "Listen to your intuition, show kindness and empathy, and avoid suppressing your emotions. Emotional honesty will help you find harmony.",
+  "upright": {
+    "short": "Intuition, compassion, emotional depth, sensitivity, care.",
+    "general": "The Queen of Cups symbolizes emotional wisdom, empathy, intuition, and spiritual sensitivity. She represents a caring and understanding person who supports others and deeply understands emotions. The card also points to creativity, healing, and inner harmony.",
+    "in_love": "A relationship based on tenderness, emotional closeness, trust, and mutual understanding. The card may indicate deep romantic feelings, devotion, and emotional support.",
+    "in_situation": "The situation requires sensitivity, patience, and intuitive understanding. Success will come through diplomacy, compassion, and emotional awareness.",
+    "reversed": {
+      "short": "Emotional instability, moodiness, manipulation, insecurity.",
+      "general": "Reversed, the Queen of Cups may indicate emotional imbalance, hypersensitivity, manipulation through feelings, or unrealistic expectations. A person may become withdrawn, anxious, or emotionally dependent.",
+      "in_love": "Misunderstandings, emotional insecurity, jealousy, or manipulation in relationships. One partner may hide true feelings or become overly dependent.",
+      "in_situation": "The situation may involve emotional confusion, deception, or inability to see reality clearly. It is important to stay calm and avoid emotional overreaction."
+    }
+  },
+  "relations": {
+    "major": {
+      "01": "Healing the inner child; emotional renewal.",
+      "02": "Using intuition and personal abilities.",
+      "03": "Healer, psychic, psychologist, spiritual guide.",
+      "04": "Healing influence and emotional comfort.",
+      "05": "Creating a loving and caring family.",
+      "06": "Inner enlightenment and spiritual sensitivity.",
+      "07": "Giving love and emotional warmth.",
+      "08": "Feelings that are still developing.",
+      "09": "Strength of spirit and emotional resilience.",
+      "10": "Escaping problems through emotional avoidance.",
+      "11": "Beginning emotional rebirth and healing.",
+      "12": "Seeing deeper meaning behind appearances.",
+      "13": "Betrayal or emotional sacrifice.",
+      "14": "Transformation of feelings and emotions.",
+      "15": "Emotional balance and self-control.",
+      "16": "Addictions and emotional dependence.",
+      "17": "Self-destruction caused by emotions.",
+      "18": "Hope for emotional renewal and healing.",
+      "19": "Confusion and uncertainty in emotions.",
+      "20": "Creative inspiration and joy.",
+      "21": "People treat you as you treat them.",
+      "22": "Emotional renewal and harmony."
+    },
+    "minor": {
+      "cups": {
+        "01": "A new emotional beginning; inspiration.",
+        "02": "Harmony, mutual understanding, partnership.",
+        "03": "Joyful communication and emotional support.",
+        "04": "Emotional dissatisfaction and reflection.",
+        "05": "Sadness, disappointment, emotional pain.",
+        "06": "Kindness, nostalgia, sincere feelings.",
+        "07": "Dreams, fantasies, emotional illusions.",
+        "08": "Searching for deeper emotional meaning.",
+        "09": "Emotional fulfillment and happiness.",
+        "10": "Family harmony and emotional comfort.",
+        "11": "Sensitivity, emotional curiosity, romantic message.",
+        "12": "Emotional movement, passion, romantic pursuit.",
+        "13": "Deep feminine intuition and emotional wisdom.",
+        "14": "Emotional maturity, calmness, wise guidance."
+      },
+      "pentacles": {},
+      "swords": {},
+      "wands": {
+        "01": "Creative inspiration and emotional energy.",
+        "02": "Balancing emotions with ambitions.",
+        "03": "Successful emotional and business cooperation.",
+        "04": "Warmth and emotional comfort at home.",
+        "05": "Inner emotional conflicts and disagreements.",
+        "06": "Recognition, support, emotional confidence.",
+        "07": "Defending personal feelings and beliefs.",
+        "08": "Rapid emotional development or meeting.",
+        "09": "Emotional tension and anxiety.",
+        "10": "Emotional exhaustion and burden.",
+        "11": "Creative emotional search and inspiration.",
+        "12": "Impulsive emotions and instability.",
+        "13": "Warmth, loyalty, emotional understanding.",
+        "14": "Mutual trust, emotional harmony, equal partnership."
+      }
+    }
+  }
+}

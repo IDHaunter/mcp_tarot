@@ -1,0 +1,108 @@
+{
+  "name": "Five of Wands",
+  "meaning_for_today": "Today may bring competition, disagreements, or challenges that test your patience and determination. These obstacles can become opportunities for growth if handled constructively.",
+  "card_advice": "Do not fear competition or conflict. Stay focused on your goals, avoid unnecessary arguments, and use challenges as motivation to improve yourself.",
+  "upright": {
+    "short": "Competition, conflict, tension, rivalry, struggle, challenges.",
+    "general": "The Five of Wands symbolizes competition, disagreements, and clashes of opinions. This card often appears during periods of tension, rivalry, or energetic struggle where different people compete for attention, success, or influence. It encourages learning through challenges and developing resilience.",
+    "in_love": "In relationships, the Five of Wands may indicate arguments, jealousy, misunderstandings, or emotional tension. Passion can exist, but harmony is disrupted by conflict or competition.",
+    "in_situation": "A situation involves obstacles, disagreements, or competition. Success requires patience, self-control, adaptability, and the ability to cooperate despite differences."
+  },
+  "reversed": {
+    "short": "Resolution, compromise, avoiding conflict, suppressed tension, instability.",
+    "general": "Reversed, the Five of Wands can indicate the end of conflict, willingness to compromise, or attempts to avoid confrontation. However, hidden tension or unresolved frustration may still remain.",
+    "in_love": "Relationships begin to recover from disputes, but unresolved emotions may continue affecting harmony if communication is avoided.",
+    "in_situation": "Competition decreases, allowing cooperation and peace. It is important to resolve disagreements honestly instead of suppressing them."
+  },
+  "relations": {
+    "major": {
+      "01": "Chaotic adventures and reckless competition.",
+      "02": "Conflicting ideas and struggle for control.",
+      "03": "Creative disagreements and tension in growth.",
+      "04": "Power struggles and challenges to authority.",
+      "05": "Conflicts involving traditions or beliefs.",
+      "06": "Arguments, jealousy, or difficult emotional choices.",
+      "07": "Determination helps overcome obstacles.",
+      "08": "Inner strength controls aggression and tension.",
+      "09": "Reflection is needed to avoid unnecessary conflict.",
+      "10": "Unexpected changes create instability and rivalry.",
+      "11": "Fairness and balance help resolve disputes.",
+      "12": "Conflict slows progress and creates frustration.",
+      "13": "Transformation occurs through struggle and challenge.",
+      "14": "Moderation and patience reduce tension.",
+      "15": "Aggression, unhealthy competition, or toxic behavior.",
+      "16": "Explosive conflict and sudden disruption.",
+      "17": "Hope and cooperation restore harmony.",
+      "18": "Misunderstandings and hidden motives increase tension.",
+      "19": "Success achieved after overcoming competition.",
+      "20": "A wake-up call forces resolution of conflicts.",
+      "21": "Conflict ends, leading to achievement and peace."
+    },
+    "minor": {
+      "cups": {
+        "01": "Emotional tension disrupts new feelings.",
+        "02": "Arguments or rivalry within a relationship.",
+        "03": "Competition or jealousy among friends.",
+        "04": "Frustration and dissatisfaction increase conflict.",
+        "05": "Disappointment and emotional struggles intensify.",
+        "06": "Old conflicts or childhood rivalries resurface.",
+        "07": "Too many competing desires create confusion.",
+        "08": "Leaving conflict behind in search of peace.",
+        "09": "Winning brings satisfaction but may create envy.",
+        "10": "Family disagreements disturb harmony.",
+        "11": "Immature behavior causes unnecessary drama.",
+        "12": "Impulsive actions create emotional tension.",
+        "13": "Emotional maturity helps resolve disputes.",
+        "14": "Wise emotional leadership restores balance."
+      },
+      "pentacles": {
+        "01": "Competition around work or financial opportunities.",
+        "02": "Struggling to balance responsibilities and stress.",
+        "03": "Team conflicts disrupt cooperation.",
+        "04": "Possessiveness and fear create tension.",
+        "05": "Financial hardship increases arguments and pressure.",
+        "06": "Disputes over fairness or shared resources.",
+        "07": "Frustration from slow progress and delays.",
+        "08": "Hard work and discipline overcome rivalry.",
+        "09": "Success attracts jealousy or competition.",
+        "10": "Family or financial disagreements arise.",
+        "11": "Immature approach to responsibilities causes tension.",
+        "12": "Ambition leads to rivalry and competition.",
+        "13": "Practical wisdom helps calm conflicts.",
+        "14": "Strong leadership restores order and stability."
+      },
+      "swords": {
+        "01": "Sharp words and intellectual disagreements.",
+        "02": "Avoiding decisions increases tension.",
+        "03": "Conflict causes emotional pain and heartbreak.",
+        "04": "Rest and distance help resolve disputes.",
+        "05": "Intense rivalry and open confrontation.",
+        "06": "Leaving conflict behind for calmer circumstances.",
+        "07": "Dishonesty and hidden motives create distrust.",
+        "08": "Fear and insecurity worsen competition.",
+        "09": "Stress and anxiety caused by ongoing struggles.",
+        "10": "A painful ending resolves prolonged conflict.",
+        "11": "Immature communication leads to arguments.",
+        "12": "Aggressive action intensifies tension.",
+        "13": "Clear thinking helps restore order.",
+        "14": "Authority and discipline control chaos."
+      },
+      "wands": {
+        "01": "Creative competition and strong ambition.",
+        "02": "Conflicting plans and strategic disagreements.",
+        "03": "Competition during growth and expansion.",
+        "04": "Tension disrupts harmony and celebrations.",
+        "05": "Conflict, rivalry, and energetic struggle.",
+        "06": "Victory achieved after overcoming competition.",
+        "07": "Defending beliefs and standing your ground.",
+        "08": "Rapid developments intensify tension.",
+        "09": "Persistence and resilience during challenges.",
+        "10": "Pressure and responsibilities create exhaustion.",
+        "11": "Immature actions or playful rivalry.",
+        "12": "Aggressive ambition and impulsive behavior.",
+        "13": "Confidence helps resolve disagreements.",
+        "14": "Leadership and authority restore stability."
+      }
+    }
+  }
+}

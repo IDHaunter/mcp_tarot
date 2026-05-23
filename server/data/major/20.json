@@ -1,0 +1,108 @@
+{
+  "name": "The Sun",
+  "meaning_for_today": "Today brings clarity, joy, success, and positive energy. Confidence and optimism will help you achieve your goals and strengthen relationships.",
+  "card_advice": "Trust yourself and openly express your true feelings. Stay positive, embrace happiness, and use your energy to inspire others.",
+  "upright": {
+    "short": "Success, happiness, clarity, vitality.",
+    "general": "The Sun symbolizes joy, success, confidence, and truth. It brings warmth, optimism, and a sense of fulfillment. Difficulties fade as clarity and positive energy enter your life. The card represents achievement, vitality, and emotional openness.",
+    "in_love": "Relationships become joyful, honest, and emotionally fulfilling. Trust and openness strengthen the connection. Singles may attract a warm and positive relationship filled with sincerity and happiness.",
+    "in_situation": "The situation develops successfully and brings recognition, clarity, and positive results. Obstacles disappear, allowing progress and confidence to grow."
+  },
+  "reversed": {
+    "short": "Temporary sadness, delayed success, lack of confidence.",
+    "general": "Reversed The Sun suggests temporary doubts, emotional fatigue, or delays in achieving success. Positive outcomes are still possible, but pessimism or lack of confidence may block full happiness.",
+    "in_love": "A relationship may suffer from misunderstandings, emotional distance, or unrealistic expectations. Joy and openness are reduced by insecurity or communication issues.",
+    "in_situation": "The situation improves slowly due to delays, self-doubt, or lack of clarity. Success remains possible if optimism and persistence are maintained."
+  },
+  "relations": {
+    "major": {
+      "01": "A joyful new beginning filled with optimism.",
+      "02": "Creative power and confidence lead to success.",
+      "03": "Abundance, warmth, and emotional fulfillment.",
+      "04": "Strong leadership and stable success.",
+      "05": "Spiritual clarity and positive guidance.",
+      "06": "A happy and harmonious relationship.",
+      "07": "Victory, movement, and confident progress.",
+      "08": "Inner strength and joyful confidence.",
+      "09": "Wisdom and enlightenment after reflection.",
+      "10": "A fortunate cycle and successful change.",
+      "11": "Truth, fairness, and clear outcomes.",
+      "12": "Understanding gained through patience.",
+      "13": "Renewal and happiness after transformation.",
+      "14": "Harmony, balance, and emotional peace.",
+      "15": "Breaking free from negativity and fear.",
+      "16": "Clarity and recovery after chaos.",
+      "17": "Hope, inspiration, and healing energy.",
+      "18": "Truth overcomes illusion and confusion.",
+      "19": "Joy, vitality, success, and clarity.",
+      "20": "Awakening, self-realization, and renewal.",
+      "21": "Complete fulfillment and successful completion."
+    },
+    "minor": {
+      "cups": {
+        "01": "A joyful emotional beginning.",
+        "02": "Happiness and harmony in love.",
+        "03": "Celebration, friendship, and emotional joy.",
+        "04": "Renewed emotional interest and positivity.",
+        "05": "Healing and optimism after disappointment.",
+        "06": "Warm memories and emotional comfort.",
+        "07": "Clarity replaces illusion and confusion.",
+        "08": "Positive emotional growth and progress.",
+        "09": "Emotional satisfaction and fulfilled wishes.",
+        "10": "Family happiness and lasting harmony.",
+        "11": "Creative emotional expression and inspiration.",
+        "12": "Romantic excitement and joyful movement.",
+        "13": "Compassion, warmth, and emotional wisdom.",
+        "14": "Emotional balance and mature understanding."
+      },
+      "pentacles": {
+        "01": "A successful financial or career opportunity.",
+        "02": "Confidence while adapting to change.",
+        "03": "Successful teamwork and recognition.",
+        "04": "Security without fear or control.",
+        "05": "Recovery from hardship and renewed hope.",
+        "06": "Generosity and balanced support.",
+        "07": "Patience rewarded with visible success.",
+        "08": "Achievement through dedicated work.",
+        "09": "Comfort, independence, and satisfaction.",
+        "10": "Long-term stability and family prosperity.",
+        "11": "Enthusiastic learning and practical growth.",
+        "12": "Confident movement toward goals.",
+        "13": "Warm practicality and supportive energy.",
+        "14": "Reliable leadership and financial success."
+      },
+      "swords": {
+        "01": "Clear truth and confident communication.",
+        "02": "A fair and positive decision.",
+        "03": "Healing after emotional pain.",
+        "04": "Recovery, peace, and mental clarity.",
+        "05": "Conflict resolved through honesty.",
+        "06": "A successful transition to calmer times.",
+        "07": "Truth revealed and honesty restored.",
+        "08": "Freedom from fear and mental limitations.",
+        "09": "Anxiety fades as optimism returns.",
+        "10": "A painful cycle finally ends.",
+        "11": "Curious and intelligent communication.",
+        "12": "Fast progress and exciting developments.",
+        "13": "Sharp intellect balanced with warmth.",
+        "14": "Wise and confident leadership."
+      },
+      "wands": {
+        "01": "Creative energy and inspired beginnings.",
+        "02": "Confident planning and vision for the future.",
+        "03": "Successful expansion and progress.",
+        "04": "Celebration, harmony, and joyful stability.",
+        "05": "Healthy competition and energetic growth.",
+        "06": "Victory, recognition, and achievement.",
+        "07": "Confidence while defending your position.",
+        "08": "Rapid success and positive communication.",
+        "09": "Strength and resilience rewarded.",
+        "10": "Relief after carrying heavy burdens.",
+        "11": "Exciting news and passionate communication.",
+        "12": "Bold action and adventurous success.",
+        "13": "Creative confidence and charisma.",
+        "14": "Powerful leadership and inspiring energy."
+      }
+    }
+  }
+}

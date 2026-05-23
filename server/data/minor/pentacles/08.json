@@ -1,0 +1,64 @@
+{
+    "name": "Eight of Pentacles",
+    "meaning_for_today": "Today is a day of new opportunities and aspirations. It is a good time to start a new business, study, or develop your skills. Success is right on your heels, so whatever you undertake will be resolved favorably. The main condition is not to overestimate your chances and strength. Do not take on too many chores if you realize you cannot handle them in the allotted time. Gain experience, work hard on every matter, and everything will work out, as you have excellent future prospects.",
+    "card_advice": "The card advises you to think before you speak or act. This should become your motto in life, as you often commit thoughtless acts. Be more patient, tolerant of others, and attentive to details. This will prevent you from making a blunder that could lead to heavy consequences and ruin your reputation.",
+    "upright": {
+        "short": "Success, work, employment, luck",
+        "general": "The Eight of Pentacles symbolizes a person who works for the benefit of others, creating both material and spiritual values. This person is free and successful, but only if they do not seek personal gain. If the querent is looking for a job, they will find their dream job very soon. There may be a desire to develop professional skills. Everything new you undertake will be crowned with success. The card also portends useful acquaintances that can help in the future; be more communicative to expand your social circle.",
+        "in_love": "The desires and plans of your couple are fully realistic and achievable; you will just have to put in a lot of effort to make them come true. The relationship will develop slowly but surely. If the querent is single, the card indicates a new acquaintance arranged by fate itself, which will certainly end in a serious relationship or wedding. The marriage will be strong, and the partner will accept the querent with all their flaws and advantages. The card always points to a successful development of relationships, helping a single person find a partner, leave behind past complexes or fears regarding the opposite sex, become more liberated, and learn to love and accept love from others.",
+        "in_situation": "Do not be afraid to try something new, especially regarding career choice. There is a possibility that you will soon be offered a new project in which you have no experience, but you will handle it brilliantly, bringing pleasure and additional good income. Your skills should not be kept in the shadows; find a business where you can apply them for decent pay. Do not lower your bar, because you perform your work with quality and soul. If you have doubts about your current career and whether to change your workplace, the card suggests that it is time to choose a more successful field of activity."
+    },
+    "reversed": {
+        "short": "Vain labor, labels, need, pretense",
+        "general": "The card indicates vain labor and efforts by the querent. This does not necessarily speak of total failure, but a mentor-patron is needed to give the right advice. There are many deceitful people, scammers, and lovers of shady adventures in your environment, so you should be careful when interacting with them.",
+        "in_love": "The relationship has reached a dead end, and a crisis has arrived. This happened because your partner initially tried to make a good impression by creating an image of an ideal person, but in everyday life, they relaxed and showed their true character. There is a possibility that your partner has no desire to win you over or hold onto you; they value your presence but take it for granted. They do not try to analyze or correct their mistakes because they assume you will take them back anyway. In a reading about a lover's character, the card symbolizes duplicity, deceit, bad taste, and laziness.",
+        "in_situation": "It is worth working on your inner character traits. You have all the necessary skills and work experience, but due to your own rudeness, impatience, and uncompromising nature, you miss valuable opportunities sent by fate. Solving problems the easy way will not work; it will only complicate and confuse the matter further, leading to conflicts with management. Put more diligence into your work, and then your efforts will be appreciated."
+    },
+    "relations": {
+        "major": {
+            "01": "Interrupt the process; let things take their course; lack of independence; idling.",
+            "02": "Honing craftsmanship; a master of one's craft.",
+            "03": "Studying; poring over books.",
+            "04": "Work bears fruit; engaged in household chores.",
+            "05": "Business owner, boss; building a family; protecting interests.",
+            "06": "Discover talent; teaching.",
+            "07": "Building a relationship.",
+            "08": "Practicing driving skills; forging your own happiness; packing bags for a journey; conveyor belt; managing production.",
+            "09": "Show perseverance, diligence.",
+            "10": "Retirement; stepping away from affairs.",
+            "11": "Uneven movement: sometimes empty, sometimes full.",
+            "12": "Striving for justice; correctional labor.",
+            "13": "Stall the process.",
+            "14": "Lose your knack.",
+            "15": "Improve craftsmanship; properly chosen pace at work.",
+            "16": "Forced labor; slave labor; working for the mafia; obsession with career.",
+            "17": "Industrial injury; downsizing at work.",
+            "18": "Hope to reach the pinnacle of craftsmanship.",
+            "19": "Engaging in fraud.",
+            "20": "Recognition of efforts.",
+            "21": "Step-by-step escape from a difficult situation.",
+            "22": "A new level of craftsmanship; promotion at work; achieving a goal through painstaking labor."
+        },
+        "minor": {
+            "cups": {},
+            "pentacles": {},
+            "swords": {},
+            "wands": {
+                "01": "Step-by-step approaching the goal; motivation in work.",
+                "02": "Stopping the process.",
+                "03": "Thorough preparation for establishing a business.",
+                "04": "Preparation for a holiday or celebration.",
+                "05": "Lack of independence; interference in the process.",
+                "06": "Teamwork; successful progress of the business.",
+                "07": "An attempt to disrupt the business; interference in the process.",
+                "08": "Signing a contract; a well-established process; urgent work.",
+                "09": "Experienced worker; extracting experience.",
+                "10": "Excessive workload; slaving away.",
+                "11": "Skillful use of one's talents.",
+                "12": "Desire for more; an attempt to escape routine; lack of proper patience.",
+                "13": "Professional advancement.",
+                "14": "Developing creative abilities."
+            }
+        }
+    }
+}

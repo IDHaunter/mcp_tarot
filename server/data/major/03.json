@@ -1,0 +1,109 @@
+{
+  "name": "The High Priestess",
+  "meaning_for_today": "Today encourages quiet reflection, intuition, and attention to hidden details. Trust your inner voice and avoid rushing important decisions.",
+  "card_advice": "Listen to your intuition and allow events to unfold naturally. Some answers will come through observation, patience, and inner awareness rather than direct action.",
+  "upright": {
+    "short": "Intuition, mystery, wisdom, inner knowledge.",
+    "general": "The High Priestess represents intuition, hidden truths, spiritual awareness, and deep inner wisdom. She symbolizes silence, patience, and understanding beyond logic.",
+    "in_love": "A relationship may contain unspoken emotions, hidden feelings, or deep spiritual connection. Emotional understanding is more important than outward expression.",
+    "in_situation": "The situation requires patience, observation, and trust in intuition. Not all information is currently visible, and hidden factors may influence the outcome."
+  },
+  "reversed": {
+    "short": "Secrets, confusion, blocked intuition, deception.",
+    "general": "The reversed High Priestess points to emotional imbalance, ignored intuition, hidden motives, or confusion caused by secrecy. Inner wisdom may be blocked by fear or uncertainty.",
+    "in_love": "Misunderstandings, emotional distance, or hidden truths affect the relationship. One partner may suppress feelings or avoid honesty.",
+    "in_situation": "The situation becomes unclear due to lack of information, deception, or inability to trust your instincts. Greater awareness is necessary."
+  },
+  "relations": {
+    "major": {
+      "01": "A mysterious new journey guided by intuition.",
+      "02": "Inner wisdom strengthens creative power.",
+      "03": "Deep spiritual awareness and intuition.",
+      "04": "Hidden creativity and emotional growth.",
+      "05": "Intuition balances authority and structure.",
+      "06": "Sacred knowledge and spiritual guidance.",
+      "07": "A deep emotional or spiritual connection.",
+      "08": "Controlled movement guided by inner wisdom.",
+      "09": "Quiet inner strength and resilience.",
+      "10": "Solitude deepens spiritual understanding.",
+      "11": "Fate reveals hidden truths over time.",
+      "12": "Truth and fairness emerge from intuition.",
+      "13": "A pause for reflection and inner insight.",
+      "14": "Transformation through spiritual awakening.",
+      "15": "Balance between intuition and logic.",
+      "16": "Hidden fears or temptations surface.",
+      "17": "Unexpected revelations disrupt stability.",
+      "18": "Hope and intuition illuminate the future.",
+      "19": "Illusions and subconscious fears intensify.",
+      "20": "Clarity and enlightenment after reflection.",
+      "21": "A spiritual awakening and realization.",
+      "22": "Completion through wisdom and understanding."
+    },
+    "minor": {
+      "cups": {
+        "01": "Deep emotional intuition and sensitivity.",
+        "02": "A spiritual and emotional bond.",
+        "03": "Hidden emotions within friendships or celebrations.",
+        "04": "Intuition reveals emotional dissatisfaction.",
+        "05": "Healing through emotional understanding.",
+        "06": "Past memories and subconscious feelings return.",
+        "07": "Dreams and intuition shape emotional choices.",
+        "08": "A quiet emotional withdrawal for growth.",
+        "09": "Inner fulfillment and emotional wisdom.",
+        "10": "Spiritual harmony within family and relationships.",
+        "11": "An intuitive message or emotional insight.",
+        "12": "Romantic mystery and emotional depth.",
+        "13": "Compassion and intuition combined.",
+        "14": "Emotional mastery and deep understanding."
+      },
+      "pentacles": {
+        "01": "A hidden opportunity for material growth.",
+        "02": "Balancing practical matters through intuition.",
+        "03": "Quiet learning and skill development.",
+        "04": "Fear of uncertainty blocks progress.",
+        "05": "Inner strength during hardship.",
+        "06": "Generosity guided by wisdom.",
+        "07": "Patience and trust in slow progress.",
+        "08": "Mastery through study and reflection.",
+        "09": "Independent success through inner confidence.",
+        "10": "Hidden stability and long-term security.",
+        "11": "Important practical information is revealed.",
+        "12": "Thoughtful and careful action.",
+        "13": "Wise leadership and calm authority.",
+        "14": "Mastery over material and spiritual balance."
+      },
+      "swords": {
+        "01": "Mental clarity through intuition.",
+        "02": "Inner conflict and hidden uncertainty.",
+        "03": "Emotional pain caused by secrets.",
+        "04": "Rest and meditation restore balance.",
+        "05": "Hidden motives create tension.",
+        "06": "A quiet transition toward healing.",
+        "07": "Secrets, strategy, and hidden intentions.",
+        "08": "Fear and self-doubt block intuition.",
+        "09": "Anxiety caused by subconscious fears.",
+        "10": "A painful truth becomes revealed.",
+        "11": "A message uncovers hidden information.",
+        "12": "Controlled and thoughtful movement.",
+        "13": "Sharp intuition and intelligent observation.",
+        "14": "Strategic wisdom and mental discipline."
+      },
+      "wands": {
+        "01": "A hidden spark of inspiration.",
+        "02": "Quiet planning and future vision.",
+        "03": "Intuition guides expansion and travel.",
+        "04": "Spiritual harmony and peaceful celebration.",
+        "05": "Inner conflict and unspoken tension.",
+        "06": "Recognition through wisdom and patience.",
+        "07": "Defending personal beliefs and intuition.",
+        "08": "Important messages and sudden insight.",
+        "09": "Persistence supported by inner wisdom.",
+        "10": "Emotional burdens carried in silence.",
+        "11": "A passionate but mysterious connection.",
+        "12": "Thoughtful action and careful direction.",
+        "13": "Creative confidence balanced with intuition.",
+        "14": "Wise leadership and spiritual authority."
+      }
+    }
+  }
+}

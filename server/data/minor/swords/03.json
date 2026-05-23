@@ -1,0 +1,92 @@
+{
+    "name": "Three of Swords",
+    "meaning_for_today": "Today may bring emotional clarity through painful truth, heartbreak, or disappointment. It is a day of understanding what hurts so healing can begin.",
+    "card_advice": "Allow yourself to feel emotions instead of suppressing them. Accept painful truths as a step toward healing and emotional growth.",
+    "upright": {
+        "short": "Heartbreak, sorrow, emotional pain, truth revealed.",
+        "general": "The Three of Swords represents emotional pain, heartbreak, grief, or disappointment. It often appears when difficult truths come to light, causing emotional suffering but also clarity. Despite its painful nature, it is a card of necessary emotional release and honesty.",
+        "in_love": "In love, it can indicate heartbreak, separation, betrayal, or emotional hurt within a relationship. It highlights the need for emotional honesty and healing after pain.",
+        "in_situation": "In situations, it points to disappointment, conflict, or painful realizations. It suggests facing emotional truth directly, even when it is difficult."
+    },
+    "reversed": {
+        "short": "Healing, forgiveness, emotional recovery, release of pain.",
+        "general": "Reversed, the Three of Swords indicates the beginning of emotional healing, forgiveness, and recovery after heartbreak. It shows that pain is slowly being released and clarity is returning.",
+        "in_love": "In relationships, it suggests reconciliation, healing after separation, or moving on from emotional wounds. It may also indicate forgiveness between partners.",
+        "in_situation": "In situations, it reflects recovery from difficult circumstances, emotional closure, and gradual restoration of balance after hardship."
+    },
+    "relations": {
+        "major": {
+            "01": "Painful new beginnings or emotional awakening.",
+            "02": "Heartbreak caused by action or miscommunication.",
+            "03": "Emotional truth revealed through intuition and insight.",
+            "04": "Family or authority-related emotional conflict.",
+            "05": "Conflict with traditions or beliefs causing emotional pain.",
+            "06": "Pain connected to past relationships or memories.",
+            "07": "Emotional choices leading to disappointment.",
+            "08": "Leaving painful situations behind.",
+            "09": "Anxiety and emotional distress.",
+            "10": "Culmination of emotional hardship.",
+            "11": "Sudden emotional changes or shocks.",
+            "12": "Gaining perspective through emotional suffering.",
+            "13": "Sacrifice leading to emotional transformation.",
+            "14": "Deep emotional endings and transformation.",
+            "15": "Pain caused by attachment or toxic relationships.",
+            "16": "Sudden emotional breakdown or revelation.",
+            "17": "Hope emerging after heartbreak.",
+            "18": "Emotional confusion and fear.",
+            "19": "Clarity and healing after sorrow.",
+            "20": "Emotional awakening and judgment of truth.",
+            "21": "Emotional completion after suffering."
+        },
+        "minor": {
+            "cups": {
+                "01": "Pain in new emotional beginnings.",
+                "02": "Emotional separation or imbalance.",
+                "03": "Friendship conflicts causing hurt.",
+                "04": "Emotional withdrawal due to pain.",
+                "05": "Grief and regret in emotional matters.",
+                "06": "Painful memories from the past.",
+                "07": "Emotional confusion leading to heartbreak.",
+                "08": "Leaving behind painful emotional situations.",
+                "09": "Emotional disappointment or unmet desires.",
+                "10": "Emotional family or relationship pain."
+            },
+            "pentacles": {
+                "01": "Financial disappointment or loss.",
+                "02": "Imbalance causing stress in material matters.",
+                "03": "Work-related conflict or criticism.",
+                "04": "Fear of loss causing emotional stress.",
+                "05": "Financial hardship leading to emotional pain.",
+                "06": "Unfair material exchanges causing hurt.",
+                "07": "Disappointment in long-term plans.",
+                "08": "Work dissatisfaction or burnout.",
+                "09": "Loss of independence or security concerns.",
+                "10": "Family or legacy-related disappointment."
+            },
+            "swords": {
+                "01": "Truth causing emotional pain.",
+                "02": "Indecision leading to emotional suffering.",
+                "03": "Direct representation of heartbreak and sorrow.",
+                "04": "Emotional withdrawal due to pain.",
+                "05": "Conflict and verbal hurt.",
+                "06": "Leaving pain behind through transition.",
+                "07": "Betrayal or deception causing heartbreak.",
+                "08": "Mental restriction increasing emotional pain.",
+                "09": "Anxiety and emotional distress.",
+                "10": "Culmination of mental and emotional suffering."
+            },
+            "wands": {
+                "01": "Creative frustration or disappointment.",
+                "02": "Plans causing emotional stress.",
+                "03": "Broken expectations in expansion.",
+                "04": "Disrupted stability or celebration.",
+                "05": "Conflict in creative or social settings.",
+                "06": "Failure to achieve recognition.",
+                "07": "Defeat or emotional struggle.",
+                "08": "Fast-moving events causing emotional pain.",
+                "09": "Struggle and emotional exhaustion.",
+                "10": "Overwhelming responsibilities leading to stress."
+            }
+        }
+    }
+}

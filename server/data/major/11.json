@@ -1,0 +1,108 @@
+{
+  "name": "Wheel of Fortune",
+  "meaning_for_today": "Today may bring important changes, unexpected opportunities, or a turning point in events. Trust the natural flow of life and remain adaptable to changing circumstances.",
+  "card_advice": "Accept change with confidence and flexibility. Life moves in cycles, and every situation offers an opportunity for growth and transformation.",
+  "upright": {
+    "short": "Luck, destiny, change, cycles, opportunity.",
+    "general": "Wheel of Fortune represents fate, life cycles, turning points, and unexpected changes. This card symbolizes movement, evolution, and the influence of destiny. Positive opportunities and important transitions may appear suddenly.",
+    "in_love": "In relationships, Wheel of Fortune suggests changes, new opportunities, and karmic connections. A relationship may evolve to a new stage, or unexpected events may influence emotional life positively.",
+    "in_situation": "The situation is changing rapidly and may be influenced by external forces or destiny. Flexibility and openness to new opportunities will help achieve success."
+  },
+  "reversed": {
+    "short": "Bad timing, setbacks, resistance to change, instability.",
+    "general": "Reversed, Wheel of Fortune may indicate delays, misfortune, lack of control, or resistance to necessary change. It can point to repeating negative patterns or feeling stuck in an unfavorable cycle.",
+    "in_love": "In love readings, the reversed Wheel of Fortune may suggest instability, repeated relationship problems, emotional unpredictability, or difficulty adapting to change.",
+    "in_situation": "The situation may feel uncertain or blocked due to external circumstances or resistance to change. The card advises patience and learning from recurring experiences."
+  },
+  "relations": {
+    "major": {
+      "01": "A spontaneous new beginning changes destiny.",
+      "02": "Skill and awareness influence fortunate outcomes.",
+      "03": "Growth and abundance arrive through positive change.",
+      "04": "Stability challenged by changing circumstances.",
+      "05": "Spiritual lessons shape destiny and growth.",
+      "06": "Fateful relationships and meaningful choices.",
+      "07": "Forward movement accelerates important changes.",
+      "08": "Inner strength helps navigate uncertainty.",
+      "09": "Reflection reveals deeper life patterns.",
+      "10": "Powerful cycles of fate and transformation.",
+      "11": "Karma, fairness, and consequences unfold.",
+      "12": "Delays create a shift in perspective.",
+      "13": "Major transformation and life renewal.",
+      "14": "Balance and patience during transition.",
+      "15": "Danger of repeating unhealthy patterns.",
+      "16": "Sudden disruption changes destiny completely.",
+      "17": "Hope and inspiration during uncertain times.",
+      "18": "Confusion and hidden influences affect outcomes.",
+      "19": "Success, joy, and fortunate developments.",
+      "20": "Awakening and karmic realization.",
+      "21": "Completion of an important life cycle."
+    },
+    "minor": {
+      "cups": {
+        "01": "A fortunate emotional opportunity appears.",
+        "02": "A destined emotional partnership develops.",
+        "03": "Celebration and joyful changes.",
+        "04": "Unexpected emotional opportunities may be ignored.",
+        "05": "Emotional recovery after difficult changes.",
+        "06": "Past influences return unexpectedly.",
+        "07": "Many emotional possibilities and choices.",
+        "08": "A turning point encourages emotional growth.",
+        "09": "Luck and emotional fulfillment align.",
+        "10": "Positive changes strengthen family harmony.",
+        "11": "An unexpected emotional message or invitation.",
+        "12": "Romantic changes and emotional movement.",
+        "13": "Compassionate support during transitions.",
+        "14": "Emotional maturity helps adapt to change."
+      },
+      "pentacles": {
+        "01": "A new financial opportunity emerges.",
+        "02": "Balancing changing responsibilities successfully.",
+        "03": "Progress and teamwork create opportunity.",
+        "04": "Fear of change blocks growth.",
+        "05": "Financial instability or temporary hardship.",
+        "06": "Unexpected support or generosity arrives.",
+        "07": "Patience during slow but positive progress.",
+        "08": "Consistent effort improves future outcomes.",
+        "09": "Good fortune and material comfort.",
+        "10": "Family success and lasting prosperity.",
+        "11": "A practical opportunity arrives unexpectedly.",
+        "12": "Rapid movement toward material goals.",
+        "13": "Reliable support through changing times.",
+        "14": "Strong control over changing circumstances."
+      },
+      "swords": {
+        "01": "A sudden realization changes direction.",
+        "02": "Difficulty adapting to changing conditions.",
+        "03": "Painful changes lead to important lessons.",
+        "04": "Rest and reflection before the next cycle.",
+        "05": "Conflict caused by unstable circumstances.",
+        "06": "Transition toward calmer and better conditions.",
+        "07": "Unexpected revelations or hidden motives.",
+        "08": "Feeling trapped by repeating patterns.",
+        "09": "Anxiety about uncertain outcomes.",
+        "10": "An ending clears the way for renewal.",
+        "11": "New ideas and messages create change.",
+        "12": "Fast developments and decisive action.",
+        "13": "Sharp thinking helps manage uncertainty.",
+        "14": "Strategic leadership during transitions."
+      },
+      "wands": {
+        "01": "A sudden burst of creative energy.",
+        "02": "Future plans shift toward new possibilities.",
+        "03": "Expansion and growth through opportunity.",
+        "04": "Celebration of successful progress.",
+        "05": "Competition and unpredictability create tension.",
+        "06": "Recognition and fortunate achievements.",
+        "07": "Defending success during changing conditions.",
+        "08": "Rapid developments and exciting movement.",
+        "09": "Persistence during unstable periods.",
+        "10": "Heavy responsibilities during transformation.",
+        "11": "An exciting and unexpected opportunity.",
+        "12": "Bold action leads to important progress.",
+        "13": "Confident leadership through changing times.",
+        "14": "Visionary ambition and successful expansion."
+      }
+    }
+  }
+}

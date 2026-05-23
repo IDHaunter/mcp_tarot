@@ -1,0 +1,108 @@
+{
+  "name": "Four of Wands",
+  "meaning_for_today": "Today brings harmony, celebration, and a sense of stability. It is a favorable time for gatherings, achievements, and enjoying the results of your efforts.",
+  "card_advice": "Appreciate your accomplishments and share joy with others. Build strong foundations and allow yourself to celebrate important milestones.",
+  "upright": {
+    "short": "Celebration, harmony, stability, success, home, joyful events.",
+    "general": "The Four of Wands symbolizes stability, happiness, and celebration after hard work. It represents harmony in relationships, secure foundations, achievements, and important life events such as weddings, reunions, or successful completions.",
+    "in_love": "In relationships, the Four of Wands indicates harmony, commitment, emotional security, and joyful union. It may point to engagement, marriage, or creating a stable home together.",
+    "in_situation": "A situation develops positively and brings satisfaction. Cooperation, support, and a strong foundation lead to lasting success and peace."
+  },
+  "reversed": {
+    "short": "Instability, tension, canceled plans, lack of harmony, insecurity.",
+    "general": "Reversed, the Four of Wands may indicate instability, conflict within the home or social circle, delayed celebrations, or difficulty maintaining balance and harmony.",
+    "in_love": "Relationships may experience tension, lack of commitment, misunderstandings, or uncertainty about the future.",
+    "in_situation": "Plans may face delays or disruptions. A lack of support or unstable foundations creates challenges that must be resolved before progress continues."
+  },
+  "relations": {
+    "major": {
+      "01": "A joyful beginning and carefree celebration.",
+      "02": "Creative success and harmonious achievements.",
+      "03": "Abundance, family happiness, and growth.",
+      "04": "Stability, structure, and secure foundations.",
+      "05": "Traditional celebrations and family unity.",
+      "06": "Love, harmony, and emotional commitment.",
+      "07": "Victory and successful progress.",
+      "08": "Inner strength supports lasting happiness.",
+      "09": "Peace found after reflection and solitude.",
+      "10": "A fortunate event or positive turning point.",
+      "11": "Fairness and balance create harmony.",
+      "12": "Temporary delays before joyful outcomes.",
+      "13": "Transformation brings a new stable phase.",
+      "14": "Balance, peace, and emotional harmony.",
+      "15": "False appearances of happiness or unhealthy attachment.",
+      "16": "Sudden disruption of stability or celebration.",
+      "17": "Hope, healing, and joyful inspiration.",
+      "18": "Hidden tensions beneath outward harmony.",
+      "19": "Success, happiness, and joyful recognition.",
+      "20": "A meaningful reunion or family awakening.",
+      "21": "Completion, fulfillment, and lasting success."
+    },
+    "minor": {
+      "cups": {
+        "01": "A joyful emotional beginning.",
+        "02": "Harmony, love, and mutual commitment.",
+        "03": "Celebration, friendship, and happiness.",
+        "04": "Ignoring opportunities for joy and connection.",
+        "05": "Disappointment affects harmony and trust.",
+        "06": "Family memories and nostalgic happiness.",
+        "07": "Too many dreams distract from stability.",
+        "08": "Leaving behind comfort to seek deeper meaning.",
+        "09": "Emotional satisfaction and fulfilled wishes.",
+        "10": "Complete happiness and family harmony.",
+        "11": "Happy messages and romantic excitement.",
+        "12": "Passionate movement toward joyful experiences.",
+        "13": "Warm support and emotional care.",
+        "14": "Emotional maturity strengthens relationships."
+      },
+      "pentacles": {
+        "01": "A stable financial opportunity.",
+        "02": "Balancing responsibilities within a secure environment.",
+        "03": "Teamwork creates successful foundations.",
+        "04": "Fear of change threatens stability.",
+        "05": "Financial stress affects family or home life.",
+        "06": "Support, generosity, and shared success.",
+        "07": "Patience leads to stable rewards.",
+        "08": "Hard work builds lasting security.",
+        "09": "Independent success and comfortable living.",
+        "10": "Long-term prosperity and family traditions.",
+        "11": "Practical learning within a supportive environment.",
+        "12": "Bold action strengthens material success.",
+        "13": "Nurturing stability and practical wisdom.",
+        "14": "Strong leadership creates lasting prosperity."
+      },
+      "swords": {
+        "01": "Clear communication strengthens harmony.",
+        "02": "Avoiding decisions creates tension.",
+        "03": "Conflict or heartbreak disrupts stability.",
+        "04": "Rest restores balance and peace.",
+        "05": "Arguments disturb celebrations and relationships.",
+        "06": "Moving toward calmer and happier circumstances.",
+        "07": "Secrets or dishonesty threaten trust.",
+        "08": "Fear limits enjoyment and openness.",
+        "09": "Anxiety weakens emotional security.",
+        "10": "An ending clears the way for renewal.",
+        "11": "Exciting communication and joyful news.",
+        "12": "Energetic movement toward celebration.",
+        "13": "Wise decisions support stable relationships.",
+        "14": "Strong leadership protects harmony."
+      },
+      "wands": {
+        "01": "A powerful beginning leads to joyful success.",
+        "02": "Planning creates stable future opportunities.",
+        "03": "Expansion and progress bring celebration.",
+        "04": "Harmony, celebration, and secure foundations.",
+        "05": "Competition temporarily disturbs peace.",
+        "06": "Recognition, victory, and public celebration.",
+        "07": "Protecting achievements and stability.",
+        "08": "Rapid joyful developments and exciting events.",
+        "09": "Persistence preserves long-term success.",
+        "10": "Responsibilities become heavy despite success.",
+        "11": "Exciting invitations and adventurous energy.",
+        "12": "Passionate action and confident movement.",
+        "13": "Warm leadership and creative confidence.",
+        "14": "Visionary authority creates lasting harmony."
+      }
+    }
+  }
+}

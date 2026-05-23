@@ -1,0 +1,79 @@
+{
+  "name": "Four of Cups",
+  "meaning_for_today": "Today may bring emotional apathy, dissatisfaction, or reluctance to notice new opportunities. Take time to reflect, but avoid isolating yourself from the world.",
+  "card_advice": "Do not ignore opportunities because of disappointment or boredom. Look at your situation from a new perspective and appreciate what you already have.",
+  "upright": {
+    "short": "Apathy, contemplation, dissatisfaction, emotional withdrawal, reflection.",
+    "general": "The Four of Cups symbolizes emotional fatigue, dissatisfaction, and introspection. A person may feel disconnected, bored, or too focused on what is missing to notice new possibilities. The card encourages reflection and reevaluation of priorities.",
+    "in_love": "Emotional distance, boredom, or uncertainty in relationships. One partner may feel misunderstood or emotionally withdrawn. Honest communication is needed to restore harmony.",
+    "in_situation": "The situation may seem stagnant or emotionally draining. Hidden opportunities exist, but they may be overlooked because of pessimism or lack of motivation."
+  },
+  "reversed": {
+    "short": "New opportunities, emotional awakening, renewed interest, acceptance.",
+    "general": "Reversed, the Four of Cups indicates emotional renewal, openness to new experiences, and the ability to recognize opportunities. A person begins to move beyond apathy and regain motivation.",
+    "in_love": "Renewed emotional interest, reconciliation, or willingness to improve a relationship. Openness and communication can strengthen emotional bonds.",
+    "in_situation": "The situation improves through renewed awareness, fresh perspectives, and acceptance of opportunities that were previously ignored."
+  },
+  "relations": {
+    "major": {
+      "01": "Escaping responsibilities through emotional detachment.",
+      "02": "Ignoring personal potential or opportunities.",
+      "03": "Deep introspection and emotional sensitivity.",
+      "04": "Need for emotional comfort and care.",
+      "05": "Emotional rigidity and stubbornness.",
+      "06": "Questioning spiritual or emotional values.",
+      "07": "Doubts in love and relationships.",
+      "08": "Lack of motivation or emotional direction.",
+      "09": "Inner strength during emotional isolation.",
+      "10": "Withdrawal, solitude, emotional reflection.",
+      "11": "A chance to break emotional stagnation.",
+      "12": "Need for emotional honesty and balance.",
+      "13": "Sacrifice, emotional pause, delayed progress.",
+      "14": "Transformation through emotional reevaluation.",
+      "15": "Searching for emotional balance and moderation.",
+      "16": "Emotional dependence and destructive habits.",
+      "17": "Sudden emotional disappointment or crisis.",
+      "18": "Hope for emotional renewal and healing.",
+      "19": "Confusion, uncertainty, hidden dissatisfaction.",
+      "20": "Renewed joy and emotional awakening.",
+      "21": "Realization, emotional rebirth, reconciliation.",
+      "22": "Completion of emotional stagnation and inner harmony."
+    },
+    "minor": {
+      "cups": {
+        "01": "Ignoring new emotional opportunities.",
+        "02": "Emotional imbalance within a relationship.",
+        "03": "Isolation from friends or social joy.",
+        "04": "Emotional withdrawal and dissatisfaction.",
+        "05": "Deep disappointment and regret.",
+        "06": "Living in memories and nostalgia.",
+        "07": "Illusions, fantasies, emotional confusion.",
+        "08": "Searching for deeper emotional meaning.",
+        "09": "Temporary emotional satisfaction masking emptiness.",
+        "10": "Difficulty appreciating emotional harmony.",
+        "11": "Immature emotional reactions and uncertainty.",
+        "12": "Emotional inconsistency and restlessness.",
+        "13": "Sensitivity, emotional understanding, compassion.",
+        "14": "Wise emotional guidance during difficult times."
+      },
+      "pentacles": {},
+      "swords": {},
+      "wands": {
+        "01": "Lack of creative motivation.",
+        "02": "Difficulty making decisions about the future.",
+        "03": "Delays in progress or cooperation.",
+        "04": "Feeling disconnected at home or in celebrations.",
+        "05": "Inner conflict and emotional tension.",
+        "06": "Lack of recognition or motivation.",
+        "07": "Doubts while defending personal values.",
+        "08": "Missed opportunities because of hesitation.",
+        "09": "Stress, anxiety, emotional exhaustion.",
+        "10": "Feeling emotionally overwhelmed and burdened.",
+        "11": "Creative uncertainty and lack of inspiration.",
+        "12": "Impulsive withdrawal or emotional inconsistency.",
+        "13": "Need for warmth, loyalty, emotional support.",
+        "14": "Emotional imbalance within partnerships."
+      }
+    }
+  }
+}

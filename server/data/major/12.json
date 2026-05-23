@@ -1,0 +1,108 @@
+{
+  "name": "Justice",
+  "meaning_for_today": "Today emphasizes fairness, truth, responsibility, and balanced decisions. Honest actions and objective thinking will help resolve important matters correctly.",
+  "card_advice": "Act with integrity and take responsibility for your choices. Carefully evaluate situations, remain fair, and seek balance between logic and emotions.",
+  "upright": {
+    "short": "Fairness, truth, balance, responsibility, honesty.",
+    "general": "Justice represents truth, fairness, accountability, and logical decision-making. This card symbolizes balance, ethical behavior, consequences of actions, and the importance of honesty. It often points to legal matters, contracts, or situations requiring objective judgment.",
+    "in_love": "In relationships, Justice signifies honesty, equality, mutual respect, and balanced communication. It encourages fairness and responsibility between partners and may indicate important relationship decisions.",
+    "in_situation": "The situation requires careful analysis, honesty, and fair judgment. Actions taken now will have clear consequences, so balance and responsibility are essential."
+  },
+  "reversed": {
+    "short": "Dishonesty, imbalance, unfairness, avoidance of responsibility.",
+    "general": "Reversed, Justice may indicate unfair treatment, dishonesty, imbalance, bias, or refusal to accept responsibility. It can point to legal problems, deception, or consequences caused by poor decisions.",
+    "in_love": "In love readings, the reversed Justice card may suggest imbalance, broken trust, dishonesty, or unresolved conflicts in relationships. One-sided behavior may create emotional tension.",
+    "in_situation": "The situation may involve unfairness, hidden truths, or avoidance of accountability. The card advises seeking clarity, honesty, and balanced solutions."
+  },
+  "relations": {
+    "major": {
+      "01": "A new path requires responsible choices.",
+      "02": "Wisdom and logic create fair outcomes.",
+      "03": "Balance between care and responsibility.",
+      "04": "Authority guided by fairness and order.",
+      "05": "Moral principles and ethical judgment.",
+      "06": "Fair and honest partnership decisions.",
+      "07": "Discipline and control lead to justice.",
+      "08": "Inner strength supports fair judgment.",
+      "09": "Reflection reveals truth and wisdom.",
+      "10": "Karma and consequences shape destiny.",
+      "11": "Truth, accountability, and perfect balance.",
+      "12": "Sacrifice changes perspective on fairness.",
+      "13": "Transformation through truth and accountability.",
+      "14": "Harmony achieved through moderation.",
+      "15": "Temptation or dishonesty creates imbalance.",
+      "16": "Truth exposed through sudden disruption.",
+      "17": "Hope restored through honesty and fairness.",
+      "18": "Confusion caused by hidden truths or deception.",
+      "19": "Success and clarity through integrity.",
+      "20": "Judgment and accountability lead to awakening.",
+      "21": "Complete balance and rightful resolution."
+    },
+    "minor": {
+      "cups": {
+        "01": "Honest emotions create a healthy beginning.",
+        "02": "Balanced and fair emotional partnership.",
+        "03": "Harmony and equality within friendships.",
+        "04": "Emotional dissatisfaction due to imbalance.",
+        "05": "Fair acceptance of emotional loss.",
+        "06": "Past actions influence present emotions.",
+        "07": "Need for realistic emotional choices.",
+        "08": "Leaving unhealthy emotional patterns behind.",
+        "09": "Emotional satisfaction through honesty.",
+        "10": "Fairness strengthens family harmony.",
+        "11": "A sincere and truthful emotional message.",
+        "12": "Pursuing love with honesty and integrity.",
+        "13": "Compassion balanced with wisdom.",
+        "14": "Emotional maturity and fair leadership."
+      },
+      "pentacles": {
+        "01": "A fair and rewarding financial opportunity.",
+        "02": "Balancing practical responsibilities carefully.",
+        "03": "Teamwork and skill lead to fair success.",
+        "04": "Fear of loss creates imbalance.",
+        "05": "Consequences of financial decisions appear.",
+        "06": "Fair exchange and generosity.",
+        "07": "Patience and accountability bring rewards.",
+        "08": "Discipline and precision create mastery.",
+        "09": "Independent success through responsible choices.",
+        "10": "Long-term stability built on fairness.",
+        "11": "A practical lesson about responsibility.",
+        "12": "Focused effort and ethical ambition.",
+        "13": "Reliable support and balanced care.",
+        "14": "Responsible leadership and financial fairness."
+      },
+      "swords": {
+        "01": "Truth and clarity become undeniable.",
+        "02": "Difficulty making an honest decision.",
+        "03": "Pain caused by harsh truths.",
+        "04": "Reflection helps restore balance.",
+        "05": "Conflict created by unfair actions.",
+        "06": "A fair transition toward calmer conditions.",
+        "07": "Dishonesty or hidden motives exposed.",
+        "08": "Mental restrictions caused by fear or guilt.",
+        "09": "Anxiety over consequences or accountability.",
+        "10": "A painful ending brings truth and closure.",
+        "11": "Clear communication and thoughtful learning.",
+        "12": "Fast decisions and direct action.",
+        "13": "Sharp intellect and objective thinking.",
+        "14": "Strategic fairness and mental discipline."
+      },
+      "wands": {
+        "01": "Inspired action guided by honesty.",
+        "02": "Careful planning creates balanced progress.",
+        "03": "Growth and expansion through fair effort.",
+        "04": "Harmony and celebration within stable foundations.",
+        "05": "Conflict requiring compromise and fairness.",
+        "06": "Recognition earned through integrity.",
+        "07": "Defending principles and personal truth.",
+        "08": "Quick developments reveal important truths.",
+        "09": "Persistence and responsibility during challenges.",
+        "10": "Heavy obligations require balance and discipline.",
+        "11": "A passionate opportunity requiring ethical action.",
+        "12": "Bold movement guided by clear values.",
+        "13": "Confident leadership with balanced judgment.",
+        "14": "Visionary success supported by integrity."
+      }
+    }
+  }
+}
