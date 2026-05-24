@@ -1,0 +1,1 @@
+"""Tarot MCP server package."""

@@ -1,0 +1,17 @@
+# Client configuration (see client.example.yaml for documentation).
+
+llm:
+  base_url: "https://my-llm-provider.com/v1"
+  api_key: ""
+  model: "gemma4:31b"
+  temperature: 0.7
+  timeout_seconds: 120.0
+
+mcp:
+  command: "python"
+  args: ["-m", "server"]
+  cwd: null
+  env: {}
+
+bot:
+  recommended_spread_size: 3
