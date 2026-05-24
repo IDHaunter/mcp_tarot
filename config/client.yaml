@@ -2,7 +2,7 @@
 
 llm:
   # Real OpenAI-compatible endpoint (or set env LLM_BASE_URL).
-  base_url: "https://my-llm-provider.com/v1"
+  base_url: "https://gpu.skybuffer.com/v1"
   api_key: ""
   model: "gemma4:31b"
   temperature: 0.7
