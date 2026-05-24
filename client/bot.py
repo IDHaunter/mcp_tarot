@@ -2,12 +2,13 @@
 
 from __future__ import annotations
 
+import asyncio
 import json
 import re
 from typing import Any
 
-from client.config import AppConfig
-from client.llm import LLMClient
+from client.config import AppConfig, BotConfig
+from client.llm import LLMClient, LLMError
 from client.mcp_session import TarotMCPClient
 
 
@@ -33,13 +34,19 @@ def _parse_positions(text: str) -> list[str]:
 def _validate_positions(
     positions: list[str],
     sequence: dict[str, dict[str, str | bool]],
+    deck_max: int,
 ) -> list[str]:
     """Keep only valid, in-range deck positions."""
     valid: list[str] = []
     for pos in positions:
-        if pos in sequence and 1 <= int(pos) <= 78:
+        if pos in sequence and 1 <= int(pos) <= deck_max:
             valid.append(pos)
     return valid
+
+
+def _command_hint(commands: list[str]) -> str:
+    """Format command tokens for display in user prompts."""
+    return ", ".join(commands)
 
 
 def _cards_from_positions(
@@ -64,6 +71,7 @@ class TarotBot:
         llm: LLMClient,
     ) -> None:
         self._config = config
+        self._bot: BotConfig = config.bot
         self._mcp = mcp
         self._llm = llm
         self._sequence: dict[str, dict[str, str | bool]] = {}
@@ -71,51 +79,94 @@ class TarotBot:
         self._messages: list[dict[str, Any]] = [
             {"role": "system", "content": config.llm.system_prompt},
         ]
+        self._quit_commands = {c.lower() for c in self._bot.quit_commands}
+        self._skip_commands = {c.lower() for c in self._bot.skip_commands}
 
-    def _ask_llm(self, user_content: str) -> str:
+    def _deck_template(self) -> dict[str, int]:
+        """Common format placeholders for deck-bound messages."""
+        return {
+            "deck_max": self._bot.deck_size,
+            "recommended": self._bot.recommended_spread_size,
+        }
+
+    def _bot_template(self) -> dict[str, int | str]:
+        """Placeholders for bot messages (deck + command hints)."""
+        template = dict(self._deck_template())
+        template["skip_hint"] = _command_hint(self._bot.skip_commands)
+        template["quit_hint"] = _command_hint(self._bot.quit_commands)
+        return template
+
+    def _is_quit(self, text: str) -> bool:
+        return text.lower() in self._quit_commands
+
+    def _is_skip(self, text: str) -> bool:
+        return text.lower() in self._skip_commands
+
+    async def _ask_llm(self, user_content: str) -> str | None:
         """Append user message, call LLM, store assistant reply."""
         self._messages.append({"role": "user", "content": user_content})
-        reply = self._llm.chat(self._messages)
+        try:
+            reply = await asyncio.to_thread(self._llm.chat, self._messages)
+        except LLMError as exc:
+            self._messages.pop()
+            print(
+                self._bot.llm_error_message.format(
+                    error=exc,
+                    base_url=self._llm.base_url,
+                )
+            )
+            return None
+
         self._messages.append({"role": "assistant", "content": reply})
         return reply
 
     async def run(self) -> None:
         """Run the main conversation loop until the user quits."""
-        print(self._config.bot.welcome_message)
+        print(self._bot.welcome_message)
 
         while True:
-            question = _read_line("\nYour question: ")
+            question = _read_line(self._bot.question_prompt)
             if not question:
-                print("Please enter a question.")
+                print(self._bot.empty_question_message)
                 continue
-            if question.lower() in {"quit", "exit", "q"}:
-                print("Goodbye.")
+            if self._is_quit(question):
+                print(self._bot.goodbye_message)
                 return
 
             await self._run_reading(question)
 
             while True:
-                follow = _read_line(f"\n{self._config.bot.clarification_prompt}\n> ")
-                if follow.lower() in {"no", "n", "skip"}:
+                bot_tpl = self._bot_template()
+                follow_prompt = self._bot.clarification_input_prompt.format(
+                    clarification=self._bot.clarification_prompt.format(**bot_tpl),
+                )
+                follow = _read_line(follow_prompt)
+                if self._is_skip(follow):
                     break
-                if follow.lower() in {"quit", "exit", "q"}:
-                    print("Goodbye.")
+                if self._is_quit(follow):
+                    print(self._bot.goodbye_message)
                     return
 
                 if re.fullmatch(r"\d+", follow):
                     await self._draw_clarification(follow)
                     continue
 
-                reply = self._ask_llm(
-                    f"The user asks about their reading: {follow}\n"
-                    "Answer using the card data already discussed."
+                reply = await self._ask_llm(
+                    self._config.llm.follow_up_prompt.format(follow_up=follow)
                 )
-                print(f"\n{reply}")
+                if reply:
+                    print(f"\n{reply}")
 
-            new_topic = _read_line(f"\n{self._config.bot.new_topic_prompt}\n> ")
-            if new_topic.lower() in {"quit", "exit", "q"}:
-                print("Goodbye.")
+            bot_tpl = self._bot_template()
+            new_topic_prompt = self._bot.new_topic_input_prompt.format(
+                new_topic=self._bot.new_topic_prompt.format(**bot_tpl),
+            )
+            new_topic = _read_line(new_topic_prompt)
+            if self._is_quit(new_topic):
+                print(self._bot.goodbye_message)
                 return
+            if self._is_skip(new_topic):
+                continue
             if new_topic:
                 self._messages = [
                     {"role": "system", "content": self._config.llm.system_prompt},
@@ -126,18 +177,18 @@ class TarotBot:
         """Execute one full spread for a question."""
         sequence = await self._mcp.generate_sequence()
 
-        prompt = self._config.bot.select_cards_prompt.format(
-            count="different",
-            recommended=self._config.bot.recommended_spread_size,
-        )
+        prompt = self._bot.select_cards_prompt.format(**self._bot_template())
         print(f"\n{prompt}")
 
         drawn_cards: list[dict[str, str | bool]] = []
+        deck_tpl = self._deck_template()
         while not drawn_cards:
-            selection = _read_line("Positions: ")
-            positions = _validate_positions(_parse_positions(selection), sequence)
+            selection = _read_line(self._bot.positions_prompt)
+            positions = _validate_positions(
+                _parse_positions(selection), sequence, self._bot.deck_size
+            )
             if not positions:
-                print("Enter valid position numbers between 1 and 78.")
+                print(self._bot.invalid_positions_message.format(**deck_tpl))
                 continue
             drawn_cards = _cards_from_positions(positions, sequence)
 
@@ -145,27 +196,26 @@ class TarotBot:
         self._sequence = sequence
         self._drawn = drawn_cards
 
-        context = (
-            f"The user's question: {question}\n\n"
-            f"Card data (JSON):\n{json.dumps(info, ensure_ascii=False, indent=2)}\n\n"
-            "Give a cohesive tarot reading for this question using these cards. "
-            "Do not reveal internal deck positions or the full shuffled deck. "
-            "Refer to cards by name and upright/reversed orientation."
+        context = self._config.llm.reading_prompt.format(
+            question=question,
+            card_data=json.dumps(info, ensure_ascii=False, indent=2),
         )
-        reading = self._ask_llm(context)
-        print(f"\n{reading}")
+        reading = await self._ask_llm(context)
+        if reading:
+            print(f"\n{reading}")
 
     async def _draw_clarification(self, position_id: str) -> None:
         """Draw one more card from the stored sequence."""
         sequence = self._sequence
         drawn = list(self._drawn)
+        deck_tpl = self._deck_template()
 
         if not sequence:
-            print("No active reading. Start with a new question.")
+            print(self._bot.no_active_reading_message)
             return
 
         if position_id not in sequence:
-            print("Invalid position. Choose a number from 1 to 78.")
+            print(self._bot.invalid_position_message.format(**deck_tpl))
             return
 
         try:
@@ -173,7 +223,9 @@ class TarotBot:
                 position_id, sequence, drawn
             )
         except RuntimeError as exc:
-            print(f"Could not draw card: {exc}")
+            print(
+                self._bot.draw_card_error_message.format(error=exc)
+            )
             return
 
         if "card" in extra:
@@ -183,12 +235,9 @@ class TarotBot:
             )
             self._drawn = drawn
 
-        context = (
-            "The user requested a clarification card. "
-            f"Additional draw data (JSON):\n"
-            f"{json.dumps(extra, ensure_ascii=False, indent=2)}\n\n"
-            "Discuss how this card clarifies the reading. "
-            "Do not mention deck position numbers."
+        context = self._config.llm.clarification_prompt.format(
+            card_data=json.dumps(extra, ensure_ascii=False, indent=2),
         )
-        reply = self._ask_llm(context)
-        print(f"\n{reply}")
+        reply = await self._ask_llm(context)
+        if reply:
+            print(f"\n{reply}")

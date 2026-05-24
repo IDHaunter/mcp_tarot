@@ -36,13 +36,32 @@ class LLMConfig(BaseModel):
     # Maximum request timeout in seconds
     timeout_seconds: float = 120.0
 
-    # System prompt sent to the LLM before conversation.
-    # Defines assistant personality and behavior rules.
+    # System prompt sent to the LLM (keep in English).
     system_prompt: str = (
         "You are a thoughtful tarot reader. Interpret cards with empathy and "
         "clarity. Connect card meanings to the user's question. Use the provided "
         "card data and pair relations; do not invent card names or positions the "
-        "user did not draw. Keep a warm, conversational tone."
+        "user did not draw. Keep a warm, conversational tone. "
+        "Respond in the same language the user writes in."
+    )
+
+    # LLM user-message templates for readings (keep in English).
+    reading_prompt: str = (
+        "The user's question: {question}\n\n"
+        "Card data (JSON):\n{card_data}\n\n"
+        "Give a cohesive tarot reading for this question using these cards. "
+        "Do not reveal internal deck positions or the full shuffled deck. "
+        "Refer to cards by name and upright/reversed orientation."
+    )
+    follow_up_prompt: str = (
+        "The user asks about their reading: {follow_up}\n"
+        "Answer using the card data already discussed."
+    )
+    clarification_prompt: str = (
+        "The user requested a clarification card.\n"
+        "Additional draw data (JSON):\n{card_data}\n\n"
+        "Discuss how this card clarifies the reading. "
+        "Do not mention deck position numbers."
     )
 
 
@@ -75,40 +94,61 @@ class MCPConfig(BaseModel):
 
 
 class BotConfig(BaseModel):
-    """Bot conversation settings."""
+    """Bot conversation settings and message templates."""
 
-    # Recommended number of cards for standard reading
     recommended_spread_size: int = 3
+    deck_size: int = 78
+    quit_commands: list[str] = Field(
+        default_factory=lambda: ["quit", "exit", "q", "выход"]
+    )
+    skip_commands: list[str] = Field(
+        default_factory=lambda: ["no", "n", "skip", "нет", "не"]
+    )
 
-    # Initial greeting shown to user
     welcome_message: str = (
         "Welcome to the Tarot reading bot.\n\n"
         "You can ask a specific question and receive guidance through the tarot "
         "cards. When you are ready, type your question."
     )
+    question_prompt: str = "\nYour question: "
+    empty_question_message: str = "Please enter a question."
+    goodbye_message: str = "Goodbye."
 
-    # Prompt asking user to choose card positions
-    #
-    # {count} and {recommended} are placeholders
-    # inserted dynamically via str.format()
     select_cards_prompt: str = (
-        "The deck is shuffled. Please choose {count} different card positions "
-        "from the deck (numbers 1–78), separated by commas.\n"
+        "The deck is shuffled. Please choose different card positions "
+        "from the deck (numbers 1–{deck_max}), separated by commas.\n"
         "For example: 3, 17, 42\n"
         "It is recommended to pick {recommended} cards for your spread."
     )
-
-    # Prompt for optional clarification card
-    clarification_prompt: str = (
-        "Would you like to draw one more card from the deck for clarification? "
-        "If yes, enter a single position number (1–78). "
-        "If not, type 'no' or ask a follow-up question about your reading."
+    positions_prompt: str = "Positions: "
+    invalid_positions_message: str = (
+        "Enter valid position numbers between 1 and {deck_max}."
     )
 
-    # Prompt shown after reading is complete
+    clarification_prompt: str = (
+        "Would you like to draw one more card from the deck for clarification? "
+        "If yes, enter a single position number (1–{deck_max}). "
+        "If not, type {skip_hint}, or {quit_hint} to end the session, "
+        "or ask a follow-up question about your reading."
+    )
+    clarification_input_prompt: str = "\n{clarification}\n> "
     new_topic_prompt: str = (
         "Would you like a reading on a different topic? "
-        "Type your new question, or 'quit' to exit."
+        "Type your new question, {skip_hint} to return to the main menu, "
+        "or {quit_hint} to exit."
+    )
+    new_topic_input_prompt: str = "\n{new_topic}\n> "
+
+    no_active_reading_message: str = (
+        "No active reading. Start with a new question."
+    )
+    invalid_position_message: str = (
+        "Invalid position. Choose a number from 1 to {deck_max}."
+    )
+    draw_card_error_message: str = "Could not draw card: {error}"
+    llm_error_message: str = (
+        "Could not get a reading from the LLM: {error}\n"
+        "Check llm.base_url in config/client.yaml (current: {base_url})."
     )
 
 

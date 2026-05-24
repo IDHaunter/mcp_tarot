@@ -1,11 +1,41 @@
 # Client configuration (see client.example.yaml for documentation).
 
 llm:
+  # Real OpenAI-compatible endpoint (or set env LLM_BASE_URL).
   base_url: "https://my-llm-provider.com/v1"
   api_key: ""
   model: "gemma4:31b"
   temperature: 0.7
   timeout_seconds: 120.0
+
+  # LLM prompts — always keep in English.
+  system_prompt: >
+    You are a thoughtful tarot reader. Interpret cards with empathy and clarity.
+    Connect card meanings to the user's question. Use only the provided card data
+    and pair relations. Do not invent card names or positions the user did not draw.
+    Keep a warm, conversational tone. Respond in the same language the user writes in.
+
+  reading_prompt: |
+    The user's question: {question}
+
+    Card data (JSON):
+    {card_data}
+
+    Give a cohesive tarot reading for this question using these cards.
+    Do not reveal internal deck positions or the full shuffled deck.
+    Refer to cards by name and upright/reversed orientation.
+
+  follow_up_prompt: |
+    The user asks about their reading: {follow_up}
+    Answer using the card data already discussed.
+
+  clarification_prompt: |
+    The user requested a clarification card.
+    Additional draw data (JSON):
+    {card_data}
+
+    Discuss how this card clarifies the reading.
+    Do not mention deck position numbers.
 
 mcp:
   command: "python"
@@ -15,3 +45,44 @@ mcp:
 
 bot:
   recommended_spread_size: 3
+  deck_size: 78
+  quit_commands: ["quit", "exit", "q", "выход"]
+  skip_commands: ["no", "n", "skip", "нет", "не"]
+
+  welcome_message: |
+    Добро пожаловать в бота для чтения таро.
+
+    Вы можете задать конкретный вопрос и получить руководство через карты таро.
+    Когда будете готовы, введите свой вопрос.
+
+  question_prompt: "\nВаш вопрос: "
+  empty_question_message: "Пожалуйста, введите вопрос."
+  goodbye_message: "До свидания."
+
+  select_cards_prompt: |
+    Колода перемешана. Выберите разные позиции карт в колоде (числа 1–{deck_max}),
+    через запятую.
+    Например: 3, 17, 42
+    Рекомендуется выбрать {recommended} карт для расклада.
+
+  positions_prompt: "Позиции: "
+  invalid_positions_message: "Введите корректные номера позиций от 1 до {deck_max}."
+
+  clarification_prompt: |
+    Хотите вытянуть ещё одну карту из колоды для уточнения?
+    Если да, введите один номер позиции (1–{deck_max}).
+    Если нет — {skip_hint}; чтобы завершить сеанс — {quit_hint};
+    или задайте уточняющий вопрос о раскладе.
+
+  clarification_input_prompt: "\n{clarification}\n> "
+  new_topic_prompt: |
+    Хотите гадание на другую тему?
+    Введите новый вопрос, {skip_hint} — вернуться к началу, {quit_hint} — выход.
+  new_topic_input_prompt: "\n{new_topic}\n> "
+
+  no_active_reading_message: "Нет активного расклада. Начните с нового вопроса."
+  invalid_position_message: "Неверная позиция. Выберите число от 1 до {deck_max}."
+  draw_card_error_message: "Не удалось вытянуть карту: {error}"
+  llm_error_message: |
+    Не удалось получить толкование от модели: {error}
+    Проверьте llm.base_url в config/client.yaml (сейчас: {base_url}).

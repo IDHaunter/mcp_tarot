@@ -3,10 +3,19 @@
 from __future__ import annotations
 
 from typing import Any
+from urllib.parse import urlparse
 
 import httpx
 
 from client.config import LLMConfig
+
+
+class LLMError(Exception):
+    """Raised when the LLM API request fails."""
+
+    def __init__(self, message: str, *, cause: Exception | None = None) -> None:
+        super().__init__(message)
+        self.cause = cause
 
 
 class LLMClient:
@@ -20,6 +29,11 @@ class LLMClient:
         if config.api_key:
             headers["Authorization"] = f"Bearer {config.api_key}"
         self._headers = headers
+
+    @property
+    def base_url(self) -> str:
+        """Configured API base URL."""
+        return self._config.base_url
 
     def chat(
         self,
@@ -37,8 +51,7 @@ class LLMClient:
             Assistant message content string.
 
         Raises:
-            httpx.HTTPError: On transport or HTTP errors.
-            RuntimeError: If the response has no assistant content.
+            LLMError: On transport, HTTP, or malformed response errors.
         """
         payload: dict[str, Any] = {
             "model": self._config.model,
@@ -48,14 +61,37 @@ class LLMClient:
             else self._config.temperature,
         }
 
-        with httpx.Client(timeout=self._config.timeout_seconds) as client:
-            response = client.post(self._url, headers=self._headers, json=payload)
-            response.raise_for_status()
-            data = response.json()
+        try:
+            with httpx.Client(timeout=self._config.timeout_seconds) as client:
+                response = client.post(
+                    self._url, headers=self._headers, json=payload
+                )
+                response.raise_for_status()
+                data = response.json()
+        except httpx.ConnectError as exc:
+            host = urlparse(self._config.base_url).netloc or self._config.base_url
+            raise LLMError(
+                f"Cannot connect to LLM server ({host}). "
+                "Check llm.base_url in config/client.yaml or set LLM_BASE_URL."
+            ) from exc
+        except httpx.TimeoutException as exc:
+            raise LLMError(
+                f"LLM request timed out after {self._config.timeout_seconds}s."
+            ) from exc
+        except httpx.HTTPStatusError as exc:
+            detail = exc.response.text.strip()
+            if len(detail) > 200:
+                detail = detail[:200] + "..."
+            raise LLMError(
+                f"LLM API returned HTTP {exc.response.status_code}"
+                + (f": {detail}" if detail else ".")
+            ) from exc
+        except httpx.HTTPError as exc:
+            raise LLMError(f"LLM request failed: {exc}") from exc
 
         choices = data.get("choices", [])
         if not choices:
-            raise RuntimeError("LLM response contained no choices")
+            raise LLMError("LLM response contained no choices")
 
         message = choices[0].get("message", {})
         content = message.get("content")
@@ -72,4 +108,4 @@ class LLMClient:
             if parts:
                 return "\n".join(parts).strip()
 
-        raise RuntimeError("LLM response contained empty assistant content")
+        raise LLMError("LLM response contained empty assistant content")

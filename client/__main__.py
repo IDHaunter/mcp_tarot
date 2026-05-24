@@ -14,6 +14,22 @@ from client.llm import LLMClient
 from client.mcp_session import open_tarot_mcp
 
 
+_PLACEHOLDER_LLM_HOSTS = frozenset({"my-llm-provider.com", "example.com"})
+
+
+def _warn_placeholder_llm_url(base_url: str) -> None:
+    """Print a warning when base_url still uses a documentation placeholder."""
+    from urllib.parse import urlparse
+
+    host = urlparse(base_url).hostname or ""
+    if host in _PLACEHOLDER_LLM_HOSTS:
+        print(
+            "Warning: llm.base_url looks like a placeholder "
+            f"({base_url}).\n"
+            "Set a real API URL in config/client.yaml or LLM_BASE_URL.\n"
+        )
+
+
 def _default_config_path() -> Path:
     """Resolve default config path next to project root."""
     root = Path(__file__).resolve().parent.parent
@@ -34,8 +50,13 @@ def main() -> None:
 
     config = load_config(args.config)
 
+    if base_url_override := os.environ.get("LLM_BASE_URL"):
+        config.llm.base_url = base_url_override
+
     if not config.llm.api_key:
         config.llm.api_key = os.environ.get("OPENAI_API_KEY", "")
+
+    _warn_placeholder_llm_url(config.llm.base_url)
 
     project_root = Path(__file__).resolve().parent.parent
     if config.mcp.cwd is None:

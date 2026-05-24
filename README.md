@@ -26,6 +26,8 @@ copy config\client.example.yaml config\client.yaml
 ```
 
 Set `llm.base_url`, `llm.model`, and either `llm.api_key` or the `OPENAI_API_KEY` environment variable.
+You can override the API URL with the `LLM_BASE_URL` environment variable.
+If the LLM is unreachable, the bot prints an error and continues instead of crashing.
 
 ## Run the client (bot)
 
@@ -92,4 +94,3 @@ mcp_tarot/
 │   └── config.py            # settings loader (YAML → Pydantic)
 └── pyproject.toml
 ```
-
