@@ -66,7 +66,16 @@ python -m server
 
 Card data lives under `server/data/` (`major/`, `minor/{cups,pentacles,swords,wands}/`).
 
-Smoke test (no LLM): python scripts/test_mcp_tools.py — verified all three tools end-to-end.
+Smoke test (no LLM): `python scripts/test_mcp_tools.py`
+
+### Unit tests (server)
+
+```bash
+pip install -e ".[dev]"
+pytest
+```
+
+Covers `server/deck.py`, `server/card_store.py`, and `server/relations.py`.
 
 ## Architecture
 

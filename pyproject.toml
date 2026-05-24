@@ -20,6 +20,13 @@ dependencies = [
 tarot-server = "server.__main__:main"
 tarot-client = "client.__main__:main"
 
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["server*", "client*"]
