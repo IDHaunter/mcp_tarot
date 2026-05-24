@@ -152,6 +152,13 @@ class BotConfig(BaseModel):
     )
 
 
+class LoggingConfig(BaseModel):
+    """Client file logging settings (stdlib logging levels)."""
+
+    level: str = "INFO"
+    file: str = "logs/client.log"
+
+
 class AppConfig(BaseModel):
     """Root application configuration."""
 
@@ -164,6 +171,8 @@ class AppConfig(BaseModel):
 
     # Bot dialogue configuration
     bot: BotConfig = Field(default_factory=BotConfig)
+
+    logging: LoggingConfig = Field(default_factory=LoggingConfig)
 
 
 def load_config(path: str | Path) -> AppConfig:

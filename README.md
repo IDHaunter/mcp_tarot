@@ -29,6 +29,19 @@ Set `llm.base_url`, `llm.model`, and either `llm.api_key` or the `OPENAI_API_KEY
 You can override the API URL with the `LLM_BASE_URL` environment variable.
 If the LLM is unreachable, the bot prints an error and continues instead of crashing.
 
+### Logging
+
+In `config/client.yaml`:
+
+```yaml
+logging:
+  level: INFO   # DEBUG | INFO | WARNING | ERROR | CRITICAL
+  file: logs/client.log
+```
+
+Logs append to a single file (no rotation by date). Format: date/time, level, module (`client.bot`, …), message.
+At `DEBUG`, all main dialog and MCP/LLM steps are recorded. Override level with `LOG_LEVEL` env var.
+
 ## Run the client (bot)
 
 From the project root:

@@ -2,10 +2,13 @@
 
 from __future__ import annotations
 
+import logging
 from typing import Any
 from urllib.parse import urlparse
 
 import httpx
+
+logger = logging.getLogger(__name__)
 
 from client.config import LLMConfig
 
@@ -61,6 +64,12 @@ class LLMClient:
             else self._config.temperature,
         }
 
+        logger.debug(
+            "LLM request: model=%s messages=%d url=%s",
+            self._config.model,
+            len(messages),
+            self._url,
+        )
         try:
             with httpx.Client(timeout=self._config.timeout_seconds) as client:
                 response = client.post(
@@ -69,16 +78,21 @@ class LLMClient:
                 response.raise_for_status()
                 data = response.json()
         except httpx.ConnectError as exc:
+            logger.warning("LLM connection failed: %s", exc)
             host = urlparse(self._config.base_url).netloc or self._config.base_url
             raise LLMError(
                 f"Cannot connect to LLM server ({host}). "
                 "Check llm.base_url in config/client.yaml or set LLM_BASE_URL."
             ) from exc
         except httpx.TimeoutException as exc:
+            logger.warning("LLM request timed out")
             raise LLMError(
                 f"LLM request timed out after {self._config.timeout_seconds}s."
             ) from exc
         except httpx.HTTPStatusError as exc:
+            logger.warning(
+                "LLM HTTP error: status=%s", exc.response.status_code
+            )
             detail = exc.response.text.strip()
             if len(detail) > 200:
                 detail = detail[:200] + "..."
@@ -87,6 +101,7 @@ class LLMClient:
                 + (f": {detail}" if detail else ".")
             ) from exc
         except httpx.HTTPError as exc:
+            logger.warning("LLM request failed: %s", exc)
             raise LLMError(f"LLM request failed: {exc}") from exc
 
         choices = data.get("choices", [])
@@ -96,7 +111,9 @@ class LLMClient:
         message = choices[0].get("message", {})
         content = message.get("content")
         if isinstance(content, str) and content.strip():
-            return content.strip()
+            text = content.strip()
+            logger.debug("LLM response received (%d chars)", len(text))
+            return text
 
         if isinstance(content, list):
             parts: list[str] = []
@@ -106,6 +123,9 @@ class LLMClient:
                     if text:
                         parts.append(str(text))
             if parts:
-                return "\n".join(parts).strip()
+                text = "\n".join(parts).strip()
+                logger.debug("LLM response received (%d chars)", len(text))
+                return text
 
+        logger.warning("LLM response contained empty assistant content")
         raise LLMError("LLM response contained empty assistant content")

@@ -1,5 +1,11 @@
 # Client configuration (see client.example.yaml for documentation).
 
+logging:
+  # DEBUG | INFO | WARNING | ERROR | CRITICAL (stdlib logging levels)
+  level: DEBUG
+  # Append-only log file (path relative to project root)
+  file: logs/client.log
+
 llm:
   # Real OpenAI-compatible endpoint (or set env LLM_BASE_URL).
   base_url: "https://gpu.skybuffer.com/v1"

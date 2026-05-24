@@ -4,8 +4,11 @@ from __future__ import annotations
 
 import asyncio
 import json
+import logging
 import re
 from typing import Any
+
+logger = logging.getLogger(__name__)
 
 from client.config import AppConfig, BotConfig
 from client.llm import LLMClient, LLMError
@@ -162,6 +165,11 @@ class TarotBot:
             "content": user_content,
         })
 
+        logger.debug(
+            "LLM dialogue turn: history_messages=%d user_chars=%d",
+            len(self._messages),
+            len(user_content),
+        )
         try:
             # Execute blocking LLM call in worker thread
             # to avoid blocking asyncio event loop
@@ -171,6 +179,7 @@ class TarotBot:
             )
 
         except LLMError as exc:
+            logger.warning("LLM dialogue turn failed: %s", exc)
             # Remove failed user message from history
             self._messages.pop()
 
@@ -190,11 +199,13 @@ class TarotBot:
             "content": reply,
         })
 
+        logger.debug("LLM dialogue turn completed")
         return reply
 
     async def run(self) -> None:
         """Run the main conversation loop until the user quits."""
 
+        logger.info("Bot session started")
         # Display greeting message
         print(self._bot.welcome_message)
 
@@ -206,14 +217,18 @@ class TarotBot:
 
             # Reject empty input
             if not question:
+                logger.debug("User submitted empty question")
                 print(self._bot.empty_question_message)
                 continue
 
             # Exit application if user entered quit command
             if self._is_quit(question):
+                logger.info("User quit from question prompt")
                 print(self._bot.goodbye_message)
                 return
 
+            logger.info("New reading question received (%d chars)", len(question))
+            logger.debug("User question: %s", question)
             # Execute tarot reading flow
             await self._run_reading(question)
 
@@ -233,22 +248,27 @@ class TarotBot:
                 )
 
                 follow = _read_line(follow_prompt)
+                logger.debug("Clarification input: %r", follow)
 
                 # Skip clarification phase
                 if self._is_skip(follow):
+                    logger.debug("User skipped clarification loop")
                     break
 
                 # Exit application
                 if self._is_quit(follow):
+                    logger.info("User quit from clarification prompt")
                     print(self._bot.goodbye_message)
                     return
 
                 # If user entered only a number,
                 # interpret it as request for extra card
                 if re.fullmatch(r"\d+", follow):
+                    logger.debug("User requested clarification card at %s", follow)
                     await self._draw_clarification(follow)
                     continue
 
+                logger.debug("User follow-up question (%d chars)", len(follow))
                 # Send free-text clarification request to LLM
                 reply = await self._ask_llm(
                     self._config.llm.follow_up_prompt.format(
@@ -273,18 +293,22 @@ class TarotBot:
             )
 
             new_topic = _read_line(new_topic_prompt)
+            logger.debug("New topic input: %r", new_topic)
 
             # Exit application
             if self._is_quit(new_topic):
+                logger.info("User quit from new-topic prompt")
                 print(self._bot.goodbye_message)
                 return
 
             # Restart loop without creating new reading
             if self._is_skip(new_topic):
+                logger.debug("User returned to main question loop")
                 continue
 
             # Start completely new conversation context
             if new_topic:
+                logger.info("Starting new topic reading (%d chars)", len(new_topic))
                 self._messages = [
                     {
                         "role": "system",
@@ -299,8 +323,10 @@ class TarotBot:
     async def _run_reading(self, question: str) -> None:
         """Execute one full spread for a question."""
 
+        logger.info("Reading flow started")
         # Generate randomized tarot sequence
         sequence = await self._mcp.generate_sequence()
+        logger.debug("Deck sequence generated (78 positions)")
 
         # Display card selection instructions
         prompt = self._bot.select_cards_prompt.format(
@@ -326,6 +352,7 @@ class TarotBot:
             )
 
             if not positions:
+                logger.debug("Invalid card positions input: %r", selection)
                 print(
                     self._bot.invalid_positions_message.format(
                         **deck_tpl
@@ -338,11 +365,17 @@ class TarotBot:
                 positions,
                 sequence,
             )
+            logger.info(
+                "Cards selected: positions=%s cards=%s",
+                positions,
+                drawn_cards,
+            )
 
         # Request detailed information for selected cards
         info = await self._mcp.get_card_information(
             drawn_cards
         )
+        logger.debug("Card information loaded for spread")
 
         # Save current reading state
         self._sequence = sequence
@@ -362,7 +395,10 @@ class TarotBot:
         reading = await self._ask_llm(context)
 
         if reading:
+            logger.info("Reading interpretation delivered to user")
             print(f"\n{reading}")
+        else:
+            logger.warning("Reading interpretation not delivered (LLM error)")
 
     async def _draw_clarification(
         self,
@@ -377,11 +413,13 @@ class TarotBot:
 
         # Clarification is impossible without active reading
         if not sequence:
+            logger.warning("Clarification requested without active reading")
             print(self._bot.no_active_reading_message)
             return
 
         # Validate requested position
         if position_id not in sequence:
+            logger.debug("Invalid clarification position: %s", position_id)
             print(
                 self._bot.invalid_position_message.format(
                     **deck_tpl
@@ -398,6 +436,7 @@ class TarotBot:
             )
 
         except RuntimeError as exc:
+            logger.warning("Additional card draw failed: %s", exc)
             # Display MCP/tool-related error
             print(
                 self._bot.draw_card_error_message.format(
@@ -409,6 +448,11 @@ class TarotBot:
         # If a new card was successfully drawn,
         # add it to stored reading state
         if "card" in extra:
+            logger.info(
+                "Clarification card drawn at position %s: %s",
+                position_id,
+                extra.get("card", {}).get("id"),
+            )
             slot = sequence[position_id]
 
             drawn.append({
@@ -431,4 +475,9 @@ class TarotBot:
         reply = await self._ask_llm(context)
 
         if reply:
+            logger.info("Clarification interpretation delivered to user")
             print(f"\n{reply}")
+        else:
+            logger.warning(
+                "Clarification interpretation not delivered (LLM error)"
+            )

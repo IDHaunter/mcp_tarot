@@ -1,5 +1,9 @@
 # Copy to client.yaml and adjust values.
 
+logging:
+  level: INFO
+  file: logs/client.log
+
 llm:
   base_url: "https://my-llm-provider.com/v1"
   api_key: ""  # or set OPENAI_API_KEY environment variable

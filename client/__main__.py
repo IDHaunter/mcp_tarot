@@ -8,10 +8,15 @@ import os
 import sys
 from pathlib import Path
 
+import logging
+
 from client.bot import TarotBot
 from client.config import load_config
 from client.llm import LLMClient
+from client.logging_setup import setup_logging
 from client.mcp_session import open_tarot_mcp
+
+logger = logging.getLogger(__name__)
 
 
 _PLACEHOLDER_LLM_HOSTS = frozenset({"my-llm-provider.com", "example.com"})
@@ -64,17 +69,34 @@ def main() -> None:
     if config.mcp.command == "python":
         config.mcp.command = sys.executable
 
+    if level_override := os.environ.get("LOG_LEVEL"):
+        config.logging.level = level_override
+
+    setup_logging(config.logging, base_dir=project_root)
+    logger.info("Tarot client starting (config=%s)", args.config)
+    logger.debug(
+        "LLM endpoint host=%s model=%s mcp_command=%s",
+        config.llm.base_url,
+        config.llm.model,
+        config.mcp.command,
+    )
+
     async def _run() -> None:
         llm = LLMClient(config.llm)
         async with open_tarot_mcp(config.mcp) as mcp_client:
+            logger.info("MCP server session ready")
             bot = TarotBot(config, mcp_client, llm)
             await bot.run()
 
     try:
         asyncio.run(_run())
     except KeyboardInterrupt:
+        logger.info("Session interrupted by user")
         print("\nGoodbye.")
         sys.exit(0)
+    except Exception:
+        logger.exception("Unhandled client error")
+        raise
 
 
 if __name__ == "__main__":
