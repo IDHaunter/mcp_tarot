@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import asyncio
-import json
 import logging
 import re
 from typing import Any
@@ -12,6 +11,12 @@ logger = logging.getLogger(__name__)
 
 from client.config import AppConfig, BotConfig
 from client.llm import LLMClient, LLMError
+from client.llm_format import (
+    build_llm_prompt,
+    format_clarification_for_llm,
+    format_reading_info_for_llm,
+    log_prompt_size_comparison,
+)
 from client.mcp_session import TarotMCPClient
 
 
@@ -109,8 +114,11 @@ class TarotBot:
         # Current generated deck sequence
         self._sequence: dict[str, dict[str, str | bool]] = {}
 
-        # Cards already drawn in current reading
+        # Cards already drawn in current reading (id + reversed only)
         self._drawn: list[dict[str, str | bool]] = []
+
+        # Full MCP card payloads for the active spread (includes names)
+        self._spread_cards: list[dict[str, Any]] = []
 
         # Full LLM conversation history
         self._messages: list[dict[str, Any]] = [
@@ -380,15 +388,17 @@ class TarotBot:
         # Save current reading state
         self._sequence = sequence
         self._drawn = drawn_cards
+        spread = info.get("cards", [])
+        self._spread_cards = spread if isinstance(spread, list) else []
 
-        # Build LLM prompt with user question and card data
-        context = self._config.llm.reading_prompt.format(
+        card_data_text = format_reading_info_for_llm(info)
+        log_prompt_size_comparison(
+            logger, info, card_data_text, label="reading"
+        )
+        context = build_llm_prompt(
+            self._config.llm.reading_prompt,
             question=question,
-            card_data=json.dumps(
-                info,
-                ensure_ascii=False,
-                indent=2,
-            ),
+            card_data=card_data_text,
         )
 
         # Generate interpretation
@@ -462,13 +472,16 @@ class TarotBot:
 
             self._drawn = drawn
 
-        # Build clarification request for LLM
-        context = self._config.llm.clarification_prompt.format(
-            card_data=json.dumps(
-                extra,
-                ensure_ascii=False,
-                indent=2,
-            ),
+        card_data_text = format_clarification_for_llm(
+            extra,
+            drawn_cards=self._spread_cards,
+        )
+        log_prompt_size_comparison(
+            logger, extra, card_data_text, label="clarification"
+        )
+        context = build_llm_prompt(
+            self._config.llm.clarification_prompt,
+            card_data=card_data_text,
         )
 
         # Generate clarification interpretation

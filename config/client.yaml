@@ -24,7 +24,7 @@ llm:
   reading_prompt: |
     The user's question: {question}
 
-    Card data (JSON):
+    Card data:
     {card_data}
 
     Give a cohesive tarot reading for this question using these cards.
@@ -37,7 +37,7 @@ llm:
 
   clarification_prompt: |
     The user requested a clarification card.
-    Additional draw data (JSON):
+    Additional draw data:
     {card_data}
 
     Discuss how this card clarifies the reading.

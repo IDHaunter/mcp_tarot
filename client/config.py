@@ -48,7 +48,7 @@ class LLMConfig(BaseModel):
     # LLM user-message templates for readings (keep in English).
     reading_prompt: str = (
         "The user's question: {question}\n\n"
-        "Card data (JSON):\n{card_data}\n\n"
+        "Card data:\n{card_data}\n\n"
         "Give a cohesive tarot reading for this question using these cards. "
         "Do not reveal internal deck positions or the full shuffled deck. "
         "Refer to cards by name and upright/reversed orientation."
@@ -59,7 +59,7 @@ class LLMConfig(BaseModel):
     )
     clarification_prompt: str = (
         "The user requested a clarification card.\n"
-        "Additional draw data (JSON):\n{card_data}\n\n"
+        "Additional draw data:\n{card_data}\n\n"
         "Discuss how this card clarifies the reading. "
         "Do not mention deck position numbers."
     )
