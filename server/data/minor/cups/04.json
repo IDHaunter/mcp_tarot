@@ -1,18 +1,20 @@
 {
   "name": "Four of Cups",
-  "meaning_for_today": "Today may bring emotional apathy, dissatisfaction, or reluctance to notice new opportunities. Take time to reflect, but avoid isolating yourself from the world.",
-  "card_advice": "Do not ignore opportunities because of disappointment or boredom. Look at your situation from a new perspective and appreciate what you already have.",
   "upright": {
     "short": "Apathy, contemplation, dissatisfaction, emotional withdrawal, reflection.",
     "general": "The Four of Cups symbolizes emotional fatigue, dissatisfaction, and introspection. A person may feel disconnected, bored, or too focused on what is missing to notice new possibilities. The card encourages reflection and reevaluation of priorities.",
     "in_love": "Emotional distance, boredom, or uncertainty in relationships. One partner may feel misunderstood or emotionally withdrawn. Honest communication is needed to restore harmony.",
-    "in_situation": "The situation may seem stagnant or emotionally draining. Hidden opportunities exist, but they may be overlooked because of pessimism or lack of motivation."
+    "in_situation": "The situation may seem stagnant or emotionally draining. Hidden opportunities exist, but they may be overlooked because of pessimism or lack of motivation.",
+    "meaning_for_today": "Today may bring emotional apathy, dissatisfaction, or reluctance to notice new opportunities. Take time to reflect, but avoid isolating yourself from the world.",
+    "card_advice": "Do not ignore opportunities because of disappointment or boredom. Look at your situation from a new perspective and appreciate what you already have."
   },
   "reversed": {
     "short": "New opportunities, emotional awakening, renewed interest, acceptance.",
     "general": "Reversed, the Four of Cups indicates emotional renewal, openness to new experiences, and the ability to recognize opportunities. A person begins to move beyond apathy and regain motivation.",
     "in_love": "Renewed emotional interest, reconciliation, or willingness to improve a relationship. Openness and communication can strengthen emotional bonds.",
-    "in_situation": "The situation improves through renewed awareness, fresh perspectives, and acceptance of opportunities that were previously ignored."
+    "in_situation": "The situation improves through renewed awareness, fresh perspectives, and acceptance of opportunities that were previously ignored.",
+    "meaning_for_today": "Today may bring emotional renewal, unexpected opportunities, or a growing desire to reconnect with life and people around you. You may begin to see solutions and possibilities that were previously overlooked.",
+    "card_advice": "Stay open to change and do not cling to emotional stagnation or past disappointments. Accept new experiences with curiosity and allow yourself to move forward with a refreshed perspective."
   },
   "relations": {
     "major": {

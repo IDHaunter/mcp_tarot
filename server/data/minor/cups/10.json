@@ -1,18 +1,20 @@
 {
   "name": "Ten of Cups",
-  "meaning_for_today": "Today brings harmony, emotional fulfillment, and a sense of peace within family or close relationships. It is a day to appreciate stability and shared happiness.",
-  "card_advice": "Focus on gratitude and strengthening emotional bonds. Do not take harmony for granted—nurture relationships that bring long-term happiness.",
   "upright": {
     "short": "Happiness, family harmony, emotional fulfillment",
     "general": "Represents lasting emotional happiness, harmony in relationships, and a strong sense of belonging. It often reflects a stable and joyful family or community life.",
     "in_love": "Deep emotional connection, long-term happiness, and harmony in romantic relationships. It can indicate a strong and supportive partnership.",
-    "in_situation": "A situation reaching emotional completion and stability. Success is shared with others, often involving family or community support."
+    "in_situation": "A situation reaching emotional completion and stability. Success is shared with others, often involving family or community support.",
+    "meaning_for_today": "Today brings harmony, emotional fulfillment, and a sense of peace within family or close relationships. It is a day to appreciate stability and shared happiness.",
+    "card_advice": "Focus on gratitude and strengthening emotional bonds. Do not take harmony for granted—nurture relationships that bring long-term happiness."
   },
   "reversed": {
     "short": "Disharmony, broken relationships, misalignment",
     "general": "Indicates conflict in relationships, emotional distance, or lack of harmony in family or social environments.",
     "in_love": "Struggles in relationships, unmet expectations, or emotional separation within a partnership.",
-    "in_situation": "A situation where external stability may exist but emotional harmony is missing or disrupted."
+    "in_situation": "A situation where external stability may exist but emotional harmony is missing or disrupted.",
+    "meaning_for_today": "Today may reveal emotional distance, family tension, or disappointment in close relationships. Expectations of harmony may not fully align with reality, leading to misunderstandings or feelings of disconnection.",
+    "card_advice": "Do not ignore unresolved conflicts or assume emotional harmony will restore itself automatically. Patience, honest communication, and willingness to understand others will help rebuild trust and emotional stability."
   },
   "relations": {
     "major": {

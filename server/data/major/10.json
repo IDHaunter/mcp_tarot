@@ -1,18 +1,20 @@
 {
   "name": "The Hermit",
-  "meaning_for_today": "Today is suited for reflection, solitude, inner search, and careful thinking. Wisdom will come through patience, observation, and listening to your inner voice.",
-  "card_advice": "Take time to slow down and reflect before making important decisions. Seek truth within yourself and trust your experience and intuition.",
   "upright": {
     "short": "Wisdom, introspection, solitude, guidance, spiritual search.",
     "general": "The Hermit represents inner wisdom, self-discovery, spiritual growth, and introspection. This card symbolizes a period of solitude, deep thinking, and searching for truth or meaning. It often points to learning through personal experience and quiet reflection.",
     "in_love": "In relationships, The Hermit may indicate the need for personal space, emotional reflection, or a slower and more thoughtful approach to love. It can also suggest a mature and wise connection built on understanding.",
-    "in_situation": "The situation requires patience, analysis, and careful observation. Rushing decisions may lead to mistakes. The card advises seeking clarity through reflection and independent thinking."
+    "in_situation": "The situation requires patience, analysis, and careful observation. Rushing decisions may lead to mistakes. The card advises seeking clarity through reflection and independent thinking.",
+    "meaning_for_today": "Today is suited for reflection, solitude, inner search, and careful thinking. Wisdom will come through patience, observation, and listening to your inner voice.",
+    "card_advice": "Take time to slow down and reflect before making important decisions. Seek truth within yourself and trust your experience and intuition."
   },
   "reversed": {
     "short": "Isolation, loneliness, withdrawal, confusion, avoidance.",
     "general": "Reversed, The Hermit may indicate excessive isolation, loneliness, emotional withdrawal, or fear of facing reality. It can point to confusion, lack of direction, or refusing helpful guidance.",
     "in_love": "In love readings, the reversed Hermit may suggest emotional distance, avoidance of intimacy, loneliness, or difficulties expressing feelings. One partner may feel disconnected or withdrawn.",
-    "in_situation": "The situation may feel stagnant due to overthinking, fear, or lack of communication. The card advises reconnecting with others and avoiding unnecessary isolation."
+    "in_situation": "The situation may feel stagnant due to overthinking, fear, or lack of communication. The card advises reconnecting with others and avoiding unnecessary isolation.",
+    "meaning_for_today": "Today you might cross the line from healthy quiet time into total social isolation. You could find yourself trapped inside an echo chamber of your own overthinking, turning simple situations into convoluted mental knots. There is a strong tendency today to text-dodge your friends, ignore the outside world, or proudly refuse excellent advice from people who actually know better, simply out of sheer stubbornness or a desire to hide from reality.",
+    "card_advice": "It's time to open the blinds and step back out into the world. The reversed Hermit warns you that isolating yourself right now is actively working against you—you aren't finding enlightenment in your room; you are just marinating in your own anxieties. Stop trying to solve every single life problem entirely on your own. Swallow your pride, reach out to your support system, and let the people who care about you offer a fresh perspective before you overthink yourself into a corner."
   },
   "relations": {
     "major": {

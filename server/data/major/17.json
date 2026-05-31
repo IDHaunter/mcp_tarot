@@ -1,18 +1,20 @@
 {
   "name": "The Tower",
-  "meaning_for_today": "Today may bring sudden changes, revelations, or disruptions that break old patterns. Although uncomfortable, these events clear the way for truth and renewal.",
-  "card_advice": "Do not cling to unstable foundations. Accept necessary change and allow false beliefs, unhealthy situations, or illusions to collapse so that something stronger can emerge.",
   "upright": {
     "short": "Sudden change, chaos, revelation, destruction.",
     "general": "The Tower represents dramatic upheaval, unexpected events, and the collapse of unstable structures. It exposes truth, destroys illusions, and forces transformation. Though painful, these disruptions create opportunities for liberation and rebuilding.",
     "in_love": "Relationships may face sudden conflict, separation, or shocking revelations. Hidden issues come to light, forcing honesty and transformation. Weak relationships may collapse, while strong ones survive through truth.",
-    "in_situation": "A situation changes rapidly and unpredictably. Plans may fail or external events may force immediate adaptation. The destruction of old patterns creates space for necessary growth."
+    "in_situation": "A situation changes rapidly and unpredictably. Plans may fail or external events may force immediate adaptation. The destruction of old patterns creates space for necessary growth.",
+    "meaning_for_today": "Today may bring sudden changes, revelations, or disruptions that break old patterns. Although uncomfortable, these events clear the way for truth and renewal.",
+    "card_advice": "Do not cling to unstable foundations. Accept necessary change and allow false beliefs, unhealthy situations, or illusions to collapse so that something stronger can emerge."
   },
   "reversed": {
     "short": "Avoided disaster, fear of change, delayed collapse.",
     "general": "Reversed The Tower suggests resistance to necessary change or attempts to avoid inevitable consequences. Internal tension grows because problems remain unresolved. Transformation is delayed but cannot be avoided forever.",
     "in_love": "A relationship suffers from hidden tension and unresolved problems. Fear of confrontation prevents honest communication. Emotional instability continues beneath the surface.",
-    "in_situation": "The situation remains fragile because important changes are ignored or postponed. Fear of disruption prevents progress and increases long-term instability."
+    "in_situation": "The situation remains fragile because important changes are ignored or postponed. Fear of disruption prevents progress and increases long-term instability.",
+    "meaning_for_today": "Today you are likely walking through an emotional minefield, trying your absolute best to ignore the loud ticking sounds around you. You might have just narrowly dodged a massive disaster by the skin of your teeth, or you are actively burying your head in the sand to delay a looming reckoning. Instead of letting a rotten structure collapse cleanly, you are using all your energy to prop it up with tape and denial, keeping yourself trapped in a state of high anxiety just to avoid temporary discomfort.",
+    "card_advice": "Stop trying to outrun the lightning. The reversed Tower is a warning that by delaying this collapse, you are only making the eventual impact much worse. If a toxic habit, job, or relationship is ready to fall apart, let it go. Stop trying to micro-manage the chaos or patch up cracks in a foundation that is fundamentally broken. Embrace the shakeup, step out of the blast zone, and understand that sometimes things need to break completely before you can build something genuinely secure."
   },
   "relations": {
     "major": {

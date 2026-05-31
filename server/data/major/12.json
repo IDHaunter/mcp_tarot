@@ -1,18 +1,20 @@
 {
   "name": "Justice",
-  "meaning_for_today": "Today emphasizes fairness, truth, responsibility, and balanced decisions. Honest actions and objective thinking will help resolve important matters correctly.",
-  "card_advice": "Act with integrity and take responsibility for your choices. Carefully evaluate situations, remain fair, and seek balance between logic and emotions.",
   "upright": {
     "short": "Fairness, truth, balance, responsibility, honesty.",
     "general": "Justice represents truth, fairness, accountability, and logical decision-making. This card symbolizes balance, ethical behavior, consequences of actions, and the importance of honesty. It often points to legal matters, contracts, or situations requiring objective judgment.",
     "in_love": "In relationships, Justice signifies honesty, equality, mutual respect, and balanced communication. It encourages fairness and responsibility between partners and may indicate important relationship decisions.",
-    "in_situation": "The situation requires careful analysis, honesty, and fair judgment. Actions taken now will have clear consequences, so balance and responsibility are essential."
+    "in_situation": "The situation requires careful analysis, honesty, and fair judgment. Actions taken now will have clear consequences, so balance and responsibility are essential.",
+    "meaning_for_today": "Today emphasizes fairness, truth, responsibility, and balanced decisions. Honest actions and objective thinking will help resolve important matters correctly.",
+    "card_advice": "Act with integrity and take responsibility for your choices. Carefully evaluate situations, remain fair, and seek balance between logic and emotions."
   },
   "reversed": {
     "short": "Dishonesty, imbalance, unfairness, avoidance of responsibility.",
     "general": "Reversed, Justice may indicate unfair treatment, dishonesty, imbalance, bias, or refusal to accept responsibility. It can point to legal problems, deception, or consequences caused by poor decisions.",
     "in_love": "In love readings, the reversed Justice card may suggest imbalance, broken trust, dishonesty, or unresolved conflicts in relationships. One-sided behavior may create emotional tension.",
-    "in_situation": "The situation may involve unfairness, hidden truths, or avoidance of accountability. The card advises seeking clarity, honesty, and balanced solutions."
+    "in_situation": "The situation may involve unfairness, hidden truths, or avoidance of accountability. The card advises seeking clarity, honesty, and balanced solutions.",
+    "meaning_for_today": "Today you might find yourself on either side of an unfair situation—you could be facing someone's biased, hypocritical judgment, or you might be tempting fate by playing fast and loose with the truth yourself. There is a strong urge today to make excuses, point fingers, or play the victim to dodge personal accountability. If you’ve been keeping a secret or cutting corners, the internal imbalance and guilt are likely eating away at your peace of mind today.",
+    "card_advice": "Stop trying to talk your way out of the consequences of your actions. The reversed Justice card tells you that the quickest way to restore balance is to own up to your mistakes immediately—denial will only double the penalty later. If you are the one being treated unfairly by someone else, avoid sinking to their level by using underhanded tactics. Take a long, cold, objective look in the mirror, sweep your own porch first, and accept full responsibility for your side of the ledger."
   },
   "relations": {
     "major": {

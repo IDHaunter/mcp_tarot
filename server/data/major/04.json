@@ -1,18 +1,20 @@
 {
   "name": "The Empress",
-  "meaning_for_today": "Today is favorable for creativity, self-care, love, comfort, and personal growth. Nurturing yourself and others will bring harmony and abundance.",
-  "card_advice": "Trust your natural instincts and allow things to grow steadily. Create beauty around you, care for your emotional needs, and act with compassion and patience.",
   "upright": {
     "short": "Abundance, fertility, creativity, femininity, nurturing energy.",
     "general": "The Empress represents growth, prosperity, creativity, beauty, and maternal energy. This card speaks about harmony with nature, emotional warmth, comfort, and the ability to create something meaningful. It often indicates a productive and fruitful period in life.",
     "in_love": "In love readings, The Empress signifies tenderness, emotional closeness, romance, sensuality, and stable relationships. It may also point to family happiness, pregnancy, or deep emotional support between partners.",
-    "in_situation": "The situation is developing positively and naturally. Patience, care, and creativity will help achieve success. The card advises acting gently rather than forcefully."
+    "in_situation": "The situation is developing positively and naturally. Patience, care, and creativity will help achieve success. The card advises acting gently rather than forcefully.",
+    "meaning_for_today": "Today is favorable for creativity, self-care, love, comfort, and personal growth. Nurturing yourself and others will bring harmony and abundance.",
+    "card_advice": "Trust your natural instincts and allow things to grow steadily. Create beauty around you, care for your emotional needs, and act with compassion and patience."
   },
   "reversed": {
     "short": "Creative block, insecurity, emotional emptiness, dependence.",
     "general": "Reversed, The Empress may indicate lack of growth, emotional imbalance, insecurity, neglect of self-care, or creative stagnation. It can reflect overprotection, laziness, or difficulties in expressing emotions.",
     "in_love": "In relationships, the reversed Empress may point to emotional coldness, jealousy, dependence, lack of affection, or imbalance between partners. It can also indicate difficulties with intimacy or family tensions.",
-    "in_situation": "The situation may feel stagnant or emotionally draining. There could be delays, lack of motivation, or excessive control. The card advises restoring balance and reconnecting with personal needs."
+    "in_situation": "The situation may feel stagnant or emotionally draining. There could be delays, lack of motivation, or excessive control. The card advises restoring balance and reconnecting with personal needs.",
+    "meaning_for_today": "Today your inner well might feel completely dry. You are highly susceptible to feeling unappreciated, physically exhausted, or creatively blocked. If you aren't neglecting your own basic self-care and body needs, you might be swerving into the opposite lane—suffocating someone else with overprotective, hovering energy, or trying to manage their life because you feel insecure. It's a day where domestic friction, body image struggles, or a general sense of unfulfillment might weigh on you.",
+    "card_advice": "You cannot pour from an empty cup. The reversed Empress strongly advises you to stop playing the martyr and redirect your nurturing energy back inward today. If you've been micromanaging a loved one or a creative project, step back and give it room to breathe. Treat yourself to real comfort, eat nourishing food, and disconnect from social drains. Reconnecting with your own worth and taking care of your mental and physical health is your main job right now."
   },
   "relations": {
     "major": {

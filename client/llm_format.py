@@ -6,11 +6,9 @@ import json
 import logging
 from typing import Any
 
-_MEANING_LABELS: tuple[tuple[str, str], ...] = (
+_ORIENTATION_MEANING_LABELS: tuple[tuple[str, str], ...] = (
     ("meaning_for_today", "Today"),
     ("card_advice", "Advice"),
-)
-_ORIENTATION_MEANING_LABELS: tuple[tuple[str, str], ...] = (
     ("short", "Short meaning"),
     ("general", "General"),
     ("in_love", "Love"),
@@ -49,11 +47,6 @@ def format_card_for_llm(card: dict[str, Any], *, index: int | None = None) -> st
             value = meanings.get(key)
             if value:
                 lines.append(f"{label}: {value}")
-
-    for key, label in _MEANING_LABELS:
-        value = card.get(key)
-        if value:
-            lines.append(f"{label}: {value}")
 
     return "\n".join(lines)
 

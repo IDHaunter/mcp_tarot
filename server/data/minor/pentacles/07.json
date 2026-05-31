@@ -1,64 +1,66 @@
 {
-    "name": "Seven of Pentacles",
+  "name": "Seven of Pentacles",
+  "upright": {
+    "short": "Patience, slow growth, pregnancy, wealth",
+    "general": "An important criterion for success in business is to be patient. Within a year, your labor will definitely be rewarded with decent pay. Do not worry that your efforts will be in vain, even if such a presentiment arises—it is false. If the work is completed but there are still no results, then you should correct or do something extra. The Arcana indicates personal growth in the near period of time, but it will be very slow. Before starting a new business, you have to weigh whether it is worth doing and what can be obtained from it. Never rush, as this will instead delay the final result.",
+    "in_love": "In a reading on love and relationships, the card speaks of a deterioration in relations between partners, a violation of harmony, and a loss of trust. It is important to accept a loved one as they are; there is no need to re-educate them. Do not criticize all their words and actions or condemn them. It will be much better if you talk calmly on this topic. If the querent is asking the card for advice on whether to save the relationship or get a divorce, the Seven of Pentacles suggests that such choices should not be made very quickly. You should think carefully about everything and only then make a decision.",
+    "in_situation": "The card is interpreted as a successful resolution of affairs, despite constant doubt in one's own strengths, a large number of obstacles, and complexities on the way to achieving the goal. If your subconscious tells you that now is not the best time to decide or start something, stop and rest, take a pause. This will bring your thoughts back to normal; perhaps a brilliant idea will appear on how to resolve a particular issue. In the event that the querent has been working on something for quite a long time, investing a lot of time, effort, and nerves into this matter, a final successful resolution awaits them in the near period.",
     "meaning_for_today": "Today is definitely not a day for rushing; it is worth being more patient and slow-paced. Take every detail into account, weigh every decision in your head before confirming it. Any mistake today will trigger the emergence of difficult situations, the resolution of which will require large material and energetic costs in the future. There is no point in disrupting plans that are being implemented long and painfully. If there is no mood for patience, just take a breather, rest, spend time usefully, pay attention to those closest to you, or surprise your loved one with a pleasant surprise. Good will definitely be returned to you.",
-    "card_advice": "The card says that you should not make important decisions quickly and impulsively. It is important to properly weigh and think everything over, and if someone is rushing you into making a decision, then take a delay. Otherwise, you risk getting undesirable consequences, the recovery of which will take material and energetic resources.",
-    "upright": {
-        "short": "Patience, slow growth, pregnancy, wealth",
-        "general": "An important criterion for success in business is to be patient. Within a year, your labor will definitely be rewarded with decent pay. Do not worry that your efforts will be in vain, even if such a presentiment arises—it is false. If the work is completed but there are still no results, then you should correct or do something extra. The Arcana indicates personal growth in the near period of time, but it will be very slow. Before starting a new business, you have to weigh whether it is worth doing and what can be obtained from it. Never rush, as this will instead delay the final result.",
-        "in_love": "In a reading on love and relationships, the card speaks of a deterioration in relations between partners, a violation of harmony, and a loss of trust. It is important to accept a loved one as they are; there is no need to re-educate them. Do not criticize all their words and actions or condemn them. It will be much better if you talk calmly on this topic. If the querent is asking the card for advice on whether to save the relationship or get a divorce, the Seven of Pentacles suggests that such choices should not be made very quickly. You should think carefully about everything and only then make a decision.",
-        "in_situation": "The card is interpreted as a successful resolution of affairs, despite constant doubt in one's own strengths, a large number of obstacles, and complexities on the way to achieving the goal. If your subconscious tells you that now is not the best time to decide or start something, stop and rest, take a pause. This will bring your thoughts back to normal; perhaps a brilliant idea will appear on how to resolve a particular issue. In the event that the querent has been working on something for quite a long time, investing a lot of time, effort, and nerves into this matter, a final successful resolution awaits them in the near period."
+    "card_advice": "The card says that you should not make important decisions quickly and impulsively. It is important to properly weigh and think everything over, and if someone is rushing you into making a decision, then take a delay. Otherwise, you risk getting undesirable consequences, the recovery of which will take material and energetic resources."
+  },
+  "reversed": {
+    "short": "Loss, pity, impatience, depression",
+    "general": "Avoid adventurous ventures and gambling, because right now fortune is not on your side. The card speaks of rapid movement into a void that brings nothing useful: no opportunities, no chances, no success. There is a possibility of health problems, specifically an illness associated with an infection. Avoid emotions such as impatience, nervousness, and anxiety, otherwise a period of depression will ensue.",
+    "in_love": "The card speaks of a lack of harmony in the relationship. It will be extremely difficult for both partners to settle for a compromise. Your significant other literally burdens and irritates you. It is possible that one of the partners is cheating without a qualm of conscience.",
+    "in_situation": "It is worth weighing everything correctly, focusing on one thing that has a chance of success. Less important matters should be postponed for later, as they will hinder moving forward. If intuition suggests that financial problems will appear, this is justified. It is because of financial difficulties that you will have to give up many pleasures in life. It is not recommended to borrow money or make large purchases, as this can aggravate the financial problem.",
+    "meaning_for_today": "Today you may feel frustrated by delays, lack of visible progress, or results that do not justify the effort invested. There is a temptation to abandon a project, relationship, or goal simply because the rewards have not appeared as quickly as expected. Be careful not to make decisions out of irritation, disappointment, or impatience. Avoid risky investments, impulsive purchases, and attempts to force events to move faster than they naturally can. Take an honest look at where your energy is being wasted and whether your current strategy requires adjustment.",
+    "card_advice": "Do not continue investing your time, money, or emotions blindly into something that shows no real potential. Review your plans, identify mistakes, and be willing to change your approach if necessary. Patience alone is not enough when efforts are directed toward the wrong goal. Learn from recent setbacks instead of dwelling on them, and focus your resources on opportunities that offer genuine growth and long-term value."
+  },
+  "relations": {
+    "major": {
+      "01": "Being impatient; abandoning a matter halfway.",
+      "02": "Waiting for one's time.",
+      "03": "Languishing in uncertainty.",
+      "04": "Investments have started to yield profit.",
+      "05": "To invest in a business.",
+      "06": "Show patience and mercy.",
+      "07": "Waiting for returns from a relationship.",
+      "08": "Crisis.",
+      "09": "Show endurance and stamina.",
+      "10": "Defeat.",
+      "11": "Instability; everything can go wrong.",
+      "12": "Achieve justice.",
+      "13": "Tied hands; losses.",
+      "14": "Life makes adjustments to our intentions.",
+      "15": "The fruits of labor gradually yield results.",
+      "16": "Show impatience; vain labor; unsuccessful investments.",
+      "17": "Being left with nothing; losing what was invested.",
+      "18": "Patiently hoping.",
+      "19": "Unsuccessful investments; brewing problems.",
+      "20": "Reward for waiting and patience.",
+      "21": "Time to reap the fruits; waiting for a miracle.",
+      "22": "Waiting out the harvest; reward."
     },
-    "reversed": {
-        "short": "Loss, pity, impatience, depression",
-        "general": "Avoid adventurous ventures and gambling, because right now fortune is not on your side. The card speaks of rapid movement into a void that brings nothing useful: no opportunities, no chances, no success. There is a possibility of health problems, specifically an illness associated with an infection. Avoid emotions such as impatience, nervousness, and anxiety, otherwise a period of depression will ensue.",
-        "in_love": "The card speaks of a lack of harmony in the relationship. It will be extremely difficult for both partners to settle for a compromise. Your significant other literally burdens and irritates you. It is possible that one of the partners is cheating without a qualm of conscience.",
-        "in_situation": "It is worth weighing everything correctly, focusing on one thing that has a chance of success. Less important matters should be postponed for later, as they will hinder moving forward. If intuition suggests that financial problems will appear, this is justified. It is because of financial difficulties that you will have to give up many pleasures in life. It is not recommended to borrow money or make large purchases, as this can aggravate the financial problem."
-    },
-    "relations": {
-        "major": {
-            "01": "Being impatient; abandoning a matter halfway.",
-            "02": "Waiting for one's time.",
-            "03": "Languishing in uncertainty.",
-            "04": "Investments have started to yield profit.",
-            "05": "To invest in a business.",
-            "06": "Show patience and mercy.",
-            "07": "Waiting for returns from a relationship.",
-            "08": "Crisis.",
-            "09": "Show endurance and stamina.",
-            "10": "Defeat.",
-            "11": "Instability; everything can go wrong.",
-            "12": "Achieve justice.",
-            "13": "Tied hands; losses.",
-            "14": "Life makes adjustments to our intentions.",
-            "15": "The fruits of labor gradually yield results.",
-            "16": "Show impatience; vain labor; unsuccessful investments.",
-            "17": "Being left with nothing; losing what was invested.",
-            "18": "Patiently hoping.",
-            "19": "Unsuccessful investments; brewing problems.",
-            "20": "Reward for waiting and patience.",
-            "21": "Time to reap the fruits; waiting for a miracle.",
-            "22": "Waiting out the harvest; reward."
-        },
-        "minor": {
-            "cups": {},
-            "pentacles": {},
-            "swords": {},
-            "wands": {
-                "01": "The waiting is coming to an end.",
-                "02": "Audit.",
-                "03": "\"Green\" harvest.",
-                "04": "Reward for patience.",
-                "05": "Debtors.",
-                "06": "Enterprise / Resourcefulness.",
-                "07": "Confiscation of property.",
-                "08": "Profit.",
-                "09": "Test of practicality.",
-                "10": "Defeat; patience is running out.",
-                "11": "Unmanifested abilities, talents.",
-                "12": "Delay as a result of loss of enthusiasm.",
-                "13": "Maintaining optimism despite obvious difficulties.",
-                "14": "Encouraging investments."
-            }
-        }
+    "minor": {
+      "cups": {},
+      "pentacles": {},
+      "swords": {},
+      "wands": {
+        "01": "The waiting is coming to an end.",
+        "02": "Audit.",
+        "03": "\"Green\" harvest.",
+        "04": "Reward for patience.",
+        "05": "Debtors.",
+        "06": "Enterprise / Resourcefulness.",
+        "07": "Confiscation of property.",
+        "08": "Profit.",
+        "09": "Test of practicality.",
+        "10": "Defeat; patience is running out.",
+        "11": "Unmanifested abilities, talents.",
+        "12": "Delay as a result of loss of enthusiasm.",
+        "13": "Maintaining optimism despite obvious difficulties.",
+        "14": "Encouraging investments."
+      }
     }
+  }
 }

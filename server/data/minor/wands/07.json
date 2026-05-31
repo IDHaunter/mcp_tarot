@@ -1,18 +1,20 @@
 {
   "name": "Seven of Wands",
-  "meaning_for_today": "Today you may need to defend your position, beliefs, or achievements. Confidence and persistence will help you maintain your advantage despite outside pressure.",
-  "card_advice": "Stand your ground and trust your abilities. Do not give up your position simply because others challenge you.",
   "upright": {
     "short": "Defense, perseverance, competition, courage.",
     "general": "The Seven of Wands symbolizes resistance, determination, and the courage to protect what has been achieved. It often appears when a person must face rivalry, criticism, or external pressure while remaining confident and resilient.",
     "in_love": "Relationships may require effort and protection from outside influences. One or both partners may need to fight for trust, stability, or emotional boundaries.",
-    "in_situation": "The situation demands persistence and active defense of your interests. Challenges are present, but you have the advantage if you remain focused and confident."
+    "in_situation": "The situation demands persistence and active defense of your interests. Challenges are present, but you have the advantage if you remain focused and confident.",
+    "meaning_for_today": "Today you may need to defend your position, beliefs, or achievements. Confidence and persistence will help you maintain your advantage despite outside pressure.",
+    "card_advice": "Stand your ground and trust your abilities. Do not give up your position simply because others challenge you."
   },
   "reversed": {
     "short": "Exhaustion, surrender, insecurity, losing control.",
     "general": "The reversed Seven of Wands points to fatigue, fear of confrontation, or difficulty maintaining control over circumstances. Pressure from others may feel overwhelming, leading to self-doubt or retreat.",
     "in_love": "Arguments, emotional defensiveness, or inability to protect the relationship may create tension. One partner may feel overwhelmed or unsupported.",
-    "in_situation": "The situation becomes unstable due to hesitation, lack of preparation, or external pressure. It may be necessary to reconsider priorities and conserve energy."
+    "in_situation": "The situation becomes unstable due to hesitation, lack of preparation, or external pressure. It may be necessary to reconsider priorities and conserve energy.",
+    "meaning_for_today": "Today you might feel completely overwhelmed by the constant demands, criticisms, or expectations coming at you from all sides. The effort to keep defending your position or managing your workload has triggered a wave of exhaustion, making you want to throw your hands up and surrender. Alternatively, you might find yourself overcompensating with hyper-defensiveness, misreading innocent feedback as an attack because your internal security is running on empty.",
+    "card_advice": "Recognize that constantly holding your ground is costing you too much energy right now. The reversed Seven of Wands advises you to step down from the hill you are fighting on and assess if this battle is even worth it. It is not a failure to retreat when you are outnumbered and out of gas; it is strategy. Conserve your energy, re-evaluate your boundaries, and yield on minor points so you can protect your long-term peace of mind."
   },
   "relations": {
     "major": {

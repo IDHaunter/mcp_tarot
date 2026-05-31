@@ -1,18 +1,20 @@
 {
   "name": "The Magician",
-  "meaning_for_today": "Today is favorable for taking initiative, using your talents, and turning ideas into reality. Your confidence and skills can help you achieve meaningful progress.",
-  "card_advice": "Use your abilities wisely and act with purpose. Focus your energy on what truly matters and trust your capacity to create results.",
   "upright": {
     "short": "Manifestation, skill, confidence, action.",
     "general": "The Magician symbolizes personal power, creativity, intelligence, and the ability to transform ideas into reality. It represents focus, resourcefulness, and mastery over circumstances.",
     "in_love": "Strong attraction, confident communication, and active romantic energy. A relationship may begin through charm, initiative, or mutual inspiration.",
-    "in_situation": "The situation favors decisive action and strategic thinking. You possess the necessary tools and abilities to succeed if you remain focused."
+    "in_situation": "The situation favors decisive action and strategic thinking. You possess the necessary tools and abilities to succeed if you remain focused.",
+    "meaning_for_today": "Today is favorable for taking initiative, using your talents, and turning ideas into reality. Your confidence and skills can help you achieve meaningful progress.",
+    "card_advice": "Use your abilities wisely and act with purpose. Focus your energy on what truly matters and trust your capacity to create results."
   },
   "reversed": {
     "short": "Manipulation, deception, misuse of power, insecurity.",
     "general": "The reversed Magician points to dishonesty, manipulation, scattered energy, or lack of confidence. Talents may be wasted or used for selfish purposes.",
     "in_love": "Miscommunication, emotional games, or unrealistic promises may affect the relationship. One person may hide their true intentions.",
-    "in_situation": "The situation becomes unstable due to poor planning, deception, or lack of direction. Greater clarity and honesty are required."
+    "in_situation": "The situation becomes unstable due to poor planning, deception, or lack of direction. Greater clarity and honesty are required.",
+    "meaning_for_today": "Today you might cross paths with a smooth talker who talks a big game but has hidden motives, or you could find yourself on the receiving end of some manipulative office politics. On a personal level, your focus is likely fragmented. You have all the tools you need to succeed right in front of you, but self-doubt, impostor syndrome, or a total lack of willpower might prevent you from executing your plans. Watch out for a temptation to cut corners or bend the truth to get what you want.",
+    "card_advice": "Beware of smoke and mirrors, whether they are coming from someone else or your own self-deception. The reversed Magician advises you to audit your intentions today. If you are trying to force a result through manipulation or half-truths, stop—it will backfire. If you are feeling stuck, stop trying to multitask; gather your scattered energy and focus intensely on mastering just one thing at a time. True manifestation requires alignment and integrity, not tricks."
   },
   "relations": {
     "major": {
@@ -30,7 +32,7 @@
       "12": "Justice rewards honest intentions and actions.",
       "13": "A pause before new creation or action.",
       "14": "Transformation through focused willpower.",
-      "15": "Balance and moderation improve results.",
+      "15": "Balance and patience improve results.",
       "16": "Manipulation or temptation creates danger.",
       "17": "Sudden changes challenge control.",
       "18": "Hope and inspiration fuel creativity.",

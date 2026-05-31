@@ -1,18 +1,20 @@
 {
   "name": "The High Priestess",
-  "meaning_for_today": "Today encourages quiet reflection, intuition, and attention to hidden details. Trust your inner voice and avoid rushing important decisions.",
-  "card_advice": "Listen to your intuition and allow events to unfold naturally. Some answers will come through observation, patience, and inner awareness rather than direct action.",
   "upright": {
     "short": "Intuition, mystery, wisdom, inner knowledge.",
     "general": "The High Priestess represents intuition, hidden truths, spiritual awareness, and deep inner wisdom. She symbolizes silence, patience, and understanding beyond logic.",
     "in_love": "A relationship may contain unspoken emotions, hidden feelings, or deep spiritual connection. Emotional understanding is more important than outward expression.",
-    "in_situation": "The situation requires patience, observation, and trust in intuition. Not all information is currently visible, and hidden factors may influence the outcome."
+    "in_situation": "The situation requires patience, observation, and trust in intuition. Not all information is currently visible, and hidden factors may influence the outcome.",
+    "meaning_for_today": "Today encourages quiet reflection, intuition, and attention to hidden details. Trust your inner voice and avoid rushing important decisions.",
+    "card_advice": "Listen to your intuition and allow events to unfold naturally. Some answers will come through observation, patience, and inner awareness rather than direct action."
   },
   "reversed": {
     "short": "Secrets, confusion, blocked intuition, deception.",
     "general": "The reversed High Priestess points to emotional imbalance, ignored intuition, hidden motives, or confusion caused by secrecy. Inner wisdom may be blocked by fear or uncertainty.",
     "in_love": "Misunderstandings, emotional distance, or hidden truths affect the relationship. One partner may suppress feelings or avoid honesty.",
-    "in_situation": "The situation becomes unclear due to lack of information, deception, or inability to trust your instincts. Greater awareness is necessary."
+    "in_situation": "The situation becomes unclear due to lack of information, deception, or inability to trust your instincts. Greater awareness is necessary.",
+    "meaning_for_today": "Today you might feel completely disconnected from your gut instincts, leading to mental static and second-guessing. You could find yourself surrounded by superficial noise, or dealing with people who are keeping secrets, hiding information, or engaging in petty gossip. There is a strong tendency today to ignore that quiet inner voice warning you about a person or situation, choosing instead to focus only on outward appearances or external validation.",
+    "card_advice": "Stop looking for answers outside yourself and tune back in. The reversed High Priestess advises you to slow down and ask yourself why you are ignoring your own intuition. If a situation feels off or someone seems shifty, do not force yourself to play along just to keep things easy. Avoid spreading or listening to rumors today, protect your private life, and take some quiet time to clear the external clutter from your mind so you can actually hear what your subconscious is trying to tell you."
   },
   "relations": {
     "major": {

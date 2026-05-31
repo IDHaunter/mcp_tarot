@@ -1,18 +1,20 @@
 {
   "name": "Death",
-  "meaning_for_today": "Today brings transformation and the closing of an old chapter. Let go of what no longer serves you and allow new energy to enter your life.",
-  "card_advice": "Do not resist change. Accept endings with courage and trust that transformation will lead to renewal and personal growth.",
   "upright": {
     "short": "Transformation, endings, rebirth, transition.",
     "general": "The Death card represents major change, the end of a cycle, and the beginning of something new. It signals transformation, release of the past, and personal evolution. Although endings may feel difficult, they create space for growth and renewal.",
     "in_love": "A relationship or emotional pattern is transforming. This may indicate the end of an unhealthy connection or a new stage in a relationship. Singles must release past emotional baggage to welcome new love.",
-    "in_situation": "A situation is reaching its natural conclusion. Radical change is unavoidable, but it will eventually open the door to new opportunities and personal development."
+    "in_situation": "A situation is reaching its natural conclusion. Radical change is unavoidable, but it will eventually open the door to new opportunities and personal development.",
+    "meaning_for_today": "Today brings transformation and the closing of an old chapter. Let go of what no longer serves you and allow new energy to enter your life.",
+    "card_advice": "Do not resist change. Accept endings with courage and trust that transformation will lead to renewal and personal growth."
   },
   "reversed": {
     "short": "Resistance to change, stagnation, fear of endings.",
     "general": "Reversed Death indicates difficulty letting go of the past. Fear of transformation creates stagnation and emotional blockage. Necessary changes are delayed because of attachment or denial.",
     "in_love": "A relationship may be stuck in unhealthy patterns. Fear of separation or emotional dependency prevents growth. Old wounds and unresolved emotions interfere with healthy connections.",
-    "in_situation": "The situation remains stagnant because change is being resisted. Delays, emotional attachment, or fear of uncertainty prevent progress and prolong discomfort."
+    "in_situation": "The situation remains stagnant because change is being resisted. Delays, emotional attachment, or fear of uncertainty prevent progress and prolong discomfort.",
+    "meaning_for_today": "Today you are likely white-knuckling something that is already dead and gone. Whether it’s a stale habit, a defunct project, or a dynamic that has clearly run its course, you are expending immense energy trying to resuscitate it. There is a heavy feeling of living in a state of emotional limbo today, where you are dragging out a painful conclusion simply because the fear of the unknown scares you more than the current rot you are sitting in.",
+    "card_advice": "Stop trying to revive what is meant to be buried. The reversed Death card is a blunt reminder that by refusing to let this chapter end, you are actively blocking your own rebirth. You cannot start the next phase of your life if your hands are completely full of the past. Stop delaying the inevitable, give yourself permission to grieve the loss, and let go of the handle so the doorway to something fresh can finally open."
   },
   "relations": {
     "major": {

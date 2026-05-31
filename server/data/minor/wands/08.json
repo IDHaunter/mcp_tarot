@@ -1,18 +1,20 @@
 {
   "name": "Eight of Wands",
-  "meaning_for_today": "Today events may develop very quickly. News, messages, or opportunities arrive unexpectedly, pushing you toward rapid progress and decisive action.",
-  "card_advice": "Act without unnecessary delay. Trust the natural flow of events and use the momentum while it is available.",
   "upright": {
     "short": "Speed, movement, progress, communication.",
     "general": "The Eight of Wands represents rapid development, forward motion, communication, and dynamic energy. Obstacles disappear, allowing plans to move ahead quickly and efficiently.",
     "in_love": "Romantic relationships gain momentum. Passion, exciting communication, and fast emotional development are likely. Unexpected messages or meetings may occur.",
-    "in_situation": "The situation accelerates and requires quick reactions. Delays end, and events unfold rapidly toward a clear outcome."
+    "in_situation": "The situation accelerates and requires quick reactions. Delays end, and events unfold rapidly toward a clear outcome.",
+    "meaning_for_today": "Today events may develop very quickly. News, messages, or opportunities arrive unexpectedly, pushing you toward rapid progress and decisive action.",
+    "card_advice": "Act without unnecessary delay. Trust the natural flow of events and use the momentum while it is available."
   },
   "reversed": {
     "short": "Delays, confusion, impatience, miscommunication.",
     "general": "The reversed Eight of Wands points to slowed progress, misunderstandings, chaotic actions, or frustration caused by delays. Energy becomes scattered or blocked.",
     "in_love": "Communication problems or emotional impatience may create tension. Mixed signals and rushed decisions can damage trust.",
-    "in_situation": "The situation loses momentum due to confusion, interruptions, or lack of coordination. It is important to avoid acting recklessly."
+    "in_situation": "The situation loses momentum due to confusion, interruptions, or lack of coordination. It is important to avoid acting recklessly.",
+    "meaning_for_today": "Today you might feel like you are running full speed into a brick wall of delays. Messages might get lost or misinterpreted, travel plans could hit unexpected snags, and things you expected to move forward will likely stall out completely. You may have to deal with scattered energy, either from yourself or those around you, leading to chaotic text threads, missed deadlines, or a pervasive, exhausting feeling of spinning your wheels.",
+    "card_advice": "Stop trying to force things to move faster than they want to today. The reversed Eight of Wands advises you to hit the brakes and check your pacing. Impulsive actions or panic-sending messages will only create more confusion right now. Take a deep breath, double-check your data, clarify your communication, and accept that a temporary slowdown is exactly what you need to keep from making sloppy mistakes."
   },
   "relations": {
     "major": {

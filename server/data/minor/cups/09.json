@@ -1,18 +1,20 @@
 {
   "name": "Nine of Cups",
-  "meaning_for_today": "Today brings emotional satisfaction, comfort, and a sense of fulfillment. It is a good day to appreciate what you already have and enjoy small pleasures.",
-  "card_advice": "Allow yourself to feel gratitude and satisfaction, but avoid becoming complacent. True happiness grows when appreciation is balanced with awareness of future goals.",
   "upright": {
     "short": "Wish fulfillment, satisfaction, pleasure, contentment",
     "general": "Represents emotional fulfillment, happiness, and the realization of wishes. It often indicates a period of comfort, success, and personal satisfaction.",
     "in_love": "Emotional harmony and satisfaction in relationships. Wishes in love may be fulfilled, bringing joy and closeness.",
-    "in_situation": "A situation where goals or desires are achieved. Stability and comfort are present, and things feel aligned with expectations."
+    "in_situation": "A situation where goals or desires are achieved. Stability and comfort are present, and things feel aligned with expectations.",
+    "meaning_for_today": "Today brings emotional satisfaction, comfort, and a sense of fulfillment. It is a good day to appreciate what you already have and enjoy small pleasures.",
+    "card_advice": "Allow yourself to feel gratitude and satisfaction, but avoid becoming complacent. True happiness grows when appreciation is balanced with awareness of future goals."
   },
   "reversed": {
     "short": "Unhappiness, dissatisfaction, unmet wishes",
     "general": "Indicates disappointment, unfulfilled desires, or realizing that what was wanted does not bring true happiness.",
     "in_love": "Emotional dissatisfaction or unrealistic expectations in relationships. A need to reassess what truly brings fulfillment.",
-    "in_situation": "A situation that looks successful on the surface but lacks deeper satisfaction or meaning."
+    "in_situation": "A situation that looks successful on the surface but lacks deeper satisfaction or meaning.",
+    "meaning_for_today": "Today may bring emotional dissatisfaction or the realization that certain desires do not provide the happiness you expected. Temporary pleasures or unrealistic expectations could leave a feeling of emptiness or frustration.",
+    "card_advice": "Look beyond superficial comfort and ask yourself what truly fulfills you emotionally. Gratitude, honesty with yourself, and realistic expectations will help restore inner balance and satisfaction."
   },
   "relations": {
     "major": {

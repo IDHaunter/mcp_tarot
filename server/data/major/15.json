@@ -1,18 +1,20 @@
 {
   "name": "Temperance",
-  "meaning_for_today": "Today calls for balance, patience, and harmony. Avoid extremes and trust the natural flow of events.",
-  "card_advice": "Stay calm and moderate in your actions. Combine logic with intuition and seek peaceful solutions instead of conflict.",
   "upright": {
     "short": "Balance, harmony, patience, moderation.",
     "general": "Temperance symbolizes inner balance, emotional stability, and the ability to combine opposites into harmony. The card encourages patience, self-control, and thoughtful decisions. Progress comes gradually through cooperation and moderation.",
     "in_love": "Relationships become more balanced and emotionally mature. Partners learn to compromise and support one another. Singles may attract a calm and stable connection built on trust and understanding.",
-    "in_situation": "The situation develops steadily and peacefully. Success comes through patience, diplomacy, and careful planning rather than impulsive actions."
+    "in_situation": "The situation develops steadily and peacefully. Success comes through patience, diplomacy, and careful planning rather than impulsive actions.",
+    "meaning_for_today": "Today calls for balance, patience, and harmony. Avoid extremes and trust the natural flow of events.",
+    "card_advice": "Stay calm and moderate in your actions. Combine logic with intuition and seek peaceful solutions instead of conflict."
   },
   "reversed": {
     "short": "Imbalance, excess, impatience, conflict.",
     "general": "Reversed Temperance points to disharmony, emotional instability, and lack of moderation. Extreme behavior or poor self-control creates tension and delays progress.",
     "in_love": "Relationships suffer from misunderstandings, emotional imbalance, or lack of compromise. One partner may dominate while the other feels neglected. Emotional extremes create instability.",
-    "in_situation": "The situation lacks balance and organization. Rushed decisions, impatience, or conflicting energies interfere with successful outcomes."
+    "in_situation": "The situation lacks balance and organization. Rushed decisions, impatience, or conflicting energies interfere with successful outcomes.",
+    "meaning_for_today": "Today feels a bit like a pendulum swinging erratically between extremes. You might find yourself burning the candle at both ends, overindulging in food, spending, or toxic habits, or completely losing your cool over minor inconveniences. There is a jarring sense of friction today—either you are trying to force oil and water to mix in a project or relationship, or you are physically and emotionally exhausted because your daily routine is completely out of whack.",
+    "card_advice": "It's time to hit the brakes and check your levels. The reversed Temperance card tells you to identify where you are overdoing it and step back before you completely burn out. Stop looking for quick, addictive fixes to mask your stress. Look at what you are consuming—mentally, emotionally, and physically—and start cutting out the excess. You need to realign your daily habits, practice some actual patience, and find your center before you try to fix anything external."
   },
   "relations": {
     "major": {

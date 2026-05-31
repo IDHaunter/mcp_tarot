@@ -1,18 +1,20 @@
 {
   "name": "Knight of Cups",
-  "meaning_for_today": "Today may bring romantic opportunities, emotional messages, invitations, or inspiration. Follow your heart, but stay realistic and balanced.",
-  "card_advice": "Express your feelings honestly, trust your intuition, and move toward your dreams with sincerity and emotional openness.",
   "upright": {
     "short": "Romance, inspiration, emotional movement, charm, idealism.",
     "general": "The Knight of Cups symbolizes emotional pursuit, romance, creativity, and inspiration. This card often points to a charming and sensitive person guided by emotions and ideals. It may indicate invitations, messages, artistic inspiration, or a journey connected with feelings.",
     "in_love": "Romantic gestures, declarations of love, emotional openness, and deep attraction. The card often signifies the beginning of a romantic relationship or renewed emotional closeness.",
-    "in_situation": "The situation develops through diplomacy, creativity, and emotional intelligence. Trust intuition, but avoid unrealistic expectations or excessive idealization."
+    "in_situation": "The situation develops through diplomacy, creativity, and emotional intelligence. Trust intuition, but avoid unrealistic expectations or excessive idealization.",
+    "meaning_for_today": "Today may bring romantic opportunities, emotional messages, invitations, or inspiration. Follow your heart, but stay realistic and balanced.",
+    "card_advice": "Express your feelings honestly, trust your intuition, and move toward your dreams with sincerity and emotional openness."
   },
   "reversed": {
     "short": "Illusions, emotional instability, manipulation, disappointment.",
     "general": "Reversed, the Knight of Cups may indicate emotional confusion, unrealistic fantasies, broken promises, or manipulative behavior. A person may avoid responsibility or act inconsistently.",
     "in_love": "Disappointment in love, emotional manipulation, insincerity, or unrealistic expectations in relationships. Feelings may be unstable or deceptive.",
-    "in_situation": "The situation may involve confusion, unreliable offers, emotional impulsiveness, or lack of direction. It is important to separate fantasy from reality."
+    "in_situation": "The situation may involve confusion, unreliable offers, emotional impulsiveness, or lack of direction. It is important to separate fantasy from reality.",
+    "meaning_for_today": "Today may bring emotional uncertainty, mixed signals, or disappointment connected with unrealistic expectations. Promises, invitations, or romantic situations may not be as reliable or sincere as they first appear.",
+    "card_advice": "Do not allow emotions or fantasies to cloud your judgment. Stay honest with yourself and others, avoid impulsive emotional decisions, and look carefully at actions rather than empty words."
   },
   "relations": {
     "major": {

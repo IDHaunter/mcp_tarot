@@ -1,18 +1,20 @@
 {
   "name": "Knight of Wands",
-  "meaning_for_today": "Today brings movement, excitement, and a strong desire for action. New opportunities may appear suddenly, requiring courage and quick decisions.",
-  "card_advice": "Act boldly and follow your inspiration, but avoid rushing without thinking. Channel your energy wisely and stay focused on your goals.",
   "upright": {
     "short": "Action, adventure, passion, confidence, movement, enthusiasm.",
     "general": "The Knight of Wands symbolizes energetic action, ambition, and the pursuit of adventure. This card represents passion, courage, spontaneity, and a desire for freedom. It often signals travel, rapid progress, or exciting changes.",
     "in_love": "In relationships, the Knight of Wands points to passion, attraction, excitement, and intense emotions. It may describe a charismatic but freedom-loving partner.",
-    "in_situation": "A situation develops quickly and requires confidence and initiative. Success comes through bold action, flexibility, and enthusiasm."
+    "in_situation": "A situation develops quickly and requires confidence and initiative. Success comes through bold action, flexibility, and enthusiasm.",
+    "meaning_for_today": "Today brings movement, excitement, and a strong desire for action. New opportunities may appear suddenly, requiring courage and quick decisions.",
+    "card_advice": "Act boldly and follow your inspiration, but avoid rushing without thinking. Channel your energy wisely and stay focused on your goals."
   },
   "reversed": {
     "short": "Impulsiveness, recklessness, instability, impatience, frustration.",
     "general": "Reversed, the Knight of Wands warns about acting too quickly, unstable plans, scattered energy, or irresponsible behavior. Enthusiasm may turn into chaos or burnout.",
     "in_love": "Relationships may become unstable due to inconsistency, emotional unpredictability, or fear of commitment.",
-    "in_situation": "Delays, impulsive actions, or poor planning may create setbacks. It is important to slow down and think before acting."
+    "in_situation": "Delays, impulsive actions, or poor planning may create setbacks. It is important to slow down and think before acting.",
+    "meaning_for_today": "Today your inner fire might turn into scattered, volatile energy. You could find yourself starting three tasks at once and finishing none, or hitting roadblock after roadblock because you didn't plan ahead. There is a strong chance of dealing with short tempers—either your own impatience flaring up at minor delays, or someone else charging into your day like a bull in a china shop, creating unnecessary drama or making demands without thinking them through.",
+    "card_advice": "Pull back on the reins before you run yourself or someone else off the road. The reversed Knight of Wands warns you to pause and count to ten before hitting 'send,' making a purchase, or initiating a confrontation. Direct that restless energy into a constructive, physical outlet rather than letting it turn into irritability. Boldness is great, but today success relies on self-control; do not mistake reckless speed for actual progress."
   },
   "relations": {
     "major": {

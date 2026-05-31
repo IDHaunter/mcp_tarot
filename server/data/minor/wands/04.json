@@ -1,18 +1,20 @@
 {
   "name": "Four of Wands",
-  "meaning_for_today": "Today brings harmony, celebration, and a sense of stability. It is a favorable time for gatherings, achievements, and enjoying the results of your efforts.",
-  "card_advice": "Appreciate your accomplishments and share joy with others. Build strong foundations and allow yourself to celebrate important milestones.",
   "upright": {
     "short": "Celebration, harmony, stability, success, home, joyful events.",
     "general": "The Four of Wands symbolizes stability, happiness, and celebration after hard work. It represents harmony in relationships, secure foundations, achievements, and important life events such as weddings, reunions, or successful completions.",
     "in_love": "In relationships, the Four of Wands indicates harmony, commitment, emotional security, and joyful union. It may point to engagement, marriage, or creating a stable home together.",
-    "in_situation": "A situation develops positively and brings satisfaction. Cooperation, support, and a strong foundation lead to lasting success and peace."
+    "in_situation": "A situation develops positively and brings satisfaction. Cooperation, support, and a strong foundation lead to lasting success and peace.",
+    "meaning_for_today": "Today brings harmony, celebration, and a sense of stability. It is a favorable time for gatherings, achievements, and enjoying the results of your efforts.",
+    "card_advice": "Appreciate your accomplishments and share joy with others. Build strong foundations and allow yourself to celebrate important milestones."
   },
   "reversed": {
     "short": "Instability, tension, canceled plans, lack of harmony, insecurity.",
     "general": "Reversed, the Four of Wands may indicate instability, conflict within the home or social circle, delayed celebrations, or difficulty maintaining balance and harmony.",
     "in_love": "Relationships may experience tension, lack of commitment, misunderstandings, or uncertainty about the future.",
-    "in_situation": "Plans may face delays or disruptions. A lack of support or unstable foundations creates challenges that must be resolved before progress continues."
+    "in_situation": "Plans may face delays or disruptions. A lack of support or unstable foundations creates challenges that must be resolved before progress continues.",
+    "meaning_for_today": "Today might bring a feeling of walking on eggshells, especially at home or around close friends. A gathering, celebration, or family event you were looking forward to could be abruptly canceled, postponed, or dampened by under-the-surface friction. You may feel a deeper sense of internal insecurity or dynamic imbalance, making it hard to relax and feel truly comfortable in your current environment.",
+    "card_advice": "Don't try to force a picture-perfect atmosphere if the underlying harmony is genuinely missing. The reversed Four of Wands advises you to focus on patching up any cracked foundations in your personal relationships or home environment first. If plans fall through or an event feels awkward, don't take it as a total failure—use the downtime to address the source of internal tension and rebuild your personal security from within."
   },
   "relations": {
     "major": {

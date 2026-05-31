@@ -1,18 +1,20 @@
 {
   "name": "The Moon",
-  "meaning_for_today": "Today may bring uncertainty, emotional sensitivity, and hidden truths. Trust your intuition, but avoid making decisions based solely on fear or illusion.",
-  "card_advice": "Look beyond appearances and pay attention to your inner voice. Do not allow confusion, anxiety, or deception to control your choices.",
   "upright": {
     "short": "Illusion, intuition, uncertainty, hidden emotions.",
     "general": "The Moon represents mystery, subconscious fears, emotional uncertainty, and illusion. Things are not as clear as they seem, and hidden information may influence the situation. The card encourages intuition, patience, and careful observation.",
     "in_love": "Relationships may involve confusion, secrets, emotional insecurity, or mixed signals. Feelings are deep but difficult to understand clearly. Trust and honest communication are necessary.",
-    "in_situation": "The situation lacks clarity and may involve hidden motives or incomplete information. Emotional reactions and uncertainty make decision-making difficult."
+    "in_situation": "The situation lacks clarity and may involve hidden motives or incomplete information. Emotional reactions and uncertainty make decision-making difficult.",
+    "meaning_for_today": "Today may bring uncertainty, emotional sensitivity, and hidden truths. Trust your intuition, but avoid making decisions based solely on fear or illusion.",
+    "card_advice": "Look beyond appearances and pay attention to your inner voice. Do not allow confusion, anxiety, or deception to control your choices."
   },
   "reversed": {
     "short": "Clarity, truth revealed, overcoming fear, understanding.",
     "general": "Reversed The Moon indicates that confusion begins to fade and hidden truths come to light. Fear and anxiety lose their influence, allowing greater clarity and emotional stability.",
     "in_love": "Misunderstandings and emotional uncertainty begin to resolve. Honest communication helps reveal true feelings and restore trust.",
-    "in_situation": "The situation becomes clearer as deception or uncertainty disappears. Facts emerge, making it easier to make informed decisions."
+    "in_situation": "The situation becomes clearer as deception or uncertainty disappears. Facts emerge, making it easier to make informed decisions.",
+    "meaning_for_today": "Today the dense psychological fog is finally starting to clear, and things are returning to their proper proportions. If you have been trapped in an anxious mental spiral, plagued by strange dreams, or paranoid about what someone else is thinking, today brings a massive sigh of relief. Secrets are being dragged out into the daylight, gaslighting is losing its grip, and you can finally separate your genuine gut intuition from your worst insecurities.",
+    "card_advice": "Open your eyes and look at the cold, hard facts that are presenting themselves. The reversed Moon tells you that the time for overanalyzing shadows and hiding in your shell is officially over. Trust the clarity that is coming in right now, even if the exposed truth is slightly jarring at first. Use this steady ground to dispel your remaining anxieties, ask the direct questions you were too afraid to voice before, and move forward confidently now that you can actually see the road ahead."
   },
   "relations": {
     "major": {

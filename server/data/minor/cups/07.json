@@ -1,18 +1,20 @@
 {
   "name": "Seven of Cups",
-  "meaning_for_today": "Today may bring many options, fantasies, or distractions. It is important to separate real opportunities from illusions and unclear desires before making decisions.",
-  "card_advice": "Do not rush into choices based on emotions or imagination alone. Focus on clarity, prioritize what is realistic, and avoid being overwhelmed by too many possibilities.",
   "upright": {
     "short": "Illusions, choices, imagination, confusion",
     "general": "Represents multiple options, dreams, fantasies, and uncertainty. A person may feel overwhelmed by possibilities or struggle to distinguish reality from illusion.",
     "in_love": "Idealization of a partner, romantic fantasies, or confusion in relationships. There may be unrealistic expectations or emotional indecision.",
-    "in_situation": "A situation with too many choices or unclear directions. Requires grounding and careful evaluation before committing."
+    "in_situation": "A situation with too many choices or unclear directions. Requires grounding and careful evaluation before committing.",
+    "meaning_for_today": "Today may bring many options, fantasies, or distractions. It is important to separate real opportunities from illusions and unclear desires before making decisions.",
+    "card_advice": "Do not rush into choices based on emotions or imagination alone. Focus on clarity, prioritize what is realistic, and avoid being overwhelmed by too many possibilities."
   },
   "reversed": {
     "short": "Clarity, decision, truth, focus",
     "general": "Indicates clarity after confusion, making a firm decision, and seeing reality as it is. It can also warn against harsh truth or disappointment.",
     "in_love": "Realistic understanding of a partner or relationship. Clearing illusions leads to either commitment or moving on.",
-    "in_situation": "A turning point where confusion resolves and a clear direction is chosen. Focus returns after distraction."
+    "in_situation": "A turning point where confusion resolves and a clear direction is chosen. Focus returns after distraction.",
+    "meaning_for_today": "Today may bring mental clarity, realistic thinking, and the ability to finally make an important decision. Confusion begins to fade, allowing you to see situations and people more honestly.",
+    "card_advice": "Trust facts more than fantasies and focus your energy on one clear direction. Let go of unrealistic expectations and make choices based on truth, practicality, and inner confidence."
   },
   "relations": {
     "major": {

@@ -1,64 +1,66 @@
 {
-    "name": "King of Pentacles",
+  "name": "King of Pentacles",
+  "upright": {
+    "short": "Instinct, intelligence, good intuition, patience",
+    "general": "In a character spread, the card is interpreted as indicating an intelligent and friendly personality. He is accomplished in life, has achieved a lot, and has rich life experience. Such a person is wise, brave, and decisive even in the most difficult situations. To achieve goals, you will have to be more practical and persistent; success will not come just like that. Success in business will only come on the condition that you focus all your attention on it, and personal concerns cease to interest you. Listen to your own subconscious; the card symbolizes an excellent instinct and intuition. Be patient, the problems that you are currently trying to overcome will soon end. Joy will appear in life, share it with loved ones. You will be able to work perfectly in one team, where you will be respected, your opinion listened to, and recommendations followed. The querent will feel like part of a single well-coordinated mechanism, which undoubtedly brings moral satisfaction. Warmth and harmony will be felt in the soul, a friendly alliance will be strong, and a marital union will be fueled by real love, physical pleasure, and passion. However, if there is a lack of a sense of security, you will experience jealousy.",
+    "in_love": "The card speaks of a reliable and permanent relationship in which there is sexual attraction between partners. The card recommends forgetting about frivolity, tuning in to a serious course of affairs, and learning to take responsibility for a loved one, for your own actions and words. These qualities are required for the union to be strong and durable. The appearance of the card indicates that you will be able to fully cope with this task. Jealousy points to the seriousness of intentions and initiative of the partner. This is not total control, but the situation can still be problematic.",
+    "in_situation": "The Arcanum says that if the querent has their own business, it will prosper and bear good fruit. Stability is present at the moment and will continue in the future. In everyday life, you will definitely get a promotion at work or a salary increase. All matters will soon be perfectly resolved. If you need advice regarding financial matters, you will receive it soon.",
     "meaning_for_today": "Today is as if created for summarizing the results of your work. If the results are good, be happy for yourself. There may be a need to take on a new business, do not deny yourself this desire. Save what you have accumulated, because it was achieved by hard work over a long period of time, and you can spend everything in a few minutes.",
-    "card_advice": "Life is not a closed circle of problems. You should not constantly create questions out of nowhere and think about how to solve them. Allow yourself to rest from time to time so as not to harm your own health. Dedicate more time to family and hobbies. Even passive pastime during a day off is also a rest, do not limit yourself in this.",
-    "upright": {
-        "short": "Instinct, intelligence, good intuition, patience",
-        "general": "In a character spread, the card is interpreted as indicating an intelligent and friendly personality. He is accomplished in life, has achieved a lot, and has rich life experience. Such a person is wise, brave, and decisive even in the most difficult situations. To achieve goals, you will have to be more practical and persistent; success will not come just like that. Success in business will only come on the condition that you focus all your attention on it, and personal concerns cease to interest you. Listen to your own subconscious; the card symbolizes an excellent instinct and intuition. Be patient, the problems that you are currently trying to overcome will soon end. Joy will appear in life, share it with loved ones. You will be able to work perfectly in one team, where you will be respected, your opinion listened to, and recommendations followed. The querent will feel like part of a single well-coordinated mechanism, which undoubtedly brings moral satisfaction. Warmth and harmony will be felt in the soul, a friendly alliance will be strong, and a marital union will be fueled by real love, physical pleasure, and passion. However, if there is a lack of a sense of security, you will experience jealousy.",
-        "in_love": "The card speaks of a reliable and permanent relationship in which there is sexual attraction between partners. The card recommends forgetting about frivolity, tuning in to a serious course of affairs, and learning to take responsibility for a loved one, for your own actions and words. These qualities are required for the union to be strong and durable. The appearance of the card indicates that you will be able to fully cope with this task. Jealousy points to the seriousness of intentions and initiative of the partner. This is not total control, but the situation can still be problematic.",
-        "in_situation": "The Arcanum says that if the querent has their own business, it will prosper and bear good fruit. Stability is present at the moment and will continue in the future. In everyday life, you will definitely get a promotion at work or a salary increase. All matters will soon be perfectly resolved. If you need advice regarding financial matters, you will receive it soon."
+    "card_advice": "Life is not a closed circle of problems. You should not constantly create questions out of nowhere and think about how to solve them. Allow yourself to rest from time to time so as not to harm your own health. Dedicate more time to family and hobbies. Even passive pastime during a day off is also a rest, do not limit yourself in this."
+  },
+  "reversed": {
+    "short": "Meanness, fanaticism, vice, anger",
+    "general": "In a character spread, the reversed King of Pentacles denotes a pragmatic, calculating, stubborn, self-confident, and mercantile person. In addition, he is mean and cold-hearted. Perhaps, in the near future, you will be overtaken by a feeling of anxiety and insecurity due to foolish superstition. You will be fully preoccupied with financial affairs and obsessed with work. Do not commit dishonest acts, it will only harm you. The Arcanum may indicate that there are instigators in your environment. You have a poor financial reputation in society.",
+    "in_love": "The King of Pentacles says that there is nothing in common in this relationship; the partners have different ideas about life, different interests, and different sexual temperaments. Perhaps you have a feeling that your partner demands the impossible from you and finds fault with minor things. Jealousy manifests itself in extreme forms: constant arguments, quarrels, spying, chronic suspicion, and distrust. The one who is jealous is a dictator in the relationship, and may well limit the freedom of the loved one, treating them as their property. This is fundamentally wrong; it is important for the querent to realize that they need to talk about this urgently. If the dialogue does not bring the desired result and a compromise is not found, it is better to break off the relationship.",
+    "in_situation": "In a spread for the character of a specific person, traits such as rudeness, meanness, stinginess, and lack of honor surface. Success should not be measured in the amount of money; it cannot buy many important things: health, love, friendship. To avoid major problems, cancel all matters that you wanted to resolve illegally. Do not be straightforward; your words and criticism can strongly shock the people around you, and such behavior is not at all beneficial.",
+    "meaning_for_today": "Today you may encounter issues related to money, authority, control, or material security. Be cautious of becoming overly focused on profit, status, or personal advantage at the expense of relationships and integrity. Someone around you may act selfishly, make unrealistic demands, or attempt to use influence for their own benefit. Avoid risky financial decisions, power struggles, and the temptation to measure success solely by material achievements. What appears profitable today may carry hidden costs later.",
+    "card_advice": "Do not allow greed, stubbornness, or the desire to control every outcome to dictate your actions. True strength lies not in wealth or authority, but in wisdom, fairness, and responsible leadership. Review your priorities and make sure that financial goals are not overshadowing your personal values or relationships. Be honest in business dealings, avoid shortcuts, and remember that a reputation built over years can be damaged by a single unethical decision."
+  },
+  "relations": {
+    "major": {
+      "01": "Bare king",
+      "02": "Solid funds for a start",
+      "03": "Patron of the arts",
+      "04": "Solid investments bring solid profits",
+      "05": "Financial director",
+      "06": "Donations to a church or center",
+      "07": "Serious choice",
+      "08": "Financial confusion",
+      "09": "Curb temptation",
+      "10": "Become poor, go bankrupt",
+      "11": "Playing roulette",
+      "12": "Defend one's authority",
+      "13": "Financial losses; investments that do not pay off",
+      "14": "The financial situation will change radically",
+      "15": "Expenses match income",
+      "16": "Financial fraud; head of an illegal business",
+      "17": "Ruin, bankruptcy; loss of health, position",
+      "18": "Hope to get rich, get promoted at work",
+      "19": "Shady dealings; fake financial operations",
+      "20": "Recognition of merits; prosperity; luminary of economics",
+      "21": "Long-term financial projects bring profit",
+      "22": "Expansion of the sphere of influence; success of a financial project"
     },
-    "reversed": {
-        "short": "Meanness, fanaticism, vice, anger",
-        "general": "In a character spread, the reversed King of Pentacles denotes a pragmatic, calculating, stubborn, self-confident, and mercantile person. In addition, he is mean and cold-hearted. Perhaps, in the near future, you will be overtaken by a feeling of anxiety and insecurity due to foolish superstition. You will be fully preoccupied with financial affairs and obsessed with work. Do not commit dishonest acts, it will only harm you. The Arcanum may indicate that there are instigators in your environment. You have a poor financial reputation in society.",
-        "in_love": "The King of Pentacles says that there is nothing in common in this relationship; the partners have different ideas about life, different interests, and different sexual temperaments. Perhaps you have a feeling that your partner demands the impossible from you and finds fault with minor things. Jealousy manifests itself in extreme forms: constant arguments, quarrels, spying, chronic suspicion, and distrust. The one who is jealous is a dictator in the relationship, and may well limit the freedom of the loved one, treating them as their property. This is fundamentally wrong; it is important for the querent to realize that they need to talk about this urgently. If the dialogue does not bring the desired result and a compromise is not found, it is better to break off the relationship.",
-        "in_situation": "In a spread for the character of a specific person, traits such as rudeness, meanness, stinginess, and lack of honor surface. Success should not be measured in the amount of money; it cannot buy many important things: health, love, friendship. To avoid major problems, cancel all matters that you wanted to resolve illegally. Do not be straightforward; your words and criticism can strongly shock the people around you, and such behavior is not at all beneficial."
-    },
-    "relations": {
-        "major": {
-            "01": "Bare king",
-            "02": "Solid funds for a start",
-            "03": "Patron of the arts",
-            "04": "Solid investments bring solid profits",
-            "05": "Financial director",
-            "06": "Donations to a church or center",
-            "07": "Serious choice",
-            "08": "Financial confusion",
-            "09": "Curb temptation",
-            "10": "Become poor, go bankrupt",
-            "11": "Playing roulette",
-            "12": "Defend one's authority",
-            "13": "Financial losses; investments that do not pay off",
-            "14": "The financial situation will change radically",
-            "15": "Expenses match income",
-            "16": "Financial fraud; head of an illegal business",
-            "17": "Ruin, bankruptcy; loss of health, position",
-            "18": "Hope to get rich, get promoted at work",
-            "19": "Shady dealings; fake financial operations",
-            "20": "Recognition of merits; prosperity; luminary of economics",
-            "21": "Long-term financial projects bring profit",
-            "22": "Expansion of the sphere of influence; success of a financial project"
-        },
-        "minor": {
-            "cups": {},
-            "pentacles": {},
-            "swords": {},
-            "wands": {
-                "01": "Interesting solid project; major business proposal; investing in a project",
-                "02": "Consideration of a case from the perspective of financial viability; financial forecast",
-                "03": "Encouraging financial indicators",
-                "04": "Acquisition of real estate; valuable gift; profitable project",
-                "05": "Complaints",
-                "06": "Financial genius",
-                "07": "Financial claims; attempt to limit the sphere of influence; business acumen",
-                "08": "Investment; solid contract",
-                "09": "Experienced businessman",
-                "10": "Expenses exceed income",
-                "11": "Bringing a project to perfection",
-                "12": "Adventurer",
-                "13": "Harmonious conduct of business",
-                "14": "Financial foresight"
-            }
-        }
+    "minor": {
+      "cups": {},
+      "pentacles": {},
+      "swords": {},
+      "wands": {
+        "01": "Interesting solid project; major business proposal; investing in a project",
+        "02": "Consideration of a case from the perspective of financial viability; financial forecast",
+        "03": "Encouraging financial indicators",
+        "04": "Acquisition of real estate; valuable gift; profitable project",
+        "05": "Complaints",
+        "06": "Financial genius",
+        "07": "Financial claims; attempt to limit the sphere of influence; business acumen",
+        "08": "Investment; solid contract",
+        "09": "Experienced businessman",
+        "10": "Expenses exceed income",
+        "11": "Bringing a project to perfection",
+        "12": "Adventurer",
+        "13": "Harmonious conduct of business",
+        "14": "Financial foresight"
+      }
     }
+  }
 }

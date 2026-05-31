@@ -1,18 +1,20 @@
 {
   "name": "The Hierophant",
-  "meaning_for_today": "Today favors learning, tradition, spiritual growth, and following wise guidance. Respect for rules and established values will help achieve harmony and understanding.",
-  "card_advice": "Seek wisdom from trusted sources and stay true to your principles. Learn from experience, honor traditions, and approach situations with patience and integrity.",
   "upright": {
     "short": "Tradition, wisdom, spiritual guidance, learning, morality.",
     "general": "The Hierophant represents spiritual knowledge, traditions, education, and social values. This card symbolizes guidance from teachers, respect for rules, moral principles, and connection to established systems or beliefs. It often points to formal education, mentorship, or spiritual development.",
     "in_love": "In relationships, The Hierophant signifies loyalty, commitment, traditional values, and serious intentions. It often points to marriage, stable partnerships, or relationships built on trust and shared beliefs.",
-    "in_situation": "The situation requires patience, discipline, and following established methods. Advice from experienced people or adherence to traditions may help achieve the best outcome."
+    "in_situation": "The situation requires patience, discipline, and following established methods. Advice from experienced people or adherence to traditions may help achieve the best outcome.",
+    "meaning_for_today": "Today favors learning, tradition, spiritual growth, and following wise guidance. Respect for rules and established values will help achieve harmony and understanding.",
+    "card_advice": "Seek wisdom from trusted sources and stay true to your principles. Learn from experience, honor traditions, and approach situations with patience and integrity."
   },
   "reversed": {
     "short": "Rebellion, rigid beliefs, unconventionality, misuse of authority.",
     "general": "Reversed, The Hierophant may indicate rejection of traditions, conflict with authority, rigid thinking, or blind obedience. It can also point to unconventional beliefs, resistance to social expectations, or misuse of spiritual authority.",
     "in_love": "In love readings, the reversed Hierophant may suggest disagreements about values, resistance to commitment, unconventional relationships, or tension caused by strict expectations.",
-    "in_situation": "The situation may require breaking outdated rules or thinking independently. The card warns against dogmatism, excessive conformity, or blindly following advice."
+    "in_situation": "The situation may require breaking outdated rules or thinking independently. The card warns against dogmatism, excessive conformity, or blindly following advice.",
+    "meaning_for_today": "Today you might feel a strong urge to rebel against the status quo, standard operating procedures, or rigid corporate/institutional red tape. It's a day where you are likely to challenge outdated group thinking or question the 'we've always done it this way' mindset. On the negative side, you could encounter hypocritical authorities, toxic peer pressure demanding you conform, or slick internet 'gurus' offering questionable, unverified advice that sounds good but lacks real substance.",
+    "card_advice": "Stop trying to fit your round self into a square peg just to please the crowd. The reversed Hierophant advises you to think independently today and question the rules that feel restrictive or obsolete. However, don't just rebel for the sake of causing drama; make sure your unconventional choices align with your actual core truths. If you are seeking guidance, cross-check your sources—verify credentials and ignore dogmatic opinions that try to control you rather than empower you."
   },
   "relations": {
     "major": {

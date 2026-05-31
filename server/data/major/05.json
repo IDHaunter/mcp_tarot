@@ -1,18 +1,20 @@
 {
   "name": "The Emperor",
-  "meaning_for_today": "Today requires discipline, structure, confidence, and responsibility. Clear leadership and rational decisions will help achieve stability and success.",
-  "card_advice": "Take control of the situation with wisdom and calm authority. Build solid foundations, stay organized, and act with confidence and responsibility.",
   "upright": {
     "short": "Authority, stability, discipline, leadership, structure.",
     "general": "The Emperor represents order, control, stability, and strong leadership. This card symbolizes logic, responsibility, protection, and the ability to create reliable structures in life. It often points to maturity, authority, and practical decision-making.",
     "in_love": "In relationships, The Emperor signifies stability, loyalty, protection, and long-term commitment. A partner may take a dominant or guiding role. The card favors dependable and serious relationships.",
-    "in_situation": "The situation requires organization, discipline, and strategic thinking. Success comes through planning, responsibility, and maintaining control over emotions and actions."
+    "in_situation": "The situation requires organization, discipline, and strategic thinking. Success comes through planning, responsibility, and maintaining control over emotions and actions.",
+    "meaning_for_today": "Today requires discipline, structure, confidence, and responsibility. Clear leadership and rational decisions will help achieve stability and success.",
+    "card_advice": "Take control of the situation with wisdom and calm authority. Build solid foundations, stay organized, and act with confidence and responsibility."
   },
   "reversed": {
     "short": "Control issues, rigidity, dominance, instability, stubbornness.",
     "general": "Reversed, The Emperor may indicate abuse of power, excessive control, stubbornness, emotional coldness, or lack of structure. It can also reflect insecurity hidden behind dominance or difficulties with authority.",
     "in_love": "In love readings, the reversed Emperor may point to controlling behavior, emotional distance, power struggles, or lack of balance in relationships. One partner may become overly dominant or inflexible.",
-    "in_situation": "The situation may suffer from disorder, rigidity, or misuse of authority. The card advises avoiding excessive control and learning to adapt more flexibly."
+    "in_situation": "The situation may suffer from disorder, rigidity, or misuse of authority. The card advises avoiding excessive control and learning to adapt more flexibly.",
+    "meaning_for_today": "Today you might clash with an incredibly stubborn, 'my way or the highway' boss, partner, or parental figure who is micromanaging your every move. On the flip side, your day might simply feel totally chaotic and lawless due to a complete lack of personal discipline. If you've been procrastinating, ignoring your budget, or letting your routine slide, the resulting lack of structure is going to catch up with you today, leading to frustration or feelings of helplessness.",
+    "card_advice": "Examine where you are being too rigid, or where you are lacking boundaries entirely. The reversed Emperor advises you to stop trying to force your will on people or situations you cannot control—tyranny won't work today. If someone else is power-tripping, stand your ground calmly rather than throwing a tantrum. Most importantly, clean up your own backyard: establish some basic order, fix your messy schedule, and reclaim your personal power through self-discipline rather than trying to dominate others."
   },
   "relations": {
     "major": {

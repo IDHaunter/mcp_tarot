@@ -1,19 +1,21 @@
 {
   "name": "Queen of Cups",
-  "meaning_for_today": "Today is favorable for emotional openness, intuition, compassion, and heartfelt conversations. Trust your feelings and pay attention to subtle emotional signals.",
-  "card_advice": "Listen to your intuition, show kindness and empathy, and avoid suppressing your emotions. Emotional honesty will help you find harmony.",
   "upright": {
     "short": "Intuition, compassion, emotional depth, sensitivity, care.",
     "general": "The Queen of Cups symbolizes emotional wisdom, empathy, intuition, and spiritual sensitivity. She represents a caring and understanding person who supports others and deeply understands emotions. The card also points to creativity, healing, and inner harmony.",
     "in_love": "A relationship based on tenderness, emotional closeness, trust, and mutual understanding. The card may indicate deep romantic feelings, devotion, and emotional support.",
     "in_situation": "The situation requires sensitivity, patience, and intuitive understanding. Success will come through diplomacy, compassion, and emotional awareness.",
-    "reversed": {
-      "short": "Emotional instability, moodiness, manipulation, insecurity.",
-      "general": "Reversed, the Queen of Cups may indicate emotional imbalance, hypersensitivity, manipulation through feelings, or unrealistic expectations. A person may become withdrawn, anxious, or emotionally dependent.",
-      "in_love": "Misunderstandings, emotional insecurity, jealousy, or manipulation in relationships. One partner may hide true feelings or become overly dependent.",
-      "in_situation": "The situation may involve emotional confusion, deception, or inability to see reality clearly. It is important to stay calm and avoid emotional overreaction."
-    }
+    "meaning_for_today": "Today is favorable for emotional openness, intuition, compassion, and heartfelt conversations. Trust your feelings and pay attention to subtle emotional signals.",
+    "card_advice": "Listen to your intuition, show kindness and empathy, and avoid suppressing your emotions. Emotional honesty will help you find harmony."
   },
+  "reversed": {
+    "short": "Emotional instability, moodiness, manipulation, insecurity.",
+    "general": "Reversed, the Queen of Cups may indicate emotional imbalance, hypersensitivity, manipulation through feelings, or unrealistic expectations. A person may become withdrawn, anxious, or emotionally dependent.",
+    "in_love": "Misunderstandings, emotional insecurity, jealousy, or manipulation in relationships. One partner may hide true feelings or become overly dependent.",
+    "in_situation": "The situation may involve emotional confusion, deception, or inability to see reality clearly. It is important to stay calm and avoid emotional overreaction.",
+    "meaning_for_today": "Today may bring emotional sensitivity, insecurity, or confusion that makes it difficult to trust your intuition clearly. Hidden feelings, mood swings, or emotional misunderstandings could influence your interactions with others.",
+    "card_advice": "Do not allow emotions to overwhelm your judgment or lead you into unhealthy emotional dependence. Stay grounded, protect your emotional boundaries, and seek clarity before reacting to sensitive situations."
+    },
   "relations": {
     "major": {
       "01": "Healing the inner child; emotional renewal.",

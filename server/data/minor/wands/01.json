@@ -1,18 +1,20 @@
 {
   "name": "Ace of Wands",
-  "meaning_for_today": "A powerful spark of inspiration enters your life today. It is the right moment to begin something new, act boldly, and trust your creative energy.",
-  "card_advice": "Do not hesitate when opportunity appears. Take initiative, follow your passion, and direct your energy toward meaningful action.",
   "upright": {
     "short": "New beginnings, inspiration, energy, creativity, enthusiasm, action.",
     "general": "The Ace of Wands represents a fresh start filled with passion and potential. It signals creativity, courage, motivation, and the desire to act. This card encourages taking risks, starting projects, and embracing exciting opportunities.",
     "in_love": "A passionate new connection or a renewed spark in an existing relationship. It may indicate romance, attraction, intimacy, engagement, or even pregnancy.",
-    "in_situation": "A favorable moment to launch new ideas, begin creative work, travel, or make bold decisions. Success comes through initiative and confidence."
+    "in_situation": "A favorable moment to launch new ideas, begin creative work, travel, or make bold decisions. Success comes through initiative and confidence.",
+    "meaning_for_today": "A powerful spark of inspiration enters your life today. It is the right moment to begin something new, act boldly, and trust your creative energy.",
+    "card_advice": "Do not hesitate when opportunity appears. Take initiative, follow your passion, and direct your energy toward meaningful action."
   },
   "reversed": {
     "short": "Delays, lack of energy, hesitation, creative blocks, missed opportunities.",
     "general": "Reversed, the Ace of Wands points to frustration, lack of motivation, postponed plans, or blocked creativity. Energy may feel scattered or wasted.",
     "in_love": "Passion may weaken due to uncertainty or emotional distance. There can be hesitation in starting or developing a relationship.",
-    "in_situation": "Projects may slow down or fail to develop because of fear, indecision, or poor timing. It is important to regain focus and confidence."
+    "in_situation": "Projects may slow down or fail to develop because of fear, indecision, or poor timing. It is important to regain focus and confidence.",
+    "meaning_for_today": "Today you might feel unmotivated, sluggish, or hit by a sudden wave of creative burnout. A project or idea you were excited about may face unexpected delays or a false start. Do not force things if the passion isn't there; today is a day where your inner fire feels temporary dampened or your focus is scattered. It is a sign to step back and re-evaluate why your enthusiasm has stalled.",
+    "card_advice": "Do not rush into new initiatives if you feel half-hearted or unprepared. The reversed Ace of Wands advises you to find the root cause of your creative blockage or hesitation before moving forward. If a plan is delayed, use this time to refine it rather than getting frustrated. Conserve your energy, regain your internal focus, and wait for the spark to return naturally rather than wasting your strength on a dead end."
   },
   "relations": {
     "major": {

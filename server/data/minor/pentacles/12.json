@@ -1,64 +1,66 @@
 {
-    "name": "Knight of Pentacles",
+  "name": "Knight of Pentacles",
+  "upright": {
+    "short": "Reliability, luck, patience, endurance",
+    "general": "With the Knight of Pentacles, a person acts energetically and assertively. They know how to concentrate attention on a specific goal and even show initiative in some ways. All these goals are mostly realistic and pragmatic. This is the period of life when a person is in the midst of their designs and plans. Moreover, they do everything sequentially and patiently, so it is not surprising that they achieve good results. The card describes a middle-aged man involved in industrial or production activities, though it can also be a young person who defined their goals in life long ago. The arcana characterizes a person as a disciplined, meticulous, and sometimes uncompromising individual. The Knight of Pentacles brings responsibility, conscientiousness, diligence, and willpower into a person's life. Their path to success is paved through hard work and self-confidence. The querent should develop their abilities; they get an excellent opportunity to have a stable income, increase their own well-being, and benefit people by doing their job.",
+    "in_love": "Stability and sensuality are observed in relations. If there is a sense of novelty in marriage, it passes very quickly. On the other hand, trust and reliability are present, which is ultimately more important for people who dream of a long-term relationship. They also have a physical attraction to each other. The card can indicate a fateful meeting or the desire of spouses to have a child. If the card falls to a single person, they can expect changes on the love front; they will finally meet their other half. With this card, a person can feel like they are behind a stone wall. They live in an atmosphere of constancy where they are respected and supported. The card is characterized by commitment, responsibility, trust, and patience.",
+    "in_situation": "Under the influence of this arcana, a person demonstrates business acumen. They will systematically achieve their goals, solve everyday issues, and feel confident about the future. Their efforts will be productive, and they will be able to make proper use of them. In general, they will handle practically all professional matters well. Thanks to hard work, patience, a realistic approach, seriousness, and professionalism, one can expect only good results. The person is so diligent that they even set tasks for themselves and achieve them.",
     "meaning_for_today": "Don't allow yourself to be fooled. A person under the influence of this arcana will be able to speak on serious topics, will use only proven methods, and will not engage in speculation. On this day, there is an excellent chance to make an important and responsible decision. Even a problem that seemed difficult and impossible will be resolved today in the best possible way. But if there are no problems and no tasks to solve, it's the perfect time to relax and dedicate time to something you will recall with pleasure later. You can engage in a hobby that will leave many pleasant memories.",
-    "card_advice": "There is no reason to worry, you will definitely achieve your desired goal, but only if you carry out your actions calmly and systematically. The card characterizes a person as executive and responsible, with excellent stamina and physical strength. The main advice is not to stop at the achieved result; there is still a lot of good things ahead of you. A person has the right to build their own future by applying all their efforts. But do not refuse the support of an influential person who meets you along the way; they will be able to provide invaluable assistance.",
-    "upright": {
-        "short": "Reliability, luck, patience, endurance",
-        "general": "With the Knight of Pentacles, a person acts energetically and assertively. They know how to concentrate attention on a specific goal and even show initiative in some ways. All these goals are mostly realistic and pragmatic. This is the period of life when a person is in the midst of their designs and plans. Moreover, they do everything sequentially and patiently, so it is not surprising that they achieve good results. The card describes a middle-aged man involved in industrial or production activities, though it can also be a young person who defined their goals in life long ago. The arcana characterizes a person as a disciplined, meticulous, and sometimes uncompromising individual. The Knight of Pentacles brings responsibility, conscientiousness, diligence, and willpower into a person's life. Their path to success is paved through hard work and self-confidence. The querent should develop their abilities; they get an excellent opportunity to have a stable income, increase their own well-being, and benefit people by doing their job.",
-        "in_love": "Stability and sensuality are observed in relations. If there is a sense of novelty in marriage, it passes very quickly. On the other hand, trust and reliability are present, which is ultimately more important for people who dream of a long-term relationship. They also have a physical attraction to each other. The card can indicate a fateful meeting or the desire of spouses to have a child. If the card falls to a single person, they can expect changes on the love front; they will finally meet their other half. With this card, a person can feel like they are behind a stone wall. They live in an atmosphere of constancy where they are respected and supported. The card is characterized by commitment, responsibility, trust, and patience.",
-        "in_situation": "Under the influence of this arcana, a person demonstrates business acumen. They will systematically achieve their goals, solve everyday issues, and feel confident about the future. Their efforts will be productive, and they will be able to make proper use of them. In general, they will handle practically all professional matters well. Thanks to hard work, patience, a realistic approach, seriousness, and professionalism, one can expect only good results. The person is so diligent that they even set tasks for themselves and achieve them."
+    "card_advice": "There is no reason to worry, you will definitely achieve your desired goal, but only if you carry out your actions calmly and systematically. The card characterizes a person as executive and responsible, with excellent stamina and physical strength. The main advice is not to stop at the achieved result; there is still a lot of good things ahead of you. A person has the right to build their own future by applying all their efforts. But do not refuse the support of an influential person who meets you along the way; they will be able to provide invaluable assistance."
+  },
+  "reversed": {
+    "short": "Greed, apathy, peace, tranquility",
+    "general": "A reversed Knight of Pentacles shows slowness of action. A person doing their job seems to get an insufficient return. They might be dissatisfied with the results of the work performed or the desired effect. The reasons for this can be greed, stubbornness, or a lack of satisfying planning. The person is not inclined to take risks, even if the risk is justified. However, it will always seem to them that everything they do is right. Traits such as stinginess, callousness, carelessness, and dissatisfaction will manifest in their character. In the reversed position, a person will not want to take responsibility, and may completely lose interest in the matter. The cause could also be health issues. The card indicates that a person has entered a period of stagnation, and routine burdens them. They have lost their way and simply do not know what they could achieve in a particular business. It is not excluded that this card might fall to a hardcore lazy person who is not easy to stir up or move from their spot.",
+    "in_love": "With the card in a reversed position, a person experiences sadness and dissatisfaction. Under its influence, events move sluggishly, routine enters the relationship, and the loved one becomes indifferent. Looking at the domestic side of things, only one of the spouses carries the burden of household chores, while the other simply 'sits on their neck'. The one who works gets very tired, overstrains themselves, and is brought to a depressed state. Meanwhile, the lazy person, to whom the reversed Knight of Pentacles falls, has turned their union into gray, boring weekdays due to their own laziness.",
+    "in_situation": "The card is characterized by dishonest deals and financial difficulties. Deadlocks and some form of understatement or omission between business partners are visible. A person with a reversed card shows lightheadedness and irresponsibility. Even though they work hard, their salary remains quite low. Not everything comes easy to them; a frivolous attitude toward business lets them down. They show impatience. When reading for a situation related to financial status, one should not particularly count on good results.",
+    "meaning_for_today": "Today you may feel stuck in routine or frustrated by the slow pace of events. Tasks that normally seem simple can require more effort than expected, and motivation may be difficult to maintain. Avoid procrastination, stubbornly clinging to ineffective methods, or postponing important responsibilities. Be especially careful with financial matters, work commitments, and promises, as carelessness or lack of focus could create unnecessary complications. Progress may be slow, but abandoning your efforts entirely will only deepen the stagnation.",
+    "card_advice": "Examine whether your current habits, routines, or attitudes are helping you move forward or keeping you trapped in place. Do not let laziness, apathy, or fear of change prevent you from taking constructive action. Small but consistent steps are more valuable than waiting endlessly for the perfect moment. Be willing to adapt your plans, accept responsibility for unfinished matters, and restore discipline where it has been lost. Meaningful progress begins when you actively choose to move beyond stagnation."
+  },
+  "relations": {
+    "major": {
+      "01": "Movement into the unknown",
+      "02": "A cautious start",
+      "03": "Gradual insight",
+      "04": "Slow progress",
+      "05": "Strengthening of discipline and power",
+      "06": "Spiritual efforts",
+      "07": "A slow, cautious choice",
+      "08": "Efforts to 'move the train'",
+      "09": "Persistence; stubbornness",
+      "10": "Relying on oneself",
+      "11": "Gradual changes",
+      "12": "Persistent search for justice",
+      "13": "Stubbornness leading to a dead end",
+      "14": "Meaningless stubbornness",
+      "15": "A worthwhile wait",
+      "16": "Idleness; laziness",
+      "17": "Overstraining oneself",
+      "18": "Choosing one's own path",
+      "19": "Losing one's way; being deceived; losing support",
+      "20": "Movement toward clarity and understanding",
+      "21": "Relief",
+      "22": "Achieving the goal"
     },
-    "reversed": {
-        "short": "Greed, apathy, peace, tranquility",
-        "general": "A reversed Knight of Pentacles shows slowness of action. A person doing their job seems to get an insufficient return. They might be dissatisfied with the results of the work performed or the desired effect. The reasons for this can be greed, stubbornness, or a lack of satisfying planning. The person is not inclined to take risks, even if the risk is justified. However, it will always seem to them that everything they do is right. Traits such as stinginess, callousness, carelessness, and dissatisfaction will manifest in their character. In the reversed position, a person will not want to take responsibility, and may completely lose interest in the matter. The cause could also be health issues. The card indicates that a person has entered a period of stagnation, and routine burdens them. They have lost their way and simply do not know what they could achieve in a particular business. It is not excluded that this card might fall to a hardcore lazy person who is not easy to stir up or move from their spot.",
-        "in_love": "With the card in a reversed position, a person experiences sadness and dissatisfaction. Under its influence, events move sluggishly, routine enters the relationship, and the loved one becomes indifferent. Looking at the domestic side of things, only one of the spouses carries the burden of household chores, while the other simply 'sits on their neck'. The one who works gets very tired, overstrains themselves, and is brought to a depressed state. Meanwhile, the lazy person, to whom the reversed Knight of Pentacles falls, has turned their union into gray, boring weekdays due to their own laziness.",
-        "in_situation": "The card is characterized by dishonest deals and financial difficulties. Deadlocks and some form of understatement or omission between business partners are visible. A person with a reversed card shows lightheadedness and irresponsibility. Even though they work hard, their salary remains quite low. Not everything comes easy to them; a frivolous attitude toward business lets them down. They show impatience. When reading for a situation related to financial status, one should not particularly count on good results."
-    },
-    "relations": {
-        "major": {
-            "01": "Movement into the unknown",
-            "02": "A cautious start",
-            "03": "Gradual insight",
-            "04": "Slow progress",
-            "05": "Strengthening of discipline and power",
-            "06": "Spiritual efforts",
-            "07": "A slow, cautious choice",
-            "08": "Efforts to 'move the train'",
-            "09": "Persistence; stubbornness",
-            "10": "Relying on oneself",
-            "11": "Gradual changes",
-            "12": "Persistent search for justice",
-            "13": "Stubbornness leading to a dead end",
-            "14": "Meaningless stubbornness",
-            "15": "A worthwhile wait",
-            "16": "Idleness; laziness",
-            "17": "Overstraining oneself",
-            "18": "Choosing one's own path",
-            "19": "Losing one's way; being deceived; losing support",
-            "20": "Movement toward clarity and understanding",
-            "21": "Relief",
-            "22": "Achieving the goal"
-        },
-        "minor": {
-            "cups": {},
-            "pentacles": {},
-            "swords": {},
-            "wands": {
-                "01": "Progress; slow movement towards the goal",
-                "11": "Readiness to start something new",
-                "12": "Perseverance and enthusiasm; a rich adventure",
-                "13": "Power over one's own life",
-                "14": "Entrepreneur",
-                "02": "Getting confused; a stop",
-                "03": "Reliable cooperation; efforts leading to results",
-                "04": "Heroism",
-                "05": "Getting distracted by trivial matters",
-                "06": "Persistent movement towards the goal",
-                "07": "Annoying attempts to confuse",
-                "08": "Relief",
-                "09": "The last obstacle",
-                "10": "Health problems; lack of opportunities"
-            }
-        }
+    "minor": {
+      "cups": {},
+      "pentacles": {},
+      "swords": {},
+      "wands": {
+        "01": "Progress; slow movement towards the goal",
+        "11": "Readiness to start something new",
+        "12": "Perseverance and enthusiasm; a rich adventure",
+        "13": "Power over one's own life",
+        "14": "Entrepreneur",
+        "02": "Getting confused; a stop",
+        "03": "Reliable cooperation; efforts leading to results",
+        "04": "Heroism",
+        "05": "Getting distracted by trivial matters",
+        "06": "Persistent movement towards the goal",
+        "07": "Annoying attempts to confuse",
+        "08": "Relief",
+        "09": "The last obstacle",
+        "10": "Health problems; lack of opportunities"
+      }
     }
+  }
 }

@@ -1,18 +1,20 @@
 {
   "name": "Five of Wands",
-  "meaning_for_today": "Today may bring competition, disagreements, or challenges that test your patience and determination. These obstacles can become opportunities for growth if handled constructively.",
-  "card_advice": "Do not fear competition or conflict. Stay focused on your goals, avoid unnecessary arguments, and use challenges as motivation to improve yourself.",
   "upright": {
     "short": "Competition, conflict, tension, rivalry, struggle, challenges.",
     "general": "The Five of Wands symbolizes competition, disagreements, and clashes of opinions. This card often appears during periods of tension, rivalry, or energetic struggle where different people compete for attention, success, or influence. It encourages learning through challenges and developing resilience.",
     "in_love": "In relationships, the Five of Wands may indicate arguments, jealousy, misunderstandings, or emotional tension. Passion can exist, but harmony is disrupted by conflict or competition.",
-    "in_situation": "A situation involves obstacles, disagreements, or competition. Success requires patience, self-control, adaptability, and the ability to cooperate despite differences."
+    "in_situation": "A situation involves obstacles, disagreements, or competition. Success requires patience, self-control, adaptability, and the ability to cooperate despite differences.",
+    "meaning_for_today": "Today may bring competition, disagreements, or challenges that test your patience and determination. These obstacles can become opportunities for growth if handled constructively.",
+    "card_advice": "Do not fear competition or conflict. Stay focused on your goals, avoid unnecessary arguments, and use challenges as motivation to improve yourself."
   },
   "reversed": {
     "short": "Resolution, compromise, avoiding conflict, suppressed tension, instability.",
     "general": "Reversed, the Five of Wands can indicate the end of conflict, willingness to compromise, or attempts to avoid confrontation. However, hidden tension or unresolved frustration may still remain.",
     "in_love": "Relationships begin to recover from disputes, but unresolved emotions may continue affecting harmony if communication is avoided.",
-    "in_situation": "Competition decreases, allowing cooperation and peace. It is important to resolve disagreements honestly instead of suppressing them."
+    "in_situation": "Competition decreases, allowing cooperation and peace. It is important to resolve disagreements honestly instead of suppressing them.",
+    "meaning_for_today": "Today offers a breather from recent drama, though the peace might feel a bit fragile. You may find yourself actively avoiding a confrontation, or a loud group disagreement might give way to a quiet, tense compromise. Be careful, as this can sometimes manifest as passive-aggressive behavior or swept-under-the-rug issues where people are just pretending to agree to keep the peace.",
+    "card_advice": "Choose your battles wisely today and don't waste your energy on pointless bickering. The reversed Five of Wands advises you to seek common ground or simply walk away from chaotic environments that drain your focus. If you are participating in a compromise, make sure it is a genuine resolution rather than just suppressing your true feelings, or the tension will simply explode again later."
   },
   "relations": {
     "major": {

@@ -1,18 +1,20 @@
 {
   "name": "The Lovers",
-  "meaning_for_today": "Today emphasizes relationships, emotional harmony, important choices, and alignment between heart and mind. Honest communication and trust will strengthen connections.",
-  "card_advice": "Listen to your heart, but make choices consciously and responsibly. Build relationships on honesty, respect, and emotional balance.",
   "upright": {
     "short": "Love, harmony, union, meaningful choices, emotional connection.",
     "general": "The Lovers represents relationships, unity, emotional balance, attraction, and important life decisions. This card symbolizes harmony between opposites, trust, deep connection, and choices guided by values and emotions.",
     "in_love": "In love readings, The Lovers is one of the strongest signs of romance, emotional intimacy, passion, and mutual understanding. It may indicate a soulmate connection, a deep partnership, or an important decision regarding love.",
-    "in_situation": "The situation involves an important choice or partnership. Cooperation, honesty, and emotional clarity will help achieve harmony and the right outcome."
+    "in_situation": "The situation involves an important choice or partnership. Cooperation, honesty, and emotional clarity will help achieve harmony and the right outcome.",
+    "meaning_for_today": "Today emphasizes relationships, emotional harmony, important choices, and alignment between heart and mind. Honest communication and trust will strengthen connections.",
+    "card_advice": "Listen to your heart, but make choices consciously and responsibly. Build relationships on honesty, respect, and emotional balance."
   },
   "reversed": {
     "short": "Conflict, imbalance, difficult choices, emotional disconnection.",
     "general": "Reversed, The Lovers may indicate disharmony, poor decisions, broken communication, temptation, or conflict between emotions and logic. It can point to instability in relationships or uncertainty about personal values.",
     "in_love": "In relationships, the reversed Lovers may suggest misunderstandings, emotional distance, infidelity, indecision, or imbalance between partners. Honest communication is necessary to restore harmony.",
-    "in_situation": "The situation may involve confusion, conflicting desires, or a difficult decision. The card advises carefully considering consequences before acting."
+    "in_situation": "The situation may involve confusion, conflicting desires, or a difficult decision. The card advises carefully considering consequences before acting.",
+    "meaning_for_today": "Today you might feel out of sync with yourself or someone close to you. There is a strong undercurrent of inner friction, making it hard to align your thoughts with your feelings. You could be facing a crossroads or a tough decision that you are actively trying to avoid, or you might find yourself dealing with the fallout of a communication breakdown. It's a day where minor disagreements can easily feel like major emotional disconnections if you are not careful.",
+    "card_advice": "Stop sweeping the real issues under the rug and face the music. The reversed Lovers advises you to take an honest look at where you are out of alignment with your own values. If you are facing a difficult choice, dragging your feet or letting someone else decide for you will only create more imbalance. Own your decisions, avoid playing the blame game in your relationships, and focus on repairing any emotional rifts through radical honesty rather than trying to force a superficial harmony."
   },
   "relations": {
     "major": {

@@ -1,18 +1,20 @@
 {
   "name": "Six of Cups",
-  "meaning_for_today": "Today may bring memories, reunions, nostalgia, or contact with people from the past. Warm emotions and sincere kindness will help restore harmony.",
-  "card_advice": "Appreciate sincere emotions, childhood memories, and meaningful connections, but do not become trapped in the past. Use past experience wisely.",
   "upright": {
     "short": "Nostalgia, kindness, memories, reunion, emotional warmth.",
     "general": "The Six of Cups symbolizes pleasant memories, nostalgia, emotional comfort, and sincere relationships. It often points to reunions, childhood memories, old friends, or acts of kindness and generosity. The card reflects innocence, trust, and emotional healing.",
     "in_love": "Warm, sincere feelings, emotional tenderness, and romantic nostalgia. The card may indicate reconciliation, reunion with a former partner, or a relationship based on trust and emotional comfort.",
-    "in_situation": "The situation develops through kindness, support, and past experience. Help from familiar people or lessons from the past may play an important role."
+    "in_situation": "The situation develops through kindness, support, and past experience. Help from familiar people or lessons from the past may play an important role.",
+    "meaning_for_today": "Today may bring memories, reunions, nostalgia, or contact with people from the past. Warm emotions and sincere kindness will help restore harmony.",
+    "card_advice": "Appreciate sincere emotions, childhood memories, and meaningful connections, but do not become trapped in the past. Use past experience wisely."
   },
   "reversed": {
     "short": "Living in the past, emotional stagnation, unrealistic nostalgia.",
     "general": "Reversed, the Six of Cups may indicate difficulty letting go of the past, emotional immaturity, or unrealistic idealization of old memories. A person may avoid present responsibilities.",
     "in_love": "Attachment to past relationships, emotional immaturity, or inability to move forward emotionally. Old wounds may interfere with present happiness.",
-    "in_situation": "The situation may involve emotional stagnation or excessive focus on the past. It is important to live in the present and adapt to change."
+    "in_situation": "The situation may involve emotional stagnation or excessive focus on the past. It is important to live in the present and adapt to change.",
+    "meaning_for_today": "Today may highlight unresolved emotions connected to the past, making it difficult to fully focus on the present. Nostalgia, old memories, or lingering attachments could create emotional confusion or prevent personal growth.",
+    "card_advice": "Do not idealize the past or cling to what no longer serves you. Learn from previous experiences, but allow yourself to grow, adapt, and build new emotional connections in the present."
   },
   "relations": {
     "major": {

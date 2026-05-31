@@ -1,64 +1,66 @@
 {
-    "name": "Ten of Pentacles",
+  "name": "Ten of Pentacles",
+  "upright": {
+    "short": "Wisdom, success, stability, home",
+    "general": "The card characterizes the querent as a wise person who has found peace. A long-standing matter has culminated in a successful resolution. In family affairs, there is complete stability, excellent relationships between children and parents, the older and younger generations. A favorable time is coming for development on a spiritual level. There is a possibility that skills passed down by inheritance will manifest.",
+    "in_love": "The partner you are currently in a relationship with will open up new opportunities for you, teach you to live beautifully, and help you grow as a person on a spiritual level. You will feel that your partner is a gift from fate, clearly realizing they are your true soulmate because they perfectly complement you and your life. The main thing is to appreciate and respect them, showing it openly. There is a possibility that the card appeared as a sign of an upcoming wedding. The marriage will be beneficial for one of the parties, which could involve not just finances, but also the prestige and high status of the family name.",
+    "in_situation": "Not long ago you started a project that will soon bear fruit. A great decision would be to organize a family business. Initially, progress will be slow, but you will steadily reach success. It is necessary to pay more attention to loved ones, providing them with help and support so that at the right moment they will reciprocate.",
     "meaning_for_today": "Today is simply made for summarizing results. Prepare to let go of something important to get something valuable. All troubles and sorrows can end right now.",
-    "card_advice": "The card advises realizing your own potential, thinking boldly, and acting without fear of failure. In this case, success will await you, and you will pleasantly shock those around you. Take advantage of the moment to conclude profitable deals. In case of success, share the joy with loved ones. But do not get carried away with projects that do not carry anything useful.",
-    "upright": {
-        "short": "Wisdom, success, stability, home",
-        "general": "The card characterizes the querent as a wise person who has found peace. A long-standing matter has culminated in a successful resolution. In family affairs, there is complete stability, excellent relationships between children and parents, the older and younger generations. A favorable time is coming for development on a spiritual level. There is a possibility that skills passed down by inheritance will manifest.",
-        "in_love": "The partner you are currently in a relationship with will open up new opportunities for you, teach you to live beautifully, and help you grow as a person on a spiritual level. You will feel that your partner is a gift from fate, clearly realizing they are your true soulmate because they perfectly complement you and your life. The main thing is to appreciate and respect them, showing it openly. There is a possibility that the card appeared as a sign of an upcoming wedding. The marriage will be beneficial for one of the parties, which could involve not just finances, but also the prestige and high status of the family name.",
-        "in_situation": "Not long ago you started a project that will soon bear fruit. A great decision would be to organize a family business. Initially, progress will be slow, but you will steadily reach success. It is necessary to pay more attention to loved ones, providing them with help and support so that at the right moment they will reciprocate."
+    "card_advice": "The card advises realizing your own potential, thinking boldly, and acting without fear of failure. In this case, success will await you, and you will pleasantly shock those around you. Take advantage of the moment to conclude profitable deals. In case of success, share the joy with loved ones. But do not get carried away with projects that do not carry anything useful."
+  },
+  "reversed": {
+    "short": "Financial losses, risk, marriage of convenience, weakness",
+    "general": "Success will take a long time to achieve and require roundabout ways. The reversed card speaks of family scandals and misunderstandings among household members; something always interferes with good relationships. There is a possibility that the querent will lose a good reputation in society and their own honor. It is not excluded that they will suffer large financial losses. There is a lack of motivation to do anything to increase income or establish harmonious relationships in the family. The card also indicates that one of the family members may fall seriously ill, and the treatment will be expensive and long-term.",
+    "in_love": "The card speaks of complete discord in the family; one of the partners does not feel the support of the other and feels alienated. There are no common goals, traditions, or customs in the family. Household members do not spend time together and are not interested in each other, as everyone is out for themselves. A serious crisis begins in love relationships, which, as a rule, leads to divorce. The querent feels unprotected, unfree, and locked in a golden cage. Perhaps you are being excessively controlled by a spouse or parents.",
+    "in_situation": "Indifference towards one's family is always bad; it is worth re-evaluating your value system. Do not follow outdated methods; they will not work as they lost their effectiveness long ago. Problems at work, financial losses, and delays in salary payments are possible.",
+    "meaning_for_today": "Today you may become aware of tensions within the family, household, or a group you normally rely on for support. Plans connected with finances, property, inheritance, or long-term security may encounter unexpected complications. Avoid making major financial commitments or assuming that everything will work out simply because it has worked in the past. Differences in values, priorities, or expectations can lead to misunderstandings if left unaddressed. Focus on strengthening trust and communication rather than trying to control outcomes.",
+    "card_advice": "Do not ignore problems within your family, community, or support system, hoping they will resolve themselves. Review your long-term plans and make sure they are built on solid foundations rather than habits, traditions, or assumptions that no longer serve you. Be cautious with financial risks, legal matters, and agreements involving shared resources. Lasting stability is created through mutual respect, responsibility, and honest communication, not through appearances or material success alone."
+  },
+  "relations": {
+    "major": {
+      "01": "Appearance of a child in the family; taking a child from an orphanage; empty nest; homeless; absence of family",
+      "02": "Business contacts",
+      "03": "Family archive",
+      "04": "Heraldic tree; expecting an addition to the family",
+      "05": "Family clan; family business, founder",
+      "06": "Parish",
+      "07": "Creating a family",
+      "08": "Confusion in the house; moving",
+      "09": "Showing tolerance in the family",
+      "10": "Divorce; leaving home",
+      "11": "Changes in the house",
+      "12": "Equal relationships in the family",
+      "13": "Family bonds",
+      "14": "Inevitable changes in the house",
+      "15": "Adapting to each other in the house",
+      "16": "Corrupt family; den of vice",
+      "17": "Destruction of the home, family; divorce; loss",
+      "18": "Hope for improvement in the family",
+      "19": "Deception in the house; a rival; relationships based on deception and mistrust",
+      "20": "Addition to the family; rich inheritance; family vacation",
+      "21": "Help from family",
+      "22": "Happy return to the bosom of the family; creating a family"
     },
-    "reversed": {
-        "short": "Financial losses, risk, marriage of convenience, weakness",
-        "general": "Success will take a long time to achieve and require roundabout ways. The reversed card speaks of family scandals and misunderstandings among household members; something always interferes with good relationships. There is a possibility that the querent will lose a good reputation in society and their own honor. It is not excluded that they will suffer large financial losses. There is a lack of motivation to do anything to increase income or establish harmonious relationships in the family. The card also indicates that one of the family members may fall seriously ill, and the treatment will be expensive and long-term.",
-        "in_love": "The card speaks of complete discord in the family; one of the partners does not feel the support of the other and feels alienated. There are no common goals, traditions, or customs in the family. Household members do not spend time together and are not interested in each other, as everyone is out for themselves. A serious crisis begins in love relationships, which, as a rule, leads to divorce. The querent feels unprotected, unfree, and locked in a golden cage. Perhaps you are being excessively controlled by a spouse or parents.",
-        "in_situation": "Indifference towards one's family is always bad; it is worth re-evaluating your value system. Do not follow outdated methods; they will not work as they lost their effectiveness long ago. Problems at work, financial losses, and delays in salary payments are possible."
-    },
-    "relations": {
-        "major": {
-            "01": "Appearance of a child in the family; taking a child from an orphanage; empty nest; homeless; absence of family",
-            "02": "Business contacts",
-            "03": "Family archive",
-            "04": "Heraldic tree; expecting an addition to the family",
-            "05": "Family clan; family business, founder",
-            "06": "Parish",
-            "07": "Creating a family",
-            "08": "Confusion in the house; moving",
-            "09": "Showing tolerance in the family",
-            "10": "Divorce; leaving home",
-            "11": "Changes in the house",
-            "12": "Equal relationships in the family",
-            "13": "Family bonds",
-            "14": "Inevitable changes in the house",
-            "15": "Adapting to each other in the house",
-            "16": "Corrupt family; den of vice",
-            "17": "Destruction of the home, family; divorce; loss",
-            "18": "Hope for improvement in the family",
-            "19": "Deception in the house; a rival; relationships based on deception and mistrust",
-            "20": "Addition to the family; rich inheritance; family vacation",
-            "21": "Help from family",
-            "22": "Happy return to the bosom of the family; creating a family"
-        },
-        "minor": {
-            "cups": {},
-            "pentacles": {},
-            "swords": {},
-            "wands": {
-                "01": "Family vocation; opportunity to become the head of a family business",
-                "02": "Loss of part of the family estate; division of inheritance",
-                "03": "Family support",
-                "04": "Family holiday; wedding",
-                "05": "Disagreements within the family; disputes over inheritance",
-                "06": "Successful promotion of a family business",
-                "07": "Attempted interference in family affairs",
-                "08": "Change of residence",
-                "09": "Fencing yourself off from those who are dear to you",
-                "10": "Unbearable pressure from relatives; family burdens",
-                "11": "An ability passed down by inheritance",
-                "12": "A quarrel with relatives; leaving the native home",
-                "13": "Caring for family members",
-                "14": "Family council; father of the family"
-            }
-        }
+    "minor": {
+      "cups": {},
+      "pentacles": {},
+      "swords": {},
+      "wands": {
+        "01": "Family vocation; opportunity to become the head of a family business",
+        "02": "Loss of part of the family estate; division of inheritance",
+        "03": "Family support",
+        "04": "Family holiday; wedding",
+        "05": "Disagreements within the family; disputes over inheritance",
+        "06": "Successful promotion of a family business",
+        "07": "Attempted interference in family affairs",
+        "08": "Change of residence",
+        "09": "Fencing yourself off from those who are dear to you",
+        "10": "Unbearable pressure from relatives; family burdens",
+        "11": "An ability passed down by inheritance",
+        "12": "A quarrel with relatives; leaving the native home",
+        "13": "Caring for family members",
+        "14": "Family council; father of the family"
+      }
     }
+  }
 }

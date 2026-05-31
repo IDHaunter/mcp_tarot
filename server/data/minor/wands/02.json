@@ -1,18 +1,20 @@
 {
   "name": "Two of Wands",
-  "meaning_for_today": "Today is a good time for planning and looking ahead. New opportunities may appear, but success depends on making confident decisions and expanding your horizons.",
-  "card_advice": "Think strategically and do not be afraid to leave your comfort zone. Careful planning combined with bold action will lead to progress.",
   "upright": {
     "short": "Planning, ambition, decisions, progress, vision, expansion.",
     "general": "The Two of Wands represents future planning, ambition, and the desire to explore new possibilities. It symbolizes personal power, strategic thinking, and preparation for growth. The card encourages stepping beyond limitations and taking control of your direction.",
     "in_love": "In relationships, the Two of Wands suggests considering the future of the partnership. It may indicate long-distance relationships, shared goals, or important romantic decisions.",
-    "in_situation": "A situation requires planning, foresight, and confidence. New opportunities are available, but success depends on making clear and purposeful choices."
+    "in_situation": "A situation requires planning, foresight, and confidence. New opportunities are available, but success depends on making clear and purposeful choices.",
+    "meaning_for_today": "Today is a good time for planning and looking ahead. New opportunities may appear, but success depends on making confident decisions and expanding your horizons.",
+    "card_advice": "Think strategically and do not be afraid to leave your comfort zone. Careful planning combined with bold action will lead to progress."
   },
   "reversed": {
     "short": "Fear of change, indecision, delays, lack of planning, missed opportunities.",
     "general": "Reversed, the Two of Wands points to hesitation, fear of the unknown, or poor preparation. Opportunities may be missed because of insecurity or unwillingness to take risks.",
     "in_love": "Relationships may suffer from uncertainty about the future, fear of commitment, or conflicting goals.",
-    "in_situation": "Progress is slowed by indecision or lack of direction. Better planning and stronger confidence are needed before moving forward."
+    "in_situation": "Progress is slowed by indecision or lack of direction. Better planning and stronger confidence are needed before moving forward.",
+    "meaning_for_today": "Today you might find yourself trapped in indecision or paralyzed by a fear of the unknown. Even if a clear path or opportunity lies before you, self-doubt and overthinking are likely to keep you rooted in place. There may be unexpected delays in your current plans, or you might realize your lack of preparation is catching up to you, forcing you to hesitate instead of moving forward confidently.",
+    "card_advice": "Stop letting the fear of leaving your comfort zone hold you back, but don't rush blind into the dark either. The reversed Two of Wands advises you to confront your internal insecurities and identify what is truly making you hesitate. If your plans lack a solid foundation, take today to fix the structural errors rather than forcing progress. Rebuild your confidence step by step before making major life commitments."
   },
   "relations": {
     "major": {

@@ -1,64 +1,66 @@
 {
-    "name": "Two of Pentacles",
+  "name": "Two of Pentacles",
+  "upright": {
+    "short": "Chaos, emotions, agility, indifference, trip",
+    "general": "Good changes await the querent. They will live in harmony with themselves, improve their material well-being, and receive variety and useful exchange. News that they will receive in the near future will keep them excited and thrilled in a positive way, indicating a noticeable forward dynamic. On the negative side, a person may grab several things at once, which can lead to unpleasant consequences or unfinished tasks. There will be pleasant troubles before meeting desired guests, a new business will be realized, and good news will arrive via mail or phone call. Despite self-doubt, they will find the most correct solution to problems.",
+    "in_love": "In marriage, a noticeable revival is seen in relationships that haven't experienced novelty for a long time. Such relationships will resemble a pleasant, light flirtation without drama. Even in the most difficult situations, partners will be ready to cope with problems without panic. There may be a certain amount of calculation in the relationship, but it cannot be called hurtful; perhaps these are the conditions for survival. This can also manifest in different characters, where one partner tolerates something while the other permits something. Friendship, communication, fun, spontaneity, and a certain business-like efficiency are present.",
+    "in_situation": "A more promising change of position is expected, and stabilization, restructuring, and dynamics are observed in business. A person will want to make money from two jobs at once to have two sources of income, and they will succeed. Generally, they are satisfied with their activity, though they will experience some fuss and discomfort. They will be competent and prompt enough to handle a large volume of tasks. It is necessary to think through all actions independently in peace and quiet. Do not trust business partners and colleagues too much; they may prove unreliable. The card rewards the person with a surge of energy and freedom from extra anxiety, helping them perform their work perfectly.",
     "meaning_for_today": "Today you shouldn't take your work too seriously. A little playfulness, flexibility, and lightheartedness will be quite enough. Don't turn down an opportunity to try something new to test your skills. Even if something doesn't work out right away, you can always try again. On this day, a person will adapt well to the assigned tasks. There may be some changes in business associated with a minor profit. The card brings liberation from gloom, and you need to manage this day properly.",
-    "card_advice": "The querent should consider whether they can be flexible, sensible, and objective in difficult situations. It is necessary to learn to adapt to the contradictions they will encounter quite frequently. Very soon, cunning, resourcefulness, business qualities, and skills will be needed to look decent and ensure that affairs are always at the proper level. The card bestows qualities such as: high spirits, energy, a surge of strength, and dynamic balance. Even the exacerbation of chronic diseases will not prevent them from living a quality and full life.",
-    "upright": {
-        "short": "Chaos, emotions, agility, indifference, trip",
-        "general": "Good changes await the querent. They will live in harmony with themselves, improve their material well-being, and receive variety and useful exchange. News that they will receive in the near future will keep them excited and thrilled in a positive way, indicating a noticeable forward dynamic. On the negative side, a person may grab several things at once, which can lead to unpleasant consequences or unfinished tasks. There will be pleasant troubles before meeting desired guests, a new business will be realized, and good news will arrive via mail or phone call. Despite self-doubt, they will find the most correct solution to problems.",
-        "in_love": "In marriage, a noticeable revival is seen in relationships that haven't experienced novelty for a long time. Such relationships will resemble a pleasant, light flirtation without drama. Even in the most difficult situations, partners will be ready to cope with problems without panic. There may be a certain amount of calculation in the relationship, but it cannot be called hurtful; perhaps these are the conditions for survival. This can also manifest in different characters, where one partner tolerates something while the other permits something. Friendship, communication, fun, spontaneity, and a certain business-like efficiency are present.",
-        "in_situation": "A more promising change of position is expected, and stabilization, restructuring, and dynamics are observed in business. A person will want to make money from two jobs at once to have two sources of income, and they will succeed. Generally, they are satisfied with their activity, though they will experience some fuss and discomfort. They will be competent and prompt enough to handle a large volume of tasks. It is necessary to think through all actions independently in peace and quiet. Do not trust business partners and colleagues too much; they may prove unreliable. The card rewards the person with a surge of energy and freedom from extra anxiety, helping them perform their work perfectly."
+    "card_advice": "The querent should consider whether they can be flexible, sensible, and objective in difficult situations. It is necessary to learn to adapt to the contradictions they will encounter quite frequently. Very soon, cunning, resourcefulness, business qualities, and skills will be needed to look decent and ensure that affairs are always at the proper level. The card bestows qualities such as: high spirits, energy, a surge of strength, and dynamic balance. Even the exacerbation of chronic diseases will not prevent them from living a quality and full life."
+  },
+  "reversed": {
+    "short": "Failure of plans, inflexibility, low spirits, anxiety",
+    "general": "The reversed card is characterized by contradictions that grow like a snowball. If a person moves towards their goal, it will be one step forward and two steps back. Anxiety here takes on a negative meaning; the person expresses dissatisfaction with events and wants to return everything to how it was before. Although they reach some compromise and adapt to the situation, there is no question of satisfaction and harmony. If the querent is uneasy, they will have to display positive qualities through a forced smile, which will not be easy. They will face bureaucracy and will be forced to pay off debts.",
+    "in_love": "The querent experiences a state of anxiety after the partner puts forward their conditions. A need arises not only to negotiate but also to sacrifice something, defend one's rights, and make concessions. Even if they find a common language, a coldness will be felt, along with memories that the golden time is already behind. There will be obstacles causing a person to be late for a date or forget to call. Changes may occur where one of the partners falls in love with someone else.",
+    "in_situation": "The card is characterized by fatigue and a complete lack of motivation. The querent loses the desire to move towards their goal and go forward; they simply want to isolate themselves to get through this difficult time. The card advises against scheduling business negotiations. If this advice is ignored, negative consequences or even bankruptcy await the querent.",
+    "meaning_for_today": "Today may bring stress, imbalance, or difficulty keeping up with responsibilities and changing circumstances. Plans can become chaotic, and small delays or misunderstandings may create unnecessary anxiety or frustration.",
+    "card_advice": "Slow down and avoid trying to manage everything at once. Flexibility is important, but so is setting priorities and maintaining emotional balance. Careful planning and patience will help you regain control of the situation."
+  },
+  "relations": {
+    "major": {
+      "01": "Financial chaos",
+      "02": "Manipulate money",
+      "03": "Exchange of information, knowledge; secret debts",
+      "04": "Profit from multiple sources",
+      "05": "Financial instability in the family, in business",
+      "06": "Lack of unity",
+      "07": "Change of partner",
+      "08": "Shake-up",
+      "09": "Weak will",
+      "10": "Change of mood",
+      "11": "Playing roulette with fate",
+      "12": "Indebtedness",
+      "13": "Financial impasse",
+      "14": "Change of lifestyle",
+      "15": "Need to save money",
+      "16": "Indulging whims",
+      "17": "Bankruptcy",
+      "18": "Hope to make ends meet",
+      "19": "Financial losses",
+      "20": "Fun, joy, profit",
+      "21": "Getting what one deserves",
+      "22": "Expansion of the sphere of cooperation; international relations"
     },
-    "reversed": {
-        "short": "Failure of plans, inflexibility, low spirits, anxiety",
-        "general": "The reversed card is characterized by contradictions that grow like a snowball. If a person moves towards their goal, it will be one step forward and two steps back. Anxiety here takes on a negative meaning; the person expresses dissatisfaction with events and wants to return everything to how it was before. Although they reach some compromise and adapt to the situation, there is no question of satisfaction and harmony. If the querent is uneasy, they will have to display positive qualities through a forced smile, which will not be easy. They will face bureaucracy and will be forced to pay off debts.",
-        "in_love": "The querent experiences a state of anxiety after the partner puts forward their conditions. A need arises not only to negotiate but also to sacrifice something, defend one's rights, and make concessions. Even if they find a common language, a coldness will be felt, along with memories that the golden time is already behind. There will be obstacles causing a person to be late for a date or forget to call. Changes may occur where one of the partners falls in love with someone else.",
-        "in_situation": "The card is characterized by fatigue and a complete lack of motivation. The querent loses the desire to move towards their goal and go forward; they simply want to isolate themselves to get through this difficult time. The card advises against scheduling business negotiations. If this advice is ignored, negative consequences or even bankruptcy await the querent."
-    },
-    "relations": {
-        "major": {
-            "01": "Financial chaos",
-            "02": "Manipulate money",
-            "03": "Exchange of information, knowledge; secret debts",
-            "04": "Profit from multiple sources",
-            "05": "Financial instability in the family, in business",
-            "06": "Lack of unity",
-            "07": "Change of partner",
-            "08": "Shake-up",
-            "09": "Weak will",
-            "10": "Change of mood",
-            "11": "Playing roulette with fate",
-            "12": "Indebtedness",
-            "13": "Financial impasse",
-            "14": "Change of lifestyle",
-            "15": "Need to save money",
-            "16": "Indulging whims",
-            "17": "Bankruptcy",
-            "18": "Hope to make ends meet",
-            "19": "Financial losses",
-            "20": "Fun, joy, profit",
-            "21": "Getting what one deserves",
-            "22": "Expansion of the sphere of cooperation; international relations"
-        },
-        "minor": {
-            "cups": {},
-            "pentacles": {},
-            "swords": {},
-            "wands": {
-                "01": "Between two fires; tossing and turning",
-                "02": "Use all available opportunities",
-                "03": "Unstable cooperation",
-                "04": "Unreliable foundation",
-                "05": "Inability to develop a strategy; mood swings",
-                "06": "Mixed success; change of priorities",
-                "07": "Precarious position",
-                "08": "Increased instability",
-                "09": "An attempt to break through resistance by all available means",
-                "10": "Futile efforts; unbearable debt",
-                "11": "Lack of system in studying",
-                "12": "Out of the frying pan into the fire; volatile mood",
-                "13": "Inability to balance personal life and career",
-                "14": "Uncertainty"
-            }
-        }
+    "minor": {
+      "cups": {},
+      "pentacles": {},
+      "swords": {},
+      "wands": {
+        "01": "Between two fires; tossing and turning",
+        "02": "Use all available opportunities",
+        "03": "Unstable cooperation",
+        "04": "Unreliable foundation",
+        "05": "Inability to develop a strategy; mood swings",
+        "06": "Mixed success; change of priorities",
+        "07": "Precarious position",
+        "08": "Increased instability",
+        "09": "An attempt to break through resistance by all available means",
+        "10": "Futile efforts; unbearable debt",
+        "11": "Lack of system in studying",
+        "12": "Out of the frying pan into the fire; volatile mood",
+        "13": "Inability to balance personal life and career",
+        "14": "Uncertainty"
+      }
     }
+  }
 }

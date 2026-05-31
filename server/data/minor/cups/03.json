@@ -1,18 +1,20 @@
 {
   "name": "Three of Cups",
-  "meaning_for_today": "Today is favorable for friendship, celebration, joyful communication, and emotional support. Pleasant meetings or good news may brighten your mood.",
-  "card_advice": "Spend time with people who support and inspire you. Share joy, celebrate achievements, and appreciate emotional connections.",
   "upright": {
     "short": "Celebration, friendship, joy, communication, emotional support.",
     "general": "The Three of Cups symbolizes happiness, friendship, emotional unity, and celebration. This card often points to social gatherings, successful teamwork, support from loved ones, and joyful events. It reflects harmony, trust, and emotional openness.",
     "in_love": "Joyful relationships, emotional harmony, shared happiness, and pleasant communication. The card may indicate celebrations, engagement, or strengthening emotional bonds.",
-    "in_situation": "The situation develops positively through cooperation, support, and collective effort. Friendly connections and teamwork will bring success."
+    "in_situation": "The situation develops positively through cooperation, support, and collective effort. Friendly connections and teamwork will bring success.",
+    "meaning_for_today": "Today is favorable for friendship, celebration, joyful communication, and emotional support. Pleasant meetings or good news may brighten your mood.",
+    "card_advice": "Spend time with people who support and inspire you. Share joy, celebrate achievements, and appreciate emotional connections."
   },
   "reversed": {
     "short": "Excess, gossip, emotional distance, conflict in friendships.",
     "general": "Reversed, the Three of Cups may indicate overindulgence, superficial relationships, gossip, or conflicts within a social circle. Emotional support may be lacking or insincere.",
     "in_love": "Misunderstandings in relationships, emotional distance, jealousy, or outside interference. Communication problems may weaken emotional harmony.",
-    "in_situation": "The situation may involve tension within a group, disappointment in friends, or lack of cooperation. It is important to avoid gossip and emotional excess."
+    "in_situation": "The situation may involve tension within a group, disappointment in friends, or lack of cooperation. It is important to avoid gossip and emotional excess.",
+    "meaning_for_today": "Today may bring emotional misunderstandings, disappointment in social interactions, or tension within friendships. Avoid overextending yourself emotionally or getting involved in gossip, drama, or superficial communication.",
+    "card_advice": "Choose your company carefully and protect your emotional energy. Honest communication, moderation, and sincere connections will help you avoid unnecessary conflicts and restore emotional balance."
   },
   "relations": {
     "major": {

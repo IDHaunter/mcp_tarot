@@ -1,18 +1,20 @@
 {
   "name": "The Hanged Man",
-  "meaning_for_today": "Today may require patience, reflection, and a different perspective. Do not rush important decisions. A pause can help reveal hidden truths and deeper understanding.",
-  "card_advice": "Let go of control and allow events to unfold naturally. Sometimes sacrifice, patience, and changing your viewpoint are necessary for growth and wisdom.",
   "upright": {
     "short": "Pause, sacrifice, reflection, surrender, new perspective.",
     "general": "The Hanged Man symbolizes suspension, inner transformation, patience, and seeing life differently. This card often appears when circumstances force a pause or require personal sacrifice. It encourages spiritual growth, acceptance, and letting go of outdated beliefs.",
     "in_love": "In relationships, The Hanged Man suggests waiting, emotional reflection, or reevaluating feelings. It may indicate a period of uncertainty or the need to understand a partner from a new perspective.",
-    "in_situation": "The situation is temporarily paused or developing slowly. Rushing will not help now. Reflection, acceptance, and openness to a new viewpoint are required before progress becomes possible."
+    "in_situation": "The situation is temporarily paused or developing slowly. Rushing will not help now. Reflection, acceptance, and openness to a new viewpoint are required before progress becomes possible.",
+    "meaning_for_today": "Today may require patience, reflection, and a different perspective. Do not rush important decisions. A pause can help reveal hidden truths and deeper understanding.",
+    "card_advice": "Let go of control and allow events to unfold naturally. Sometimes sacrifice, patience, and changing your viewpoint are necessary for growth and wisdom."
   },
   "reversed": {
     "short": "Stagnation, resistance, delay, indecision, avoidance.",
-    "general": "Reversed, The Hanged Man may indicate resistance to change, unnecessary sacrifice, stubbornness, or feeling trapped in stagnation. It can suggest fear of letting go or refusal to accept reality.",
+    "general": "Reversed, The Hanged Man may indicate resistance to change, unnecessary sacrifice, stubbornness, or feeling trapped in stagnation. It can point to fear of letting go or refusal to accept reality.",
     "in_love": "In love readings, the reversed Hanged Man may point to emotional confusion, delays in relationships, or unwillingness to compromise. One or both partners may avoid necessary changes.",
-    "in_situation": "The situation may feel blocked due to indecision or resistance. The card advises releasing control, accepting necessary changes, and avoiding self-imposed limitations."
+    "in_situation": "The situation may feel blocked due to indecision or resistance. The card advises releasing control, accepting necessary changes, and avoiding self-imposed limitations.",
+    "meaning_for_today": "Today you might feel completely stuck, but unlike the peaceful pause of the upright card, this feels like an agonizing, frustrating standstill. You are likely spinning your wheels, procrastinating on a major decision, or stubbornly digging your heels in to resist a change that you know deep down is inevitable. There is also a risk today of playing the martyr—wasting your precious energy on people or situations that don’t deserve it, just so you can feel like a victim.",
+    "card_advice": "Stop stalling and stop holding onto a perspective that clearly isn't working anymore. The reversed Hanged Man is your cue to snap out of it; if you've been waiting for the 'perfect moment' to make a move or change your life, this card is telling you that the wait is officially hurting you. Quit making unnecessary sacrifices for things that don't give anything back, drop your stubbornness, and actively choose to move forward instead of letting fear keep you suspended in mid-air."
   },
   "relations": {
     "major": {

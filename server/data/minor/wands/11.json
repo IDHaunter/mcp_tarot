@@ -1,18 +1,20 @@
 {
   "name": "Page of Wands",
-  "meaning_for_today": "Today brings curiosity, enthusiasm, and exciting possibilities. A new idea, message, or opportunity may inspire you to explore unfamiliar paths.",
-  "card_advice": "Stay open to new experiences and trust your creative instincts. Be brave enough to take the first step, even if the outcome is uncertain.",
   "upright": {
     "short": "Curiosity, inspiration, adventure, enthusiasm, discovery, creativity.",
     "general": "The Page of Wands symbolizes fresh energy, creative ideas, and the desire for exploration. This card represents enthusiasm, learning, spontaneity, and the courage to try something new. It often appears when exciting opportunities or messages are approaching.",
     "in_love": "In relationships, the Page of Wands points to flirtation, passion, playful communication, and exciting romantic beginnings. It may indicate a youthful or adventurous partner.",
-    "in_situation": "A situation encourages experimentation, creativity, and openness to change. Success comes through curiosity, flexibility, and willingness to learn."
+    "in_situation": "A situation encourages experimentation, creativity, and openness to change. Success comes through curiosity, flexibility, and willingness to learn.",
+    "meaning_for_today": "Today brings curiosity, enthusiasm, and exciting possibilities. A new idea, message, or opportunity may inspire you to explore unfamiliar paths.",
+    "card_advice": "Stay open to new experiences and trust your creative instincts. Be brave enough to take the first step, even if the outcome is uncertain."
   },
   "reversed": {
     "short": "Immaturity, hesitation, lack of direction, delays, insecurity.",
     "general": "Reversed, the Page of Wands may indicate creative blocks, fear of failure, impatience, or scattered energy. Plans may lack focus or consistency.",
     "in_love": "Relationships may suffer from immaturity, mixed signals, emotional inconsistency, or fear of commitment.",
-    "in_situation": "Delays or uncertainty prevent progress. It is important to regain confidence, organize priorities, and avoid acting carelessly."
+    "in_situation": "Delays or uncertainty prevent progress. It is important to regain confidence, organize priorities, and avoid acting carelessly.",
+    "meaning_for_today": "Today you might experience a frustrating loss of momentum or a total creative block. An exciting idea you had recently might suddenly feel overwhelming, causing you to hesitate and retreat into self-doubt. Alternatively, you may have to deal with flaky energy from someone else—like a text conversation that goes cold, a canceled plan, or a burst of gossip or drama born from sheer immaturity and restlessness.",
+    "card_advice": "Don't force yourself to perform if your passion has temporarily fizzled out, but don't let temporary insecurity kill your project either. The reversed Page of Wands advises you to step back and ground your scattered focus. If you are feeling eager but lack direction, channel that energy into researching and testing your ideas quietly instead of launching them prematurely. Watch your words today, and avoid committing to impulsive plans you know you'll lose interest in by tomorrow."
   },
   "relations": {
     "major": {

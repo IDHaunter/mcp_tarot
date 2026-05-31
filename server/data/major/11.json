@@ -1,18 +1,20 @@
 {
   "name": "Wheel of Fortune",
-  "meaning_for_today": "Today may bring important changes, unexpected opportunities, or a turning point in events. Trust the natural flow of life and remain adaptable to changing circumstances.",
-  "card_advice": "Accept change with confidence and flexibility. Life moves in cycles, and every situation offers an opportunity for growth and transformation.",
   "upright": {
     "short": "Luck, destiny, change, cycles, opportunity.",
     "general": "Wheel of Fortune represents fate, life cycles, turning points, and unexpected changes. This card symbolizes movement, evolution, and the influence of destiny. Positive opportunities and important transitions may appear suddenly.",
     "in_love": "In relationships, Wheel of Fortune suggests changes, new opportunities, and karmic connections. A relationship may evolve to a new stage, or unexpected events may influence emotional life positively.",
-    "in_situation": "The situation is changing rapidly and may be influenced by external forces or destiny. Flexibility and openness to new opportunities will help achieve success."
+    "in_situation": "The situation is changing rapidly and may be influenced by external forces or destiny. Flexibility and openness to new opportunities will help achieve success.",
+    "meaning_for_today": "Today may bring important changes, unexpected opportunities, or a turning point in events. Trust the natural flow of life and remain adaptable to changing circumstances.",
+    "card_advice": "Accept change with confidence and flexibility. Life moves in cycles, and every situation offers an opportunity for growth and transformation."
   },
   "reversed": {
     "short": "Bad timing, setbacks, resistance to change, instability.",
     "general": "Reversed, Wheel of Fortune may indicate delays, misfortune, lack of control, or resistance to necessary change. It can point to repeating negative patterns or feeling stuck in an unfavorable cycle.",
     "in_love": "In love readings, the reversed Wheel of Fortune may suggest instability, repeated relationship problems, emotional unpredictability, or difficulty adapting to change.",
-    "in_situation": "The situation may feel uncertain or blocked due to external circumstances or resistance to change. The card advises patience and learning from recurring experiences."
+    "in_situation": "The situation may feel uncertain or blocked due to external circumstances or resistance to change. The card advises patience and learning from recurring experiences.",
+    "meaning_for_today": "Today might feel like Murphy’s Law is in full effect—whatever can go wrong, will. You are likely dealing with bad timing, annoying setbacks, or a general feeling that external forces are actively plotting against your schedule. There is a strong sense of being stuck in a repetitive loop today, where you recognize you are repeating an old, unproductive habit or dating pattern but feel powerless to stop it. It’s a frustrating day where trying to force things forward feels like swimming upstream against a harsh current.",
+    "card_advice": "Stop fighting the spin of the wheel and stop trying to control things that are entirely out of your hands. The reversed Wheel of Fortune advises you to take a step back and look at the pattern, not just the current setback. If a specific problem keeps happening in your life, stop blaming outside 'bad luck' and ask yourself what lesson you are refusing to learn. Stop resisting the changes that are trying to happen; dig your heels in less, adapt to the current delays, and focus on breaking the cycles you actually have control over."
   },
   "relations": {
     "major": {

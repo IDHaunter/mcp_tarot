@@ -1,64 +1,66 @@
 {
-    "name": "King of Swords",
+  "name": "King of Swords",
+  "upright": {
+    "short": "Responsibility, control, aggressiveness, authoritativeness",
+    "general": "The King of Swords speaks of a high level of intelligence, objectivity, versatility, and a flexible, rational approach to life. A person under the influence of this Arcanum has many interests and is a perceptive and reasonable personality. As a rule, the card appears for an authoritative person to whom many turn for advice. This person is indeed capable of giving wise advice and recommendations because they possess an extraordinary mind and vast life experience. The card carries a good meaning and a correctly chosen strategy. The person is purposeful and capable of overcoming many obstacles. They will stand out for their leadership qualities, and money will literally stick to their hands. They are a leader who has earned authority. The sword in his hand is not just a symbol, it is a weapon. The person understands their power and leadership.",
+    "in_love": "The person does not want to take responsibility, treats their partner dismissively, experiments with their feelings, and prioritizes only their own interests. However, the Arcanum carries not only a negative meaning, but also something positive. For example, relationships can clear up where until recently there was no clarity at all. A person will be able to put an end to the relationship, though not in a gentle form, which will hurt the other person and wound their heart. It is important to understand that it is better to suffer through what happened now than to suffer from a failed relationship later. Each will be grateful to fate that this happened, because all unnecessary burdens and prospective-less connections would have collapsed sooner or later anyway.",
+    "in_situation": "The person will have many positive moments and events. They will possess an incredible talent in their own business, manage to realize prospective and successful ideas, and develop other abilities. This primarily refers to a person capable of achieving great results in life and in the business to which they dedicate themselves. The card can even reveal a person's line of work: military affairs, politics, finance, or law. It talks about people for whom it is important to have a 'cold head and a warm heart'. This means the person must possess determination, common sense, and logic, and be able to draw conclusions and find benefits even from their own failures. In a situation, the Arcanum means the help of an influential person, good prospects at work, successful negotiations, and the successful mastery of new experience. The person will possess the power of persuasion.",
     "meaning_for_today": "Fate presents the querent with an exam where they must demonstrate their knowledge, ingenuity, and ability to use their own experience. The querent should prepare well for this test by using persuasive projects and arguments, and it would also not hurt to use their charm and wit. A person will definitely show others their clear mind, especially in a situation that requires decisiveness and action. However, if a problem arises on this day that seems impossible to solve alone, they can seek help from a knowledgeable specialist.",
-    "card_advice": "The querent has excellent trumps that simply cannot be ignored, because under the influence of this card, the person possesses wit and logical thinking. They are also incredibly charming and impartial. If this is taken into account, many difficulties and confusing situations will be resolvable. The person understands everything, rapidly moves towards their goal, and achieves it. But it is important not to forget that any situation must be approached adequately, correctly assessing one's strength so as not to face irreparable mistakes.",
-    "upright": {
-        "short": "Responsibility, control, aggressiveness, authoritativeness",
-        "general": "The King of Swords speaks of a high level of intelligence, objectivity, versatility, and a flexible, rational approach to life. A person under the influence of this Arcanum has many interests and is a perceptive and reasonable personality. As a rule, the card appears for an authoritative person to whom many turn for advice. This person is indeed capable of giving wise advice and recommendations because they possess an extraordinary mind and vast life experience. The card carries a good meaning and a correctly chosen strategy. The person is purposeful and capable of overcoming many obstacles. They will stand out for their leadership qualities, and money will literally stick to their hands. They are a leader who has earned authority. The sword in his hand is not just a symbol, it is a weapon. The person understands their power and leadership.",
-        "in_love": "The person does not want to take responsibility, treats their partner dismissively, experiments with their feelings, and prioritizes only their own interests. However, the Arcanum carries not only a negative meaning, but also something positive. For example, relationships can clear up where until recently there was no clarity at all. A person will be able to put an end to the relationship, though not in a gentle form, which will hurt the other person and wound their heart. It is important to understand that it is better to suffer through what happened now than to suffer from a failed relationship later. Each will be grateful to fate that this happened, because all unnecessary burdens and prospective-less connections would have collapsed sooner or later anyway.",
-        "in_situation": "The person will have many positive moments and events. They will possess an incredible talent in their own business, manage to realize prospective and successful ideas, and develop other abilities. This primarily refers to a person capable of achieving great results in life and in the business to which they dedicate themselves. The card can even reveal a person's line of work: military affairs, politics, finance, or law. It talks about people for whom it is important to have a 'cold head and a warm heart'. This means the person must possess determination, common sense, and logic, and be able to draw conclusions and find benefits even from their own failures. In a situation, the Arcanum means the help of an influential person, good prospects at work, successful negotiations, and the successful mastery of new experience. The person will possess the power of persuasion."
+    "card_advice": "The querent has excellent trumps that simply cannot be ignored, because under the influence of this card, the person possesses wit and logical thinking. They are also incredibly charming and impartial. If this is taken into account, many difficulties and confusing situations will be resolvable. The person understands everything, rapidly moves towards their goal, and achieves it. But it is important not to forget that any situation must be approached adequately, correctly assessing one's strength so as not to face irreparable mistakes."
+  },
+  "reversed": {
+    "short": "Sarcasm, egoism, evil intentions, exploitation",
+    "general": "Under the influence of the reversed King of Swords, a person becomes a cunning, cold cynic. They are capable of stepping over anything for the sake of their own principles, which seem correct and useful to them. The Arcanum is associated with intrigue, deception, and intimidation. In addition, the reversed King of Swords is often associated with injustice (someone was offended or violence was committed). The person becomes conflict-prone and cruel, opposing the whole world. Furthermore, the Arcanum indicates to the person that the time for active action has not yet come, and there is no specific task. In the reversed position, a person becomes very cautious and fearful. They think incorrectly, their calculations are erroneous, and their emotions are filled with hysteria and anger. The person behaves deceitfully, unscrupulously, unprincipledly, maliciously, and cruelly.",
+    "in_love": "The Arcanum indicates that one of the partners in the relationship is behaving dishonestly, is capable of deception, and is ready to subjugate the partner. It can be safely asserted that one of the partners builds their relationship based on convenience or convenience/calculation. As a rule, the card speaks of a cynical, heartless, and clever person who is used to pointing out the partner's shortcomings, criticizing, and manipulating them. It is not surprising if the outcome of such a relationship ends in a sad scenario, as a crisis in the relationship undoubtedly exists.",
+    "in_situation": "The card says that the person will strive to achieve their goal by various means. They may even neglect the law if they feel it is beneficial. Usually, the Arcanum falls to a self-confident and aggressive individual. It is possible that others will want to remove them from their path, sweeping them from their position, up to dismissal. Extortion and attempts at intimidation can also be seen here. Under the influence of this Arcanum, one can suffer heavy material losses. It is no coincidence that the weather on the card is unfriendly, just like the King of Swords himself. It is unlikely that there is at least one person who wants to communicate with him of their own free will, but this communication cannot be avoided.",
+    "meaning_for_today": "Today you may experience a clash with tyranny, injustice, or cold-blooded manipulation. An authoritative man in your environment—be it a boss, partner, or official—might use his power to intimidate or unfairly criticize you. Be cautious with legal matters, contracts, or serious decisions today, as judgment can be severely distorted by bias or personal greed. Watch your emotions, as there is a risk of reacting with anger or getting pulled into toxic power struggles.",
+    "card_advice": "Do not try to fight tyranny with blind aggression or lower yourself to low-handed tactics. The reversed King of Swords warns you against acting out of pure spite, cynicism, or hysteria. If you are dealing with a corrupt authority or an unfair situation, protect your interests by sticking strictly to the facts and rules rather than emotional outbursts. Double-check all calculations and information, and avoid making hasty decisions while under pressure or fear."
+  },
+  "relations": {
+    "major": {
+      "01": "Conflict with a child",
+      "02": "Strategy in action",
+      "03": "Mastering knowledge",
+      "04": "Conflict with wife",
+      "05": "Conflict at work, in the family",
+      "06": "Actions to the detriment of philanthropy",
+      "07": "Crisis in relationships",
+      "08": "Achieving one's goal at any cost",
+      "09": "Cunning",
+      "10": "Loneliness; ideas that have no echo",
+      "11": "Bending one's line",
+      "12": "Judge, lawyer, or attorney",
+      "13": "Punishing",
+      "14": "Widower; sad changes",
+      "15": "Mental adaptation",
+      "16": "Cruelty",
+      "17": "Divorce; loss; material damage; loss of authority",
+      "18": "Hope for an improvement in the situation; paving one's way thanks to the power of the mind",
+      "19": "Losing one's mind; illness",
+      "20": "Mental renewal; an idea that has received recognition",
+      "21": "Development of mental abilities; help in a critical situation",
+      "22": "New project"
     },
-    "reversed": {
-        "short": "Sarcasm, egoism, evil intentions, exploitation",
-        "general": "Under the influence of the reversed King of Swords, a person becomes a cunning, cold cynic. They are capable of stepping over anything for the sake of their own principles, which seem correct and useful to them. The Arcanum is associated with intrigue, deception, and intimidation. In addition, the reversed King of Swords is often associated with injustice (someone was offended or violence was committed). The person becomes conflict-prone and cruel, opposing the whole world. Furthermore, the Arcanum indicates to the person that the time for active action has not yet come, and there is no specific task. In the reversed position, a person becomes very cautious and fearful. They think incorrectly, their calculations are erroneous, and their emotions are filled with hysteria and anger. The person behaves deceitfully, unscrupulously, unprincipledly, maliciously, and cruelly.",
-        "in_love": "The Arcanum indicates that one of the partners in the relationship is behaving dishonestly, is capable of deception, and is ready to subjugate the partner. It can be safely asserted that one of the partners builds their relationship based on convenience or convenience/calculation. As a rule, the card speaks of a cynical, heartless, and clever person who is used to pointing out the partner's shortcomings, criticizing, and manipulating them. It is not surprising if the outcome of such a relationship ends in a sad scenario, as a crisis in the relationship undoubtedly exists.",
-        "in_situation": "The card says that the person will strive to achieve their goal by various means. They may even neglect the law if they feel it is beneficial. Usually, the Arcanum falls to a self-confident and aggressive individual. It is possible that others will want to remove them from their path, sweeping them from their position, up to dismissal. Extortion and attempts at intimidation can also be seen here. Under the influence of this Arcanum, one can suffer heavy material losses. It is no coincidence that the weather on the card is unfriendly, just like the King of Swords himself. It is unlikely that there is at least one person who wants to communicate with him of their own free will, but this communication cannot be avoided."
-    },
-    "relations": {
-        "major": {
-            "01": "Conflict with a child",
-            "02": "Strategy in action",
-            "03": "Mastering knowledge",
-            "04": "Conflict with wife",
-            "05": "Conflict at work, in the family",
-            "06": "Actions to the detriment of philanthropy",
-            "07": "Crisis in relationships",
-            "08": "Achieving one's goal at any cost",
-            "09": "Cunning",
-            "10": "Loneliness; ideas that have no echo",
-            "11": "Bending one's line",
-            "12": "Judge, lawyer, or attorney",
-            "13": "Punishing",
-            "14": "Widower; sad changes",
-            "15": "Mental adaptation",
-            "16": "Cruelty",
-            "17": "Divorce; loss; material damage; loss of authority",
-            "18": "Hope for an improvement in the situation; paving one's way thanks to the power of the mind",
-            "19": "Losing one's mind; illness",
-            "20": "Mental renewal; an idea that has received recognition",
-            "21": "Development of mental abilities; help in a critical situation",
-            "22": "New project"
-        },
-        "minor": {
-            "cups": {},
-            "pentacles": {},
-            "swords": {},
-            "wands": {
-                "01": "Point the direction",
-                "14": "Ignore",
-                "13": "Divorce",
-                "12": "Brainstorming",
-                "11": "Joyless news",
-                "02": "Calculate",
-                "03": "Brain of the project",
-                "04": "Divorce",
-                "05": "Authoritarianism; attempt to suppress others",
-                "06": "Perceptive and cold-blooded leader",
-                "07": "Parry; treat with arrogance",
-                "08": "Giving an order",
-                "09": "Physical danger",
-                "10": "Abuse of intellect"
-            }
-        }
+    "minor": {
+      "cups": {},
+      "pentacles": {},
+      "swords": {},
+      "wands": {
+        "01": "Point the direction",
+        "14": "Ignore",
+        "13": "Divorce",
+        "12": "Brainstorming",
+        "11": "Joyless news",
+        "02": "Calculate",
+        "03": "Brain of the project",
+        "04": "Divorce",
+        "05": "Authoritarianism; attempt to suppress others",
+        "06": "Perceptive and cold-blooded leader",
+        "07": "Parry; treat with arrogance",
+        "08": "Giving an order",
+        "09": "Physical danger",
+        "10": "Abuse of intellect"
+      }
     }
+  }
 }

@@ -1,18 +1,20 @@
 {
   "name": "Three of Wands",
-  "meaning_for_today": "Today favors expansion, progress, and looking toward the future. Your efforts begin to show results, and new opportunities may arise through cooperation or travel.",
-  "card_advice": "Continue moving forward with confidence. Stay open to new horizons, trust your experience, and think long-term.",
   "upright": {
     "short": "Expansion, progress, foresight, growth, opportunities, confidence.",
     "general": "The Three of Wands symbolizes growth, expansion, and successful progress after careful planning. It represents confidence in the future, exploration of new opportunities, and the ability to see beyond current limitations. The card often points to travel, international connections, or long-term success.",
     "in_love": "In relationships, the Three of Wands suggests growth, shared future plans, and emotional development. It may also indicate long-distance relationships or waiting for someone important.",
-    "in_situation": "A situation is developing positively and moving toward success. Cooperation, strategic thinking, and openness to new opportunities bring favorable results."
+    "in_situation": "A situation is developing positively and moving toward success. Cooperation, strategic thinking, and openness to new opportunities bring favorable results.",
+    "meaning_for_today": "Today favors expansion, progress, and looking toward the future. Your efforts begin to show results, and new opportunities may arise through cooperation or travel.",
+    "card_advice": "Continue moving forward with confidence. Stay open to new horizons, trust your experience, and think long-term."
   },
   "reversed": {
     "short": "Delays, obstacles, lack of progress, limited vision, frustration.",
     "general": "Reversed, the Three of Wands indicates delays, missed opportunities, or frustration caused by poor planning or fear of expansion. Progress may feel slower than expected.",
     "in_love": "Relationships may experience distance, uncertainty about the future, or disappointment in expectations.",
-    "in_situation": "Growth is blocked by hesitation, lack of preparation, or external obstacles. Patience and reevaluation are necessary."
+    "in_situation": "Growth is blocked by hesitation, lack of preparation, or external obstacles. Patience and reevaluation are necessary.",
+    "meaning_for_today": "Today you may feel a sense of restless stagnation as your ships fail to come in. A long-term project, travel plan, or career move might hit a frustrating wall of delays or administrative friction. You could find yourself second-guessing choices you previously made with confidence, or dealing with the fallout of short-sighted planning that failed to consider unexpected external obstacles.",
+    "card_advice": "Do not let temporary setbacks make you abandon your long-term vision. The reversed Three of Wands advises you to step back and figure out exactly where the bottleneck is occurring. It might be time to lower your expectations slightly and deal with immediate internal problems before trying to conquer external horizons. Use this forced delay to refine your logistics and practice patience rather than pushing ahead recklessly."
   },
   "relations": {
     "major": {

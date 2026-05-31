@@ -1,18 +1,20 @@
 {
   "name": "Five of Cups",
-  "meaning_for_today": "Today may bring disappointment, regret, or emotional sadness. However, not everything is lost — support and new opportunities still remain nearby.",
-  "card_advice": "Do not focus only on losses and failures. Accept the past, allow yourself to heal, and notice the opportunities that still exist.",
   "upright": {
     "short": "Loss, disappointment, regret, grief, emotional pain.",
     "general": "The Five of Cups symbolizes sadness, emotional disappointment, regret, and focusing on what has been lost. A person may struggle to move on from painful experiences or missed opportunities. The card reminds that hope and support still remain, even in difficult times.",
     "in_love": "Heartbreak, disappointment, emotional distance, or regret in relationships. Old wounds or unresolved emotions may interfere with harmony.",
-    "in_situation": "The situation may involve setbacks, emotional frustration, or disappointment. It is important not to lose hope and to recognize the possibilities that still remain."
+    "in_situation": "The situation may involve setbacks, emotional frustration, or disappointment. It is important not to lose hope and to recognize the possibilities that still remain.",
+    "meaning_for_today": "Today may bring disappointment, regret, or emotional sadness. However, not everything is lost — support and new opportunities still remain nearby.",
+    "card_advice": "Do not focus only on losses and failures. Accept the past, allow yourself to heal, and notice the opportunities that still exist."
   },
   "reversed": {
     "short": "Healing, acceptance, emotional recovery, moving forward.",
     "general": "Reversed, the Five of Cups indicates emotional healing, acceptance of the past, and recovery after disappointment. A person begins to let go of pain and open up to new possibilities.",
     "in_love": "Reconciliation, emotional healing, forgiveness, or readiness to move on from past relationship pain.",
-    "in_situation": "The situation gradually improves as emotional wounds heal and optimism returns. There is an opportunity for renewal and positive change."
+    "in_situation": "The situation gradually improves as emotional wounds heal and optimism returns. There is an opportunity for renewal and positive change.",
+    "meaning_for_today": "Today may bring emotional healing, acceptance, and the ability to leave past disappointments behind. Gradually, hope and emotional clarity return, helping you see new possibilities for the future.",
+    "card_advice": "Allow yourself to release old pain and stop dwelling on what cannot be changed. Forgiveness, self-compassion, and openness to new experiences will help you move forward emotionally."
   },
   "relations": {
     "major": {

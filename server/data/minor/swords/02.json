@@ -1,96 +1,98 @@
 {
-    "name": "Two of Swords",
+  "name": "Two of Swords",
+  "upright": {
+    "short": "Restraint of emotions, friendship, love, fortitude",
+    "general": "A sign that for some reason, the person has closed themselves off from others, wanting nobody to touch them or interfere in their problems. Surrounding people are irritating at this period. The querent seeks help from others, but at the same time, doesn't want to accept it from anyone. Characteristics include: emotionality, rich imagination, shyness, restraint, kindness. These people need emotional support as they are very sensitive and react sharply to every word. Usually symbolizes people born under the patronage of the Moon.",
+    "in_love": "Reconciliation with the partner will happen very soon, as strong feelings have not yet cooled down and these partners are meant to be together. A happy period begins: they can go on a joint trip, start living together in a new home, or think about having a child. What seemed impossible yesterday seems completely feasible today. The partner will show their best qualities. The union promises to be strong and reliable.",
+    "in_situation": "In the business sphere, a certain period of activity has ended. The atmosphere in the team is friendly. Negotiations and deals will bring moral satisfaction. The querent can skillfully resolve conflict situations using analytical abilities and charm. To get the desired amount of money, additional sources of income should be considered; opportunities for this will soon appear, and a period of active actions will begin. Creative abilities can be safely applied, and someone might offer extra work. Career success will be aided by honesty, diligence, stamina, and high motivation, with a chance to take a leadership position soon. Health-wise, it's advised to take care of health and undergo a full medical examination.",
     "meaning_for_today": "Doubts and anxieties will overwhelm the person today. It seems that intuition is silent. If an important decision needs to be made on this day, it is better not to do it. Tomorrow will come – then it will be clear. The day is simply not entirely suitable for this.",
-    "card_advice": "There is a risk of being involved in conflict situations. By showing wisdom and not entering into arguments, you can maintain peace and good relations with colleagues and friends. Try to stay composed throughout the day, no matter what happens. Demonstrate a readiness for peaceful dialogue with your behavior. The card advises keeping emotions under control.",
-    "upright": {
-        "short": "Restraint of emotions, friendship, love, fortitude",
-        "general": "A sign that for some reason, the person has closed themselves off from others, wanting nobody to touch them or interfere in their problems. Surrounding people are irritating at this period. The querent seeks help from others, but at the same time, doesn't want to accept it from anyone. Characteristics include: emotionality, rich imagination, shyness, restraint, kindness. These people need emotional support as they are very sensitive and react sharply to every word. Usually symbolizes people born under the patronage of the Moon.",
-        "in_love": "Reconciliation with the partner will happen very soon, as strong feelings have not yet cooled down and these partners are meant to be together. A happy period begins: they can go on a joint trip, start living together in a new home, or think about having a child. What seemed impossible yesterday seems completely feasible today. The partner will show their best qualities. The union promises to be strong and reliable.",
-        "in_situation": "In the business sphere, a certain period of activity has ended. The atmosphere in the team is friendly. Negotiations and deals will bring moral satisfaction. The querent can skillfully resolve conflict situations using analytical abilities and charm. To get the desired amount of money, additional sources of income should be considered; opportunities for this will soon appear, and a period of active actions will begin. Creative abilities can be safely applied, and someone might offer extra work. Career success will be aided by honesty, diligence, stamina, and high motivation, with a chance to take a leadership position soon. Health-wise, it's advised to take care of health and undergo a full medical examination."
+    "card_advice": "There is a risk of being involved in conflict situations. By showing wisdom and not entering into arguments, you can maintain peace and good relations with colleagues and friends. Try to stay composed throughout the day, no matter what happens. Demonstrate a readiness for peaceful dialogue with your behavior. The card advises keeping emotions under control."
+  },
+  "reversed": {
+    "short": "Treachery, slander, duplicity, way out of a dead end",
+    "general": "Carries a threat: fraud, an unsuccessful purchase, a possible accident. Words and actions should be weighed carefully to avoid unpleasant events. You need to tune in to quick results and changes. The person should listen to their inner voice. Indecisiveness hurts their life, causing events to develop unexpectedly. Anxieties and doubts are the root of all troubles. There is a risk of encountering deceit and betrayal; a friend might deceive. The sense of peace is fragile. It's necessary to stop discussing other people and weaving intrigues.",
+    "in_love": "The querent is currently in complete tranquility, thinking nothing threatens their love relationship, but this calm hides danger. A scandal may soon break out related to the partner's infidelity or negative actions. The querent has failed to notice obvious things for a long time, while the one nearby is living a double life.",
+    "in_situation": "The querent misjudges colleagues and acquaintances due to gullibility. The surrounding people are plotting intrigues and do not wish them well. Soon, information will be received that will throw them off balance, opening eyes to what is happening. Stress, emotional overload, disappointment in people, resentment, anger, and pain are possible, but this trial will allow looking at reality soberly. In court, the case will be lost. Delays with documentation and the human factor will not bring a positive outcome. In health, attention should be paid to the kidneys and genitourinary system without delay.",
+    "meaning_for_today": "A hidden truth or uncomfortable realization may come to light today. What you have been avoiding, denying, or refusing to see can no longer remain in the background. Be cautious when dealing with other people's promises, advice, or intentions, as not everyone may be acting in your best interest. Although the day may bring disappointment or confusion, it also offers an opportunity to break free from uncertainty and finally see a situation as it truly is.",
+    "card_advice": "Stop postponing decisions and ignoring warning signs. Trust your intuition, but support it with facts and careful observation. Be honest with yourself about what is really happening around you, even if the truth is unpleasant. Avoid gossip, manipulation, and involvement in other people's conflicts. Clarity will come when you are willing to face reality instead of hiding from it."
+  },
+  "relations": {
+    "major": {
+      "01": "To detach oneself from a child",
+      "02": "Doubts about one's skill",
+      "03": "Preferring to know nothing",
+      "04": "Waiting to see what happens next",
+      "05": "Evading assumed obligations",
+      "06": "Pangs of conscience",
+      "07": "Uncertainty in relationships",
+      "08": "Strongest hesitations; lack of foundation for decision making",
+      "09": "Hesitations of an internal nature",
+      "10": "Doubting oneself",
+      "11": "Failing to notice luck",
+      "12": "Fencing oneself off from reasonable arguments",
+      "13": "Taking a wait-and-see attitude",
+      "14": "Fencing oneself off from changes",
+      "15": "Smoothing over sharp corners; looking for a compromise",
+      "16": "Closing eyes to flaws",
+      "17": "Hinder the renewal process",
+      "18": "Closing eyes to deceit and betrayal; engaging in permissiveness",
+      "19": "Not seeing the truth",
+      "21": "Ignoring opportunities",
+      "22": "Refusal to make a decision"
     },
-    "reversed": {
-        "short": "Treachery, slander, duplicity, way out of a dead end",
-        "general": "Carries a threat: fraud, an unsuccessful purchase, a possible accident. Words and actions should be weighed carefully to avoid unpleasant events. You need to tune in to quick results and changes. The person should listen to their inner voice. Indecisiveness hurts their life, causing events to develop unexpectedly. Anxieties and doubts are the root of all troubles. There is a risk of encountering deceit and betrayal; a friend might deceive. The sense of peace is fragile. It's necessary to stop discussing other people and weaving intrigues.",
-        "in_love": "The querent is currently in complete tranquility, thinking nothing threatens their love relationship, but this calm hides danger. A scandal may soon break out related to the partner's infidelity or negative actions. The querent has failed to notice obvious things for a long time, while the one nearby is living a double life.",
-        "in_situation": "The querent misjudges colleagues and acquaintances due to gullibility. The surrounding people are plotting intrigues and do not wish them well. Soon, information will be received that will throw them off balance, opening eyes to what is happening. Stress, emotional overload, disappointment in people, resentment, anger, and pain are possible, but this trial will allow looking at reality soberly. In court, the case will be lost. Delays with documentation and the human factor will not bring a positive outcome. In health, attention should be paid to the kidneys and genitourinary system without delay."
-    },
-    "relations": {
-        "major": {
-            "01": "To detach oneself from a child",
-            "02": "Doubts about one's skill",
-            "03": "Preferring to know nothing",
-            "04": "Waiting to see what happens next",
-            "05": "Evading assumed obligations",
-            "06": "Pangs of conscience",
-            "07": "Uncertainty in relationships",
-            "08": "Strongest hesitations; lack of foundation for decision making",
-            "09": "Hesitations of an internal nature",
-            "10": "Doubting oneself",
-            "11": "Failing to notice luck",
-            "12": "Fencing oneself off from reasonable arguments",
-            "13": "Taking a wait-and-see attitude",
-            "14": "Fencing oneself off from changes",
-            "15": "Smoothing over sharp corners; looking for a compromise",
-            "16": "Closing eyes to flaws",
-            "17": "Hinder the renewal process",
-            "18": "Closing eyes to deceit and betrayal; engaging in permissiveness",
-            "19": "Not seeing the truth",
-            "21": "Ignoring opportunities",
-            "22": "Refusal to make a decision"
-        },
-        "minor": {
-            "cups": {
-                "01": "Emotional blockage or difficulty choosing in love.",
-                "02": "Emotional balance maintained through avoidance.",
-                "03": "Social situations avoided or paused.",
-                "04": "Emotional withdrawal and hesitation.",
-                "05": "Avoiding emotional grief or confrontation.",
-                "06": "Stuck in past emotional memories.",
-                "07": "Confusion in emotional choices.",
-                "08": "Avoiding emotional transitions.",
-                "09": "Unclear emotional desires.",
-                "10": "Emotional stagnation due to indecision."
-            },
-            "pentacles": {
-                "01": "Financial decisions delayed.",
-                "02": "Difficulty balancing resources.",
-                "03": "Work decisions requiring clarity.",
-                "04": "Holding onto resources due to fear of loss.",
-                "05": "Financial stress causing indecision.",
-                "06": "Unclear financial exchange or fairness issues.",
-                "07": "Long-term planning stalled.",
-                "08": "Learning path unclear or delayed.",
-                "09": "Financial independence questioned.",
-                "10": "Legacy decisions postponed."
-            },
-            "swords": {
-                "01": "Mental clarity blocked by indecision.",
-                "02": "Direct reflection of inner conflict and avoidance.",
-                "03": "Mental pain caused by refusal to choose.",
-                "04": "Mental rest but also stagnation.",
-                "05": "Conflict avoided or unresolved.",
-                "06": "Transition delayed due to uncertainty.",
-                "07": "Strategy unclear or divided thinking.",
-                "08": "Mental restriction and self-imposed limits.",
-                "09": "Anxiety increased by indecision.",
-                "10": "Mental overload due to unresolved choices."
-            },
-            "wands": {
-                "01": "Restraining the inner fire",
-                "02": "I see nothing, I hear nothing, I don't admit it to myself",
-                "03": "Not noticing the new reality",
-                "04": "Closedness, isolation",
-                "05": "Ignoring the opinions of others",
-                "06": "Fear, uncertainty, wrong path",
-                "07": "Unwillingness to resist",
-                "08": "Missed opportunities; internal resistance",
-                "09": "Intensifying doubts",
-                "10": "A dead-end situation",
-                "11": "Bad news",
-                "12": "Discord, rift, separation",
-                "13": "Internal conflict with a person who is dear to you",
-                "14": "Fencing oneself off from a person who has influence over you"
-            }
-        }
+    "minor": {
+      "cups": {
+        "01": "Emotional blockage or difficulty choosing in love.",
+        "02": "Emotional balance maintained through avoidance.",
+        "03": "Social situations avoided or paused.",
+        "04": "Emotional withdrawal and hesitation.",
+        "05": "Avoiding emotional grief or confrontation.",
+        "06": "Stuck in past emotional memories.",
+        "07": "Confusion in emotional choices.",
+        "08": "Avoiding emotional transitions.",
+        "09": "Unclear emotional desires.",
+        "10": "Emotional stagnation due to indecision."
+      },
+      "pentacles": {
+        "01": "Financial decisions delayed.",
+        "02": "Difficulty balancing resources.",
+        "03": "Work decisions requiring clarity.",
+        "04": "Holding onto resources due to fear of loss.",
+        "05": "Financial stress causing indecision.",
+        "06": "Unclear financial exchange or fairness issues.",
+        "07": "Long-term planning stalled.",
+        "08": "Learning path unclear or delayed.",
+        "09": "Financial independence questioned.",
+        "10": "Legacy decisions postponed."
+      },
+      "swords": {
+        "01": "Mental clarity blocked by indecision.",
+        "02": "Direct reflection of inner conflict and avoidance.",
+        "03": "Mental pain caused by refusal to choose.",
+        "04": "Mental rest but also stagnation.",
+        "05": "Conflict avoided or unresolved.",
+        "06": "Transition delayed due to uncertainty.",
+        "07": "Strategy unclear or divided thinking.",
+        "08": "Mental restriction and self-imposed limits.",
+        "09": "Anxiety increased by indecision.",
+        "10": "Mental overload due to unresolved choices."
+      },
+      "wands": {
+        "01": "Restraining the inner fire",
+        "02": "I see nothing, I hear nothing, I don't admit it to myself",
+        "03": "Not noticing the new reality",
+        "04": "Closedness, isolation",
+        "05": "Ignoring the opinions of others",
+        "06": "Fear, uncertainty, wrong path",
+        "07": "Unwillingness to resist",
+        "08": "Missed opportunities; internal resistance",
+        "09": "Intensifying doubts",
+        "10": "A dead-end situation",
+        "11": "Bad news",
+        "12": "Discord, rift, separation",
+        "13": "Internal conflict with a person who is dear to you",
+        "14": "Fencing oneself off from a person who has influence over you"
+      }
     }
+  }
 }

@@ -1,18 +1,20 @@
 {
   "name": "The Fool",
-  "meaning_for_today": "Today opens the door to new opportunities, spontaneous decisions, and unexpected experiences. Trust the journey and allow yourself to explore without fear.",
-  "card_advice": "Take the first step with an open heart and free mind. Do not let fear of mistakes prevent you from discovering something new.",
   "upright": {
     "short": "Beginnings, freedom, spontaneity, adventure.",
     "general": "The Fool represents a fresh start, limitless potential, innocence, and the courage to step into the unknown. It symbolizes freedom from limitations and trust in life's unfolding journey.",
     "in_love": "A new romantic chapter, exciting encounters, or emotional openness. Relationships may feel light, playful, and full of possibility.",
-    "in_situation": "The situation calls for flexibility, curiosity, and willingness to take risks. An unexpected opportunity may appear if you remain open-minded."
+    "in_situation": "The situation calls for flexibility, curiosity, and willingness to take risks. An unexpected opportunity may appear if you remain open-minded.",
+    "meaning_for_today": "Today opens the door to new opportunities, spontaneous decisions, and unexpected experiences. Trust the journey and allow yourself to explore without fear.",
+    "card_advice": "Take the first step with an open heart and free mind. Do not let fear of mistakes prevent you from discovering something new."
   },
   "reversed": {
     "short": "Carelessness, naivety, irresponsibility, fear of change.",
     "general": "The reversed Fool points to poor judgment, reckless actions, or fear of taking necessary risks. It may indicate immaturity, hesitation, or lack of preparation.",
     "in_love": "Emotional instability, unrealistic expectations, or avoidance of commitment. A relationship may lack seriousness or direction.",
-    "in_situation": "The situation becomes uncertain due to impulsive choices or fear of moving forward. Greater awareness and caution are needed."
+    "in_situation": "The situation becomes uncertain due to impulsive choices or fear of moving forward. Greater awareness and caution are needed.",
+    "meaning_for_today": "Today you might find yourself swinging between two extremes: either rushing into something blindly without looking at the fine print, or feeling so paralyzed by a potential change that you refuse to move at all. Irresponsibility, scatterbrained energy, or a naive belief that everything will 'just work out' without any effort on your part could lead to silly mistakes. Watch out for buying into deals or promises that sound too good to be true.",
+    "card_advice": "Look before you leap, but don't use looking as an excuse to never move. The reversed Fool advises you to pump the brakes on any major, impulsive decisions today until you've gathered more facts. If you've been acting reckless or ignoring your responsibilities, it's time to ground yourself. Conversely, if fear of making a mistake is keeping you stuck in a rut, remember that while caution is necessary, overthinking will kill your potential. Find the middle ground between bravery and basic common sense."
   },
   "relations": {
     "major": {

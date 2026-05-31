@@ -83,6 +83,11 @@ class TestLoadCardData:
         assert "upright" in data
         assert "reversed" in data
         assert "relations" in data
+        assert "meaning_for_today" not in data
+        assert "meaning_for_today" in data["upright"]
+        assert "card_advice" in data["upright"]
+        assert "meaning_for_today" in data["reversed"]
+        assert "card_advice" in data["reversed"]
 
     def test_load_minor_has_name(self) -> None:
         data = load_card_data("w01")

@@ -1,18 +1,20 @@
 {
   "name": "The Sun",
-  "meaning_for_today": "Today brings clarity, joy, success, and positive energy. Confidence and optimism will help you achieve your goals and strengthen relationships.",
-  "card_advice": "Trust yourself and openly express your true feelings. Stay positive, embrace happiness, and use your energy to inspire others.",
   "upright": {
     "short": "Success, happiness, clarity, vitality.",
     "general": "The Sun symbolizes joy, success, confidence, and truth. It brings warmth, optimism, and a sense of fulfillment. Difficulties fade as clarity and positive energy enter your life. The card represents achievement, vitality, and emotional openness.",
     "in_love": "Relationships become joyful, honest, and emotionally fulfilling. Trust and openness strengthen the connection. Singles may attract a warm and positive relationship filled with sincerity and happiness.",
-    "in_situation": "The situation develops successfully and brings recognition, clarity, and positive results. Obstacles disappear, allowing progress and confidence to grow."
+    "in_situation": "The situation develops successfully and brings recognition, clarity, and positive results. Obstacles disappear, allowing progress and confidence to grow.",
+    "meaning_for_today": "Today brings clarity, joy, success, and positive energy. Confidence and optimism will help you achieve your goals and strengthen relationships.",
+    "card_advice": "Trust yourself and openly express your true feelings. Stay positive, embrace happiness, and use your energy to inspire others."
   },
   "reversed": {
     "short": "Temporary sadness, delayed success, lack of confidence.",
     "general": "Reversed The Sun suggests temporary doubts, emotional fatigue, or delays in achieving success. Positive outcomes are still possible, but pessimism or lack of confidence may block full happiness.",
     "in_love": "A relationship may suffer from misunderstandings, emotional distance, or unrealistic expectations. Joy and openness are reduced by insecurity or communication issues.",
-    "in_situation": "The situation improves slowly due to delays, self-doubt, or lack of clarity. Success remains possible if optimism and persistence are maintained."
+    "in_situation": "The situation improves slowly due to delays, self-doubt, or lack of clarity. Success remains possible if optimism and persistence are maintained.",
+    "meaning_for_today": "Today might feel like a cloudy afternoon where you are struggling to connect with your usual enthusiasm. The sun is still up there, but you’ve let a low-hanging fog of self-doubt, hyper-criticism, or a bruised ego dim your vibe. You might be experiencing a minor setback or a delay in your plans, but instead of shrugging it off, you are letting it trick you into thinking you aren't ready, capable, or worthy of celebrating your wins.",
+    "card_advice": "Don't let a passing cloud convince you that the light is gone forever. The reversed Sun advises you to check your attitude and stop blockading your own happiness with pessimistic thoughts. If your confidence has taken a hit recently, give yourself a reality check—your value hasn't decreased just because someone failed to notice it or a goal took longer to manifest. Lower your expectations of instant perfection, reconnect with your inner child, and remember how to shine simply for the joy of it."
   },
   "relations": {
     "major": {

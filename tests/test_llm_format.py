@@ -13,19 +13,23 @@ from client.llm_format import (
 
 
 def _sample_card(*, reversed_: bool = False) -> dict:
+    orientation = "reversed" if reversed_ else "upright"
+    meanings = {
+        "meaning_for_today": "Today text",
+        "card_advice": "Advice text",
+        "short": "short meaning",
+        "general": "general meaning",
+        "in_love": "love meaning",
+        "in_situation": "situation meaning",
+    }
     return {
         "id": "22",
         "reversed": reversed_,
         "name": "The World",
-        "meaning_for_today": "Today text",
-        "card_advice": "Advice text",
-        "orientation": "reversed" if reversed_ else "upright",
-        "meanings": {
-            "short": "short meaning",
-            "general": "general meaning",
-            "in_love": "love meaning",
-            "in_situation": "situation meaning",
-        },
+        "meaning_for_today": meanings["meaning_for_today"],
+        "card_advice": meanings["card_advice"],
+        "orientation": orientation,
+        "meanings": meanings,
     }
 
 

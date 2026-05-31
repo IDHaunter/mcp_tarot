@@ -1,18 +1,20 @@
 {
   "name": "King of Wands",
-  "meaning_for_today": "Today favors leadership, confidence, and decisive action. Your energy can inspire others and help move important plans forward.",
-  "card_advice": "Trust your vision and act boldly. Lead with confidence, but avoid becoming overly controlling or impatient.",
   "upright": {
     "short": "Leadership, charisma, ambition, vision, confidence, authority.",
     "general": "The King of Wands represents a strong and inspiring leader who combines passion with experience. This card symbolizes ambition, courage, entrepreneurship, and the ability to motivate others. It encourages taking control of situations and pursuing long-term goals with determination.",
     "in_love": "In relationships, the King of Wands points to passion, loyalty, and strong attraction. It may represent a confident and protective partner who values honesty and excitement.",
-    "in_situation": "A situation requires leadership, strategic thinking, and bold decisions. Success comes through confidence, experience, and the ability to inspire cooperation."
+    "in_situation": "A situation requires leadership, strategic thinking, and bold decisions. Success comes through confidence, experience, and the ability to inspire cooperation.",
+    "meaning_for_today": "Today favors leadership, confidence, and decisive action. Your energy can inspire others and help move important plans forward.",
+    "card_advice": "Trust your vision and act boldly. Lead with confidence, but avoid becoming overly controlling or impatient."
   },
   "reversed": {
     "short": "Arrogance, impulsiveness, domination, aggression, lack of direction.",
     "general": "Reversed, the King of Wands may indicate abuse of power, excessive pride, impatience, or reckless behavior. Ambition may become selfishness or manipulation.",
     "in_love": "There may be jealousy, control issues, emotional distance, or dominance within the relationship. Passion can become unstable or overwhelming.",
-    "in_situation": "Poor leadership, rash decisions, or inflated ego create obstacles. It is important to regain balance and avoid forcing outcomes."
+    "in_situation": "Poor leadership, rash decisions, or inflated ego create obstacles. It is important to regain balance and avoid forcing outcomes.",
+    "meaning_for_today": "Today you might cross paths with a real 'my way or the highway' energy. This could look like a demanding boss, an aggressive colleague, or a partner acting entirely too controlling. On the flip side, your own internal fires might turn into a bit of an ego trip today. If things aren't moving fast enough or going exactly to your plan, you are highly susceptible to throwing a temper tantrum, micromanaging those around you, or bulldozing over other people's ideas just to prove you are in charge.",
+    "card_advice": "Rule with respect, not an iron fist. The reversed King of Wands advises you to step back from any power struggles you are actively fueling. If you are in a leadership role, remember that a true leader inspires cooperation rather than demanding submission. Check your temper today, avoid making sweeping declarations when you're frustrated, and make sure your ambition isn't turning into pure arrogance. True authority doesn't need to shout to be heard."
   },
   "relations": {
     "major": {

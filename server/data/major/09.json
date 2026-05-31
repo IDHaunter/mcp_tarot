@@ -1,18 +1,20 @@
 {
   "name": "Strength",
-  "meaning_for_today": "Today requires patience, courage, emotional balance, and inner resilience. Gentle persistence and self-control will help overcome challenges successfully.",
-  "card_advice": "Trust your inner strength rather than force or aggression. Stay calm, patient, and confident while handling difficult situations or emotions.",
   "upright": {
     "short": "Inner strength, courage, patience, self-control, compassion.",
     "general": "Strength represents courage, emotional balance, resilience, and the ability to overcome obstacles through patience and inner power. This card symbolizes confidence, self-discipline, compassion, and mastery over instincts or fears.",
     "in_love": "In relationships, Strength signifies trust, emotional maturity, loyalty, and deep mutual support. It reflects a stable connection built on patience, understanding, and compassion.",
-    "in_situation": "The situation requires calm determination and emotional control. Success will come through patience, confidence, and gentle persistence rather than forceful action."
+    "in_situation": "The situation requires calm determination and emotional control. Success will come through patience, confidence, and gentle persistence rather than forceful action.",
+    "meaning_for_today": "Today requires patience, courage, emotional balance, and inner resilience. Gentle persistence and self-control will help overcome challenges successfully.",
+    "card_advice": "Trust your inner strength rather than force or aggression. Stay calm, patient, and confident while handling difficult situations or emotions."
   },
   "reversed": {
     "short": "Self-doubt, weakness, impatience, emotional imbalance.",
     "general": "Reversed, Strength may indicate insecurity, lack of confidence, emotional instability, fear, or difficulty controlling impulses. It can point to frustration, exhaustion, or inner conflict.",
     "in_love": "In love readings, the reversed Strength card may suggest jealousy, insecurity, emotional tension, or imbalance in the relationship. Patience and honest communication are needed.",
-    "in_situation": "The situation may feel overwhelming due to fear, stress, or lack of confidence. The card advises rebuilding inner stability and avoiding impulsive reactions."
+    "in_situation": "The situation may feel overwhelming due to fear, stress, or lack of confidence. The card advises rebuilding inner stability and avoiding impulsive reactions.",
+    "meaning_for_today": "Today you might feel completely drained, like your inner battery is sitting at zero percent. Imposter syndrome or heavy self-doubt could creep in, making you question your own capabilities. Because your emotional resilience is running low, you are much more susceptible to losing your cool, snapping at people out of raw frustration, or giving into impulsive cravings and old habits you've been trying to break. It's a day where your inner shadows and insecurities are trying to run the show.",
+    "card_advice": "Stop beating yourself up for feeling vulnerable or exhausted. The reversed Strength card advises you to call a timeout instead of trying to bulldoze your way through the day. If you are feeling insecure, overcompensating with aggression or defensive anger will only make things worse. Forgive yourself for not being a superhero today, step away from whatever is triggering your anxiety, and focus on basic emotional maintenance. Real power right now means knowing when to rest and being kind to yourself."
   },
   "relations": {
     "major": {

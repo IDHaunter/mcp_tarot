@@ -1,64 +1,66 @@
 {
-    "name": "Page of Pentacles",
+  "name": "Page of Pentacles",
+  "upright": {
+    "short": "Chance, diligence, studying, kindness, determination",
+    "general": "With the Page of Pentacles, a person fulfills themselves in life, approaching matters with a creative spark, behaving sensitively and naturally, which leads to professional growth and development. The card can indicate a future awaiting the querent soon, such as a good harvest, the birth of a child, or a specific result like a completed report. Generally, it describes a young person (male or female) with a talent for applied arts, capable of creating incredible works of art, and who feels like a master of their craft despite their youth. They enjoy good health, have an excellent value system, correct ethics, and a sense of morality. Received information will be related to education, work, and income. The card has a positive meaning and a favorable effect on resolving everyday issues.",
+    "in_love": "Sensuality is observed in the relationship of lovers, and people build their relationship on mutual understanding. Thanks to their partner, a person will gain useful experience that will prompt them to move to a new stage of the relationship (e.g., from falling in love to stability, or from friendship to love). Even if problematic situations arise, they will quickly become resolvable. Usually, the card falls to a romantic, a dreamer. If a person truly dreams of achieving good results in love, they need to work on it, set goals, create plans, and implement them. But before getting closer to what is desired, it is necessary to study and know the person you dream about well.",
+    "in_situation": "Practical activity will manifest, which will be connected with some production or gardening. Nevertheless, the person will set realistic goals that can actually be achieved through their efforts. If characterizing a situation, it is directly related to an offer of a new position, a job, or planning intended matters, which the person successfully implements. The card warns to be attentive to documents requiring a signature, as well as to details and other small things. If desired, they will be able to get to the bottom of the truth, and there is a probability of getting a good education.",
     "meaning_for_today": "Today there will be a chance to get something you didn't even dream of. Do not refuse profitable deals, help people, and provide them with practical assistance and financial support. Changes are expected in your personal life, which will be associated exclusively with pleasant events and sensations. You will receive useful advice from your partner, which will motivate you to create a strong and long-lasting union. On this day, problems and disputes that have accumulated for years will be successfully resolved.",
-    "card_advice": "Do not believe everything they say, trust only proven facts. It is possible that you will receive false news. Only thanks to reliable information can you proceed toward your intended goal. Do not refuse manual work, because with this card it will turn out best of all. In addition, it will bring you positive emotions and satisfaction.",
-    "upright": {
-        "short": "Chance, diligence, studying, kindness, determination",
-        "general": "With the Page of Pentacles, a person fulfills themselves in life, approaching matters with a creative spark, behaving sensitively and naturally, which leads to professional growth and development. The card can indicate a future awaiting the querent soon, such as a good harvest, the birth of a child, or a specific result like a completed report. Generally, it describes a young person (male or female) with a talent for applied arts, capable of creating incredible works of art, and who feels like a master of their craft despite their youth. They enjoy good health, have an excellent value system, correct ethics, and a sense of morality. Received information will be related to education, work, and income. The card has a positive meaning and a favorable effect on resolving everyday issues.",
-        "in_love": "Sensuality is observed in the relationship of lovers, and people build their relationship on mutual understanding. Thanks to their partner, a person will gain useful experience that will prompt them to move to a new stage of the relationship (e.g., from falling in love to stability, or from friendship to love). Even if problematic situations arise, they will quickly become resolvable. Usually, the card falls to a romantic, a dreamer. If a person truly dreams of achieving good results in love, they need to work on it, set goals, create plans, and implement them. But before getting closer to what is desired, it is necessary to study and know the person you dream about well.",
-        "in_situation": "Practical activity will manifest, which will be connected with some production or gardening. Nevertheless, the person will set realistic goals that can actually be achieved through their efforts. If characterizing a situation, it is directly related to an offer of a new position, a job, or planning intended matters, which the person successfully implements. The card warns to be attentive to documents requiring a signature, as well as to details and other small things. If desired, they will be able to get to the bottom of the truth, and there is a probability of getting a good education."
+    "card_advice": "Do not believe everything they say, trust only proven facts. It is possible that you will receive false news. Only thanks to reliable information can you proceed toward your intended goal. Do not refuse manual work, because with this card it will turn out best of all. In addition, it will bring you positive emotions and satisfaction."
+  },
+  "reversed": {
+    "short": "Carelessness, self-criticism, illness, mistakes",
+    "general": "The reversed card has a negative side, as a person under its influence neglects spiritual development, shows greed and selfishness, and becomes fussy and wasteful. When looking at a person's character, it implies laziness and pettiness. Sometimes they even commit illogical actions, are too extravagant, and do not enjoy good health. Their mood changes frequently depending on situations. Such a person may take life lightly, without even trying to analyze problems. One of the main problems is mistrust; they simply do not believe people, their actions, or words. They do not learn from mistakes, missing chances related to studies, and risk losing material wealth. A craving for a luxurious life at someone else's expense is noticeable, and all opportunities for earning money turn out to be unsuccessful.",
+    "in_love": "The querent experiences a lack of respect from their loved one, or perhaps this disrespect comes from both partners. In addition, they do not know how to plan a joint budget. One of the partners is clearly stingy and tries to control the other's expenses. Boredom and routine are present in the relationship. Pregnancy with a reversed card cannot be called healthy, as a woman risks losing the baby (miscarriage). Financial problems also await the querent, which will negatively affect their family relationships.",
+    "in_situation": "The card is characterized by additional spending of money on one's own business. Perhaps the person being read for does not completely understand what they are doing, resulting in blunders in business. In many situations, they will be unable to evaluate themselves adequately. This person will elevate their pettiness, selfishness, and envy, considering them virtues. Although it is precisely due to a feeling of envy that they can achieve a lot in life, since envy acts as a push forward and a desire for a better future. The card symbolizes quarrels, unpleasant news, and financial difficulties. The person is a rude, banal, narcissistic, and selfish individual. In some situations, they are capable of not only humiliating someone but also using physical violence.",
+    "meaning_for_today": "Today you may overlook an important opportunity because of distraction, procrastination, or a lack of preparation. Be careful with documents, finances, studies, and new proposals, as small mistakes can have larger consequences than expected. Avoid making promises you cannot keep and do not rely on luck alone to achieve your goals. There is a risk of wasting time, money, or energy on matters that offer little real benefit. Stay grounded, pay attention to details, and double-check information before acting.",
+    "card_advice": "Take your responsibilities seriously and be willing to learn from both successes and mistakes. Do not allow laziness, impatience, or overconfidence to prevent your growth. If progress has stalled, focus on improving your skills, organizing your plans, and developing greater discipline. Opportunities are still available, but they require effort, practical thinking, and careful attention. What seems like a minor detail today may determine your future success."
+  },
+  "relations": {
+    "major": {
+      "01": "Empty efforts, searches",
+      "02": "Increase in salary, professionalism",
+      "03": "Receiving profit",
+      "04": "Growth of profit, results",
+      "05": "Career growth",
+      "06": "Studying religion, philosophy",
+      "07": "Sensual interest in relationships",
+      "08": "To lose meaning; a game",
+      "09": "Strengthen health",
+      "10": "Losses",
+      "11": "To put on the line",
+      "12": "Find a grain of truth",
+      "13": "Vain sacrifices; fruitless search",
+      "14": "Futility",
+      "15": "Experience; patience",
+      "16": "Extract profit by dishonest means",
+      "17": "Deterioration of well-being, health",
+      "18": "A chance to find one's calling",
+      "19": "Illusions; waste of money; wrong conclusions",
+      "20": "Get to the bottom of it; discovery",
+      "21": "Opportunity to figure things out, strengthen knowledge",
+      "22": "Graduate from an educational institution; get a degree, title"
     },
-    "reversed": {
-        "short": "Carelessness, self-criticism, illness, mistakes",
-        "general": "The reversed card has a negative side, as a person under its influence neglects spiritual development, shows greed and selfishness, and becomes fussy and wasteful. When looking at a person's character, it implies laziness and pettiness. Sometimes they even commit illogical actions, are too extravagant, and do not enjoy good health. Their mood changes frequently depending on situations. Such a person may take life lightly, without even trying to analyze problems. One of the main problems is mistrust; they simply do not believe people, their actions, or words. They do not learn from mistakes, missing chances related to studies, and risk losing material wealth. A craving for a luxurious life at someone else's expense is noticeable, and all opportunities for earning money turn out to be unsuccessful.",
-        "in_love": "The querent experiences a lack of respect from their loved one, or perhaps this disrespect comes from both partners. In addition, they do not know how to plan a joint budget. One of the partners is clearly stingy and tries to control the other's expenses. Boredom and routine are present in the relationship. Pregnancy with a reversed card cannot be called healthy, as a woman risks losing the baby (miscarriage). Financial problems also await the querent, which will negatively affect their family relationships.",
-        "in_situation": "The card is characterized by additional spending of money on one's own business. Perhaps the person being read for does not completely understand what they are doing, resulting in blunders in business. In many situations, they will be unable to evaluate themselves adequately. This person will elevate their pettiness, selfishness, and envy, considering them virtues. Although it is precisely due to a feeling of envy that they can achieve a lot in life, since envy acts as a push forward and a desire for a better future. The card symbolizes quarrels, unpleasant news, and financial difficulties. The person is a rude, banal, narcissistic, and selfish individual. In some situations, they are capable of not only humiliating someone but also using physical violence."
-    },
-    "relations": {
-        "major": {
-            "01": "Empty efforts, searches",
-            "02": "Increase in salary, professionalism",
-            "03": "Receiving profit",
-            "04": "Growth of profit, results",
-            "05": "Career growth",
-            "06": "Studying religion, philosophy",
-            "07": "Sensual interest in relationships",
-            "08": "To lose meaning; a game",
-            "09": "Strengthen health",
-            "10": "Losses",
-            "11": "To put on the line",
-            "12": "Find a grain of truth",
-            "13": "Vain sacrifices; fruitless search",
-            "14": "Futility",
-            "15": "Experience; patience",
-            "16": "Extract profit by dishonest means",
-            "17": "Deterioration of well-being, health",
-            "18": "A chance to find one's calling",
-            "19": "Illusions; waste of money; wrong conclusions",
-            "20": "Get to the bottom of it; discovery",
-            "21": "Opportunity to figure things out, strengthen knowledge",
-            "22": "Graduate from an educational institution; get a degree, title"
-        },
-        "minor": {
-            "cups": {},
-            "pentacles": {},
-            "swords": {},
-            "wands": {
-                "01": "A new project thanks to which you can earn money",
-				"02": "Doubts about one's financial capabilities",
-				"03": "Cautious but beneficial cooperation",
-				"04": "Achievements or award or graduation.",
-				"05": "scatter efforts",
-				"06": "A profitable direction. Acquisition of new knowledge and skills.",
-				"07": "Encounter with the vicissitudes of fate",
-				"08": "Make an offer",
-				"09": "Distrust or scrutiny",
-				"10": "lost hopes",
-                "11": "A creative approach to a practical issue",
-                "12": "Lack of stamina",
-                "13": "Striving for success in business",
-                "14": "Take a leadership position"
-            }
-        }
+    "minor": {
+      "cups": {},
+      "pentacles": {},
+      "swords": {},
+      "wands": {
+        "01": "A new project thanks to which you can earn money",
+        "02": "Doubts about one's financial capabilities",
+        "03": "Cautious but beneficial cooperation",
+        "04": "Achievements or award or graduation.",
+        "05": "scatter efforts",
+        "06": "A profitable direction. Acquisition of new knowledge and skills.",
+        "07": "Encounter with the vicissitudes of fate",
+        "08": "Make an offer",
+        "09": "Distrust or scrutiny",
+        "10": "lost hopes",
+        "11": "A creative approach to a practical issue",
+        "12": "Lack of stamina",
+        "13": "Striving for success in business",
+        "14": "Take a leadership position"
+      }
     }
+  }
 }

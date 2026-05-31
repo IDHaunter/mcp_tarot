@@ -1,64 +1,66 @@
 {
-    "name": "Queen of Pentacles",
+  "name": "Queen of Pentacles",
+  "upright": {
+    "short": "Kindness, hard work, cordiality, loyalty.",
+    "general": "Indicates maturity, experience, common sense, endurance, serenity, and fertility. It brings stability, tranquility, patience, and foresight. A person's labors are appreciated, and they know how to find pleasure even in daily tasks. It usually describes an older woman with excellent maternal instincts—a good homemaker, empathetic mother, and caring spouse. She values the safety of material assets, stable income, strong family ties, and home comfort. It brings pleasant chores related to purchases, household management, manual labor, and making a cozy atmosphere.",
+    "in_love": "The person shows a warm, cordial, and loyal nature. In marriage, they receive sensory pleasure. The card signifies a feeling of protection or a strong desire for it. It indicates readiness for marriage, such as when a man is ready to propose to his beloved woman without worrying about comfort, as everything is already settled. The couple will joyfully dream together and successfully manifest those dreams. Past relationship problems will shift for the better.",
+    "in_situation": "The person shows a strong character under various circumstances, acting deliberately and responsibly, even taking on complex projects. They are ready to patiently and systematically follow set goals. Reflects a prudent and organized worker who demonstrates mastery, insight, and a creative approach to professional tasks. High qualifications are shown without large ambitions—the main goal is order, stability, and reliability to be confident in tomorrow. A conscientious and excellent worker who can handle high positions but does not aggressively compete for power.",
     "meaning_for_today": "Do not allow other people to manipulate you. Right now, everything depends on you, so just consistently carry out your work and remember long-term projects. A meeting with a woman who possesses strong maternal instincts and kindness is not excluded; this woman can play an important role in your fate, and it is worth listening to what she says.",
-    "card_advice": "You need to be guided by your own opinions and judgments, and under no circumstances allow other people to influence your train of thought. Any business should be done calmly, without fuss, and most importantly, with a measured and consistent pace of action. Do not focus exclusively on work duties, as everyday chores are no less significant.",
-    "upright": {
-        "short": "Kindness, hard work, cordiality, loyalty.",
-        "general": "Indicates maturity, experience, common sense, endurance, serenity, and fertility. It brings stability, tranquility, patience, and foresight. A person's labors are appreciated, and they know how to find pleasure even in daily tasks. It usually describes an older woman with excellent maternal instincts—a good homemaker, empathetic mother, and caring spouse. She values the safety of material assets, stable income, strong family ties, and home comfort. It brings pleasant chores related to purchases, household management, manual labor, and making a cozy atmosphere.",
-        "in_love": "The person shows a warm, cordial, and loyal nature. In marriage, they receive sensory pleasure. The card signifies a feeling of protection or a strong desire for it. It indicates readiness for marriage, such as when a man is ready to propose to his beloved woman without worrying about comfort, as everything is already settled. The couple will joyfully dream together and successfully manifest those dreams. Past relationship problems will shift for the better.",
-        "in_situation": "The person shows a strong character under various circumstances, acting deliberately and responsibly, even taking on complex projects. They are ready to patiently and systematically follow set goals. Reflects a prudent and organized worker who demonstrates mastery, insight, and a creative approach to professional tasks. High qualifications are shown without large ambitions—the main goal is order, stability, and reliability to be confident in tomorrow. A conscientious and excellent worker who can handle high positions but does not aggressively compete for power."
+    "card_advice": "You need to be guided by your own opinions and judgments, and under no circumstances allow other people to influence your train of thought. Any business should be done calmly, without fuss, and most importantly, with a measured and consistent pace of action. Do not focus exclusively on work duties, as everyday chores are no less significant."
+  },
+  "reversed": {
+    "short": "Mistrustfulness, greed, boastfulness.",
+    "general": "The person does not seek to develop or improve, and sometimes even degrades, both in grand areas and daily routines. It can indicate a poor homemaker who hasn't developed culinary skills, or someone who fears anything new and refuses to understand it. This impracticality can lead to lost opportunities or even poverty. The person constantly looks back, listens to other people's opinions, and depends on outside advice. Generally responsible for a lack of accountability, suspiciousness, distrustfulness, and carelessness, lacking logic and common sense.",
+    "in_love": "Characterized by excessive overprotection, complexes caused by self-doubt, and intimate problems. The person feels insecure, cannot control their emotions, and their constant grievances against their partner prevent happiness. They feel that their loved one doesn't give them proper attention, causing frequent mood swings. If it falls for a man, he will stall and hesitate to propose or marry, believing the right moment hasn't arrived, even though he tries to portray a successful and harmonious personal life to outsiders.",
+    "in_situation": "Indicates an irresponsible individual prone to shifting their duties onto others. They are lazy, unable to work methodically and systematically, and lack motivation. The person harbors unjustified claims and high self-esteem, expecting more but receiving less than desired. Due to a sharp tongue and unrestrained expressions, they harm themselves in many situations (at work, at home). They are often hasty and impatient, which has a destructive impact on their affairs.",
+    "meaning_for_today": "Today you may feel overwhelmed by practical concerns, financial worries, or responsibilities that seem heavier than usual. There is a risk of becoming overly focused on material matters while neglecting emotional needs, relationships, or personal well-being. Be careful not to micromanage others, impose your expectations, or seek validation through possessions, status, or control. Misunderstandings may arise if you become overly critical, possessive, or defensive. Take time to restore balance between caring for others and caring for yourself.",
+    "card_advice": "Examine whether fear, insecurity, or a desire for control is influencing your decisions. Do not allow financial concerns, jealousy, or dependence on other people's opinions to dictate your actions. Focus on creating stability through practical effort and self-confidence rather than through external approval. Be patient with yourself and others, manage resources wisely, and remember that true security comes from inner balance and self-respect, not merely from material comfort."
+  },
+  "relations": {
+    "major": {
+      "01": "Lack of practicality",
+      "02": "A well-thought-out start",
+      "03": "Common sense",
+      "04": "The fruits of economy and practicality",
+      "05": "Reasonable household management, business affairs",
+      "06": "Practical teaching",
+      "07": "Ordered relations",
+      "08": "Contribution to regulating a process",
+      "09": "Taking practical matters under control",
+      "10": "Impracticality; poverty",
+      "11": "Taking advantage of the right time or season",
+      "12": "Receiving what is fair by justice",
+      "13": "Absurdity, pointlessness",
+      "14": "Showing foresight",
+      "15": "Restoring order, tidying up",
+      "16": "Carelessness; greed",
+      "17": "Wastefulness; budget is bursting at the seams",
+      "18": "Dreams that have solid ground beneath them",
+      "19": "The illusion of well-being; losses",
+      "20": "Creativity; fame",
+      "21": "Development of abilities",
+      "22": "Promotion at work"
     },
-    "reversed": {
-        "short": "Mistrustfulness, greed, boastfulness.",
-        "general": "The person does not seek to develop or improve, and sometimes even degrades, both in grand areas and daily routines. It can indicate a poor homemaker who hasn't developed culinary skills, or someone who fears anything new and refuses to understand it. This impracticality can lead to lost opportunities or even poverty. The person constantly looks back, listens to other people's opinions, and depends on outside advice. Generally responsible for a lack of accountability, suspiciousness, distrustfulness, and carelessness, lacking logic and common sense.",
-        "in_love": "Characterized by excessive overprotection, complexes caused by self-doubt, and intimate problems. The person feels insecure, cannot control their emotions, and their constant grievances against their partner prevent happiness. They feel that their loved one doesn't give them proper attention, causing frequent mood swings. If it falls for a man, he will stall and hesitate to propose or marry, believing the right moment hasn't arrived, even though he tries to portray a successful and harmonious personal life to outsiders.",
-        "in_situation": "Indicates an irresponsible individual prone to shifting their duties onto others. They are lazy, unable to work methodically and systematically, and lack motivation. The person harbors unjustified claims and high self-esteem, expecting more but receiving less than desired. Due to a sharp tongue and unrestrained expressions, they harm themselves in many situations (at work, at home). They are often hasty and impatient, which has a destructive impact on their affairs."
-    },
-    "relations": {
-        "major": {
-            "01": "Lack of practicality",
-            "02": "A well-thought-out start",
-            "03": "Common sense",
-            "04": "The fruits of economy and practicality",
-            "05": "Reasonable household management, business affairs",
-            "06": "Practical teaching",
-            "07": "Ordered relations",
-            "08": "Contribution to regulating a process",
-            "09": "Taking practical matters under control",
-            "10": "Impracticality; poverty",
-            "11": "Taking advantage of the right time or season",
-            "12": "Receiving what is fair by justice",
-            "13": "Absurdity, pointlessness",
-            "14": "Showing foresight",
-            "15": "Restoring order, tidying up",
-            "16": "Carelessness; greed",
-            "17": "Wastefulness; budget is bursting at the seams",
-            "18": "Dreams that have solid ground beneath them",
-            "19": "The illusion of well-being; losses",
-            "20": "Creativity; fame",
-            "21": "Development of abilities",
-            "22": "Promotion at work"
-        },
-        "minor": {
-            "cups": {},
-            "pentacles": {},
-            "swords": {},
-            "wands": {
-                "01": "Favorable financial opportunity",
-                "02": "Financial planning",
-                "03": "Skillful conduct of business",
-                "04": "Prosperity in the house",
-                "05": "Financial disputes",
-                "06": "Reasonable conduct of business",
-                "07": "Financial claims",
-                "08": "Using financial opportunities",
-                "09": "Patience at the limit of possibilities",
-                "10": "Sticking one's neck out; impracticality",
-                "11": "Practical abilities",
-                "12": "An adventure",
-                "13": "Financial power",
-                "14": "Financial initiative"
-            }
-        }
+    "minor": {
+      "cups": {},
+      "pentacles": {},
+      "swords": {},
+      "wands": {
+        "01": "Favorable financial opportunity",
+        "02": "Financial planning",
+        "03": "Skillful conduct of business",
+        "04": "Prosperity in the house",
+        "05": "Financial disputes",
+        "06": "Reasonable conduct of business",
+        "07": "Financial claims",
+        "08": "Using financial opportunities",
+        "09": "Patience at the limit of possibilities",
+        "10": "Sticking one's neck out; impracticality",
+        "11": "Practical abilities",
+        "12": "An adventure",
+        "13": "Financial power",
+        "14": "Financial initiative"
+      }
     }
+  }
 }

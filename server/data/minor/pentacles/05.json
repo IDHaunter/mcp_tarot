@@ -1,64 +1,66 @@
 {
-    "name": "Five of Pentacles",
+  "name": "Five of Pentacles",
+  "upright": {
+    "short": "Troubles, losses, bad luck, no ground under your feet",
+    "general": "Most often, the Five of Pentacles acts as a symbol of anxiety. This can be a motivated anxiety - business difficulties, too heavy workloads, heavy responsibility, the risk of losing something valuable, as well as unmotivated fears - phobias, depression. At the same time, the card usually falls to people who tend to live by feelings, one day at a time, without clear plans and calculations for the future. In this case, the card indicates that the cause of anxiety lies precisely in such a life position. In a positive aspect, the card can mean a period of trials, the purpose of which is to prepare a person for a new stage of their existence, to develop and strengthen them spiritually. In this sense, the card calls to meet the blows of fate with dignity, to go for conscious self-restraint, to show patience and endurance.",
+    "in_love": "In divination for love and relationships, the card speaks of distrust, suspicion, and a crisis stage in the relationship. This can be a problem for one of the partners (jealousy, dissatisfaction, some kind of suspicion), or a general decline in relationships that 'didn't work out.' Very often, the card says that in a couple, one of the partners tends to create problems for the other - overloads them with complaints or demands some unmotivated restrictions.",
+    "in_situation": "The card indicates an unstable, unreliable position. So, if a business situation was considered, it can be interpreted as an event that can equally lead to career growth or dismissal (for example, an audit). It also indicates that a person has to go through an event they are afraid of (exam, interview, moving, moving to a new position). Treating the card as an omen of failure is not worth it - it only says that the person is afraid of the upcoming event, but it is not necessarily truly terrible. In addition, instability is good because it cannot last long. The Five of Pentacles says that all problems will be resolved soon (whether good or bad is the question). The card has a truly bad meaning in health layouts - it promises a sharp deterioration, a serious (even life-threatening) illness.",
     "meaning_for_today": "You should not make far-reaching plans for such a day - things will not go as they should anyway. It might be worth thinking about changing your life priorities. Perhaps an unfavorable period in life is ahead. But life, as you know, is like a zebra, so you should accept the upcoming trials with dignity, endure them patiently, and things will quickly improve.",
-    "card_advice": "Unjustified claims and excessive desires do not lead to good. It is better to remember that any blessing must be earned, treat problems and difficulties philosophically, and then it may turn out that they are not as scary as they seemed at first glance.",
-    "upright": {
-        "short": "Troubles, losses, bad luck, no ground under your feet",
-        "general": "Most often, the Five of Pentacles acts as a symbol of anxiety. This can be a motivated anxiety - business difficulties, too heavy workloads, heavy responsibility, the risk of losing something valuable, as well as unmotivated fears - phobias, depression. At the same time, the card usually falls to people who tend to live by feelings, one day at a time, without clear plans and calculations for the future. In this case, the card indicates that the cause of anxiety lies precisely in such a life position. In a positive aspect, the card can mean a period of trials, the purpose of which is to prepare a person for a new stage of their existence, to develop and strengthen them spiritually. In this sense, the card calls to meet the blows of fate with dignity, to go for conscious self-restraint, to show patience and endurance.",
-        "in_love": "In divination for love and relationships, the card speaks of distrust, suspicion, and a crisis stage in the relationship. This can be a problem for one of the partners (jealousy, dissatisfaction, some kind of suspicion), or a general decline in relationships that 'didn't work out.' Very often, the card says that in a couple, one of the partners tends to create problems for the other - overloads them with complaints or demands some unmotivated restrictions.",
-        "in_situation": "The card indicates an unstable, unreliable position. So, if a business situation was considered, it can be interpreted as an event that can equally lead to career growth or dismissal (for example, an audit). It also indicates that a person has to go through an event they are afraid of (exam, interview, moving, moving to a new position). Treating the card as an omen of failure is not worth it - it only says that the person is afraid of the upcoming event, but it is not necessarily truly terrible. In addition, instability is good because it cannot last long. The Five of Pentacles says that all problems will be resolved soon (whether good or bad is the question). The card has a truly bad meaning in health layouts - it promises a sharp deterioration, a serious (even life-threatening) illness."
+    "card_advice": "Unjustified claims and excessive desires do not lead to good. It is better to remember that any blessing must be earned, treat problems and difficulties philosophically, and then it may turn out that they are not as scary as they seemed at first glance."
+  },
+  "reversed": {
+    "short": "Diligence, resilience, new job, unemployment",
+    "general": "In the reversed position, the card has a fairly optimistic meaning. Most often, the appearance of the card in this position suggests that at the moment the querent has a 'black streak' in life, but it is already ending. In this case, the appearance of this arcana should be accepted as a recommendation to treat problems philosophically, to show patience, since soon things will begin to improve on their own little by little. The Five of Pentacles says that the solution to the problem has already been found by the querent, or it will come to them in the near future. This can be either their own action or an external influence.",
+    "in_love": "In the reversed position, the Five of Pentacles indicates a difficult stage in the relationship caused by very specific reasons. Most often, this is an incorrect understanding of the foundations on which relationships should be built. However, the card points to a solvable problem, one that can be successfully 'entangled' if desired and if the source of evil is correctly identified. In some cases, the card may also indicate that the peak of the relationship crisis has already passed, or that the existing problems will not disrupt them.",
+    "in_situation": "The arcana may indicate that the querent faces an groundless quarrel based on unproven and unfair accusations. Another option is that in a difficult situation a person will have to make a moral choice, and the result will not be very moral. Often a reversed card can suggest that a person exaggerates their problems, and the situation worsens precisely because of this. In such a case, the card should be understood as advice not to panic and not to be afraid more than the situation truly deserves. Also, the card can mean a period of stagnation, when no force can make the situation develop.",
+    "meaning_for_today": "Even if the day begins with anxiety, setbacks, or a feeling of uncertainty, the reversed Five of Pentacles reminds you that the worst is already passing. Today may bring a chance to solve an old problem, receive support, or notice opportunities that were previously hidden by fear and pessimism. Do not isolate yourself or exaggerate difficulties — help, answers, or relief may arrive sooner than expected if you remain calm and open to change.",
+    "card_advice": "Do not lose faith because of temporary hardships. Your situation is more manageable than it seems, and recovery has already begun. Focus on practical steps instead of dwelling on fear or disappointment. Accept support when it is offered, avoid self-pity, and remember that resilience and patience will gradually lead you out of the crisis."
+  },
+  "relations": {
+    "major": {
+      "01": "Financial problems; poverty; housing problems",
+      "02": "Loss of initiative",
+      "03": "Loss of instinct/flair",
+      "04": "Losing profits",
+      "05": "Losing job, family",
+      "06": "Lose faith; lose conscience",
+      "07": "Lose support in relationships",
+      "08": "Fight for survival",
+      "09": "Impotence / powerlessness",
+      "10": "Getting lost; abandonment",
+      "11": "Lose luck; crisis",
+      "12": "Recognition of insolvency",
+      "13": "Vise of crisis",
+      "14": "Lose health",
+      "15": "Resign yourself to deprivation",
+      "16": "Drop to 'the bottom'",
+      "17": "Loss of home, health: shelter",
+      "18": "Hope that hardships and deprivations will end someday",
+      "19": "Bleak financial future; lack of support",
+      "20": "Relief",
+      "21": "'Seeing the light at the end of the tunnel'",
+      "22": "Finding your world, your home, citizenship"
     },
-    "reversed": {
-        "short": "Diligence, resilience, new job, unemployment",
-        "general": "In the reversed position, the card has a fairly optimistic meaning. Most often, the appearance of the card in this position suggests that at the moment the querent has a 'black streak' in life, but it is already ending. In this case, the appearance of this arcana should be accepted as a recommendation to treat problems philosophically, to show patience, since soon things will begin to improve on their own little by little. The Five of Pentacles says that the solution to the problem has already been found by the querent, or it will come to them in the near future. This can be either their own action or an external influence.",
-        "in_love": "In the reversed position, the Five of Pentacles indicates a difficult stage in the relationship caused by very specific reasons. Most often, this is an incorrect understanding of the foundations on which relationships should be built. However, the card points to a solvable problem, one that can be successfully 'entangled' if desired and if the source of evil is correctly identified. In some cases, the card may also indicate that the peak of the relationship crisis has already passed, or that the existing problems will not disrupt them.",
-        "in_situation": "The arcana may indicate that the querent faces an groundless quarrel based on unproven and unfair accusations. Another option is that in a difficult situation a person will have to make a moral choice, and the result will not be very moral. Often a reversed card can suggest that a person exaggerates their problems, and the situation worsens precisely because of this. In such a case, the card should be understood as advice not to panic and not to be afraid more than the situation truly deserves. Also, the card can mean a period of stagnation, when no force can make the situation develop."
-    },
-    "relations": {
-        "major": {
-            "01": "Financial problems; poverty; housing problems",
-            "02": "Loss of initiative",
-            "03": "Loss of instinct/flair",
-            "04": "Losing profits",
-            "05": "Losing job, family",
-            "06": "Lose faith; lose conscience",
-            "07": "Lose support in relationships",
-            "08": "Fight for survival",
-            "09": "Impotence / powerlessness",
-            "10": "Getting lost; abandonment",
-            "11": "Lose luck; crisis",
-            "12": "Recognition of insolvency",
-            "13": "Vise of crisis",
-            "14": "Lose health",
-            "15": "Resign yourself to deprivation",
-            "16": "Drop to 'the bottom'",
-            "17": "Loss of home, health: shelter",
-            "18": "Hope that hardships and deprivations will end someday",
-            "19": "Bleak financial future; lack of support",
-            "20": "Relief",
-            "21": "'Seeing the light at the end of the tunnel'",
-            "22": "Finding your world, your home, citizenship"
-        },
-        "minor": {
-            "cups": {},
-            "pentacles": {},
-            "swords": {},
-            "wands": {
-                "01": "Seeing light in the darkness",
-                "02": "Not noticing opportunities",
-                "03": "Barely perceptible progress in the current situation",
-                "04": "Goal not achieved",
-                "05": "Fight for survival",
-                "06": "Deterioration of material status; wrongly chosen direction",
-                "07": "Inability to stand up for yourself",
-                "08": "Fall",
-                "09": "Exhausted by problems",
-                "10": "Dejection; stress; damaged health",
-                "11": "Joyless news",
-                "12": "Trials; breakup",
-                "13": "Lack of self-belief; unwise management of affairs",
-                "14": "Lack of energy; shortsightedness and lack of prudence"
-            }
-        }
+    "minor": {
+      "cups": {},
+      "pentacles": {},
+      "swords": {},
+      "wands": {
+        "01": "Seeing light in the darkness",
+        "02": "Not noticing opportunities",
+        "03": "Barely perceptible progress in the current situation",
+        "04": "Goal not achieved",
+        "05": "Fight for survival",
+        "06": "Deterioration of material status; wrongly chosen direction",
+        "07": "Inability to stand up for yourself",
+        "08": "Fall",
+        "09": "Exhausted by problems",
+        "10": "Dejection; stress; damaged health",
+        "11": "Joyless news",
+        "12": "Trials; breakup",
+        "13": "Lack of self-belief; unwise management of affairs",
+        "14": "Lack of energy; shortsightedness and lack of prudence"
+      }
     }
+  }
 }

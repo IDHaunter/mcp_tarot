@@ -1,18 +1,20 @@
 {
   "name": "Nine of Wands",
-  "meaning_for_today": "Today may test your endurance and patience. Despite fatigue or doubts, you are closer to success than you realize, and persistence will help you overcome the final obstacles.",
-  "card_advice": "Do not give up now. Protect your boundaries, stay alert, and trust the strength gained through past experience.",
   "upright": {
     "short": "Persistence, resilience, caution, endurance.",
     "general": "The Nine of Wands symbolizes inner strength, perseverance, and readiness to face challenges. It appears when a person is tired from previous struggles but still capable of defending their position and continuing forward.",
     "in_love": "Past emotional wounds may create caution in relationships. Trust must be rebuilt slowly, but resilience and commitment can strengthen the connection.",
-    "in_situation": "The situation requires patience and vigilance. Difficulties are not yet fully over, but your experience and determination provide protection and stability."
+    "in_situation": "The situation requires patience and vigilance. Difficulties are not yet fully over, but your experience and determination provide protection and stability.",
+    "meaning_for_today": "Today may test your endurance and patience. Despite fatigue or doubts, you are closer to success than you realize, and persistence will help you overcome the final obstacles.",
+    "card_advice": "Do not give up now. Protect your boundaries, stay alert, and trust the strength gained through past experience."
   },
   "reversed": {
     "short": "Exhaustion, defensiveness, fear, giving up.",
     "general": "The reversed Nine of Wands points to emotional burnout, paranoia, or inability to continue fighting against difficulties. Fear and distrust may weaken confidence and judgment.",
     "in_love": "Emotional barriers, insecurity, or unresolved pain create distance between partners. One person may struggle to open up or trust again.",
-    "in_situation": "The situation feels overwhelming due to stress, fatigue, or repeated setbacks. Rest and a new perspective may be necessary before continuing."
+    "in_situation": "The situation feels overwhelming due to stress, fatigue, or repeated setbacks. Rest and a new perspective may be necessary before continuing.",
+    "meaning_for_today": "Today you might find yourself hitting a wall of total physical or mental burnout. You are likely exhausted from fighting old battles, and it shows—either through a desire to completely throw in the towel or through an unhealthy amount of paranoia. You might view harmless comments as attacks and isolate yourself behind a rigid emotional wall, treating everyone around you like a threat when your true enemy is simply your own depleted energy.",
+    "card_advice": "Stop fighting ghosts and lower your weapon for a moment. The reversed Nine of Wands advises you to recognize that your current defensiveness is a symptom of exhaustion, not a necessary shield. You don't have to keep a permanent guard up to prove you are strong. Instead of giving up on your goals out of frustration, give up on the idea that you have to do everything yourself. Rest, recover, and let people in to help you finish the final stretch."
   },
   "relations": {
     "major": {

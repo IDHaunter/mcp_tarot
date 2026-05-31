@@ -1,18 +1,20 @@
 {
   "name": "Queen of Wands",
-  "meaning_for_today": "Today brings confidence, charm, and creative energy. You can attract attention, inspire others, and achieve success through determination and optimism.",
-  "card_advice": "Believe in your abilities and express yourself openly. Stay warm and confident, but avoid becoming overly demanding or jealous.",
   "upright": {
     "short": "Confidence, charisma, creativity, independence, passion, optimism.",
     "general": "The Queen of Wands symbolizes a strong, attractive, and energetic person who knows how to inspire others. She represents creativity, self-confidence, leadership, and emotional warmth. This card encourages bold self-expression, independence, and trust in personal talents.",
     "in_love": "In relationships, the Queen of Wands signifies passion, attraction, loyalty, and emotional openness. It may describe a confident and caring partner who brings warmth and excitement into the relationship.",
-    "in_situation": "Success comes through charisma, initiative, and creative thinking. The situation favors social activity, leadership, and personal influence."
+    "in_situation": "Success comes through charisma, initiative, and creative thinking. The situation favors social activity, leadership, and personal influence.",
+    "meaning_for_today": "Today brings confidence, charm, and creative energy. You can attract attention, inspire others, and achieve success through determination and optimism.",
+    "card_advice": "Believe in your abilities and express yourself openly. Stay warm and confident, but avoid becoming overly demanding or jealous."
   },
   "reversed": {
     "short": "Jealousy, insecurity, manipulation, arrogance, emotional volatility.",
-    "general": "Reversed, the Queen of Wands may indicate low self-esteem hidden behind pride, controlling behavior, selfishness, or emotional instability. Energy may become chaotic or overly dramatic.",
+    "general": "Reversed, the Queen of Wands may indicate low self-esteem hidden behind pride, controlling behavior, selfishness, or emotional instability. Energy may become chaotic or overly drama-filled.",
     "in_love": "There may be jealousy, possessiveness, emotional manipulation, or unstable passion within the relationship.",
-    "in_situation": "A lack of confidence or misuse of influence creates tension. It is important to regain emotional balance and avoid acting impulsively."
+    "in_situation": "A lack of confidence or misuse of influence creates tension. It is important to regain emotional balance and avoid acting impulsively.",
+    "meaning_for_today": "Today you might cross paths with someone who is acting incredibly demanding, passive-aggressive, or prone to creating unnecessary drama out of pure insecurity. On a personal level, you might find your own confidence wavering, leading you to overcompensate with a defensive, slightly arrogant attitude. It is a day where hidden feelings of jealousy or underappreciation could easily boil over into emotional volatility, causing you to take things way too personally.",
+    "card_advice": "Don't feed into the theater or resort to manipulation to get your way today. The reversed Queen of Wands advises you to check where your internal security is leaking. If you are feeling slighted or defensive, pause and ask yourself if your pride is doing the talking. Steer clear of catty social environments or workplace gossip, and work on validating yourself from within rather than demanding that the room bend to your whims."
   },
   "relations": {
     "major": {

@@ -1,64 +1,66 @@
 {
-    "name": "Three of Pentacles",
+  "name": "Three of Pentacles",
+  "upright": {
+    "short": "Decisive step, help, confidence, pleasure",
+    "general": "The Three of Pentacles symbolizes evolution, gradual progress. Its appearance does not promise staggering results, noisy victories, or the same defeats – it indicates that the goal will be achieved as a result of regular efforts, gradually. The card denies both instant success and stagnation. It calls for using diligence, industriousness, perseverance, and discipline as the best means to achieve the goal. Also, this card can symbolize the collective result of a large amount of effort, meaning teamwork and mutual assistance. It recommends not relying only on yourself and not pushing away potential helpers and patrons, as the goal will be achieved by the efforts of more than one person. The Arcana warns against excessive self-confidence, which can damage interaction.",
+    "in_love": "Most often in matters of love and relationships, the card says that the matter depends entirely on the person themselves. There is no need to hope or blame fate – one's own initiative and thoughtful actions can give them what they want. This card can also speak of the stability and seriousness of a relationship in which partners treat each other with genuine interest and respect. In such a union, both sides look after themselves, strive to maintain attractiveness in the eyes of their partner, and not lose their interest. The results fully justify the effort expended. The Three of Pentacles can also appear when divining for marriage and the further development of relationships. The card also speaks of a certain matter that will become a stepping stone either to starting a connection (if the querent is single) or to clarifying the relationship and its transition into a deeper stage.",
+    "in_situation": "If the situation under consideration concerns a career or business, the card hints at a not too fast but sure success. A person can expect promotions strictly on schedule, without acceleration, but also without failures. In financial matters, the Three of Pentacles is a good sign. It does not promise super profits, but confidently promises the absence of losses, damages, and unforeseen expenses. When divining for health, the card speaks of good physical shape. Women may take it as a recommendation to finally have a long-planned plastic surgery.",
     "meaning_for_today": "As a card of the day, the Three of Pentacles recommends abandoning the remnants of the past that are slowing down your development and moving to a qualitatively new level. The form of this abandonment can be different – you can finally clear up your relationship with a partner, change jobs, or finish a long-started task. In any case, it should be the end of some routine stage of your past life, which will allow you to start a new business.",
-    "card_advice": "The card recommends not getting hung up only on high matters, neglecting not too large-scale, but important affairs. You need to do any job well, and not delay the resolution of even small problems. This will not give a vivid result, but it will definitely bring you closer to success.",
-    "upright": {
-        "short": "Decisive step, help, confidence, pleasure",
-        "general": "The Three of Pentacles symbolizes evolution, gradual progress. Its appearance does not promise staggering results, noisy victories, or the same defeats – it indicates that the goal will be achieved as a result of regular efforts, gradually. The card denies both instant success and stagnation. It calls for using diligence, industriousness, perseverance, and discipline as the best means to achieve the goal. Also, this card can symbolize the collective result of a large amount of effort, meaning teamwork and mutual assistance. It recommends not relying only on yourself and not pushing away potential helpers and patrons, as the goal will be achieved by the efforts of more than one person. The Arcana warns against excessive self-confidence, which can damage interaction.",
-        "in_love": "Most often in matters of love and relationships, the card says that the matter depends entirely on the person themselves. There is no need to hope or blame fate – one's own initiative and thoughtful actions can give them what they want. This card can also speak of the stability and seriousness of a relationship in which partners treat each other with genuine interest and respect. In such a union, both sides look after themselves, strive to maintain attractiveness in the eyes of their partner, and not lose their interest. The results fully justify the effort expended. The Three of Pentacles can also appear when divining for marriage and the further development of relationships. The card also speaks of a certain matter that will become a stepping stone either to starting a connection (if the querent is single) or to clarifying the relationship and its transition into a deeper stage.",
-        "in_situation": "If the situation under consideration concerns a career or business, the card hints at a not too fast but sure success. A person can expect promotions strictly on schedule, without acceleration, but also without failures. In financial matters, the Three of Pentacles is a good sign. It does not promise super profits, but confidently promises the absence of losses, damages, and unforeseen expenses. When divining for health, the card speaks of good physical shape. Women may take it as a recommendation to finally have a long-planned plastic surgery."
+    "card_advice": "The card recommends not getting hung up only on high matters, neglecting not too large-scale, but important affairs. You need to do any job well, and not delay the resolution of even small problems. This will not give a vivid result, but it will definitely bring you closer to success."
+  },
+  "reversed": {
+    "short": "Pettiness, resentment, lack of respect",
+    "general": "In the reversed position, the card can symbolize poor (or mediocre) results of activity, the cause of which is laziness and incompetence. On the other hand, the card can say that a person lacks true mastery in their business, that they act like a hack, do not understand the essence of the matter, and work crudely. Also, the Three of Pentacles can denote financial difficulties. This will not be a real problem, but rather 'minor fuss and flutterings', small but annoying troubles. Sometimes the card says that a person cannot attract attention to themselves, manifest themselves, and that the reason for this is their own laziness and lack of skills. On the other hand, they are capable of 'petty mischief' and malice at a domestic level.",
+    "in_love": "The reversed card speaks of a person who, due to their personal qualities (or rather, their absence), is unable to attract and especially retain a partner's attention. Often this is characterized by a person deprived of their own will and point of view, completely accepting the opinion and desires of their significant other. The Three of Pentacles can indicate a person who is usually called swindling in everyday life – cunning, but not very smart, devoid of refinement. Such a person is a primitive materialist and egoist, believing that everything in life is bought and sold, and considering the beauty of relationships a waste of time and money. Sometimes the reversed card indicates uncertainty and unreliability in a relationship where the partners have not yet decided what they want.",
+    "in_situation": "In the reversed position, the card can warn a person that their problems are due to choosing the wrong career path. The card says that in the current situation, the querent should not take on the role of a leader – they will not be able to handle it. It would be better if they took on the role of an executor of other people's orders – this will give a better result. Such a situation indicates that the person lacks the skills and training to get out of the current situation on their own.",
+    "meaning_for_today": "Today may bring delays, lack of recognition, or frustration caused by poor cooperation and unfinished tasks. Misunderstandings, low motivation, or lack of proper preparation could interfere with progress and create unnecessary tension.",
+    "card_advice": "Do not ignore small details or assume success will come without effort and discipline. Be patient, improve your skills, and stay open to constructive cooperation instead of acting out of pride or resentment."
+  },
+  "relations": {
+    "major": {
+      "01": "Labor down the drain or for nothing",
+      "02": "Start laying the foundation",
+      "03": "Passive following of guidance; professional secret",
+      "04": "Passive following of guidance; professional secret",
+      "05": "Material basis for family or business",
+      "06": "Understanding the spiritual aspects of work",
+      "07": "Establishing relationships",
+      "08": "Unstable foundation for something",
+      "09": "Strengthening willpower",
+      "10": "Ignore specialists",
+      "11": "Unstable results",
+      "12": "Reward according to justice; the need to go to court, to a lawyer or attorney",
+      "13": "Vain efforts; distorted opinion",
+      "14": "The result of inevitable transformations",
+      "15": "Growth of professionalism; correct approach to work; safety measures",
+      "16": "Dangerous mediator, doubtful specialist; dark deeds; a deal with the devil",
+      "17": "Efforts down the drain; losses; subversive work",
+      "18": "Hope that 'the spark will kindle a flame'",
+      "19": "Doubtful results; ignorance of the true state of affairs",
+      "20": "Brilliant and encouraging results",
+      "21": "Help in the matter",
+      "22": "Expansion of business, enterprise, sphere of influence"
     },
-    "reversed": {
-        "short": "Pettiness, resentment, lack of respect",
-        "general": "In the reversed position, the card can symbolize poor (or mediocre) results of activity, the cause of which is laziness and incompetence. On the other hand, the card can say that a person lacks true mastery in their business, that they act like a hack, do not understand the essence of the matter, and work crudely. Also, the Three of Pentacles can denote financial difficulties. This will not be a real problem, but rather 'minor fuss and flutterings', small but annoying troubles. Sometimes the card says that a person cannot attract attention to themselves, manifest themselves, and that the reason for this is their own laziness and lack of skills. On the other hand, they are capable of 'petty mischief' and malice at a domestic level.",
-        "in_love": "The reversed card speaks of a person who, due to their personal qualities (or rather, their absence), is unable to attract and especially retain a partner's attention. Often this is characterized by a person deprived of their own will and point of view, completely accepting the opinion and desires of their significant other. The Three of Pentacles can indicate a person who is usually called swindling in everyday life – cunning, but not very smart, devoid of refinement. Such a person is a primitive materialist and egoist, believing that everything in life is bought and sold, and considering the beauty of relationships a waste of time and money. Sometimes the reversed card indicates uncertainty and unreliability in a relationship where the partners have not yet decided what they want.",
-        "in_situation": "In the reversed position, the card can warn a person that their problems are due to choosing the wrong career path. The card says that in the current situation, the querent should not take on the role of a leader – they will not be able to handle it. It would be better if they took on the role of an executor of other people's orders – this will give a better result. Such a situation indicates that the person lacks the skills and training to get out of the current situation on their own."
-    },
-    "relations": {
-        "major": {
-            "01": "Labor down the drain or for nothing",
-            "02": "Start laying the foundation",
-            "03": "Passive following of guidance; professional secret",
-            "04": "Passive following of guidance; professional secret",
-            "05": "Material basis for family or business",
-            "06": "Understanding the spiritual aspects of work",
-            "07": "Establishing relationships",
-            "08": "Unstable foundation for something",
-            "09": "Strengthening willpower",
-            "10": "Ignore specialists",
-            "11": "Unstable results",
-            "12": "Reward according to justice; the need to go to court, to a lawyer or attorney",
-            "13": "Vain efforts; distorted opinion",
-            "14": "The result of inevitable transformations",
-            "15": "Growth of professionalism; correct approach to work; safety measures",
-            "16": "Dangerous mediator, doubtful specialist; dark deeds; a deal with the devil",
-            "17": "Efforts down the drain; losses; subversive work",
-            "18": "Hope that 'the spark will kindle a flame'",
-            "19": "Doubtful results; ignorance of the true state of affairs",
-            "20": "Brilliant and encouraging results",
-            "21": "Help in the matter",
-            "22": "Expansion of business, enterprise, sphere of influence"
-        },
-        "minor": {
-            "cups": {},
-            "pentacles": {},
-            "swords": {},
-            "wands": {
-                "01": "Exciting prospects of cooperation",
-                "02": "Further cooperation is questionable",
-                "03": "Stable and prosperous cooperation; practical guidance",
-                "04": "Concluding a contract",
-                "05": "Inconsistency and misunderstanding in business matters",
-                "06": "Successful conduct of affairs",
-                "07": "Fight for the client",
-                "08": "Make an order",
-                "09": "Doubts about the competence of a specialist",
-                "10": "Burdensome project; burnout of a specialist",
-                "11": "Proposal for cooperation",
-                "12": "Break a business agreement due to one's hot temper",
-                "13": "Professional conduct of business",
-                "14": "Responsible and solid conduct of business"
-            }
-        }
+    "minor": {
+      "cups": {},
+      "pentacles": {},
+      "swords": {},
+      "wands": {
+        "01": "Exciting prospects of cooperation",
+        "02": "Further cooperation is questionable",
+        "03": "Stable and prosperous cooperation; practical guidance",
+        "04": "Concluding a contract",
+        "05": "Inconsistency and misunderstanding in business matters",
+        "06": "Successful conduct of affairs",
+        "07": "Fight for the client",
+        "08": "Make an order",
+        "09": "Doubts about the competence of a specialist",
+        "10": "Burdensome project; burnout of a specialist",
+        "11": "Proposal for cooperation",
+        "12": "Break a business agreement due to one's hot temper",
+        "13": "Professional conduct of business",
+        "14": "Responsible and solid conduct of business"
+      }
     }
+  }
 }

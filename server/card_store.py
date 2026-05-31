@@ -102,13 +102,15 @@ def build_card_payload(card_id: str, reversed_: bool) -> dict[str, Any]:
     data = load_card_data(card_id)
     orientation_key = "reversed" if reversed_ else "upright"
     orientation_data = data.get(orientation_key, {})
+    if not isinstance(orientation_data, dict):
+        orientation_data = {}
 
     return {
         "id": card_id,
         "reversed": reversed_,
         "name": data.get("name", ""),
-        "meaning_for_today": data.get("meaning_for_today", ""),
-        "card_advice": data.get("card_advice", ""),
+        "meaning_for_today": str(orientation_data.get("meaning_for_today", "")),
+        "card_advice": str(orientation_data.get("card_advice", "")),
         "orientation": orientation_key,
         "meanings": orientation_data,
     }

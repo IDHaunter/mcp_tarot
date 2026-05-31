@@ -1,18 +1,20 @@
 {
   "name": "Ace of Cups",
-  "meaning_for_today": "Today brings emotional renewal, inspiration, and the opportunity for happiness. Open your heart to love, compassion, and new emotional experiences.",
-  "card_advice": "Trust your feelings and allow yourself to express emotions honestly. Accept love, healing, and positive emotional connections without fear.",
   "upright": {
     "short": "Love, emotional beginning, joy, inspiration.",
     "general": "The Ace of Cups symbolizes emotional renewal, love, compassion, and spiritual fulfillment. It represents the beginning of a meaningful emotional experience, deep intuition, and inner harmony.",
     "in_love": "A new romantic relationship, emotional closeness, or reconciliation may begin. Existing relationships become more loving, sincere, and emotionally fulfilling.",
-    "in_situation": "The situation develops positively through empathy, intuition, and emotional openness. Creative inspiration and emotional balance help achieve harmony and success."
+    "in_situation": "The situation develops positively through empathy, intuition, and emotional openness. Creative inspiration and emotional balance help achieve harmony and success.",
+    "meaning_for_today": "Today brings emotional renewal, inspiration, and the opportunity for happiness. Open your heart to love, compassion, and new emotional experiences.",
+    "card_advice": "Trust your feelings and allow yourself to express emotions honestly. Accept love, healing, and positive emotional connections without fear."
   },
   "reversed": {
     "short": "Emotional blockage, sadness, emptiness, suppressed feelings.",
     "general": "Reversed Ace of Cups points to emotional instability, blocked feelings, disappointment, or difficulty expressing emotions. Inner imbalance prevents emotional fulfillment.",
     "in_love": "Misunderstandings, emotional distance, or hidden feelings may create tension in relationships. Singles may struggle to open up emotionally.",
-    "in_situation": "The situation is affected by emotional confusion or lack of inspiration. It is important to address inner feelings and restore emotional balance before moving forward."
+    "in_situation": "The situation is affected by emotional confusion or lack of inspiration. It is important to address inner feelings and restore emotional balance before moving forward.",
+    "meaning_for_today": "Today may feel emotionally heavy or disconnected, making it difficult to express what is truly in your heart. Unresolved feelings or emotional exhaustion could surface, asking for gentle attention and self-care.",
+    "card_advice": "Do not ignore your emotions or force yourself to appear fine when you are not. Give yourself space to process feelings honestly, restore inner balance, and avoid making emotional decisions from frustration or emptiness."
   },
   "relations": {
     "major": {

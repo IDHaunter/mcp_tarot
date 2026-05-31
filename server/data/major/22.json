@@ -1,18 +1,20 @@
 {
   "name": "The World",
-  "meaning_for_today": "Today brings completion, success, and harmony. You may finally achieve an important goal or feel a sense of fulfillment and balance in your life.",
-  "card_advice": "Celebrate your achievements and trust the path you have completed. Remain open to new experiences while appreciating how far you have come.",
   "upright": {
     "short": "Completion, fulfillment, success, harmony.",
     "general": "The World represents completion, achievement, and wholeness. A major cycle comes to a successful end, bringing satisfaction, wisdom, and balance. The card symbolizes harmony between inner and outer worlds, personal growth, and reaching an important milestone.",
     "in_love": "Relationships reach a stable and fulfilling stage based on trust, harmony, and emotional maturity. Singles may attract a meaningful long-term connection or feel emotionally complete on their own.",
-    "in_situation": "The situation concludes successfully and brings recognition, accomplishment, and stability. Goals are achieved, and a new chapter can begin from a place of confidence and experience."
+    "in_situation": "The situation concludes successfully and brings recognition, accomplishment, and stability. Goals are achieved, and a new chapter can begin from a place of confidence and experience.",
+    "meaning_for_today": "Today brings completion, success, and harmony. You may finally achieve an important goal or feel a sense of fulfillment and balance in your life.",
+    "card_advice": "Celebrate your achievements and trust the path you have completed. Remain open to new experiences while appreciating how far you have come."
   },
   "reversed": {
     "short": "Incomplete goals, delays, lack of closure, stagnation.",
     "general": "Reversed The World suggests unfinished business, delays, or difficulty reaching full completion. Something important remains unresolved, preventing satisfaction and progress.",
     "in_love": "A relationship may feel incomplete due to emotional distance, unresolved issues, or lack of commitment. Growth is limited until honesty and closure are achieved.",
-    "in_situation": "The situation faces delays or obstacles that prevent final success. More effort, patience, or understanding is required before completion can occur."
+    "in_situation": "The situation faces delays or obstacles that prevent final success. More effort, patience, or understanding is required before completion can occur.",
+    "meaning_for_today": "Today you might feel like you're running on a treadmill—putting in a massive amount of effort but stuck in the exact same spot. A major project, relationship phase, or personal goal is lingering at about 95% completion, and that final 5% feels impossible to cross. Instead of experiencing wholeness, you are likely fixating on the one tiny thing that didn't go perfectly, choosing to see the entire cycle as an unmitigated failure rather than recognizing how much you've actually accomplished.",
+    "card_advice": "Stop waiting for flawless cinematic perfection before you allow yourself to move on. The reversed World is screaming at you to stop dragging your feet and tie up those loose ends. If you are refusing to let go of an old chapter out of fear of what comes next, recognize that this stagnation is entirely self-imposed. Accept the lessons, accept the imperfections, and grant yourself your own closure. You don't need external validation or a gold medal to close the book and start the next journey."
   },
   "relations": {
     "major": {

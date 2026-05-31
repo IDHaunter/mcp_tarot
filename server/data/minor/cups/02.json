@@ -1,18 +1,20 @@
 {
   "name": "Two of Cups",
-  "meaning_for_today": "Today is favorable for partnership, reconciliation, emotional harmony, and sincere communication. A meaningful connection or agreement may appear.",
-  "card_advice": "Be open to cooperation, trust, and emotional honesty. Mutual understanding and respect will strengthen your relationships.",
   "upright": {
     "short": "Partnership, harmony, love, mutual understanding, unity.",
     "general": "The Two of Cups symbolizes emotional connection, partnership, harmony, and mutual attraction. It often represents reconciliation, agreement, friendship, or the beginning of an important emotional union built on equality and trust.",
     "in_love": "A strong romantic connection, mutual feelings, emotional intimacy, and harmonious relationships. The card often points to sincere love, engagement, or reconciliation.",
-    "in_situation": "The situation develops positively through cooperation, diplomacy, and partnership. Agreements and emotional understanding will help achieve success."
+    "in_situation": "The situation develops positively through cooperation, diplomacy, and partnership. Agreements and emotional understanding will help achieve success.",
+    "meaning_for_today": "Today is favorable for partnership, reconciliation, emotional harmony, and sincere communication. A meaningful connection or agreement may appear.",
+    "card_advice": "Be open to cooperation, trust, and emotional honesty. Mutual understanding and respect will strengthen your relationships."
   },
   "reversed": {
     "short": "Conflict, misunderstanding, imbalance, separation, tension.",
     "general": "Reversed, the Two of Cups may indicate emotional imbalance, disagreements, broken trust, or difficulties in communication. A partnership may suffer from misunderstanding or lack of reciprocity.",
     "in_love": "Conflicts, emotional distance, jealousy, or disappointment in relationships. Feelings may become unbalanced or communication may break down.",
-    "in_situation": "The situation may involve tension, failed agreements, or difficulties in cooperation. Honest communication and compromise are necessary."
+    "in_situation": "The situation may involve tension, failed agreements, or difficulties in cooperation. Honest communication and compromise are necessary.",
+    "meaning_for_today": "Today may bring misunderstandings, emotional distance, or tension in important relationships. Communication can feel strained, making it necessary to avoid impulsive reactions and clarify hidden feelings.",
+    "card_advice": "Do not let pride, resentment, or unspoken emotions damage your connections. Honest conversation, patience, and willingness to compromise will help restore balance and understanding."
   },
   "relations": {
     "major": {

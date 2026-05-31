@@ -1,18 +1,20 @@
 {
   "name": "Six of Wands",
-  "meaning_for_today": "Today brings recognition, progress, and a sense of victory after effort. Your confidence attracts support and admiration from others.",
-  "card_advice": "Believe in your abilities and move forward with confidence, but remain humble and respectful toward those who helped you succeed.",
   "upright": {
     "short": "Victory, recognition, leadership, success.",
     "general": "The Six of Wands represents triumph after struggle, public recognition, achievement, and growing confidence. It signals successful completion of an important stage and rewards for persistence and determination.",
     "in_love": "Harmony, mutual understanding, and emotional victory in relationships. One partner may finally win the affection or trust they were seeking.",
-    "in_situation": "The situation develops in your favor. Obstacles are overcome, support arrives, and success becomes visible to others."
+    "in_situation": "The situation develops in your favor. Obstacles are overcome, support arrives, and success becomes visible to others.",
+    "meaning_for_today": "Today brings recognition, progress, and a sense of victory after effort. Your confidence attracts support and admiration from others.",
+    "card_advice": "Believe in your abilities and move forward with confidence, but remain humble and respectful toward those who helped you succeed."
   },
   "reversed": {
     "short": "Failure, delays, lack of recognition, insecurity.",
     "general": "The reversed Six of Wands points to disappointment, delayed success, damaged reputation, or fear of failure. Recognition may go to someone else, or achievements may feel empty.",
     "in_love": "Pride, jealousy, or lack of appreciation can create distance between partners. One person may seek validation more than genuine connection.",
-    "in_situation": "Plans face setbacks, criticism, or hidden opposition. Miscommunication and loss of confidence can weaken the final result."
+    "in_situation": "Plans face setbacks, criticism, or hidden opposition. Miscommunication and loss of confidence can weaken the final result.",
+    "meaning_for_today": "Today you might experience the sting of being overlooked or unappreciated. Despite your hard work, the credit or spotlight might go to someone else, or an expected win could be delayed. Watch out for a sudden blow to your confidence, or conversely, a tendency to let wounded pride make you defensive. It is a day where public approval is hard to come by, and your achievements may feel temporary or hollow.",
+    "card_advice": "Stop looking outside of yourself for validation. The reversed Six of Wands advises you to check your ego and remember that true success doesn't always come with applause. If you face a setback or a hit to your reputation today, don't try to fake confidence or force your way back to the top through arrogance. Swallow your pride, learn from the delay, and focus on rebuilding your self-esteem internally."
   },
   "relations": {
     "major": {
