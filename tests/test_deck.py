@@ -158,15 +158,15 @@ def test_generate_tarot_sequence_valid_card_formats(card_id: str) -> None:
                    (len(card_id) == 3 and card_id[0] in "cpsw" and card_id[1:].isdigit() and 1 <= int(card_id[1:]) <= 14)
 
 def test_generate_tarot_sequence_does_not_share_state() -> None:
-    """Multiple calls return independent sequences."""
+    """Multiple calls return independent sequences (no shared slot objects)."""
     seq1 = generate_tarot_sequence()
     seq2 = generate_tarot_sequence()
-    
-    # Modify first sequence
+
+    seq2_reversed_before = seq2["1"]["reversed"]
     seq1["1"]["reversed"] = not seq1["1"]["reversed"]
-    
-    # Second sequence should be unchanged
-    assert seq2["1"]["reversed"] != seq1["1"]["reversed"]
+
+    assert seq1["1"] is not seq2["1"]
+    assert seq2["1"]["reversed"] == seq2_reversed_before
 
 def test_generate_tarot_sequence_first_last_positions() -> None:
     """First and last positions exist and have correct structure."""

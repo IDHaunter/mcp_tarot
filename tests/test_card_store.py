@@ -99,16 +99,35 @@ class TestBuildCardPayload:
         assert payload["reversed"] is False
         assert payload["orientation"] == "upright"
         assert payload["name"] == "The Fool"
-        assert payload["meanings"] == payload["card_data"]["upright"]
+        assert "card_data" not in payload
+        assert payload["meanings"] == load_card_data("01")["upright"]
         assert payload["meaning_for_today"]
         assert payload["card_advice"]
 
     def test_reversed_payload(self) -> None:
         payload = build_card_payload("01", reversed_=True)
         assert payload["orientation"] == "reversed"
-        assert payload["meanings"] == payload["card_data"]["reversed"]
+        assert "card_data" not in payload
+        assert payload["meanings"] == load_card_data("01")["reversed"]
 
     def test_minor_payload(self) -> None:
         payload = build_card_payload("c01", reversed_=False)
         assert payload["id"] == "c01"
         assert "Cups" in payload["name"]
+
+    def test_payload_has_no_relations_or_duplicate_orientation(self) -> None:
+        raw = load_card_data("01")
+        payload = build_card_payload("01", reversed_=False)
+        assert "relations" not in payload
+        assert "upright" not in payload
+        assert payload["reversed"] is False
+        assert set(payload.keys()) == {
+            "id",
+            "reversed",
+            "name",
+            "meaning_for_today",
+            "card_advice",
+            "orientation",
+            "meanings",
+        }
+        assert payload["meanings"] == raw["upright"]

@@ -68,8 +68,8 @@ def pair_dependencies(
             data_b = loaded[id_b]
             pairs.append(
                 {
-                    "card_a": {"id": id_a, "reversed": bool(cards[i]["reversed"])},
-                    "card_b": {"id": id_b, "reversed": bool(cards[j]["reversed"])},
+                    "card_a": {"id": id_a},
+                    "card_b": {"id": id_b},
                     "from_a_to_b": lookup_relation(data_a, id_b),
                     "from_b_to_a": lookup_relation(data_b, id_a),
                 }

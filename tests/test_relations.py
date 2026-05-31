@@ -61,8 +61,10 @@ class TestPairDependencies:
         pairs = pair_dependencies(cards)
         assert len(pairs) == 1
         pair = pairs[0]
-        assert pair["card_a"] == {"id": "01", "reversed": False}
-        assert pair["card_b"] == {"id": "02", "reversed": True}
+        assert pair["card_a"] == {"id": "01"}
+        assert pair["card_b"] == {"id": "02"}
+        assert "reversed" not in pair["card_a"]
+        assert "reversed" not in pair["card_b"]
         assert isinstance(pair["from_a_to_b"], (str, type(None)))
         assert isinstance(pair["from_b_to_a"], (str, type(None)))
 

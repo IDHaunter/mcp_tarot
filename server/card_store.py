@@ -97,7 +97,7 @@ def build_card_payload(card_id: str, reversed_: bool) -> dict[str, Any]:
         reversed_: Whether the card is reversed.
 
     Returns:
-        Card dict with id, orientation, name, meanings, and full card data.
+        Card dict with id, orientation, name, advice fields, and active meanings.
     """
     data = load_card_data(card_id)
     orientation_key = "reversed" if reversed_ else "upright"
@@ -111,5 +111,4 @@ def build_card_payload(card_id: str, reversed_: bool) -> dict[str, Any]:
         "card_advice": data.get("card_advice", ""),
         "orientation": orientation_key,
         "meanings": orientation_data,
-        "card_data": data,
     }

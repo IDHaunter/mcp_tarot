@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import logging
 from typing import Any
 from urllib.parse import urlparse
@@ -70,6 +71,11 @@ class LLMClient:
             len(messages),
             self._url,
         )
+
+        logger.debug(
+            f"LLM messages: {json.dumps(messages)}"
+        )
+
         try:
             with httpx.Client(timeout=self._config.timeout_seconds) as client:
                 response = client.post(
@@ -113,6 +119,7 @@ class LLMClient:
         if isinstance(content, str) and content.strip():
             text = content.strip()
             logger.debug("LLM response received (%d chars)", len(text))
+            logger.debug(f"LLM response: {content}")
             return text
 
         if isinstance(content, list):
