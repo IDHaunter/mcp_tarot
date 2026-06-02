@@ -6,47 +6,39 @@ import json
 import logging
 from typing import Any
 
-_ORIENTATION_MEANING_LABELS: tuple[tuple[str, str], ...] = (
-    ("meaning_for_today", "Today"),
-    ("card_advice", "Advice"),
-    ("short", "Short meaning"),
-    ("general", "General"),
-    ("in_love", "Love"),
-    ("in_situation", "Situation"),
-)
+from client.config import FormatConfig
 
 
-def format_card_title(card: dict[str, Any]) -> str:
+def format_card_title(card: dict[str, Any], fmt: FormatConfig) -> str:
     """Build display title with orientation embedded (no duplicate flags)."""
     name = str(card.get("name") or card.get("id") or "Unknown")
     if card.get("reversed"):
-        return f"{name} (reversed)"
+        return f"{name} ({fmt.reversed_suffix})"
     return name
 
 
-def format_card_for_llm(card: dict[str, Any], *, index: int | None = None) -> str:
-    """Render one drawn card as a compact human-readable block.
-
-    Args:
-        card: Card payload from MCP (id, name, meanings, etc.).
-        index: Optional 1-based card number for spreads.
-
-    Returns:
-        Multi-line text block for the LLM.
-    """
-    title = format_card_title(card)
+def format_card_for_llm(
+    card: dict[str, Any],
+    fmt: FormatConfig,
+    *,
+    index: int | None = None,
+    header_label: str | None = None,
+) -> str:
+    """Render one drawn card as a compact human-readable block."""
+    title = format_card_title(card, fmt)
+    label = header_label or fmt.card_label
     if index is not None:
-        header = f"Card {index}: {title}"
+        header = f"{label} {index}: {title}"
     else:
-        header = f"Card: {title}"
+        header = f"{label}: {title}"
 
     lines = [header]
     meanings = card.get("meanings")
     if isinstance(meanings, dict):
-        for key, label in _ORIENTATION_MEANING_LABELS:
+        for key, field_label in fmt.meaning_label_pairs():
             value = meanings.get(key)
             if value:
-                lines.append(f"{label}: {value}")
+                lines.append(f"{field_label}: {value}")
 
     return "\n".join(lines)
 
@@ -77,7 +69,11 @@ def resolve_card_display_name(card_id: str, name_index: dict[str, str]) -> str:
         return card_id
 
 
-def _pair_relation_line(pair: dict[str, Any], name_index: dict[str, str]) -> str:
+def _pair_relation_line(
+    pair: dict[str, Any],
+    name_index: dict[str, str],
+    fmt: FormatConfig,
+) -> str:
     """Format one pair dependency as a bullet line."""
     id_a = str(pair.get("card_a", {}).get("id", ""))
     id_b = str(pair.get("card_b", {}).get("id", ""))
@@ -90,26 +86,31 @@ def _pair_relation_line(pair: dict[str, Any], name_index: dict[str, str]) -> str
     if text := pair.get("from_b_to_a"):
         parts.append(str(text))
 
-    relation_text = ", ".join(parts) if parts else "No relation text defined."
+    relation_text = ", ".join(parts) if parts else fmt.no_relation_text
     return f"* {name_a} + {name_b}:\n  {relation_text}"
 
 
 def format_pair_relations_for_llm(
     pairs: list[dict[str, Any]],
     name_index: dict[str, str],
+    fmt: FormatConfig,
     *,
-    heading: str = "Interactions",
+    heading: str | None = None,
 ) -> str:
     """Render pairwise card influences as compact readable lines."""
     if not pairs:
         return ""
 
-    lines = [f"{heading}:", ""]
-    lines.extend(_pair_relation_line(pair, name_index) for pair in pairs)
+    title = heading or fmt.interactions_heading
+    lines = [f"{title}:", ""]
+    lines.extend(_pair_relation_line(pair, name_index, fmt) for pair in pairs)
     return "\n".join(lines)
 
 
-def format_reading_info_for_llm(info: dict[str, Any]) -> str:
+def format_reading_info_for_llm(
+    info: dict[str, Any],
+    fmt: FormatConfig,
+) -> str:
     """Format spread MCP response (cards + pair_dependencies) for the LLM."""
     cards = info.get("cards", [])
     if not isinstance(cards, list):
@@ -118,12 +119,12 @@ def format_reading_info_for_llm(info: dict[str, Any]) -> str:
     blocks: list[str] = []
     for index, card in enumerate(cards, start=1):
         if isinstance(card, dict):
-            blocks.append(format_card_for_llm(card, index=index))
+            blocks.append(format_card_for_llm(card, fmt, index=index))
 
     pairs = info.get("pair_dependencies", [])
     if isinstance(pairs, list) and pairs:
         name_index = build_card_name_index(cards)
-        pair_text = format_pair_relations_for_llm(pairs, name_index)
+        pair_text = format_pair_relations_for_llm(pairs, name_index, fmt)
         if pair_text:
             if blocks:
                 blocks.append("")
@@ -134,31 +135,34 @@ def format_reading_info_for_llm(info: dict[str, Any]) -> str:
 
 def format_clarification_for_llm(
     extra: dict[str, Any],
+    fmt: FormatConfig,
     *,
     drawn_cards: list[dict[str, Any]] | None = None,
 ) -> str:
-    """Format clarification MCP response (card + influences) for the LLM.
-
-    Does not include deck position_id.
-    """
+    """Format clarification MCP response (card + influences) for the LLM."""
     blocks: list[str] = []
     clarification = extra.get("card")
     drawn = drawn_cards or []
 
     if isinstance(clarification, dict):
         blocks.append(
-            format_card_for_llm(clarification, index=None).replace(
-                "Card:", "Clarification card:", 1
+            format_card_for_llm(
+                clarification,
+                fmt,
+                header_label=fmt.clarification_card_label,
             )
         )
 
     influences = extra.get("influences", [])
     if isinstance(influences, list) and influences:
-        name_index = build_card_name_index(drawn, [clarification] if clarification else [])
+        name_index = build_card_name_index(
+            drawn, [clarification] if clarification else []
+        )
         pair_text = format_pair_relations_for_llm(
             influences,
             name_index,
-            heading="Interactions with spread",
+            fmt,
+            heading=fmt.clarification_interactions_heading,
         )
         if pair_text:
             if blocks:

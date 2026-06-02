@@ -8,13 +8,13 @@ import pytest
 
 from server.card_store import (
     CardNotFoundError,
-    DATA_DIR,
     build_card_payload,
     card_data_path,
     is_major_arcana,
     load_card_data,
     parse_minor_arcana,
 )
+from server.locale_registry import locale_cards_root
 
 
 class TestIsMajorArcana:
@@ -56,13 +56,15 @@ class TestCardDataPath:
     """Tests for card_data_path."""
 
     def test_major_path(self) -> None:
+        root = locale_cards_root("en")
         path = card_data_path("01")
-        assert path == DATA_DIR / "major" / "01.json"
+        assert path == root / "major" / "01.json"
         assert path.is_file()
 
     def test_minor_path(self) -> None:
+        root = locale_cards_root("en")
         path = card_data_path("c05")
-        assert path == DATA_DIR / "minor" / "cups" / "05.json"
+        assert path == root / "minor" / "cups" / "05.json"
         assert path.is_file()
 
     def test_missing_major_raises(self) -> None:

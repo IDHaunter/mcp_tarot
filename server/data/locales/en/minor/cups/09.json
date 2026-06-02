@@ -1,0 +1,110 @@
+{
+  "name": "Nine of Cups",
+  "upright": {
+    "short": "Wish fulfillment, satisfaction, pleasure, contentment, celebration.",
+    "general": "Represents emotional fulfillment, happiness, and the realization of wishes. It often indicates a period of comfort, success, and personal satisfaction.",
+    "in_love": "Emotional harmony and satisfaction in relationships. Wishes in love may be fulfilled, bringing joy and closeness. It can also indicate variety in intimacy or an upcoming joint vacation/honeymoon.",
+    "in_situation": "A situation where goals or desires are achieved. Stability and comfort are present, and things feel aligned with expectations. It may also signify the completion of an important life stage and a transition to another level.",
+    "meaning_for_today": "Today brings emotional satisfaction, comfort, and a sense of fulfillment. It is a good day to appreciate what you already have and enjoy small pleasures.",
+    "card_advice": "Allow yourself to feel gratitude and satisfaction, but avoid becoming complacent. True happiness grows when appreciation is balanced with awareness of future goals."
+  },
+  "reversed": {
+    "short": "Dissatisfaction, deprivation, greed, failure, bad habits.",
+    "general": "Do not abuse food or drinks (especially alcohol), as this will lead to health problems. It is a period of stagnation where it is difficult to reach goals. It may indicate that the querent will soon lose something, leading to disappointment and despondency. Avoid isolating yourself or becoming overly focused on personal problems at the expense of family and friends.",
+    "in_love": "Emotional dissatisfaction or unrealistic expectations in relationships. Symbolizes boring pleasures and excess in feelings. You may strive for these with great pressure but receive no moral or physical satisfaction. It signals a delay in personal life and a lack of promising new connections, often because the querent prioritizes the opinions of others over their own heart. It can also be a sign of excessive emotions that prevent a sober assessment of a partner.",
+    "in_situation": "Not everything will end favorably. Do not rely on chance; carefully consider every detail when doing something important. It can signify serious health problems requiring expensive therapy, often due to overindulgence. It may also indicate a period of debt and financial problems, or the emergence of negative emotions like jealousy, envy, and greed.",
+    "meaning_for_today": "Today may bring emotional dissatisfaction or the realization that certain desires do not provide the happiness you expected. Temporary pleasures or unrealistic expectations could leave a feeling of emptiness or frustration.",
+    "card_advice": "Look beyond superficial comfort and ask yourself what truly fulfills you emotionally. Gratitude, honesty with yourself, and realistic expectations will help restore inner balance and satisfaction."
+  },
+  "relations": {
+    "major": {
+      "01": "To go on a trip you dreamed of; to waste a dream on trifles.",
+      "02": "Your dream has begun to take concrete shape.",
+      "03": "Prophetic dream or daydream.",
+      "04": "Achievement of a cherished dream.",
+      "05": "Fulfillment of a dream to get married or build a career.",
+      "06": "Finding a loving family.",
+      "07": "Achieving what is desired in a relationship.",
+      "08": "A dream for which you will have to fight.",
+      "09": "Overcoming your shortcomings.",
+      "10": "Drinking alone.",
+      "11": "Happiness is just around the corner.",
+      "12": "Triumph of justice.",
+      "13": "Sacrificing your happiness.",
+      "14": "Gone happiness.",
+      "15": "To share what overflows you.",
+      "16": "Overeating; excesses; bacchanalia.",
+      "17": "Ruined well-being.",
+      "18": "Hope that happiness is already somewhere near.",
+      "19": "False well-being.",
+      "20": "Happiness to the brim.",
+      "21": "Deserved happiness.",
+      "22": "Joy of being."
+    },
+    "minor": {
+      "cups": {
+        "01": "Enjoying love",
+        "02": "Mutual satisfaction",
+        "03": "Joyful holiday",
+        "04": "Spoiled mood",
+        "05": "Ruined idyll",
+        "06": "Yesterday's well-being",
+        "07": "Illusory happiness; drug pleasure",
+        "08": "Refusal of a prosperous life",
+        "10": "Complete happiness",
+        "11": "Joyful proposal",
+        "12": "Complete agreement",
+        "13": "Satisfied woman",
+        "14": "Happy husband"
+      },
+      "pentacles": {
+        "01": "Bingo",
+        "02": "Sometimes rich, sometimes poor; fluctuating success",
+        "03": "Realization of a cherished desire",
+        "04": "Acquiring what is desired",
+        "05": "Emotional hardships",
+        "06": "Financial support",
+        "07": "Delayed fulfillment of a desire",
+        "08": "Mastery achieved",
+        "09": "Financial and emotional well-being",
+		"10": "Marriage; family well-being",
+        "11": "Excellent financial news",
+        "12": "Consistent improvement",
+        "13": "Hospitable hostess",
+        "14": "Profitable deal"
+      },
+      "swords": {
+        "01": "Happy undertaking",
+        "02": "Forgiveness",
+        "03": "Happy undertaking",
+        "04": "Laziness",
+        "05": "Greed",
+        "06": "Optimism",
+        "07": "False well-being",
+        "08": "In the comfort zone",
+        "09": "Serious troubles",
+        "10": "End of a sweet life",
+        "11": "Irritability",
+        "12": "Fury",
+        "13": "Hostility",
+        "14": "Ruthlessness"
+      },
+      "wands": {
+        "01": "Happy opportunity",
+        "02": "Reflections: to be content with what has been achieved or to go further",
+        "03": "Dream becomes reality",
+        "04": "Wedding, celebration; house is a full cup",
+        "05": "Self-complacency; abuse",
+        "06": "Success; fulfillment of a dream; wedding",
+        "07": "Efforts to retain a warm place; not letting yourself be knocked out of the saddle",
+        "08": "Invitation to a wedding, celebration",
+        "09": "Serenity, prompting to make mistakes",
+        "10": "Bitter disappointment; collapse due to alcohol abuse",
+        "11": "Enjoyment of studies; happy news",
+        "12": "Overestimation; satiety; excessive vanity",
+        "13": "Creative enjoyment",
+        "14": "Implementation of plans"
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Page of Cups",
+  "upright": {
+    "short": "Sensitivity, inspiration, emotional openness, intuition, pleasant news.",
+    "general": "The Page of Cups symbolizes emotional curiosity, intuition, creativity, and openness to new experiences. This card often points to pleasant messages, inspiration, romantic interest, or the beginning of emotional growth. It also reflects youthful sensitivity and imagination.",
+    "in_love": "A new romantic interest, flirting, emotional sincerity, or a gentle expression of feelings. The card may indicate the beginning of a tender relationship or emotional reconciliation.",
+    "in_situation": "The situation develops through intuition, flexibility, and emotional openness. Unexpected opportunities or pleasant emotional experiences may appear.",
+    "meaning_for_today": "Today may bring pleasant surprises, emotional news, creative inspiration, or the beginning of new feelings. Stay open to intuition and sincere emotions.",
+    "card_advice": "Trust your heart, remain emotionally open, and do not be afraid to express kindness, curiosity, and creativity."
+  },
+  "reversed": {
+    "short": "Immaturity, emotional confusion, unrealistic fantasies, insecurity.",
+    "general": "Reversed, the Page of Cups may indicate emotional immaturity, unrealistic expectations, insecurity, or avoidance of responsibility. A person may be overly sensitive or lost in fantasies.",
+    "in_love": "Misunderstandings, emotional instability, childish behavior, or unrealistic romantic expectations. Feelings may not be sincere or mature enough.",
+    "in_situation": "The situation may involve emotional confusion, unreliable information, or lack of direction. It is important to remain realistic and emotionally balanced.",
+    "meaning_for_today": "Today may bring emotional confusion, unrealistic expectations, or disappointing news that challenges your emotional balance. Misunderstandings or insecurity could make it difficult to trust your intuition clearly.",
+    "card_advice": "Stay grounded and avoid reacting impulsively to emotions or fantasies. Honest self-reflection, emotional maturity, and realistic thinking will help you navigate uncertainty more wisely."
+  },
+  "relations": {
+    "major": {
+      "10": "Reject a proposal. Emotional withdrawal.",
+      "11": "Start promoting the project. A fortunate emotional opportunity.",
+      "12": "Submission of a petition to judicial or executive bodies. Honesty and fairness in emotions.",
+      "13": "A project that hinders development. Emotional sacrifice or pause in feelings.",
+      "14": "A project requiring an update. Transformation of emotions.",
+      "15": "Regulate supply. Balance and emotional harmony.",
+      "16": "Seduction. Trap. Temptation, emotional dependence, illusions.",
+      "17": "Ponzi scheme; collapsed project. Sudden emotional disappointment.",
+      "18": "The hope that the proposal will be accepted. Inspiration, emotional healing.",
+      "19": "A vague proposal. Dreaminess, confusion, hidden fears.",
+      "20": "Conception; happy birth. Joy, openness, emotional sincerity.",
+      "21": "Retribution. Emotional awakening and realization.",
+      "22": "The birth of a person, a project, a family. Harmony, emotional completion.",
+      "01": "A lighthearted suggestion. An emotional adventure and spontaneity.",
+      "02": "Propose an idea. Discovering talents and emotional abilities.",
+      "03": "Offer knowledge. Strong intuition and hidden emotions.",
+      "04": "Care, tenderness, emotional comfort. Conception.",
+      "05": "Marriage proposal or job vacancy. Need for emotional responsibility and stability.",
+      "06": "A worthy offer. Spiritual lessons through feelings.",
+      "07": "Proposal: shared living, starting a family. The birth of emotional attraction.",
+      "08": "A project requiring further work. Movement toward emotional goals.",
+      "09": "A project requiring effort. Courage to express feelings openly."
+    },
+    "minor": {
+      "cups": {
+        "10": "Family harmony and emotional comfort.",
+        "11": "Emotional curiosity and sensitive communication.",
+        "12": "Romantic movement and emotional initiative.",
+        "13": "Emotional wisdom and feminine intuition.",
+        "14": "Wise emotional guidance and maturity.",
+        "01": "A new emotional beginning and inspiration.",
+        "02": "Mutual sympathy and emotional harmony.",
+        "03": "Pleasant communication and joyful emotions.",
+        "04": "Emotional dissatisfaction and doubts.",
+        "05": "Sadness, disappointment, emotional pain.",
+        "06": "Warm memories and sincere affection.",
+        "07": "Dreams, fantasies, emotional illusions.",
+        "08": "Searching for deeper emotional meaning.",
+        "09": "Pleasure, emotional satisfaction, happiness."
+      },
+      "pentacles": {
+        "10": "A solid financial proposal involving family assets, real estate, or inheritance.",
+        "11": "An invitation to learn something practical; a young person with financial news.",
+        "12": "A highly reliable, realistic proposal; a steady and trustworthy partner.",
+        "13": "An offer of hospitality, comfort, or a caring domestic environment.",
+        "14": "A powerful business proposal from a practical, successful individual.",
+        "01": "A profitable financial offer or a valuable gift that brings emotional joy.",
+        "02": "A proposal that requires balancing resources; fluctuating emotions about money.",
+        "03": "An offer of a creative project or professional collaboration; developing skills.",
+        "04": "An offer that promises stability, but may feel emotionally restrictive or rigid.",
+        "05": "A proposal that leads to financial instability or emotional vulnerability.",
+        "06": "Receiving emotional support, financial assistance, or a timely sponsorship.",
+        "07": "A long-term project proposal; waiting patiently for emotional or material results.",
+        "08": "An offer to study or master a craft; hard work that brings deep internal satisfaction.",
+        "09": "An excellent material offer; achieving financial independence and comfort."
+      },
+      "swords": {
+        "10": "The collapse of a proposal; the end of an illusion and a painful realization.",
+        "11": "An argumentative proposal; a young person bringing criticism or sharp news.",
+        "12": "An aggressive, fast-moving situation; impulsive intellectual rivalry.",
+        "13": "A cold, rational proposal; setting strict, uncompromising emotional boundaries.",
+        "14": "An official, authoritative offer; logic completely ruling over feelings.",
+        "01": "A sharp, decisive idea or proposal; overcoming doubt through logic.",
+        "02": "A proposal that creates a dilemma; emotional stalemate or compromise.",
+        "03": "A painful message or a proposal that brings heartache and separation.",
+        "04": "A proposal to take a break; emotional recovery, solitude, and meditation.",
+        "05": "A hostile offer or a conflict born out of gossip and emotional immaturity.",
+        "06": "An offer to change scenery or relocate; leaving emotional troubles behind.",
+        "07": "A deceptive or hidden proposal; an insincere gesture requiring caution.",
+        "08": "A proposal that feels restricting; emotional paralysis and fear of making a move.",
+        "09": "A message causing severe anxiety, nightmares, or deep emotional guilt."
+      },
+      "wands": {
+        "10": "An unfeasible project. Emotional exhaustion and overload.",
+        "11": "A proposal requiring study. Creative search and curiosity.",
+        "12": "Impulsive emotions and inconsistency. Immediate plans.",
+        "13": "Warmth, understanding, emotional loyalty. Pregnancy.",
+        "14": "Creative project. Mutual trust and emotional partnership.",
+        "01": "A tempting offer. Creative inspiration and enthusiasm.",
+        "02": "A matter requiring careful planning and deliberation. Balancing emotions with future plans.",
+        "03": "Successful cooperation. From words to deeds.",
+        "04": "A new addition to the family. Warm atmosphere and emotional support.",
+        "05": "A proposal that did not receive support. Inner emotional conflict and rivalry.",
+        "06": "Advancement of plans. Recognition and emotional confidence.",
+        "07": "Claims. Defending feelings and personal values.",
+        "08": "Quick emotional development or message. Marriage proposal.",
+        "09": "Emotional anxiety and tension. A pig in a poke."
+      }
+    }
+  }
+}

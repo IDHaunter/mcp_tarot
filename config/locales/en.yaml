@@ -1,0 +1,87 @@
+# English UI and LLM prompts (locale: en).
+
+llm:
+  system_prompt: >
+    You are a thoughtful tarot reader. Interpret cards with empathy and clarity.
+    Connect card meanings to the user's question. Use only the provided card data
+    and pair relations. Do not invent card names or positions the user did not draw.
+    Keep a warm, conversational tone. Respond in English.
+
+  reading_prompt: |
+    The user's question: {question}
+
+    Card data:
+    {card_data}
+
+    Give a cohesive tarot reading for this question using these cards.
+    Do not reveal internal deck positions or the full shuffled deck.
+    Refer to cards by name and upright/reversed orientation.
+
+  follow_up_prompt: |
+    The user asks about their reading: {follow_up}
+    Answer using the card data already discussed.
+
+  clarification_prompt: |
+    The user requested a clarification card.
+    Additional draw data:
+    {card_data}
+
+    Discuss how this card clarifies the reading.
+    Do not mention deck position numbers.
+
+bot:
+  quit_commands: ["quit", "exit", "q"]
+  skip_commands: ["no", "n", "skip"]
+
+  welcome_message: |
+    Welcome to the Tarot reading bot.
+
+    You can ask a specific question and receive guidance through the tarot cards.
+    When you are ready, type your question.
+
+  question_prompt: "\nYour question: "
+  empty_question_message: "Please enter a question."
+  goodbye_message: "Goodbye."
+
+  select_cards_prompt: |
+    The deck is shuffled. Please choose different card positions from the deck
+    (numbers 1–{deck_max}), separated by commas.
+    For example: 3, 17, 42
+    It is recommended to pick {recommended} cards for your spread.
+
+  positions_prompt: "Positions: "
+  invalid_positions_message: "Enter valid position numbers between 1 and {deck_max}."
+
+  clarification_prompt: |
+    Would you like to draw one more card from the deck for clarification?
+    If yes, enter a single position number (1–{deck_max}).
+    If not, type {skip_hint}, or {quit_hint} to end the session,
+    or ask a follow-up question about your reading.
+
+  clarification_input_prompt: "\n{clarification}\n> "
+  new_topic_prompt: |
+    Would you like a reading on a different topic?
+    Type your new question, {skip_hint} to return to the main menu,
+    or {quit_hint} to exit.
+  new_topic_input_prompt: "\n{new_topic}\n> "
+
+  no_active_reading_message: "No active reading. Start with a new question."
+  invalid_position_message: "Invalid position. Choose a number from 1 to {deck_max}."
+  draw_card_error_message: "Could not draw card: {error}"
+  llm_error_message: |
+    Could not get a reading from the LLM: {error}
+    Check llm.base_url in config/client.yaml (current: {base_url}).
+
+format:
+  card_label: "Card"
+  clarification_card_label: "Clarification card"
+  reversed_suffix: "reversed"
+  label_meaning_for_today: "Today"
+  label_card_advice: "Advice"
+  label_short: "Short meaning"
+  label_general: "General"
+  label_in_love: "Love"
+  label_in_situation: "Situation"
+  interactions_heading: "Interactions"
+  clarification_interactions_heading: "Interactions with spread"
+  no_relation_text: "No relation text defined."

@@ -4,11 +4,10 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import logging
 import os
 import sys
 from pathlib import Path
-
-import logging
 
 from client.bot import TarotBot
 from client.config import load_config
@@ -51,9 +50,21 @@ def main() -> None:
         default=_default_config_path(),
         help="Path to YAML configuration file",
     )
+    parser.add_argument(
+        "-l",
+        "--locale",
+        metavar="CODE",
+        help="Locale code (en, ru). Overrides config and TAROT_LOCALE env.",
+    )
     args = parser.parse_args()
 
-    config = load_config(args.config)
+    project_root = Path(__file__).resolve().parent.parent
+    locale_override = args.locale or os.environ.get("TAROT_LOCALE") or None
+    config, active_locale = load_config(
+        args.config,
+        project_root=project_root,
+        locale=locale_override,
+    )
 
     if base_url_override := os.environ.get("LLM_BASE_URL"):
         config.llm.base_url = base_url_override
@@ -63,17 +74,22 @@ def main() -> None:
 
     _warn_placeholder_llm_url(config.llm.base_url)
 
-    project_root = Path(__file__).resolve().parent.parent
     if config.mcp.cwd is None:
         config.mcp.cwd = str(project_root)
     if config.mcp.command == "python":
         config.mcp.command = sys.executable
 
+    config.mcp.env = {**config.mcp.env, "TAROT_LOCALE": active_locale}
+
     if level_override := os.environ.get("LOG_LEVEL"):
         config.logging.level = level_override
 
     setup_logging(config.logging, base_dir=project_root)
-    logger.info("Tarot client starting (config=%s)", args.config)
+    logger.info(
+        "Tarot client starting (config=%s, locale=%s)",
+        args.config,
+        active_locale,
+    )
     logger.debug(
         "LLM endpoint host=%s model=%s mcp_command=%s",
         config.llm.base_url,
@@ -92,7 +108,7 @@ def main() -> None:
         asyncio.run(_run())
     except KeyboardInterrupt:
         logger.info("Session interrupted by user")
-        print("\nGoodbye.")
+        print(f"\n{config.bot.goodbye_message}")
         sys.exit(0)
     except Exception:
         logger.exception("Unhandled client error")

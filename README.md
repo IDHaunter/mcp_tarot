@@ -29,6 +29,18 @@ Set `llm.base_url`, `llm.model`, and either `llm.api_key` or the `OPENAI_API_KEY
 You can override the API URL with the `LLM_BASE_URL` environment variable.
 If the LLM is unreachable, the bot prints an error and continues instead of crashing.
 
+### Locales
+
+Card meanings and UI/LLM prompts are localized. The default language is set in `server/data/locales.json` (`default`, usually `en`). Card JSON files live under `server/data/locales/{code}/` (`major/`, `minor/…`). Bot messages and LLM templates are in `config/locales/{code}.yaml`; shared settings stay in `config/client.yaml`.
+
+Choose a locale:
+
+- **CLI:** `python -m client --locale ru`
+- **Config:** uncomment `locale: ru` in `config/client.yaml`
+- **Environment:** `TAROT_LOCALE=ru` (client and MCP subprocess)
+
+The client passes `TAROT_LOCALE` to the MCP server so card tools load the same language as the prompts.
+
 ### Logging
 
 In `config/client.yaml`:
@@ -50,6 +62,7 @@ From the project root:
 python -m client
 # or
 python -m client -c config/client.yaml
+python -m client --locale ru
 ```
 
 ### User flow
@@ -77,7 +90,7 @@ python -m server
 | `get_card_information` | Card JSON + pairwise `relations` for drawn cards |
 | `get_additional_card` | One card by deck position + influences vs. cards already drawn |
 
-Card data lives under `server/data/` (`major/`, `minor/{cups,pentacles,swords,wands}/`).
+Card data lives under `server/data/locales/{en,ru}/` (`major/`, `minor/{cups,pentacles,swords,wands}/`). See `server/data/locales.json` for supported codes.
 
 Smoke test (no LLM): `python scripts/test_mcp_tools.py`
 
@@ -95,24 +108,27 @@ Covers `server/deck.py`, `server/card_store.py`, and `server/relations.py`.
 ```
 mcp_tarot/
 ├── config/
-│   ├── client.yaml          # runtime settings (LLM + MCP)
-│   └── client.example.yaml
+│   ├── client.yaml          # shared settings (LLM URL, MCP, logging)
+│   ├── client.example.yaml
+│   └── locales/
+│       ├── en.yaml          # English prompts + UI strings
+│       └── ru.yaml          # Russian prompts + UI strings
 ├── server/                  # MCP server (stdio)
 │   ├── app.py               # 3 MCP tools
 │   ├── deck.py              # generate_tarot_sequence()
 │   ├── card_store.py        # load major/minor JSON
+│   ├── locale_registry.py   # locales.json + TAROT_LOCALE
 │   ├── relations.py         # pair_dependencies()
-│   └── data/                # 78 card JSON files
-│      ├── major/            # 22 major cards JSONs
-│      ├── minor/            # 14x4 minor cards JSONs
-│         ├── cups/          
-│         ├── pentacles/
-│         ├── swords/
-│         ├── wands/
+│   └── data/
+│       ├── locales.json     # default + available locales
+│       └── locales/
+│           ├── en/          # 78 card JSON files (English)
+│           └── ru/          # 78 card JSON files (Russian)
 ├── client/                  # interactive bot
 │   ├── bot.py               # user conversation flow
 │   ├── llm.py               # OpenAI-compatible API
+│   ├── llm_format.py        # compact card text for LLM
 │   ├── mcp_session.py       # MCP stdio client
-│   └── config.py            # settings loader (YAML → Pydantic)
+│   └── config.py            # YAML merge + Pydantic models
 └── pyproject.toml
 ```

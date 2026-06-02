@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from client.config import FormatConfig
 from client.llm_format import (
     build_card_name_index,
     format_card_for_llm,
@@ -10,6 +11,8 @@ from client.llm_format import (
     format_reading_info_for_llm,
     resolve_card_display_name,
 )
+
+_FMT = FormatConfig()
 
 
 def _sample_card(*, reversed_: bool = False) -> dict:
@@ -34,7 +37,7 @@ def _sample_card(*, reversed_: bool = False) -> dict:
 
 
 def test_format_card_embeds_orientation_in_title_only() -> None:
-    text = format_card_for_llm(_sample_card(reversed_=True), index=1)
+    text = format_card_for_llm(_sample_card(reversed_=True), _FMT, index=1)
     assert "Card 1: The World (reversed)" in text
     assert '"reversed"' not in text
     assert '"orientation"' not in text
@@ -44,7 +47,7 @@ def test_format_card_embeds_orientation_in_title_only() -> None:
 
 
 def test_format_card_upright_has_no_reversed_suffix() -> None:
-    text = format_card_for_llm(_sample_card(reversed_=False), index=2)
+    text = format_card_for_llm(_sample_card(reversed_=False), _FMT, index=2)
     assert "Card 2: The World\n" in text or text.startswith("Card 2: The World\n")
     assert "(reversed)" not in text
 
@@ -59,7 +62,7 @@ def test_format_pair_relations_readable() -> None:
         }
     ]
     names = {"22": "The World", "05": "The Emperor"}
-    text = format_pair_relations_for_llm(pairs, names)
+    text = format_pair_relations_for_llm(pairs, names, _FMT)
     assert "Interactions:" in text
     assert "* The World + The Emperor:" in text
     assert "Spiritual fulfillment." in text
@@ -82,7 +85,7 @@ def test_format_reading_info_preserves_card_order() -> None:
             }
         ],
     }
-    text = format_reading_info_for_llm(info)
+    text = format_reading_info_for_llm(info, _FMT)
     fool_pos = text.index("The Fool")
     magician_pos = text.index("The Magician")
     assert fool_pos < magician_pos
@@ -103,7 +106,7 @@ def test_format_clarification_excludes_position_id() -> None:
         ],
     }
     spread = [{"id": "01", "name": "The Fool", "reversed": False}]
-    text = format_clarification_for_llm(extra, drawn_cards=spread)
+    text = format_clarification_for_llm(extra, _FMT, drawn_cards=spread)
     assert "position_id" not in text
     assert "42" not in text
     assert "Clarification card:" in text
@@ -132,10 +135,21 @@ def test_clarification_interactions_use_names_not_major_ids() -> None:
         ],
     }
     spread_slots = [{"id": "04", "reversed": True}]
-    text = format_clarification_for_llm(extra, drawn_cards=spread_slots)
+    text = format_clarification_for_llm(extra, _FMT, drawn_cards=spread_slots)
     assert "* The Empress + Knight of Cups:" in text
     assert "04 +" not in text
     assert "04 + Knight" not in text
+
+
+def test_format_card_russian_labels() -> None:
+    ru = FormatConfig(
+        card_label="Карта",
+        reversed_suffix="перевёрнутая",
+        label_short="Кратко",
+    )
+    text = format_card_for_llm(_sample_card(reversed_=True), ru, index=1)
+    assert "Карта 1: The World (перевёрнутая)" in text
+    assert "Кратко: short meaning" in text
 
 
 def test_resolve_card_display_name_loads_major_from_data() -> None:

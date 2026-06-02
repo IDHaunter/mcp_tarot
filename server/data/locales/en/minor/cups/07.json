@@ -1,0 +1,109 @@
+{
+  "name": "Seven of Cups",
+  "upright": {
+    "short": "Illusions, choices, imagination, confusion",
+    "general": "Represents multiple options, dreams, fantasies, and uncertainty. A person may feel overwhelmed by possibilities or struggle to distinguish reality from illusion.",
+    "in_love": "Idealization of a partner, romantic fantasies, or confusion in relationships. There may be unrealistic expectations or emotional indecision.",
+    "in_situation": "A situation with too many choices or unclear directions. Requires grounding and careful evaluation before committing.",
+    "meaning_for_today": "Today may bring many options, fantasies, or distractions. It is important to separate real opportunities from illusions and unclear desires before making decisions.",
+    "card_advice": "Do not rush into choices based on emotions or imagination alone. Focus on clarity, prioritize what is realistic, and avoid being overwhelmed by too many possibilities."
+  },
+  "reversed": {
+    "short": "Clarity, decision, truth, focus",
+    "general": "Indicates clarity after confusion, making a firm decision, and seeing reality as it is. It can also warn against harsh truth or disappointment.",
+    "in_love": "Realistic understanding of a partner or relationship. Clearing illusions leads to either commitment or moving on.",
+    "in_situation": "A turning point where confusion resolves and a clear direction is chosen. Focus returns after distraction.",
+    "meaning_for_today": "Today may bring mental clarity, realistic thinking, and the ability to finally make an important decision. Confusion begins to fade, allowing you to see situations and people more honestly.",
+    "card_advice": "Trust facts more than fantasies and focus your energy on one clear direction. Let go of unrealistic expectations and make choices based on truth, practicality, and inner confidence."
+  },
+  "relations": {
+    "major": {
+      "10": "Being in a fog.",
+      "11": "Finding oneself in a 'dead zone'.",
+      "12": "Biased assessment of a situation.",
+      "13": "Failure due to unfulfilled expectations.",
+      "14": "Failing to see the reality of ongoing changes.",
+      "15": "Bringing expectations closer to reality; plan adjustment.",
+      "16": "Obsessive or vicious fantasies; alcohol or drug addiction.",
+      "17": "Ruined plans; collapse of illusions.",
+      "18": "Daydreams; dreams.",
+      "19": "Delusion; misconceptions; vivid imagination; alcohol or drug abuse.",
+      "20": "Need for clarity and truth to overcome uncertainty.",
+      "21": "Large-scale plans.",
+      "01": "Being under the influence of drugs; foolish fantasies.",
+      "02": "Succumbing to illusions; deception, fraud.",
+      "03": "Unclear circumstances.",
+      "04": "False or unplanned pregnancy.",
+      "05": "Plans regarding family or business.",
+      "06": "Deceived by someone you trust.",
+      "07": "Unclarity in a relationship.",
+      "08": "Wrongly chosen direction; dreaming of travel.",
+      "09": "Vain hope to pull oneself together."
+    },
+    "minor": {
+      "wands": {
+        "10": "Excessive fantasies.",
+        "11": "Vague idea requiring careful study.",
+        "12": "Much ado about nothing.",
+        "13": "Falling in love.",
+        "14": "Desire to express oneself and one's ideas.",
+        "01": "Tempting visions; inspiration from creative imagination.",
+        "02": "Tempting but unclear prospects.",
+        "03": "Unexpected result; unpredictability; unclear guidance.",
+        "04": "Problems associated with feasting.",
+        "05": "Fighting for ideas.",
+        "06": "Aimlessness; losing one's head.",
+        "07": "Financial fraud.",
+        "08": "False promises; crooked path.",
+        "09": "Unfounded suspicions; conjectures."
+      },
+      "cups": {
+        "10": "Public opinion.",
+        "11": "Dreamer.",
+        "12": "Sycophant.",
+        "13": "Insincerity.",
+        "14": "Immorality.",
+        "01": "Love dreams.",
+        "02": "Unclear and false promises.",
+        "03": "Collective plan.",
+        "04": "Underdeveloped project.",
+        "05": "Pessimistic thoughts.",
+        "06": "Mistake in the past.",
+        "08": "Delusions.",
+        "09": "Alcohol abuse."
+      },
+      "swords": {
+        "10": "Collapse of a plan.",
+        "11": "Espionage.",
+        "12": "Decisive but overly hasty plan.",
+        "13": "Treachery.",
+        "14": "Intrigue.",
+        "01": "Doubtful idea; illusory victory.",
+        "02": "Lies.",
+        "03": "Bitter surprise.",
+        "04": "Visualization process.",
+        "05": "Deceiver; revenge.",
+        "06": "Change of plans.",
+        "07": "Crafty plan; envious thoughts.",
+        "08": "Trapped by illusions; limited imagination.",
+        "09": "Unfulfilled plans."
+      },
+      "pentacles": {
+        "10": "Surprise related to family.",
+        "11": "Unrealistic view of life.",
+        "12": "Lack of visible results.",
+        "13": "Living in an imaginary world.",
+        "14": "Inventiveness.",
+        "01": "Thoughts about finances.",
+        "02": "Hesitation in choosing; scattered thinking.",
+        "03": "Inexperience.",
+        "04": "Thinking inside the box / conventionally.",
+        "05": "Plans leading to ruin; morbid imagination.",
+        "06": "Financial fraud.",
+        "07": "Overestimation of a project; long-term project.",
+        "08": "Secret deal; visualization process; transition from theory to practice.",
+        "09": "Shadow deal."
+      }
+    }
+  }
+}

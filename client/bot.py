@@ -391,7 +391,9 @@ class TarotBot:
         spread = info.get("cards", [])
         self._spread_cards = spread if isinstance(spread, list) else []
 
-        card_data_text = format_reading_info_for_llm(info)
+        card_data_text = format_reading_info_for_llm(
+            info, self._config.format
+        )
         log_prompt_size_comparison(
             logger, info, card_data_text, label="reading"
         )
@@ -474,6 +476,7 @@ class TarotBot:
 
         card_data_text = format_clarification_for_llm(
             extra,
+            self._config.format,
             drawn_cards=self._spread_cards,
         )
         log_prompt_size_comparison(

@@ -1,0 +1,110 @@
+{
+  "name": "Ten of Cups",
+  "upright": {
+    "short": "Happiness, family harmony, emotional fulfillment",
+    "general": "Represents lasting emotional happiness, harmony in relationships, and a strong sense of belonging. It often reflects a stable and joyful family or community life.",
+    "in_love": "Deep emotional connection, long-term happiness, and harmony in romantic relationships. It can indicate a strong and supportive partnership.",
+    "in_situation": "A situation reaching emotional completion and stability. Success is shared with others, often involving family or community support.",
+    "meaning_for_today": "Today brings harmony, emotional fulfillment, and a sense of peace within family or close relationships. It is a day to appreciate stability and shared happiness.",
+    "card_advice": "Focus on gratitude and strengthening emotional bonds. Do not take harmony for granted—nurture relationships that bring long-term happiness."
+  },
+  "reversed": {
+    "short": "Disharmony, broken relationships, misalignment",
+    "general": "Indicates conflict in relationships, emotional distance, or lack of harmony in family or social environments.",
+    "in_love": "Struggles in relationships, unmet expectations, or emotional separation within a partnership.",
+    "in_situation": "A situation where external stability may exist but emotional harmony is missing or disrupted.",
+    "meaning_for_today": "Today may reveal emotional distance, family tension, or disappointment in close relationships. Expectations of harmony may not fully align with reality, leading to misunderstandings or feelings of disconnection.",
+    "card_advice": "Do not ignore unresolved conflicts or assume emotional harmony will restore itself automatically. Patience, honest communication, and willingness to understand others will help rebuild trust and emotional stability."
+  },
+  "relations": {
+    "major": {
+      "10": "Ignoring society",
+      "11": "Moving forward on a stalled case through joint efforts",
+      "12": "Public opinion",
+      "13": "Sacrifice of society",
+      "14": "Changes in the family",
+      "15": "Commensurating 'I' with 'We'",
+      "16": "Sick society; sect",
+      "17": "Disruption of public order; destruction of family",
+      "18": "People united by a common goal",
+      "19": "Keeping people in the dark",
+      "20": "Happiness in the family, collective; shared joy",
+      "21": "Growth of public self-awareness",
+      "22": "Universal recognition; social network",
+      "01": "Freedom from conventions and obligations regarding family",
+      "02": "Manipulating public opinion",
+      "03": "Completion of education",
+      "04": "Joy of motherhood",
+      "05": "Happy family; friendly team",
+      "06": "Unity of souls",
+      "07": "Wedding",
+      "08": "Wedding procession",
+      "09": "Harmony of soul and body"
+    },
+    "minor": {
+      "cups": {
+        "11": "Happy proposal",
+        "12": "Invitation to a social event",
+        "13": "True friend, beloved",
+        "14": "True friend, beloved",
+        "01": "Enjoying happiness, love",
+        "02": "Creation of a family",
+        "03": "Honor and respect",
+        "04": "Missing loved ones",
+        "05": "Disagreements in the family, collective",
+        "06": "Happy childhood",
+        "07": "Illusion of prosperity",
+        "08": "Empty nest syndrome",
+        "09": "Complete happiness"
+      },
+      "pentacles": {
+        "10": "Ultimate financial security; family legacy, inheritance, and multi-generational wealth",
+        "11": "Good news regarding family finances or practical matters",
+        "12": "A reliable, hardworking person who ensures the family's material stability",
+        "13": "A generous, hospitable, and caring homemaker or mother figure",
+        "14": "A successful, practical, and protective head of the family; solid financial provider",
+        "01": "Material stability and emotional comfort in the home; family prosperity",
+        "02": "Unstable family budget; balancing family needs and expenses",
+        "03": "Joint efforts to improve the home; working together with family members",
+        "04": "Desire to keep wealth within the family; financial caution or hoarding",
+        "05": "Financial difficulties affecting family harmony; loss of material comfort",
+        "06": "Financial support for relatives; charity or receiving a gift within the family",
+        "07": "Patiently waiting for the results of long-term family investments or plans",
+        "08": "Routine but steady work for the financial well-being of the family",
+        "09": "Wealth, comfort, and financial independence enjoyed by the family"
+      },
+      "swords": {
+        "10": "Tragedy in the family",
+        "11": "Quarrel over trifles with relatives and loved ones",
+        "12": "Family discords",
+        "13": "Divorce",
+        "14": "Protecting family interests",
+        "01": "Eliminating misunderstanding in the family",
+        "02": "Misunderstanding in the family",
+        "03": "Divorce",
+        "04": "Painful family truce",
+        "05": "Bullying in the collective",
+        "06": "Towards people; returning to family",
+        "07": "Neglect of family responsibilities",
+        "08": "Feeling of guilt before family",
+        "09": "Worrying for relatives"
+      },
+      "wands": {
+        "10": "Insurmountable contradictions and disagreements in the family",
+        "11": "News concerning the family",
+        "12": "Hasty departure from home",
+        "13": "Significant member of the family, collective with yin qualities",
+        "14": "Significant member of the family, collective with yang qualities",
+        "01": "Conception",
+        "02": "Moving; separation",
+        "03": "Happy family life; fruitfulness in the collective",
+        "04": "Wedding; celebration in the house",
+        "05": "Family disagreements; lack of cohesion in the collective",
+        "06": "Wedding trip; friendly team, family",
+        "07": "Attacks, criticism, difficulties in everyday life",
+        "08": "Message from home",
+        "09": "Interference from relatives or loved ones"
+      }
+    }
+  }
+}

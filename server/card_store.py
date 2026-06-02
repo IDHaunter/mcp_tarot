@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from typing import Any
 
-DATA_DIR = Path(__file__).resolve().parent / "data"
+from server.locale_registry import locale_cards_root
 
 _MINOR_PREFIX_TO_SUIT: dict[str, str] = {
     "c": "cups",
@@ -46,11 +46,12 @@ def parse_minor_arcana(card_id: str) -> tuple[str, str]:
     return suit, rank
 
 
-def card_data_path(card_id: str) -> Path:
+def card_data_path(card_id: str, *, locale: str | None = None) -> Path:
     """Resolve filesystem path for a card JSON file.
 
     Args:
         card_id: Major (``01``..``22``) or minor (``c01`` etc.) id.
+        locale: Optional locale code; uses ``TAROT_LOCALE`` or default if omitted.
 
     Returns:
         Path to the card JSON file.
@@ -58,25 +59,27 @@ def card_data_path(card_id: str) -> Path:
     Raises:
         CardNotFoundError: If the id cannot be resolved.
     """
+    root = locale_cards_root(locale)
     if is_major_arcana(card_id):
-        path = DATA_DIR / "major" / f"{card_id}.json"
+        path = root / "major" / f"{card_id}.json"
     else:
         try:
             suit, rank = parse_minor_arcana(card_id)
         except ValueError as exc:
             raise CardNotFoundError(str(exc)) from exc
-        path = DATA_DIR / "minor" / suit / f"{rank}.json"
+        path = root / "minor" / suit / f"{rank}.json"
 
     if not path.is_file():
         raise CardNotFoundError(f"Card data not found for id: {card_id}")
     return path
 
 
-def load_card_data(card_id: str) -> dict[str, Any]:
+def load_card_data(card_id: str, *, locale: str | None = None) -> dict[str, Any]:
     """Load raw card JSON by id.
 
     Args:
         card_id: Tarot card id string.
+        locale: Optional locale code override.
 
     Returns:
         Parsed JSON object for the card.
@@ -84,22 +87,23 @@ def load_card_data(card_id: str) -> dict[str, Any]:
     Raises:
         CardNotFoundError: If the card file is missing.
     """
-    path = card_data_path(card_id)
+    path = card_data_path(card_id, locale=locale)
     with path.open(encoding="utf-8") as handle:
         return json.load(handle)
 
 
-def build_card_payload(card_id: str, reversed_: bool) -> dict[str, Any]:
+def build_card_payload(card_id: str, reversed_: bool, *, locale: str | None = None) -> dict[str, Any]:
     """Build API payload for one drawn card including active meanings.
 
     Args:
         card_id: Tarot card id.
         reversed_: Whether the card is reversed.
+        locale: Optional locale code override.
 
     Returns:
         Card dict with id, orientation, name, advice fields, and active meanings.
     """
-    data = load_card_data(card_id)
+    data = load_card_data(card_id, locale=locale)
     orientation_key = "reversed" if reversed_ else "upright"
     orientation_data = data.get(orientation_key, {})
     if not isinstance(orientation_data, dict):

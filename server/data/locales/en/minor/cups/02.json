@@ -1,0 +1,111 @@
+{
+  "name": "Two of Cups",
+  "upright": {
+    "short": "Partnership, harmony, love, mutual understanding, unity.",
+    "general": "The Two of Cups symbolizes emotional connection, partnership, harmony, and mutual attraction. It often represents reconciliation, agreement, friendship, or the beginning of an important emotional union built on equality and trust.",
+    "in_love": "A strong romantic connection, mutual feelings, emotional intimacy, and harmonious relationships. The card often points to sincere love, engagement, or reconciliation.",
+    "in_situation": "The situation develops positively through cooperation, diplomacy, and partnership. Agreements and emotional understanding will help achieve success.",
+    "meaning_for_today": "Today is favorable for partnership, reconciliation, emotional harmony, and sincere communication. A meaningful connection or agreement may appear.",
+    "card_advice": "Be open to cooperation, trust, and emotional honesty. Mutual understanding and respect will strengthen your relationships."
+  },
+  "reversed": {
+    "short": "Conflict, misunderstanding, imbalance, separation, tension.",
+    "general": "Reversed, the Two of Cups may indicate emotional imbalance, disagreements, broken trust, or difficulties in communication. A partnership may suffer from misunderstanding or lack of reciprocity.",
+    "in_love": "Conflicts, emotional distance, jealousy, or disappointment in relationships. Feelings may become unbalanced or communication may break down.",
+    "in_situation": "The situation may involve tension, failed agreements, or difficulties in cooperation. Honest communication and compromise are necessary.",
+    "meaning_for_today": "Today may bring misunderstandings, emotional distance, or tension in important relationships. Communication can feel strained, making it necessary to avoid impulsive reactions and clarify hidden feelings.",
+    "card_advice": "Do not let pride, resentment, or unspoken emotions damage your connections. Honest conversation, patience, and willingness to compromise will help restore balance and understanding."
+  },
+  "relations": {
+    "major": {
+      "01": "Unpredictable relationships; optional partnership",
+      "02": "Manipulate a partner",
+      "03": "Open your feelings to each other",
+      "04": "Conception",
+      "05": "Create a family",
+      "06": "Church marriage",
+      "07": "Firm promises in a relationship",
+      "08": "Control relationships",
+      "09": "Passionate relationship",
+      "10": "Absence of love; loneliness",
+      "11": "Beginning of living together",
+      "12": "Official relationship",
+      "13": "Crisis in a relationship; betrayal; bound by obligations",
+      "14": "Outlived relationship",
+      "15": "Adapt to each other; mutual influence",
+      "16": "Insincere relationship, deceit, manipulation",
+      "17": "Broken relationship",
+      "18": "Look in the same direction",
+      "19": "Empty promises; doubtful agreements; fake agreement; 'love triangle'",
+      "20": "Joy, warmth, emotional openness.",
+      "21": "Renewal of feelings and reconciliation.",
+      "22": "Harmony, fulfillment, perfect union."
+    },
+    "minor": {
+      "cups": {
+        "01": "Give love",
+        "02": "You are confused",
+        "03": "Wedding",
+        "04": "Ruined relationship; dissatisfaction with connections",
+        "05": "Quarrel",
+        "06": "Past relationship; old promise",
+        "07": "Falling in love",
+        "08": "Turn away from a friend, loved one",
+        "09": "Happy relationship; contentment with each other",
+        "10": "Family",
+        "11": "Proposal",
+        "12": "Marriage proposal",
+        "13": "Understanding in a relationship",
+        "14": "Maturity in a relationship"
+      },
+      "pentacles": {
+        "01": "Inconstant relationship",
+        "02": "Inconstant relationship",
+        "03": "Ordered relationship",
+        "04": "Satisfaction with relationships",
+        "05": "Chilly relationship; relationship for one night",
+        "06": "Caring relationship",
+        "07": "Fruitless relationship",
+        "08": "Work on the relationship",
+        "09": "Order in personal life",
+        "10": "Family relationship",
+        "11": "Relationship full of sensuality",
+        "12": "Stable relationship",
+        "13": "Pregnancy",
+        "14": "Self-sufficiency in a relationship"
+      },
+      "swords": {
+        "01": "Uncertainty of relationship",
+        "02": "Uncertainty of relationship",
+        "03": "Divorce; separation",
+        "04": "Painful relationship",
+        "05": "Breach of agreements; betrayal; relationship on the verge of war",
+        "06": "Separation",
+        "07": "Hypocritical relationship; broken promises",
+        "08": "Bound relationship",
+        "09": "Nightmare caused by painful relationship",
+        "10": "Rejected relationship; painful separation",
+        "11": "Sarcasm in a relationship",
+        "12": "Crisis in a relationship",
+        "13": "Separation",
+        "14": "Coldness in a relationship"
+      },
+      "wands": {
+        "01": "Joint plans for the future",
+        "02": "Joint plans for the future",
+        "03": "Preparation for the wedding",
+        "04": "Wedding",
+        "05": "Disagreement; quarrel; broken promises; dissatisfaction with each other",
+        "06": "Wedding ceremony; success in love",
+        "07": "Demand to comply with agreements",
+        "08": "Honeymoon trip",
+        "09": "Trick",
+        "10": "Oppressive relationship; unfulfilled promises",
+        "11": "Joint project",
+        "12": "Hasty decision",
+        "13": "Well-organized project",
+        "14": "Important decision"
+      }
+    }
+  }
+}
