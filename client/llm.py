@@ -73,7 +73,7 @@ class LLMClient:
         )
 
         logger.debug(
-            f"LLM messages: {json.dumps(messages)}"
+            f"LLM messages: {json.dumps(messages, ensure_ascii=False)}"
         )
 
         try:

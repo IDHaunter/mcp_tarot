@@ -210,123 +210,148 @@ class TarotBot:
         logger.debug("LLM dialogue turn completed")
         return reply
 
-    async def run(self) -> None:
-        """Run the main conversation loop until the user quits."""
+    async def _ask_new_topic(self) -> str | None:
+        """
+        Returns:
+            None  -> user wants to return to main prompt
+            ""    -> user wants to quit
+            str   -> new topic question
+        """
 
-        logger.info("Bot session started")
-        # Display greeting message
-        print(self._bot.welcome_message)
+        bot_tpl = self._bot_template()
+
+        prompt = self._bot.new_topic_input_prompt.format(
+            new_topic=self._bot.new_topic_prompt.format(
+                **bot_tpl
+            ),
+        )
+
+        answer = _read_line(prompt)
+        logger.debug("New topic input: %r", answer)
+
+        if self._is_quit(answer):
+            print(self._bot.goodbye_message)
+            return ""
+
+        if self._is_skip(answer):
+            return None
+
+        return answer
+
+    async def _clarification_loop(self) -> bool:
+        """Handle clarification questions/cards after a reading.
+
+        Returns:
+            False if user requested application exit.
+            True otherwise.
+        """
 
         while True:
-            # Ask user for tarot question
-            question = _read_line(
-                self._bot.question_prompt
-            )
-
-            # Reject empty input
-            if not question:
-                logger.debug("User submitted empty question")
-                print(self._bot.empty_question_message)
-                continue
-
-            # Exit application if user entered quit command
-            if self._is_quit(question):
-                logger.info("User quit from question prompt")
-                print(self._bot.goodbye_message)
-                return
-
-            logger.info("New reading question received (%d chars)", len(question))
-            logger.debug("User question: %s", question)
-            # Execute tarot reading flow
-            await self._run_reading(question)
-
-            # Clarification loop after initial reading
-            while True:
-                bot_tpl = self._bot_template()
-
-                # Build clarification prompt dynamically
-                follow_prompt = (
-                    self._bot.clarification_input_prompt.format(
-                        clarification=(
-                            self._bot.clarification_prompt.format(
-                                **bot_tpl
-                            )
-                        ),
-                    )
-                )
-
-                follow = _read_line(follow_prompt)
-                logger.debug("Clarification input: %r", follow)
-
-                # Skip clarification phase
-                if self._is_skip(follow):
-                    logger.debug("User skipped clarification loop")
-                    break
-
-                # Exit application
-                if self._is_quit(follow):
-                    logger.info("User quit from clarification prompt")
-                    print(self._bot.goodbye_message)
-                    return
-
-                # If user entered only a number,
-                # interpret it as request for extra card
-                if re.fullmatch(r"\d+", follow):
-                    logger.debug("User requested clarification card at %s", follow)
-                    await self._draw_clarification(follow)
-                    continue
-
-                logger.debug("User follow-up question (%d chars)", len(follow))
-                # Send free-text clarification request to LLM
-                reply = await self._ask_llm(
-                    self._config.llm.follow_up_prompt.format(
-                        follow_up=follow
-                    )
-                )
-
-                if reply:
-                    print(f"\n{reply}")
-
             bot_tpl = self._bot_template()
 
-            # Ask whether user wants a new reading/topic
-            new_topic_prompt = (
-                self._bot.new_topic_input_prompt.format(
-                    new_topic=(
-                        self._bot.new_topic_prompt.format(
+            follow_prompt = (
+                self._bot.clarification_input_prompt.format(
+                    clarification=(
+                        self._bot.clarification_prompt.format(
                             **bot_tpl
                         )
                     ),
                 )
             )
 
-            new_topic = _read_line(new_topic_prompt)
-            logger.debug("New topic input: %r", new_topic)
+            follow = _read_line(follow_prompt)
+            logger.debug("Clarification input: %r", follow)
+
+            # Skip clarification phase
+            if self._is_skip(follow):
+                logger.debug("User skipped clarification loop")
+                return True
 
             # Exit application
-            if self._is_quit(new_topic):
-                logger.info("User quit from new-topic prompt")
+            if self._is_quit(follow):
+                logger.info("User quit from clarification prompt")
                 print(self._bot.goodbye_message)
-                return
+                return False
 
-            # Restart loop without creating new reading
-            if self._is_skip(new_topic):
-                logger.debug("User returned to main question loop")
+            # Draw additional card
+            if re.fullmatch(r"\d+", follow):
+                logger.debug(
+                    "User requested clarification card at %s",
+                    follow,
+                )
+                await self._draw_clarification(follow)
                 continue
 
-            # Start completely new conversation context
-            if new_topic:
-                logger.info("Starting new topic reading (%d chars)", len(new_topic))
-                self._messages = [
-                    {
-                        "role": "system",
-                        "content": (
-                            self._config.llm.system_prompt
-                        ),
-                    },
-                ]
+            logger.debug(
+                "User follow-up question (%d chars)",
+                len(follow),
+            )
 
-                await self._run_reading(new_topic)
+            reply = await self._ask_llm(
+                self._config.llm.follow_up_prompt.format(
+                    follow_up=follow
+                )
+            )
+
+            if reply:
+                print(f"\n{reply}")
+
+    async def run(self) -> None:
+        logger.info("Bot session started")
+        print(self._bot.welcome_message)
+
+        pending_question: str | None = None
+
+        while True:
+
+            if pending_question is None:
+                question = _read_line(
+                    self._bot.question_prompt
+                )
+
+                if not question:
+                    print(
+                        self._bot.empty_question_message
+                    )
+                    continue
+
+                if self._is_quit(question):
+                    print(
+                        self._bot.goodbye_message
+                    )
+                    return
+            else:
+                question = pending_question
+                pending_question = None
+
+            logger.info(
+                "New reading question received (%d chars)",
+                len(question),
+            )
+
+            await self._run_reading(question)
+
+            if not await self._clarification_loop():
+                return
+
+            next_topic = await self._ask_new_topic()
+
+            if next_topic == "":
+                return
+
+            if next_topic is None:
+                continue
+
+            self._messages = [
+                {
+                    "role": "system",
+                    "content": (
+                        self._config.llm.system_prompt
+                    ),
+                }
+            ]
+
+            pending_question = next_topic
 
     async def _run_reading(self, question: str) -> None:
         """Execute one full spread for a question."""
