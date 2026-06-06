@@ -11,6 +11,13 @@ def generate_tarot_sequence() -> dict[str, dict[str, str | bool]]:
     Builds a complete deck (22 Major + 56 Minor Arcana), shuffles it, and
     assigns a random orientation to each card.
 
+    {
+        "1": {"id": "07", "reversed": False},
+        "2": {"id": "c03", "reversed": True},
+        ...
+        "78": {"id": "w11", "reversed": True}
+    }
+
     Returns:
         dict[str, dict[str, str | bool]]: Keys are positions "1".."78";
         values contain card ``id`` and ``reversed`` flag.

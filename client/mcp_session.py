@@ -22,7 +22,18 @@ class TarotMCPClient:
         self._session = session
 
     async def generate_sequence(self) -> dict[str, dict[str, str | bool]]:
-        """Call Tool #1: generate_tarot_sequence."""
+        """Call Tool #1: generate_tarot_sequence.
+
+        Returns:
+            dictionary with shuffled cards
+
+            {
+                "1": {"id": "07", "reversed": False},
+                "2": {"id": "c03", "reversed": True},
+                ...
+                "78": {"id": "w11", "reversed": True}
+            }
+        """
         logger.debug("MCP tool call: generate_tarot_sequence")
         result = await self._session.call_tool("generate_tarot_sequence", {})
         data = _tool_result_to_dict(result)

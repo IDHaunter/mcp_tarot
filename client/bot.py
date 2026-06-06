@@ -137,14 +137,14 @@ class TarotBot:
         """Common format placeholders for deck-bound messages."""
         # Shared placeholders used in prompt formatting
         return {
-            "deck_max": self._bot.deck_size,
-            "recommended": self._bot.recommended_spread_size,
+            "deck_max": self._bot.deck_size,                   # 78 cards
+            "recommended": self._bot.recommended_spread_size,  # 3 cards
         }
 
     def _bot_template(self) -> dict[str, int | str]:
         """Placeholders for bot messages (deck + command hints)."""
         # Start with generic deck-related placeholders
-        template = dict(self._deck_template())
+        template: dict[str, int | str] = dict(self._deck_template())
 
         # Add command hints for prompts
         template["skip_hint"] = _command_hint(
@@ -211,39 +211,35 @@ class TarotBot:
         return reply
 
     async def _ask_new_topic(self) -> str | None:
-        """
+        """Prompt the user for a new reading topic.
+
         Returns:
-            None  -> user wants to return to main prompt
-            ""    -> user wants to quit
-            str   -> new topic question
+            str  — new question to continue with.
+            None — user wants to exit (quit or skip).
         """
-
         bot_tpl = self._bot_template()
-
         prompt = self._bot.new_topic_input_prompt.format(
-            new_topic=self._bot.new_topic_prompt.format(
-                **bot_tpl
-            ),
+            new_topic=self._bot.new_topic_prompt.format(**bot_tpl),
         )
 
         answer = _read_line(prompt)
         logger.debug("New topic input: %r", answer)
 
-        if self._is_quit(answer):
+        # Both quit and skip mean "done" in this context —
+        # there is no sensible "go back" state from a new-topic prompt
+        if self._is_quit(answer) or self._is_skip(answer):
             print(self._bot.goodbye_message)
-            return ""
-
-        if self._is_skip(answer):
             return None
 
         return answer
 
-    async def _clarification_loop(self) -> bool:
+    async def _clarification_loop(self) -> bool | None:
         """Handle clarification questions/cards after a reading.
 
         Returns:
-            False if user requested application exit.
-            True otherwise.
+            False - User quit from clarification prompt
+            True - User skipped clarification loop
+            None - can not be returned, it is specified for linter only
         """
 
         while True:
@@ -297,61 +293,76 @@ class TarotBot:
                 print(f"\n{reply}")
 
     async def run(self) -> None:
+        """Main bot loop: question input → reading session → new topic."""
         logger.info("Bot session started")
         print(self._bot.welcome_message)
 
-        pending_question: str | None = None
+        # Holds a pre-supplied question that bypasses the input phase.
+        # Set when the user provides a new topic after a completed session.
+        next_question: str | None = None
 
         while True:
 
-            if pending_question is None:
-                question = _read_line(
-                    self._bot.question_prompt
-                )
+            # -----------------------
+            # Phase 1: Question input
+            # -----------------------
+
+            if next_question is not None:
+                # Use the topic supplied at the end of the previous session
+                question = next_question
+                next_question = None
+            else:
+                question = _read_line(self._bot.question_prompt)
 
                 if not question:
-                    print(
-                        self._bot.empty_question_message
-                    )
+                    print(self._bot.empty_question_message)
                     continue
 
                 if self._is_quit(question):
-                    print(
-                        self._bot.goodbye_message
-                    )
+                    print(self._bot.goodbye_message)
                     return
-            else:
-                question = pending_question
-                pending_question = None
 
-            logger.info(
-                "New reading question received (%d chars)",
-                len(question),
-            )
+            logger.info("New reading question received (%d chars)", len(question))
 
-            await self._run_reading(question)
+            # -----------------------
+            # Phase 2: Reading session (spread + clarification)
+            # -----------------------
 
-            if not await self._clarification_loop():
+            if not await self._reading_session(question):
+                # User requested exit from within the session
                 return
+
+            # -----------------------
+            # Phase 3: New topic prompt
+            # -----------------------
 
             next_topic = await self._ask_new_topic()
 
-            if next_topic == "":
+            if next_topic is None:
+                # User quit or skipped — end the session
                 return
 
-            if next_topic is None:
-                continue
+            # User provided a new topic: reset history and carry into next iteration
+            self._reset_llm_history()
+            next_question = next_topic
 
-            self._messages = [
-                {
-                    "role": "system",
-                    "content": (
-                        self._config.llm.system_prompt
-                    ),
-                }
-            ]
+    async def _reading_session(self, question: str) -> bool:
+        """Run one complete reading cycle: spread interpretation + clarification.
 
-            pending_question = next_topic
+        Args:
+            question: The user's question for this reading.
+
+        Returns:
+            False if the user requested application exit, True otherwise.
+        """
+        await self._run_reading(question)
+        return await self._clarification_loop()
+
+    def _reset_llm_history(self) -> None:
+        """Reset the LLM conversation to the initial system prompt only."""
+        self._messages = [
+            {"role": "system", "content": self._config.llm.system_prompt},
+        ]
 
     async def _run_reading(self, question: str) -> None:
         """Execute one full spread for a question."""
