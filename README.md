@@ -82,6 +82,12 @@ The server uses stdio transport (for MCP hosts or the client subprocess):
 python -m server
 ```
 
+MCP inspector tool:
+
+```bash
+npx @modelcontextprotocol/inspector python3 -m server
+```
+
 ### Tools
 
 | Tool | Description |
