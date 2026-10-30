@@ -2,7 +2,7 @@
 # Default locale: server/data/locales.json → "default"
 
 # Optional override (en, ru). If omitted, uses locales.json default.
-locale: ru
+locale: en
 
 logging:
   level: DEBUG
