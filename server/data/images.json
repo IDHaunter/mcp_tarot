@@ -1,0 +1,9 @@
+{
+  "default": "rider_waite_smith",
+  "available": [
+    {
+      "code": "rider_waite_smith",
+      "name": "Rider Waite Smith"
+    }
+  ]
+}

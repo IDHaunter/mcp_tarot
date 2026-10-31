@@ -126,6 +126,9 @@ mcp_tarot/
 │   ├── locale_registry.py   # locales.json + TAROT_LOCALE
 │   ├── relations.py         # pair_dependencies()
 │   └── data/
+│       ├── images/ 
+│       │   └── rider_waite_smith/   # 78 card images in Rider Waite Smith style  
+│       ├── images.json      # default + available card image styles       
 │       ├── locales.json     # default + available locales
 │       └── locales/
 │           ├── en/          # 78 card JSON files (English)
