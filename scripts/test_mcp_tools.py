@@ -54,11 +54,14 @@ async def main() -> None:
         # Ensure pair relationship analysis exists
         assert "pair_dependencies" in info
 
-        # Request an additional card based on:
-        # - target position ("3")
-        # - full generated sequence
-        # - already selected cards
-        extra = await mcp.get_additional_card("3", seq, cards)
+        # Resolve position "3" locally from the stored sequence,
+        # then request clarification for that card + already drawn
+        slot = seq["3"]
+        extra_card = {
+            "id": str(slot["id"]),
+            "reversed": bool(slot["reversed"]),
+        }
+        extra = await mcp.get_additional_card(extra_card, cards)
 
         # Validate additional card response
         assert "card" in extra

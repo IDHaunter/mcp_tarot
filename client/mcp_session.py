@@ -61,21 +61,19 @@ class TarotMCPClient:
 
     async def get_additional_card(
         self,
-        position_id: str,
-        sequence: dict[str, dict[str, str | bool]],
+        card: dict[str, str | bool],
         already_drawn: list[dict[str, str | bool]],
     ) -> dict[str, Any]:
         """Call Tool #3: get_additional_card."""
         logger.debug(
-            "MCP tool call: get_additional_card position=%s drawn=%s",
-            position_id,
+            "MCP tool call: get_additional_card card=%s drawn=%s",
+            card.get("id"),
             [c.get("id") for c in already_drawn],
         )
         result = await self._session.call_tool(
             "get_additional_card",
             {
-                "position_id": position_id,
-                "sequence": sequence,
+                "card": card,
                 "already_drawn": already_drawn,
             },
         )

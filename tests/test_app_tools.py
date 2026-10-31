@@ -61,9 +61,12 @@ def test_tool_schemas_expose_meaningful_descriptions() -> None:
     extra = tools["get_additional_card"]
     assert extra.description
     assert "additional" in extra.description.lower() or "follow" in extra.description.lower()
-    assert "sequence" in extra.inputSchema["properties"]
-    assert "already_drawn" in extra.inputSchema["properties"]
-    assert "position_id" in extra.inputSchema["properties"]
+    props = extra.inputSchema["properties"]
+    assert "card" in props
+    assert "already_drawn" in props
+    assert "position_id" not in props
+    assert "sequence" not in props
+    assert "TarotCardInput" in extra.inputSchema.get("$defs", {})
 
 
 def test_generate_tarot_sequence_structure() -> None:
@@ -165,35 +168,27 @@ def test_get_card_information_invalid_id_is_mcp_error_not_error_payload() -> Non
 
 
 def test_get_additional_card_success() -> None:
-    sequence = {
-        "1": {"id": "01", "reversed": False},
-        "2": {"id": "c05", "reversed": True},
-        "3": {"id": "w01", "reversed": False},
-    }
     result = _call(
         "get_additional_card",
         {
-            "position_id": "2",
-            "sequence": sequence,
+            "card": {"id": "c05", "reversed": True},
             "already_drawn": [{"id": "01", "reversed": False}],
         },
     )
     data = _text_payload(result)
     assert "error" not in data
-    assert data["position_id"] == "2"
+    assert "position_id" not in data
     assert data["card"] == build_card_payload("c05", reversed_=True)
     assert isinstance(data["influences"], list)
     assert data["influences"]
 
 
 def test_get_additional_card_already_drawn_duplicate_ids_rejected() -> None:
-    sequence = {"1": {"id": "01", "reversed": False}}
     with pytest.raises(ToolError, match="Duplicate card id"):
         _call(
             "get_additional_card",
             {
-                "position_id": "1",
-                "sequence": sequence,
+                "card": {"id": "01", "reversed": False},
                 "already_drawn": [
                     {"id": "c01"},
                     {"id": "c01"},
@@ -203,54 +198,44 @@ def test_get_additional_card_already_drawn_duplicate_ids_rejected() -> None:
 
 
 def test_get_additional_card_rejects_already_selected_card() -> None:
-    sequence = {
-        "1": {"id": "01", "reversed": False},
-        "2": {"id": "c05", "reversed": True},
-    }
     with pytest.raises(ToolError, match="already drawn"):
         _call(
             "get_additional_card",
             {
-                "position_id": "1",
-                "sequence": sequence,
+                "card": {"id": "01", "reversed": False},
                 "already_drawn": [{"id": "01", "reversed": False}],
             },
         )
 
 
-def test_get_additional_card_invalid_position_is_mcp_error() -> None:
-    sequence = {"1": {"id": "01", "reversed": False}}
-    with pytest.raises(ToolError, match="Invalid position_id"):
+def test_get_additional_card_malformed_card_rejected() -> None:
+    with pytest.raises(ToolError):
         _call(
             "get_additional_card",
             {
-                "position_id": "99",
-                "sequence": sequence,
+                "card": {"id": "01", "reversed": "false"},
                 "already_drawn": [],
             },
         )
 
 
-def test_get_additional_card_malformed_sequence_entry_rejected() -> None:
+def test_get_additional_card_invalid_card_id_rejected() -> None:
     with pytest.raises(ToolError):
         _call(
             "get_additional_card",
             {
-                "position_id": "1",
-                "sequence": {"1": {"id": "01", "reversed": "false"}},
+                "card": {"id": "99", "reversed": False},
                 "already_drawn": [],
             },
         )
 
 
 def test_get_additional_card_invalid_already_drawn_entry_rejected() -> None:
-    sequence = {"1": {"id": "01", "reversed": False}}
     with pytest.raises(ToolError):
         _call(
             "get_additional_card",
             {
-                "position_id": "1",
-                "sequence": sequence,
+                "card": {"id": "c05", "reversed": True},
                 "already_drawn": [{"id": "01", "name": "extra"}],
             },
         )

@@ -475,13 +475,15 @@ class TarotBot:
             )
             return
 
+        slot = sequence[position_id]
+        card = {
+            "id": str(slot["id"]),
+            "reversed": bool(slot["reversed"]),
+        }
+
         try:
             # Request additional clarification card
-            extra = await self._mcp.get_additional_card(
-                position_id,
-                sequence,
-                drawn,
-            )
+            extra = await self._mcp.get_additional_card(card, drawn)
 
         except RuntimeError as exc:
             logger.warning("Additional card draw failed: %s", exc)
@@ -501,13 +503,7 @@ class TarotBot:
                 position_id,
                 extra.get("card", {}).get("id"),
             )
-            slot = sequence[position_id]
-
-            drawn.append({
-                "id": str(slot["id"]),
-                "reversed": bool(slot["reversed"]),
-            })
-
+            drawn.append(card)
             self._drawn = drawn
 
         card_data_text = format_clarification_for_llm(
