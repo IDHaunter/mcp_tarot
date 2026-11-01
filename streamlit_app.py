@@ -13,6 +13,10 @@ import sys
 from pathlib import Path
 from typing import Any
 
+import re
+from pathlib import Path
+from PIL import Image
+
 import streamlit as st
 
 from client.config import AppConfig, load_config
@@ -30,6 +34,16 @@ from client.mcp_session import TarotMCPClient, open_tarot_mcp
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config" / "client.yaml"
 logger = logging.getLogger(__name__)
+
+IMAGE_ROOT = (
+    ROOT
+    / "server"
+    / "data"
+    / "images"
+    / "rider_waite_smith"
+)
+
+BACK_IMAGE_PATH = IMAGE_ROOT / "back.png"
 
 TEXT = {
     "en": {
@@ -217,12 +231,109 @@ def _card_name(card: dict[str, Any]) -> str:
     return str(card.get("id", "Tarot card"))
 
 
+@st.cache_data
+def _get_card_image_files() -> list[str]:
+    """Return all card image paths, excluding the deck back."""
+    if not IMAGE_ROOT.exists():
+        return []
+
+    extensions = {".png", ".jpg", ".jpeg", ".webp"}
+
+    return [
+        str(path)
+        for path in IMAGE_ROOT.rglob("*")
+        if path.is_file()
+        and path.name.lower() != "back.png"
+        and path.suffix.lower() in extensions
+    ]
+
+
+def _normalize_image_name(value: str) -> str:
+    """Normalize a card name for filename matching."""
+    return re.sub(r"[^a-z0-9]", "", value.lower())
+
+
+def _card_image_path(card: dict) -> Path | None:
+    """Find a card image using its ID or name."""
+    if not isinstance(card, dict):
+        return None
+
+    aliases = []
+
+    for key in (
+        "id",
+        "card_id",
+        "cardId",
+        "name",
+        "display_name",
+        "title",
+        "card_name",
+        "slug",
+    ):
+        value = card.get(key)
+
+        if value is not None:
+            aliases.append(str(value))
+
+    files = _get_card_image_files()
+
+    # First try exact normalized filename matching.
+    for alias in aliases:
+        normalized = _normalize_image_name(alias)
+
+        for filename in files:
+            path = Path(filename)
+
+            if _normalize_image_name(path.stem) == normalized:
+                return path
+
+    # Then try partial matching.
+    for alias in aliases:
+        normalized = _normalize_image_name(alias)
+
+        if len(normalized) < 4:
+            continue
+
+        for filename in files:
+            path = Path(filename)
+            file_normalized = _normalize_image_name(path.stem)
+
+            if normalized in file_normalized:
+                return path
+
+    return None
+
+
+def _show_card_image(
+    card: dict,
+    width: int = 220,
+) -> bool:
+    """Display a card image, rotating reversed cards."""
+    path = _card_image_path(card)
+
+    if path is None:
+        return False
+
+    try:
+        with Image.open(path) as image:
+            if card.get("reversed", False):
+                image = image.rotate(180, expand=True)
+
+            st.image(image.copy(), width=width)
+
+        return True
+
+    except (OSError, ValueError):
+        logger.exception("Cannot display card image: %s", path)
+        return False
+
 def _render_cards(cards: list[dict[str, Any]]) -> None:
     if not cards:
         return
     columns = st.columns(min(3, len(cards)))
     for index, card in enumerate(cards):
         with columns[index % len(columns)]:
+            _show_card_image(card)
             reversed_card = bool(card.get("reversed", False))
             orientation = _t("reversed") if reversed_card else _t("upright")
             st.markdown(f"**{_card_name(card)}**")
@@ -380,6 +491,12 @@ def main() -> None:
 
     if st.session_state.deck_ready and not st.session_state.active_reading:
         st.info(_t("deck_ready"))
+
+        for column in st.columns(8):
+            with column:
+                if BACK_IMAGE_PATH.is_file():
+                    st.image(str(BACK_IMAGE_PATH), width=100)
+
         with st.form("draw_form"):
             selected_positions = st.multiselect(
                 _t("positions"),
