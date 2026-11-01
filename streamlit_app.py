@@ -258,47 +258,50 @@ def _card_image_path(card: dict) -> Path | None:
     if not isinstance(card, dict):
         return None
 
-    aliases = []
+    card_id = str(card.get("id", "")).lower()
 
-    for key in (
-        "id",
-        "card_id",
-        "cardId",
-        "name",
-        "display_name",
-        "title",
-        "card_name",
-        "slug",
-    ):
-        value = card.get(key)
+    # Minor Arcana: suit prefix + card number.
+    suit_directories = {
+        "c": "cups",
+        "p": "pentacles",
+        "s": "swords",
+        "w": "wands",
+    }
 
-        if value is not None:
-            aliases.append(str(value))
+    if len(card_id) >= 3:
+        suit_code = card_id[0]
+        card_number = card_id[1:]
+
+        if suit_code in suit_directories and card_number.isdigit():
+            suit_dir = IMAGE_ROOT / "minor" / suit_directories[suit_code]
+
+            for extension in (".png", ".jpg", ".jpeg", ".webp"):
+                path = suit_dir / f"{int(card_number):02d}{extension}"
+                if path.is_file():
+                    return path
+
+    # Major Arcana: numbered 01–22.
+    if card_id.isdigit():
+        for extension in (".png", ".jpg", ".jpeg", ".webp"):
+            path = IMAGE_ROOT / "major" / f"{int(card_id):02d}{extension}"
+            if path.is_file():
+                return path
+
+    # Fallback: match by card name.
+    aliases = [
+        str(card.get(key))
+        for key in ("name", "display_name", "title", "card_name", "slug")
+        if card.get(key) is not None
+    ]
 
     files = _get_card_image_files()
 
-    # First try exact normalized filename matching.
     for alias in aliases:
         normalized = _normalize_image_name(alias)
 
         for filename in files:
             path = Path(filename)
-
             if _normalize_image_name(path.stem) == normalized:
-                return path
-
-    # Then try partial matching.
-    for alias in aliases:
-        normalized = _normalize_image_name(alias)
-
-        if len(normalized) < 4:
-            continue
-
-        for filename in files:
-            path = Path(filename)
-            file_normalized = _normalize_image_name(path.stem)
-
-            if normalized in file_normalized:
                 return path
 
     return None
@@ -575,11 +578,21 @@ def main() -> None:
 
         if st.session_state.clarification_history:
             st.subheader(_t("followup_history"))
+
             for item in st.session_state.clarification_history:
                 if item["kind"] == "card":
-                    st.markdown(f"**{_t('drawn')} — {_card_name(item['payload'].get('card', {}))}**")
+                    card = item["payload"].get("card", {})
+
+                    st.markdown(
+                        f"**{_t('drawn')} — {_card_name(card)}**"
+                    )
+
+                    # Display the additional card image and its information.
+                    _render_cards([card])
+
                 else:
                     st.markdown(f"**{item['question']}**")
+
                 st.markdown(item["text"])
 
         with st.form("followup_form", clear_on_submit=True):
