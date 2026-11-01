@@ -57,6 +57,80 @@ def _get_back_image_data_uri() -> str:
     return f"data:{mime_type};base64,{encoded}"
 
 
+def _render_card_table_styles() -> None:
+    """Style card-pick buttons as card backs with a clear selected border."""
+    back_image = _get_back_image_data_uri()
+    card_background = (
+        f'background-image: url("{back_image}");'
+        if back_image
+        else "background-image: none;"
+    )
+    card_button_selector = (
+        'div[class*="st-key-card_pick_"] button, '
+        'div[class*="st-key-card_clarify_"] button'
+    )
+    card_button_content_selector = (
+        'div[class*="st-key-card_pick_"] button div[data-testid="stMarkdownContainer"], '
+        'div[class*="st-key-card_clarify_"] button div[data-testid="stMarkdownContainer"]'
+    )
+    card_button_hover_selector = (
+        'div[class*="st-key-card_pick_"] button:hover, '
+        'div[class*="st-key-card_clarify_"] button:hover'
+    )
+    card_button_focus_selector = (
+        'div[class*="st-key-card_pick_"] button:focus-visible, '
+        'div[class*="st-key-card_clarify_"] button:focus-visible'
+    )
+    selected_button_selector = (
+        'div[class*="st-key-card_pick_"] button[kind="primary"], '
+        'div[class*="st-key-card_pick_"] button[data-testid="stBaseButton-primary"], '
+        'div[class*="st-key-card_clarify_"] button[kind="primary"], '
+        'div[class*="st-key-card_clarify_"] button[data-testid="stBaseButton-primary"]'
+    )
+
+    css = f"""
+    <style>
+    {card_button_selector} {{
+        width: 100% !important;
+        height: 104px !important;
+        min-height: 104px !important;
+        padding: 0 !important;
+        {card_background}
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+        background-color: #171526 !important;
+        border: 2px solid rgba(190, 170, 135, 0.38) !important;
+        border-radius: 7px !important;
+        box-shadow: none !important;
+        color: transparent !important;
+        font-size: 0 !important;
+        line-height: 0 !important;
+        transition: border-color 120ms ease, box-shadow 120ms ease, transform 120ms ease;
+    }}
+    {card_button_content_selector} {{
+        visibility: hidden !important;
+        font-size: 0 !important;
+    }}
+    {card_button_hover_selector} {{
+        border-color: #c4a66a !important;
+        box-shadow: 0 0 0 1px rgba(196, 166, 106, 0.35) !important;
+        transform: translateY(-2px);
+    }}
+    {card_button_focus_selector} {{
+        outline: 2px solid #d8bd82 !important;
+        outline-offset: 2px !important;
+    }}
+    {selected_button_selector} {{
+        border: 4px solid #f2c85b !important;
+        box-shadow: 0 0 0 2px rgba(242, 200, 91, 0.48),
+                    0 0 16px rgba(242, 200, 91, 0.42) !important;
+    }}
+    </style>
+    """
+    st.markdown(css, unsafe_allow_html=True)
+
+
 LIBRARY_COLUMNS = 6
 CARDS_PER_ROW = 15
 
@@ -91,7 +165,7 @@ TEXT = {
         "reading": "Your reading",
         "selected_cards": "Cards in this spread",
         "clarification": "Clarify the reading",
-        "clarification_help": "Choose another position to draw one additional card.",
+        "clarification_help": "Choose a card back. Cards already drawn are shown face up and cannot be selected.",
         "clarification_position": "Position for the additional card",
         "draw_extra": "Draw clarification card",
         "followup": "Ask a follow-up question",
@@ -138,7 +212,7 @@ TEXT = {
         "reading": "Ваше толкование",
         "selected_cards": "Карты расклада",
         "clarification": "Уточнить расклад",
-        "clarification_help": "Выберите другую позицию, чтобы вытянуть дополнительную карту.",
+        "clarification_help": "Выберите рубашку карты. Уже вытянутые карты показаны лицевой стороной и недоступны для выбора.",
         "clarification_position": "Позиция дополнительной карты",
         "draw_extra": "Вытянуть карту для уточнения",
         "followup": "Задать уточняющий вопрос",
@@ -231,6 +305,7 @@ def _init_state() -> None:
         "reading_text": "",
         "clarification_history": [],
         "selected_positions": [],
+        "clarification_selected_position": None,
         "deck_version": 0,
         "deck_ready": False,
         "active_reading": False,
@@ -252,6 +327,7 @@ def _reset_reading(reset_history: bool = True) -> None:
     st.session_state.reading_text = ""
     st.session_state.clarification_history = []
     st.session_state.selected_positions = []
+    st.session_state.clarification_selected_position = None
     st.session_state.deck_ready = False
     st.session_state.active_reading = False
     if reset_history:
@@ -650,6 +726,7 @@ def _draw_clarification(position: int) -> None:
     st.session_state.clarification_history.append(
         {"kind": "card", "position": position, "text": reply, "payload": extra}
     )
+    st.session_state.clarification_selected_position = None
 
 
 def _submit_followup(question: str) -> None:
@@ -701,72 +778,15 @@ def _render_reading_page() -> None:
                 logger.exception("Failed to shuffle tarot deck")
                 st.error(_t("mcp_error", error=exc))
 
+    if st.session_state.deck_ready:
+        _render_card_table_styles()
+
     if st.session_state.deck_ready and not st.session_state.active_reading:
         st.info(_t("deck_ready"))
 
         deck_size = st.session_state.config.bot.deck_size
         deck_version = st.session_state.deck_version
         selected_positions = set(st.session_state.selected_positions)
-        back_image = _get_back_image_data_uri()
-
-        # Each Streamlit button is styled as a card back. The label remains
-        # available to assistive technology but is visually hidden.
-        card_background = (
-            f'background-image: url("{back_image}");'
-            if back_image
-            else "background-image: none;"
-        )
-
-        # Keep all rules in one style block. Separate, indented <style>
-        # fragments are parsed by Streamlit as Markdown code blocks.
-        base_css = f"""
-        div[class*="st-key-card_pick_"] button {{
-            width: 100% !important;
-            height: 104px !important;
-            min-height: 104px !important;
-            padding: 0 !important;
-            {card_background}
-            background-position: center center !important;
-            background-repeat: no-repeat !important;
-            background-size: contain !important;
-            background-color: #171526 !important;
-            border: 2px solid rgba(190, 170, 135, 0.38) !important;
-            border-radius: 7px !important;
-            box-shadow: none !important;
-            color: transparent !important;
-            font-size: 0 !important;
-            line-height: 0 !important;
-            transition: border-color 120ms ease, box-shadow 120ms ease, transform 120ms ease;
-        }}
-        div[class*="st-key-card_pick_"] button div[data-testid="stMarkdownContainer"] {{
-            visibility: hidden !important;
-            font-size: 0 !important;
-        }}
-        div[class*="st-key-card_pick_"] button:hover {{
-            border-color: #c4a66a !important;
-            box-shadow: 0 0 0 1px rgba(196, 166, 106, 0.35) !important;
-            transform: translateY(-2px);
-        }}
-        div[class*="st-key-card_pick_"] button:focus-visible {{
-            outline: 2px solid #d8bd82 !important;
-            outline-offset: 2px !important;
-        }}
-        """
-
-        # Selected cards use Streamlit's primary button state. This is more
-        # reliable than generating a CSS selector for every selected position.
-        selected_css = """
-        div[class*="st-key-card_pick_"] button[kind="primary"],
-        div[class*="st-key-card_pick_"] button[data-testid="stBaseButton-primary"] {
-            border: 4px solid #f2c85b !important;
-            box-shadow: 0 0 0 2px rgba(242, 200, 91, 0.48),
-                        0 0 16px rgba(242, 200, 91, 0.42) !important;
-        }
-        """
-
-        css = f"<style>\n{base_css}\n{selected_css}\n</style>"
-        st.markdown(css, unsafe_allow_html=True)
-
         st.subheader(_t("positions"))
         st.caption(_t("positions_help", max=deck_size))
 
@@ -830,35 +850,85 @@ def _render_reading_page() -> None:
         st.divider()
         st.subheader(_t("clarification"))
         st.caption(_t("clarification_help"))
-        available_positions = [
-            p
-            for p in range(1, st.session_state.config.bot.deck_size + 1)
-            if str(p) in st.session_state.sequence
-            and not any(
-                str(st.session_state.sequence[str(p)]["id"]) == item["id"]
-                and bool(st.session_state.sequence[str(p)]["reversed"]) == bool(item["reversed"])
-                for item in st.session_state.drawn
-            )
-        ]
-        if available_positions:
-            with st.form("clarification_form"):
-                extra_position = st.selectbox(
-                    _t("clarification_position"),
-                    options=available_positions,
-                    format_func=_position_label,
-                )
-                draw_extra = st.form_submit_button(_t("draw_extra"))
-            if draw_extra:
-                try:
-                    with st.spinner("Drawing a clarification card…"):
-                        _draw_clarification(extra_position)
-                    st.rerun()
-                except Exception as exc:
-                    logger.exception("Failed to draw clarification card")
-                    if isinstance(exc, LLMError):
-                        st.error(_t("llm_error", error=exc))
+        deck_size = st.session_state.config.bot.deck_size
+        deck_version = st.session_state.deck_version
+        drawn_signatures = {
+            (str(item["id"]), bool(item["reversed"]))
+            for item in st.session_state.drawn
+        }
+        selected_position = st.session_state.clarification_selected_position
+
+        # If the selected position has become unavailable, clear the stale selection.
+        available_positions = []
+        for position in range(1, deck_size + 1):
+            slot = st.session_state.sequence.get(str(position))
+            if not isinstance(slot, dict):
+                continue
+            signature = (str(slot["id"]), bool(slot["reversed"]))
+            if signature not in drawn_signatures:
+                available_positions.append(position)
+
+        if selected_position not in available_positions:
+            selected_position = None
+            st.session_state.clarification_selected_position = None
+
+        # Keep the original deck layout. Drawn cards are rendered face up and
+        # are not buttons, while the remaining card backs can be selected.
+        for row_start in range(1, deck_size + 1, CARDS_PER_ROW):
+            columns = st.columns(CARDS_PER_ROW, gap="small")
+            row_end = min(row_start + CARDS_PER_ROW, deck_size + 1)
+
+            for offset, position in enumerate(range(row_start, row_end)):
+                with columns[offset]:
+                    slot = st.session_state.sequence.get(str(position))
+                    if not isinstance(slot, dict):
+                        st.empty()
+                        continue
+
+                    signature = (str(slot["id"]), bool(slot["reversed"]))
+                    if signature in drawn_signatures:
+                        face_card = {
+                            "id": str(slot["id"]),
+                            "reversed": bool(slot["reversed"]),
+                        }
+                        if not _show_card_image(face_card, width=60):
+                            st.markdown(
+                                "<div style='height:104px; display:flex; align-items:center; "
+                                "justify-content:center; border:1px solid #8b806c; "
+                                "border-radius:7px; font-size:10px; text-align:center;'>"
+                                "Drawn</div>",
+                                unsafe_allow_html=True,
+                            )
                     else:
-                        st.error(_t("mcp_error", error=exc))
+                        is_selected = position == selected_position
+                        if st.button(
+                            _t("select_card", position=position),
+                            key=f"card_clarify_{deck_version}_{position}",
+                            type="primary" if is_selected else "secondary",
+                            use_container_width=True,
+                        ):
+                            st.session_state.clarification_selected_position = (
+                                None if is_selected else position
+                            )
+                            st.rerun()
+
+        draw_extra = st.button(
+            _t("draw_extra"),
+            type="primary",
+            use_container_width=True,
+            disabled=selected_position is None,
+        )
+        if draw_extra and selected_position is not None:
+            try:
+                with st.spinner("Drawing a clarification card…"):
+                    _draw_clarification(selected_position)
+                st.rerun()
+            except Exception as exc:
+                logger.exception("Failed to draw clarification card")
+                if isinstance(exc, LLMError):
+                    st.error(_t("llm_error", error=exc))
+                else:
+                    st.error(_t("mcp_error", error=exc))
 
         if st.session_state.clarification_history:
             st.subheader(_t("followup_history"))
