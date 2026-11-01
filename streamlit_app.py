@@ -7,6 +7,7 @@ Run from the project root:
 from __future__ import annotations
 
 import asyncio
+import base64
 import logging
 import os
 import re
@@ -44,7 +45,20 @@ IMAGE_ROOT = (
 
 BACK_IMAGE_PATH = IMAGE_ROOT / "back.png"
 
+
+@st.cache_data
+def _get_back_image_data_uri() -> str:
+    """Return the card-back image as an embeddable CSS data URI."""
+    if not BACK_IMAGE_PATH.is_file():
+        return ""
+
+    mime_type = "image/png" if BACK_IMAGE_PATH.suffix.lower() == ".png" else "image/jpeg"
+    encoded = base64.b64encode(BACK_IMAGE_PATH.read_bytes()).decode("ascii")
+    return f"data:{mime_type};base64,{encoded}"
+
+
 LIBRARY_COLUMNS = 6
+CARDS_PER_ROW = 15
 
 # Card fields that should not be printed as "description" text.
 HIDDEN_CARD_FIELDS = {
@@ -70,7 +84,8 @@ TEXT = {
         "shuffle_help": "Creates a new random deck. Card identities stay hidden until you draw them.",
         "deck_ready": "The deck is shuffled. Choose the positions of the cards you want to draw.",
         "positions": "Choose card positions",
-        "positions_help": "Choose distinct positions from 1 to {max}. Three cards are recommended.",
+        "positions_help": "Click the card backs you want to draw. Three cards are recommended.",
+        "select_card": "Select card {position}",
         "draw": "Draw cards and interpret",
         "new_reading": "Start a new reading",
         "reading": "Your reading",
@@ -116,7 +131,8 @@ TEXT = {
         "shuffle_help": "Создаёт новую случайную колоду. Карты остаются неизвестными до вытягивания.",
         "deck_ready": "Колода перетасована. Выберите позиции карт, которые хотите вытянуть.",
         "positions": "Выберите позиции карт",
-        "positions_help": "Выберите разные позиции от 1 до {max}. Рекомендуется три карты.",
+        "positions_help": "Нажимайте на рубашки карт, чтобы выбрать их. Рекомендуется выбрать три карты.",
+        "select_card": "Выбрать карту {position}",
         "draw": "Вытянуть карты и получить толкование",
         "new_reading": "Начать новый расклад",
         "reading": "Ваше толкование",
@@ -215,6 +231,7 @@ def _init_state() -> None:
         "reading_text": "",
         "clarification_history": [],
         "selected_positions": [],
+        "deck_version": 0,
         "deck_ready": False,
         "active_reading": False,
         "locale": os.environ.get("TAROT_LOCALE", ""),
@@ -673,6 +690,9 @@ def _render_reading_page() -> None:
                 with st.spinner("Shuffling…"):
                     sequence = _run_async(_mcp_call("generate_sequence"))
                 _reset_reading(reset_history=True)
+                # Use fresh widget keys so selections from the previous deck
+                # cannot leak into the newly shuffled deck.
+                st.session_state.deck_version += 1
                 st.session_state.sequence = sequence
                 st.session_state.deck_ready = True
                 st.session_state.question_text = question.strip()
@@ -684,29 +704,104 @@ def _render_reading_page() -> None:
     if st.session_state.deck_ready and not st.session_state.active_reading:
         st.info(_t("deck_ready"))
 
-        for column in st.columns(8):
-            with column:
-                if BACK_IMAGE_PATH.is_file():
-                    st.image(str(BACK_IMAGE_PATH), width=100)
+        deck_size = st.session_state.config.bot.deck_size
+        deck_version = st.session_state.deck_version
+        selected_positions = set(st.session_state.selected_positions)
+        back_image = _get_back_image_data_uri()
+
+        # Each Streamlit button is styled as a card back. The label remains
+        # available to assistive technology but is visually hidden.
+        card_background = (
+            f'background-image: url("{back_image}");'
+            if back_image
+            else "background-image: none;"
+        )
+
+        # Keep all rules in one style block. Separate, indented <style>
+        # fragments are parsed by Streamlit as Markdown code blocks.
+        base_css = f"""
+        div[class*="st-key-card_pick_"] button {{
+            width: 100% !important;
+            height: 104px !important;
+            min-height: 104px !important;
+            padding: 0 !important;
+            {card_background}
+            background-position: center center !important;
+            background-repeat: no-repeat !important;
+            background-size: contain !important;
+            background-color: #171526 !important;
+            border: 2px solid rgba(190, 170, 135, 0.38) !important;
+            border-radius: 7px !important;
+            box-shadow: none !important;
+            color: transparent !important;
+            font-size: 0 !important;
+            line-height: 0 !important;
+            transition: border-color 120ms ease, box-shadow 120ms ease, transform 120ms ease;
+        }}
+        div[class*="st-key-card_pick_"] button div[data-testid="stMarkdownContainer"] {{
+            visibility: hidden !important;
+            font-size: 0 !important;
+        }}
+        div[class*="st-key-card_pick_"] button:hover {{
+            border-color: #c4a66a !important;
+            box-shadow: 0 0 0 1px rgba(196, 166, 106, 0.35) !important;
+            transform: translateY(-2px);
+        }}
+        div[class*="st-key-card_pick_"] button:focus-visible {{
+            outline: 2px solid #d8bd82 !important;
+            outline-offset: 2px !important;
+        }}
+        """
+
+        # Selected cards use Streamlit's primary button state. This is more
+        # reliable than generating a CSS selector for every selected position.
+        selected_css = """
+        div[class*="st-key-card_pick_"] button[kind="primary"],
+        div[class*="st-key-card_pick_"] button[data-testid="stBaseButton-primary"] {
+            border: 4px solid #f2c85b !important;
+            box-shadow: 0 0 0 2px rgba(242, 200, 91, 0.48),
+                        0 0 16px rgba(242, 200, 91, 0.42) !important;
+        }
+        """
+
+        css = f"<style>\n{base_css}\n{selected_css}\n</style>"
+        st.markdown(css, unsafe_allow_html=True)
+
+        st.subheader(_t("positions"))
+        st.caption(_t("positions_help", max=deck_size))
+
+        # Render the shuffled deck as five rows of 15 card backs (plus any
+        # remaining cards in a final partial row, for a standard 78-card deck).
+        for row_start in range(1, deck_size + 1, CARDS_PER_ROW):
+            columns = st.columns(CARDS_PER_ROW, gap="small")
+            row_end = min(row_start + CARDS_PER_ROW, deck_size + 1)
+
+            for offset, position in enumerate(range(row_start, row_end)):
+                with columns[offset]:
+                    is_selected = position in selected_positions
+                    if st.button(
+                        _t("select_card", position=position),
+                        key=f"card_pick_{deck_version}_{position}",
+                        type="primary" if is_selected else "secondary",
+                        use_container_width=True,
+                    ):
+                        updated_positions = set(st.session_state.selected_positions)
+                        if position in updated_positions:
+                            updated_positions.remove(position)
+                        else:
+                            updated_positions.add(position)
+                        st.session_state.selected_positions = sorted(updated_positions)
+                        st.rerun()
 
         with st.form("draw_form"):
-            selected_positions = st.multiselect(
-                _t("positions"),
-                options=list(range(1, st.session_state.config.bot.deck_size + 1)),
-                default=st.session_state.selected_positions,
-                format_func=_position_label,
-                help=_t(
-                    "positions_help",
-                    max=st.session_state.config.bot.deck_size,
-                ),
-            )
             draw = st.form_submit_button(
                 _t("draw"),
                 type="primary",
                 use_container_width=True,
             )
-        st.session_state.selected_positions = selected_positions
+
         if draw:
+            selected_positions = st.session_state.selected_positions
             if not selected_positions:
                 st.warning(_t("no_positions"))
             else:
