@@ -9,15 +9,13 @@ from __future__ import annotations
 import asyncio
 import logging
 import os
+import re
 import sys
 from pathlib import Path
 from typing import Any
 
-import re
-from pathlib import Path
-from PIL import Image
-
 import streamlit as st
+from PIL import Image
 
 from client.config import AppConfig, load_config
 from client.llm import LLMClient, LLMError
@@ -33,7 +31,8 @@ from client.mcp_session import TarotMCPClient, open_tarot_mcp
 
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config" / "client.yaml"
-logger = logging.getLogger(__name__)
+
+logger = logging.getLogger("client.streamlit_app")
 
 IMAGE_ROOT = (
     ROOT
@@ -44,6 +43,22 @@ IMAGE_ROOT = (
 )
 
 BACK_IMAGE_PATH = IMAGE_ROOT / "back.png"
+
+LIBRARY_COLUMNS = 6
+
+# Card fields that should not be printed as "description" text.
+HIDDEN_CARD_FIELDS = {
+    "id",
+    "reversed",
+    "name",
+    "display_name",
+    "title",
+    "card_name",
+    "slug",
+    "image",
+    "image_path",
+    "image_url",
+}
 
 TEXT = {
     "en": {
@@ -82,6 +97,15 @@ TEXT = {
         "config_error": "Could not load configuration: {error}",
         "already_drawn": "That position has already been drawn. Choose another one.",
         "empty_reply": "The LLM returned an empty response.",
+        "mode": "Mode",
+        "mode_reading": "Reading",
+        "mode_library": "Card library",
+        "library_title": "Card library",
+        "library_subtitle": "All cards of the deck. Press a card to read its description.",
+        "library_loading": "Loading the deck…",
+        "library_empty": "No cards were returned by the tarot server.",
+        "library_count": "{count} cards",
+        "library_close": "Close description",
     },
     "ru": {
         "title": "Гадание на Таро",
@@ -119,6 +143,15 @@ TEXT = {
         "config_error": "Не удалось загрузить конфигурацию: {error}",
         "already_drawn": "Эта позиция уже использована. Выберите другую.",
         "empty_reply": "LLM вернула пустой ответ.",
+        "mode": "Режим",
+        "mode_reading": "Расклад",
+        "mode_library": "Все карты колоды",
+        "library_title": "Все карты колоды",
+        "library_subtitle": "Все карты колоды. Нажмите на карту, чтобы прочитать её описание.",
+        "library_loading": "Загружаем колоду…",
+        "library_empty": "Сервер Таро не вернул ни одной карты.",
+        "library_count": "Карт: {count}",
+        "library_close": "Закрыть описание",
     },
 }
 
@@ -150,7 +183,12 @@ def _load_config(locale_override: str) -> AppConfig:
 
     if level_override := os.environ.get("LOG_LEVEL"):
         config.logging.level = level_override
-    setup_logging(config.logging, base_dir=ROOT)
+
+    global logger
+
+    logger = setup_logging(config.logging, base_dir=ROOT)
+    logger.debug("Streamlit app root: %s", ROOT)
+    
     return config
 
 
@@ -180,6 +218,9 @@ def _init_state() -> None:
         "deck_ready": False,
         "active_reading": False,
         "locale": os.environ.get("TAROT_LOCALE", ""),
+        "mode": "reading",
+        "library_cache": {},
+        "library_selected": None,
     }
     for key, value in defaults.items():
         if key not in st.session_state:
@@ -330,6 +371,7 @@ def _show_card_image(
         logger.exception("Cannot display card image: %s", path)
         return False
 
+
 def _render_cards(cards: list[dict[str, Any]]) -> None:
     if not cards:
         return
@@ -350,6 +392,178 @@ def _render_cards(cards: list[dict[str, Any]]) -> None:
                 value = card.get(key)
                 if value and isinstance(value, str):
                     st.write(f"**{label}:** {value}")
+
+
+# ---------------------------------------------------------------------------
+# Card library (all cards of the deck)
+# ---------------------------------------------------------------------------
+
+
+def _card_id_sort_key(card_id: str) -> tuple[int, int, int]:
+    """Sort order: Major Arcana first, then wands, cups, swords, pentacles."""
+    card_id = card_id.lower()
+    if card_id.isdigit():
+        return (0, 0, int(card_id))
+    suit_order = {"w": 0, "c": 1, "s": 2, "p": 3}
+    number = card_id[1:]
+    return (
+        1,
+        suit_order.get(card_id[:1], 9),
+        int(number) if number.isdigit() else 0,
+    )
+
+
+def _load_library() -> list[dict[str, Any]]:
+    cache: dict[str, list[dict[str, Any]]] = st.session_state.library_cache
+    locale = st.session_state.locale or "default"
+
+    if locale in cache:
+        return cache[locale]
+
+    sequence = _run_async(_mcp_call("generate_sequence"))
+
+    # Preserve original card IDs exactly as returned by MCP.
+    card_ids = {
+        str(slot["id"])
+        for slot in sequence.values()
+        if isinstance(slot, dict) and "id" in slot
+    }
+
+    card_ids = sorted(card_ids, key=_card_id_sort_key)
+
+    # Validate IDs before calling MCP.
+    import re
+
+    card_id_pattern = re.compile(
+        r"^(?:0[1-9]|1[0-9]|2[0-2]|[cpsw](?:0[1-9]|1[0-4]))$"
+    )
+
+    invalid_ids = [card_id for card_id in card_ids if not card_id_pattern.fullmatch(card_id)]
+
+    if invalid_ids:
+        raise ValueError(f"Invalid card IDs returned by generate_sequence: {invalid_ids}")
+
+    if len(card_ids) != 78:
+        raise ValueError(f"Expected 78 unique cards, received {len(card_ids)}")
+
+    result: list[dict[str, Any]] = []
+    batch_size = 10
+
+    for start in range(0, len(card_ids), batch_size):
+        batch_ids = card_ids[start:start + batch_size]
+
+        request = [
+            {"id": card_id, "reversed": False}
+            for card_id in batch_ids
+        ]
+
+        logger.debug(
+            "Library request: %d cards, IDs=%s",
+            len(batch_ids),
+            batch_ids,
+        )
+
+        info = _run_async(
+            _mcp_call("get_card_information", request)
+        )
+
+        batch_cards = info.get("cards", []) if isinstance(info, dict) else []
+
+        if not isinstance(batch_cards, list):
+            raise RuntimeError(
+                f"Invalid get_card_information response for batch starting at {start}"
+            )
+
+        result.extend(batch_cards)
+
+    cache[locale] = result
+    return result
+
+
+def _render_card_details(card: dict[str, Any]) -> None:
+    """Large image plus all descriptive fields of one card."""
+    image_col, text_col = st.columns([1, 2])
+    with image_col:
+        _show_card_image(card, width=280)
+    with text_col:
+        st.markdown(f"### {_card_name(card)}")
+        for key, value in card.items():
+            if key in HIDDEN_CARD_FIELDS or value in (None, "", [], {}):
+                continue
+            label = key.replace("_", " ").capitalize()
+            if isinstance(value, str):
+                st.markdown(f"**{label}:** {value}")
+            elif isinstance(value, (list, tuple)):
+                st.markdown(f"**{label}:**")
+                for entry in value:
+                    st.markdown(f"- {entry}")
+            elif isinstance(value, dict):
+                st.markdown(f"**{label}:**")
+                for sub_key, sub_value in value.items():
+                    st.markdown(
+                        f"- *{str(sub_key).replace('_', ' ').capitalize()}:* {sub_value}"
+                    )
+            else:
+                st.markdown(f"**{label}:** {value}")
+
+
+def _open_card_details(card: dict[str, Any]) -> None:
+    """Open a dialog with the card description (falls back to inline view)."""
+    dialog = getattr(st, "dialog", None)
+    if dialog is not None:
+        dialog(_card_name(card), width="large")(_render_card_details)(card)
+    else:
+        # Older Streamlit: show the description at the top of the page.
+        st.session_state.library_selected = card
+
+
+def _render_library() -> None:
+    st.title(_t("library_title"))
+    st.caption(_t("library_subtitle"))
+
+    try:
+        with st.spinner(_t("library_loading")):
+            cards = _load_library()
+    except Exception as exc:
+        logger.exception("Failed to load card library")
+        st.error(_t("mcp_error", error=exc))
+        return
+
+    if not cards:
+        st.warning(_t("library_empty"))
+        return
+
+    # Inline description (only used when st.dialog is unavailable).
+    selected = st.session_state.library_selected
+    if selected is not None and not hasattr(st, "dialog"):
+        with st.container(border=True):
+            _render_card_details(selected)
+            if st.button(_t("library_close"), key="library_close"):
+                st.session_state.library_selected = None
+                st.rerun()
+
+    st.caption(_t("library_count", count=len(cards)))
+
+    for row_start in range(0, len(cards), LIBRARY_COLUMNS):
+        row = cards[row_start : row_start + LIBRARY_COLUMNS]
+        columns = st.columns(LIBRARY_COLUMNS)
+        for offset, card in enumerate(row):
+            with columns[offset]:
+                shown = _show_card_image(card, width=150)
+                if not shown and BACK_IMAGE_PATH.is_file():
+                    st.image(str(BACK_IMAGE_PATH), width=150)
+                button_key = f"library_card_{row_start + offset}_{card.get('id', '')}"
+                if st.button(
+                    _card_name(card),
+                    key=button_key,
+                    use_container_width=True,
+                ):
+                    _open_card_details(card)
+
+
+# ---------------------------------------------------------------------------
+# Reading flow
+# ---------------------------------------------------------------------------
 
 
 def _make_reading(question: str, positions: list[int]) -> None:
@@ -433,32 +647,7 @@ def _submit_followup(question: str) -> None:
     )
 
 
-def main() -> None:
-    st.set_page_config(page_title="Tarot", page_icon="🔮", layout="wide")
-    _init_state()
-
-    with st.sidebar:
-        selected_locale = st.selectbox(
-            "Interface language",
-            options=["en", "ru"],
-            index=0 if st.session_state.locale != "ru" else 1,
-            format_func=lambda value: "English" if value == "en" else "Русский",
-        )
-        if selected_locale != st.session_state.locale:
-            st.session_state.locale = selected_locale
-            st.rerun()
-
-    try:
-        st.session_state.config = _load_config(st.session_state.locale)
-    except Exception as exc:
-        st.error(_t("config_error", error=exc))
-        st.stop()
-
-    if st.session_state.messages is None:
-        st.session_state.messages = [
-            {"role": "system", "content": st.session_state.config.llm.system_prompt}
-        ]
-
+def _render_reading_page() -> None:
     st.title(_t("title"))
     st.caption(_t("subtitle"))
 
@@ -613,6 +802,47 @@ def main() -> None:
         if st.button(_t("new_reading"), use_container_width=True):
             _reset_reading(reset_history=True)
             st.rerun()
+
+
+def main() -> None:
+    st.set_page_config(page_title="Tarot", page_icon="🔮", layout="wide")
+    _init_state()
+
+    with st.sidebar:
+        selected_locale = st.selectbox(
+            "Interface language",
+            options=["en", "ru"],
+            index=0 if st.session_state.locale != "ru" else 1,
+            format_func=lambda value: "English" if value == "en" else "Русский",
+        )
+        if selected_locale != st.session_state.locale:
+            st.session_state.locale = selected_locale
+            st.rerun()
+
+        st.radio(
+            _t("mode"),
+            options=["reading", "library"],
+            format_func=lambda value: _t("mode_reading")
+            if value == "reading"
+            else _t("mode_library"),
+            key="mode",
+        )
+
+    try:
+        st.session_state.config = _load_config(st.session_state.locale)
+    except Exception as exc:
+        st.error(_t("config_error", error=exc))
+        st.stop()
+
+    if st.session_state.messages is None:
+        st.session_state.messages = [
+            {"role": "system", "content": st.session_state.config.llm.system_prompt}
+        ]
+
+    if st.session_state.mode == "library":
+        _render_library()
+    else:
+        _render_reading_page()
 
 
 if __name__ == "__main__":
