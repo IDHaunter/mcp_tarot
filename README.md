@@ -56,13 +56,19 @@ At `DEBUG`, all main dialog and MCP/LLM steps are recorded. Override level with 
 
 ## Run the client (bot)
 
-From the project root:
+From the project root, to use console output, use:
 
 ```bash
 python -m client
 # or
 python -m client -c config/client.yaml
 python -m client --locale ru
+```
+
+For Web [UI](http://localhost:8501), run: 
+
+```bash
+.venv/bin/streamlit run streamlit_app.py
 ```
 
 ### User flow
